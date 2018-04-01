@@ -1,9 +1,10 @@
-//neccessary library
+//necessary library
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var bodyParser = require('body-parser');
 
 //routes and stuff, I don't know about this either
 var indexRouter = require('./routes/index');
@@ -11,7 +12,6 @@ var usersRouter = require('./routes/users');
 
 //Express app
 var app = express();
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,6 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.urlencoded({extended: false}))
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
@@ -45,7 +46,7 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(myPort, function() {
-  console.log('Example app listening on port %s!', myPort)
+    console.log('Example app listening on port %s!', myPort)
 });
 
 module.exports = app;

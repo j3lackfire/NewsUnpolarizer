@@ -57,7 +57,7 @@ __ First, for the Node JS part: __
 Note: NodeJS required packages:
 - express - for setting up the server.
 - request - to send request to the NLU server.
-
+- body-parser - to parse the web request from user.
 
 __ For the Stanford core NLP server, you will need to download the core NLP server yourself: __
 - https://stanfordnlp.github.io/CoreNLP/index.html - main page
