@@ -12,8 +12,6 @@ var usersRouter = require('./routes/users');
 //Express app
 var app = express();
 
-//My custom scripts
-var requestTest = require('./NLPHandler/requestHandler');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
