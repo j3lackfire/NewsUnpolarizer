@@ -6,45 +6,63 @@ const urlBuilder = require('./urlBuilder')
 
 console.log(urlBuilder.getDefaultURL());
 
-let savedNerList = ['PERSON',
+//list about some particular entities like person, organization, city or country
+let discreteNerList = [
+    'PERSON',
     'LOCATION',
     'ORGANIZATION',
     'MISC',
     'CITY',
     'STATE_OR_PROVINCE',
     'COUNTRY',
-    'NATIONALITY',
-    'RELIGION',
-    'TITLE',
-    'IDEOLOGY'];
+    'NATIONALITY'];
 
-// annotateParagraph('random test. please ignore', function(err, res) {
-//     if (err) {
-//         console.log(err);
-//     } else {
-//         console.log(res);
-//     }
-// })
+//list about abstract entities, not aim at one particular person like jobs, religion or things like that
+let abstractNerList = [
+    'RELIGION',
+    'TITLE', //Job title
+    'IDEOLOGY',
+    'CAUSE_OF_DEATH'] //violence, shooting ....
+
+//these words are recognized by the algorithm under the PERSON category
+//but we should not record them since they are just general word
+let ignoreTextList = [
+    'she',
+    'he',
+    'his',
+    'her',
+    'him',
+    'they',
+    'them',
+    'we',
+    'us',
+    'I',
+    'me'
+]
 
 function getCoreFeature (paragraph, callback) {
     annotateParagraph(paragraph, function(error, response) {
         if (error) {
             callback(error, null)
         } else {
-            getFeatureFromAnnotatedData(response, callback)
+            _getFeatureFromAnnotatedData(response, callback)
         }
     })
 }
 
-function getFeatureFromAnnotatedData(annotatedResult, callback) {
+function _getFeatureFromAnnotatedData(annotatedResult, callback) {
     let returnValue = {};
-    let numberOfSentences = annotatedResult.length;
-    console.log('numberOfSentences: ' + numberOfSentences)
+    let sentencesCount = annotatedResult.length;
+    let charactersCount = 0
     let averageSentimentValue = 0;
     let entitiesList = [];
-    for (let i= 0; i < numberOfSentences; i ++) {
+    //loop through every sentences
+    for (let i= 0; i < sentencesCount; i ++) {
+        charactersCount = +charactersCount + +annotatedResult[i].charactersCount
         averageSentimentValue = +averageSentimentValue + +annotatedResult[i].sentimentValue;
-        //should check if the sentence have any Named entity and if we should record it, as well as its sentiment value.
+        //Check if the sentence have any Named entity,
+        //Then,we should record it, as well as its sentiment value.
+        //Loop through every entities inside the sentence
         for (let j = 0; j < annotatedResult[i].entities.length; j ++) {
             if (_shouldSaveEntity(annotatedResult[i].entities[j])) {
                 if (_isEntityAlreadyExist(entitiesList, annotatedResult[i].entities[j])) {
@@ -68,13 +86,30 @@ function getFeatureFromAnnotatedData(annotatedResult, callback) {
             }
         }
     }
-    averageSentimentValue = +averageSentimentValue / +numberOfSentences;
+
+    let discreteEntitiesList = []
+    let abstractEntitiesList = []
+
+    for(let i = 0; i < entitiesList.length; i ++) {
+        if (_isDiscreteEntity(entitiesList[i])) {
+            discreteEntitiesList.push(entitiesList[i])
+        } else {
+            abstractEntitiesList.push(entitiesList[i])
+        }
+    }
+    averageSentimentValue = +averageSentimentValue / +sentencesCount;
     returnValue.sentimentValue = averageSentimentValue;
-    returnValue.entitiesList = entitiesList;
+
+    returnValue.sentencesCount = sentencesCount;
+    returnValue.charactersCount = charactersCount;
+
+    returnValue.discreteEntitiesList = discreteEntitiesList;
+    returnValue.abstractEntitiesList = abstractEntitiesList;
+
     callback(null, returnValue);
-    //save everything in the return value and return it
 }
 
+//check if the entity is already inside the list or not.
 function _isEntityAlreadyExist(entitiesList, entity) {
     for (let i = 0; i < entitiesList.length; i ++) {
         if (entitiesList[i].text == entity.text) {
@@ -87,7 +122,14 @@ function _isEntityAlreadyExist(entitiesList, entity) {
 //return true if it's people, organization and stuffs
 //false if number and nonsense like that.
 function _shouldSaveEntity(entity) {
-    return (savedNerList.indexOf(entity.ner) != -1);
+    return (((discreteNerList.indexOf(entity.ner) != -1)
+        || (abstractNerList.indexOf(entity.ner) != -1))
+        && (ignoreTextList.indexOf(entity.text) == -1));
+}
+
+//check if that entity is individual entity or abstract entity
+function _isDiscreteEntity(entity) {
+    return (discreteNerList.indexOf(entity.ner) != -1);
 }
 
 /*
@@ -114,7 +156,9 @@ function annotateParagraph(paragraph, callback) {
                         sentence.entities.push(entities);
                     }
 
-                    sentence.tokensLength = body.sentences[i].tokens.length
+                    sentence.tokensCount = body.sentences[i].tokens.length
+                    let offsetBegin = body.sentences[i].tokens[0].characterOffsetBegin;
+                    sentence.charactersCount = +body.sentences[i].tokens[sentence.tokensCount - 1].characterOffsetEnd - +offsetBegin;
                     // sentence.characterLength = body.sentences[i].tokens[sentence.tokenNumber - 1].characterOffsetEnd;
                     // sentence.tokens = body.sentences[i].tokens
                     sentencesList.push(sentence)

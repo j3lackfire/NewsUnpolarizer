@@ -1,6 +1,7 @@
 # Un-polarizing news on social media platform
 ## What is this ?
 This project is a part of the master thesis from Minh Duc Le Pham, a student from the University of Jyväskylä, Finland.
+The main purpose of this project is to suggest news from different point of view when talked about a topic.
 
 ### Why ?
 - Nowadays, many people get their main source of news from social media platform
@@ -51,7 +52,8 @@ __ First, for the Node JS part: __
 - npm install
 - npm start
 - check at 
-    - http://localhost:9001/helloWorld
+
+```    http://localhost:9001/helloWorld    ```
     - If you see the text: "Hello world!", congratulation, the NodeJS server is up and running!.
 
 Note: NodeJS required packages:
@@ -64,15 +66,78 @@ __ For the Stanford core NLP server, you will need to download the core NLP serv
 - You will need to download the CoreNLP and the English and English (KBP) model jar file.
 - Extract the Core NLP and put the two model into the core NLP extracted folder.
 - Open terminal/cmd and cd to the folder. For example, in Duc's computer, it would be
-    - cd C:\Users\Le Pham Minh Duc\Desktop\MasterThesis\Standford Core NLP\stanford-corenlp-full
+
+```    cd C:\Users\Le Pham Minh Duc\Desktop\MasterThesis\Standford Core NLP\stanford-corenlp-full```
 - Run the command (requires Java 64 bit, if you have Jav 32 bit install, you will receive an error)
-    - java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer 9000
+
+```    java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer 9000```
 
 The Stanford Core NLP server is now running on port 9000. You can test it by going to 
     
-    http://localhost:9000/
+```http://localhost:9000/```
 
-It's also nice that browser interface to test. Note that first run might take a while (like 1 minute or more for the service to load all of the annotators and models). Subsequence run are much faster (1/2 seconds) because it has already load everything. The service eats a lot of ram though, right now, it needs 3gb of ram.
+It's also has a nice browser interface to test. Note that first run might take a while (like 1 minute or more for the service to load all of the annotators and models). Subsequence run are much faster (1/2 seconds) because it has already load everything. The service eats a lot of ram though, right now, it needs 3gb of ram.
 
 The Regex Named Entities Recognition doesn't work. It seems, it freeze on my computer for soo long for just one simple sentence search.
 
+## APIs GUIDE
+
+```
+    http://localhost:9001/annotateParagraph
+    POST request
+    x-www-form-urlencoded
+    body:
+    key:data / value: text you want to annotate
+    Response:
+    [
+        {
+            "sentiment": "Negative",
+            "sentimentValue": "1",
+            "entities": [
+                {
+                    "text": "Fox News",
+                    "ner": "ORGANIZATION"
+                },
+                {
+                    "text": "host",
+                    "ner": "TITLE"
+                },
+                ...
+            ],
+            "tokensCount": 36,
+            "charactersCount": 213
+        }, ... 
+    ]
+```
+
+```
+    http://localhost:9001/getCoreFeature
+    POST request
+    x-www-form-urlencoded
+    body:
+    key:data / value: text you want to annotate
+    Response:
+    {
+        "sentimentValue": 1.1428571428571428,
+        "sentencesCount": 21,
+        "charactersCount": 2369
+        "individualEntitiesList": [
+            {
+                "text": "Fox News",
+                "ner": "ORGANIZATION",
+                "sentimentValue": 1.3333333333333333,
+                "timesAppear": 3
+            },
+            ...
+        ],
+        "abstractEntitiesList": [
+            {
+                "text": "host",
+                "ner": "TITLE",
+                "sentimentValue": 1,
+                "timesAppear": 2
+            },
+            ...
+        ],
+    }
+```
