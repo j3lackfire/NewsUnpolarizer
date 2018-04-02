@@ -6,6 +6,18 @@ const urlBuilder = require('./urlBuilder')
 
 console.log(urlBuilder.getDefaultURL());
 
+let savedNerList = ['PERSON',
+    'LOCATION',
+    'ORGANIZATION',
+    'MISC',
+    'CITY',
+    'STATE_OR_PROVINCE',
+    'COUNTRY',
+    'NATIONALITY',
+    'RELIGION',
+    'TITLE',
+    'IDEOLOGY'];
+
 // annotateParagraph('random test. please ignore', function(err, res) {
 //     if (err) {
 //         console.log(err);
@@ -14,25 +26,68 @@ console.log(urlBuilder.getDefaultURL());
 //     }
 // })
 
-function getCoreFeature(annotatedResult, callback) {
+function getCoreFeature (paragraph, callback) {
+    annotateParagraph(paragraph, function(error, response) {
+        if (error) {
+            callback(error, null)
+        } else {
+            getFeatureFromAnnotatedData(response, callback)
+        }
+    })
+}
+
+function getFeatureFromAnnotatedData(annotatedResult, callback) {
     let returnValue = {};
     let numberOfSentences = annotatedResult.length;
-    let averageSentiment = 0;
+    console.log('numberOfSentences: ' + numberOfSentences)
+    let averageSentimentValue = 0;
+    let entitiesList = [];
     for (let i= 0; i < numberOfSentences; i ++) {
-        averageSentiment += annotatedResult[i].sentiment;
+        averageSentimentValue = +averageSentimentValue + +annotatedResult[i].sentimentValue;
         //should check if the sentence have any Named entity and if we should record it, as well as its sentiment value.
+        for (let j = 0; j < annotatedResult[i].entities.length; j ++) {
+            if (_shouldSaveEntity(annotatedResult[i].entities[j])) {
+                if (_isEntityAlreadyExist(entitiesList, annotatedResult[i].entities[j])) {
+                    for (let k = 0; k < entitiesList.length; k ++) {
+                        if (entitiesList[k].text == annotatedResult[i].entities[j].text) {
+                            //a little bit complicated to get the average sentiment value of the things.
+                            let sum = entitiesList[k].sentimentValue * entitiesList[k].timesAppear;
+                            sum = +sum + +annotatedResult[i].sentimentValue;
+                            entitiesList[k].timesAppear ++;
+                            entitiesList[k].sentimentValue = sum / entitiesList[k].timesAppear;
+                        }
+                    }
+                } else {
+                    let myEntity = {};
+                    myEntity.text = annotatedResult[i].entities[j].text;
+                    myEntity.ner = annotatedResult[i].entities[j].ner;
+                    myEntity.sentimentValue = annotatedResult[i].sentimentValue;
+                    myEntity.timesAppear = 1;
+                    entitiesList.push(myEntity)
+                }
+            }
+        }
     }
-    averageSentiment /= numberOfSentences;
-    returnValue.sentiment = averageSentiment;
-
+    averageSentimentValue = +averageSentimentValue / +numberOfSentences;
+    returnValue.sentimentValue = averageSentimentValue;
+    returnValue.entitiesList = entitiesList;
+    callback(null, returnValue);
     //save everything in the return value and return it
 }
 
-//Because the system also record stuff like student, numbers and weather,
-//for the purpose of this, I will only record
-function _shouldSaveEntity() {
-    //return true if it's people, organization and stuffs
-    //false if number and nonsense like that.
+function _isEntityAlreadyExist(entitiesList, entity) {
+    for (let i = 0; i < entitiesList.length; i ++) {
+        if (entitiesList[i].text == entity.text) {
+            return true
+        }
+    }
+    return false
+}
+
+//return true if it's people, organization and stuffs
+//false if number and nonsense like that.
+function _shouldSaveEntity(entity) {
+    return (savedNerList.indexOf(entity.ner) != -1);
 }
 
 /*
@@ -53,10 +108,10 @@ function annotateParagraph(paragraph, callback) {
                     // sentence.sentimentDistribution = body.sentences[i].sentimentDistribution
                     sentence.entities = [];
                     for (var j = 0; j < body.sentences[i].entitymentions.length; j ++) {
-                        let entity = {};
-                        entity.text = body.sentences[i].entitymentions[j].text
-                        entity.ner = body.sentences[i].entitymentions[j].ner
-                        sentence.entities.push(entity);
+                        let entities = {};
+                        entities.text = body.sentences[i].entitymentions[j].text
+                        entities.ner = body.sentences[i].entitymentions[j].ner
+                        sentence.entities.push(entities);
                     }
 
                     sentence.tokensLength = body.sentences[i].tokens.length
@@ -87,3 +142,4 @@ function _requestNlpAnnotation(content, callback) {
 }
 
 module.exports.annotateParagraph = annotateParagraph;
+module.exports.getCoreFeature = getCoreFeature;

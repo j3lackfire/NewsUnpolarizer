@@ -32,4 +32,18 @@ router.post('/annotateParagraph', function(req, res, next) {
     })
 });
 
+router.post('/getCoreFeature', function(req, res, next) {
+    console.log('Post - Get core feature function!!!')
+    console.log(req.body)
+    paragraphAnnotator.getCoreFeature(req.body.data, function(error, response) {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the server!';
+            res.json(error)
+        } else {
+            res.json(response)
+        }
+    })
+});
+
+
 module.exports = router;
