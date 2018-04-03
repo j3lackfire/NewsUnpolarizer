@@ -84,15 +84,16 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
 
 ```
     http://localhost:9001/annotateParagraph
-    POST request
-    x-www-form-urlencoded
-    body:
-    key:data / value: text you want to annotate
-    Response:
+    POST request - x-www-form-urlencoded
+    request body:
+        key: data / value: text you want to annotate
+    Response: An array of sentences with sentiment and information and entities list
     [
         {
             "sentiment": "Negative",
             "sentimentValue": "1",
+            "tokensCount": 36,
+            "charactersCount": 213,
             "entities": [
                 {
                     "text": "Fox News",
@@ -103,20 +104,18 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
                     "ner": "TITLE"
                 },
                 ...
-            ],
-            "tokensCount": 36,
-            "charactersCount": 213
-        }, ... 
+            ]
+        }, 
+        ... 
     ]
 ```
 
 ```
     http://localhost:9001/getCoreFeature
-    POST request
-    x-www-form-urlencoded
-    body:
-    key:data / value: text you want to annotate
-    Response:
+    POST request - x-www-form-urlencoded
+    request body:
+        key: data / value: text you want to annotate
+    Response: the whole value of paragraph and list of all appeared entities and their local sentiment value
     {
         "sentimentValue": 1.1428571428571428,
         "sentencesCount": 21,
@@ -138,6 +137,6 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
                 "timesAppear": 2
             },
             ...
-        ],
+        ]
     }
 ```
