@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ba2392-0958-412c-81fe-9018b845002c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/newsGetter/readabilityTest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/newsGetter/readabilityTest.js" afterPath="$PROJECT_DIR$/NewsGetter/webContentReader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLPHandler/paragraphAnnotator.js" afterPath="$PROJECT_DIR$/NLPHandler/paragraphAnnotator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="NewsUnpolarizer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +29,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+                <state relative-caret-position="317">
+                  <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
                   <folding>
                     <element signature="e#911#940#0" expanded="false" />
                     <element signature="e#999#1245#0" expanded="false" />
@@ -45,20 +46,58 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+                <state relative-caret-position="538">
+                  <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="paragraphAnnotator.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="paragraphAnnotator.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/NLPHandler/paragraphAnnotator.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1258">
-                  <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+                <state relative-caret-position="235">
+                  <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
                   <folding>
                     <element signature="e#0#52#0" expanded="false" />
+                    <element signature="e#339#454#0" expanded="false" />
+                    <element signature="e#584#683#0" expanded="false" />
+                    <element signature="e#711#782#0" expanded="false" />
+                    <element signature="e#869#988#0" expanded="false" />
+                    <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+                    <element signature="e#2335#2485#0" expanded="false" />
+                    <element signature="e#2356#2401#0" expanded="false" />
+                    <element signature="e#2407#2479#0" expanded="false" />
+                    <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+                    <element signature="e#2802#4467#0" expanded="false" />
+                    <element signature="e#2986#3032#0" expanded="false" />
+                    <element signature="e#3229#4461#0" expanded="false" />
+                    <element signature="e#3298#4451#0" expanded="false" />
+                    <element signature="e#3389#4054#0" expanded="false" />
+                    <element signature="e#3458#4036#0" expanded="false" />
+                    <element signature="e#3549#4014#0" expanded="false" />
+                    <element signature="e#4060#4437#0" expanded="false" />
+                    <element signature="e#4588#4782#0" expanded="false" />
+                    <element signature="e#4638#4704#0" expanded="false" />
+                    <element signature="e#4710#4776#0" expanded="false" />
+                    <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+                    <element signature="e#5333#5425#0" expanded="false" />
+                    <element signature="e#5384#5419#0" expanded="false" />
+                    <element signature="e#5446#5499#0" expanded="false" />
+                    <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+                    <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+                    <element signature="e#5911#6180#0" expanded="false" />
+                    <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+                    <element signature="e#6300#8055#0" expanded="false" />
+                    <element signature="e#6322#7952#0" expanded="false" />
+                    <element signature="e#6368#7863#0" expanded="false" />
+                    <element signature="e#6550#7802#0" expanded="false" />
+                    <element signature="e#6966#7250#0" expanded="false" />
+                    <element signature="e#7569#7669#0" expanded="false" />
+                    <element signature="e#7869#7942#0" expanded="false" />
+                    <element signature="e#7958#8049#0" expanded="false" />
+                    <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+                    <element signature="e#8311#8366#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -71,28 +110,19 @@
           <file leaf-file-name="urlBuilder.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/NLPHandler/urlBuilder.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+                <state relative-caret-position="357">
+                  <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Readme.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="407">
-                    <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
               <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="1054">
-                    <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                  <first_editor relative-caret-position="1105">
+                    <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor>
@@ -100,16 +130,23 @@
                   </second_editor>
                 </state>
               </provider>
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="333">
+                    <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
             </entry>
           </file>
-          <file leaf-file-name="readabilityTest.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/newsGetter/readabilityTest.js">
+          <file leaf-file-name="webContentReader.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/NewsGetter/webContentReader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-                  <folding>
-                    <marker date="1522782522406" expanded="true" signature="690:718" ph="..." />
-                  </folding>
+                <state relative-caret-position="357">
+                  <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -140,10 +177,11 @@
         <option value="$PROJECT_DIR$/NLPHandler/requestHandler.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/NLPHandler/urlBuilder.js" />
+        <option value="$PROJECT_DIR$/newsGetter/readabilityTest.js" />
+        <option value="$PROJECT_DIR$/NewsGetter/webContentReader.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/NLPHandler/paragraphAnnotator.js" />
         <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/newsGetter/readabilityTest.js" />
       </list>
     </option>
   </component>
@@ -194,7 +232,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,14 +291,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="newsGetter" />
+              <option name="myItemId" value="NewsGetter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +313,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Node.js.readabilityTest.js">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -288,7 +326,7 @@
     <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/routes">
       <method />
     </configuration>
-    <configuration default="false" name="readabilityTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="readabilityTest.js" working-dir="$PROJECT_DIR$/newsGetter">
+    <configuration default="false" name="readabilityTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/NewsGetter/webContentReader.js" working-dir="$PROJECT_DIR$/NewsGetter">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -743,9 +781,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.readabilityTest.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.requestHandler.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.requestHandler.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.readabilityTest.js" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.index.js" />
         <item index="4" class="java.lang.String" itemvalue="Node.js.urlBuilder.js" />
       </list>
@@ -771,12 +809,13 @@
       <workItem from="1522575879124" duration="14697000" />
       <workItem from="1522605061836" duration="4971000" />
       <workItem from="1522661643089" duration="7357000" />
-      <workItem from="1522773022406" duration="8893000" />
+      <workItem from="1522773022406" duration="9064000" />
+      <workItem from="1522785888790" duration="5940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47834000" />
+    <option name="totallyTimeSpent" value="53945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -788,8 +827,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -798,8 +837,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -860,6 +899,44 @@
           <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,15 +950,112 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="1105">
+            <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1071">
+            <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsGetter/webContentReader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#911#940#0" expanded="false" />
+            <element signature="e#999#1245#0" expanded="false" />
+            <element signature="e#1279#1343#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLPHandler/paragraphAnnotator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLPHandler/urlBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -891,6 +1065,15 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -920,6 +1103,44 @@
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -933,15 +1154,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="935">
-            <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1020">
@@ -951,6 +1163,15 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="935">
+            <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -980,6 +1201,44 @@
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1018,6 +1277,44 @@
           <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1031,15 +1328,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="391">
-            <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1049,6 +1337,15 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="391">
+            <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1085,6 +1382,44 @@
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1098,15 +1433,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1116,6 +1442,15 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1152,6 +1487,44 @@
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1198,10 +1571,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NLPHandler/urlBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsGetter/webContentReader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLPHandler/paragraphAnnotator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#52#0" expanded="false" />
+            <element signature="e#339#454#0" expanded="false" />
+            <element signature="e#584#683#0" expanded="false" />
+            <element signature="e#711#782#0" expanded="false" />
+            <element signature="e#869#988#0" expanded="false" />
+            <element signature="n#!!block;n#getCoreFeature#0" expanded="false" />
+            <element signature="e#2335#2485#0" expanded="false" />
+            <element signature="e#2356#2401#0" expanded="false" />
+            <element signature="e#2407#2479#0" expanded="false" />
+            <element signature="n#!!block;n#_getFeatureFromAnnotatedData#0" expanded="false" />
+            <element signature="e#2802#4467#0" expanded="false" />
+            <element signature="e#2986#3032#0" expanded="false" />
+            <element signature="e#3229#4461#0" expanded="false" />
+            <element signature="e#3298#4451#0" expanded="false" />
+            <element signature="e#3389#4054#0" expanded="false" />
+            <element signature="e#3458#4036#0" expanded="false" />
+            <element signature="e#3549#4014#0" expanded="false" />
+            <element signature="e#4060#4437#0" expanded="false" />
+            <element signature="e#4588#4782#0" expanded="false" />
+            <element signature="e#4638#4704#0" expanded="false" />
+            <element signature="e#4710#4776#0" expanded="false" />
+            <element signature="n#!!block;n#_isEntityAlreadyExist#0" expanded="false" />
+            <element signature="e#5333#5425#0" expanded="false" />
+            <element signature="e#5384#5419#0" expanded="false" />
+            <element signature="e#5446#5499#0" expanded="false" />
+            <element signature="n#!!block;n#_shouldSaveEntity#0" expanded="false" />
+            <element signature="n#!!block;n#_isDiscreteEntity#0" expanded="false" />
+            <element signature="e#5911#6180#0" expanded="false" />
+            <element signature="n#!!block;n#annotateParagraph#0" expanded="false" />
+            <element signature="e#6300#8055#0" expanded="false" />
+            <element signature="e#6322#7952#0" expanded="false" />
+            <element signature="e#6368#7863#0" expanded="false" />
+            <element signature="e#6550#7802#0" expanded="false" />
+            <element signature="e#6966#7250#0" expanded="false" />
+            <element signature="e#7569#7669#0" expanded="false" />
+            <element signature="e#7869#7942#0" expanded="false" />
+            <element signature="e#7958#8049#0" expanded="false" />
+            <element signature="n#!!block;n#_requestNlpAnnotation#0" expanded="false" />
+            <element signature="e#8311#8366#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="317">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="e#911#940#0" expanded="false" />
             <element signature="e#999#1245#0" expanded="false" />
@@ -1210,37 +1655,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPHandler/paragraphAnnotator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPHandler/urlBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1105">
+            <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="407">
-            <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <first_editor relative-caret-position="333">
+            <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1250,27 +1680,6 @@
         <state relative-caret-position="323">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1054">
-            <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsGetter/readabilityTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-          <folding>
-            <marker date="1522782522406" expanded="true" signature="690:718" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -3,6 +3,8 @@
  */
 const request = require('request');
 const urlBuilder = require('./urlBuilder')
+var webReader = require('./../NewsGetter/webContentReader')
+
 
 console.log(urlBuilder.getDefaultURL());
 
@@ -14,12 +16,12 @@ let discreteNerList = [
     'MISC',
     'CITY',
     'STATE_OR_PROVINCE',
-    'COUNTRY',
-    'NATIONALITY'];
+    'COUNTRY'];
 
 //list about abstract entities, not aim at one particular person like jobs, religion or things like that
 let abstractNerList = [
     'RELIGION',
+    'NATIONALITY',
     'TITLE', //Job title
     'IDEOLOGY',
     'CAUSE_OF_DEATH'] //violence, shooting ....
@@ -39,6 +41,36 @@ let ignoreTextList = [
     'I',
     'me'
 ]
+
+function analyzeUrl(url, callback) {
+    webReader.extractWebContent(url, function(err_1, article) {
+        if (err_1) {
+            callback(err_1, null)
+        } else {
+            getCoreFeature(article.content, function(err_2, analyzedContent) {
+                if (err_2) {
+                    callback(err_2, null)
+                } else {
+                    getCoreFeature(article.title, function(err_3, analyzedTitle) {
+                        console.log(article.title)
+                        if (err_3) {
+                            callback(err_3, null)
+                        } else {
+                            //right now, just push 2 of them in an array.
+                            //but I kind of want the title to be more powerful, more close
+                            //to the final result,
+                            //but maybe just add a weight value would be enough.
+                            let finalResponse = [];
+                            finalResponse.push(analyzedTitle)
+                            finalResponse.push(analyzedContent)
+                            callback(null, finalResponse);
+                        }
+                    })
+                }
+            })
+        }
+    })
+}
 
 function getCoreFeature (paragraph, callback) {
     annotateParagraph(paragraph, function(error, response) {
@@ -187,3 +219,4 @@ function _requestNlpAnnotation(content, callback) {
 
 module.exports.annotateParagraph = annotateParagraph;
 module.exports.getCoreFeature = getCoreFeature;
+module.exports.analyzeUrl = analyzeUrl;

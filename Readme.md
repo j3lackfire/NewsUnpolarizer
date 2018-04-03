@@ -60,6 +60,9 @@ Note: NodeJS required packages:
 - express - for setting up the server.
 - request - to send request to the NLU server.
 - body-parser - to parse the web request from user.
+- node-readability - to extract the article information of the website out
+    - https://github.com/luin/readability
+
 
 __ For the Stanford core NLP server, you will need to download the core NLP server yourself: __
 - https://stanfordnlp.github.io/CoreNLP/index.html - main page
@@ -70,7 +73,7 @@ __ For the Stanford core NLP server, you will need to download the core NLP serv
 ```    cd C:\Users\Le Pham Minh Duc\Desktop\MasterThesis\Standford Core NLP\stanford-corenlp-full```
 - Run the command (requires Java 64 bit, if you have Jav 32 bit install, you will receive an error)
 
-```    java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer 9000```
+```    java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 60000```
 
 The Stanford Core NLP server is now running on port 9000. You can test it by going to 
     
@@ -139,4 +142,43 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
             ...
         ]
     }
+```
+
+```
+    http://localhost:9001/getUrlContent
+    POST request - x-www-form-urlencoded
+    request body:
+        key: data / value: the url you want to get content, for example
+        https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134
+    Response: The content of the web, without all of the html and suggestion and nonsense
+    {
+        "title": "News Anchor At Sinclair-Owned Station Hits Back At Trump",
+        "content": "An evening news anchor at a Sinclair ...."
+    }
+```
+
+```
+    http://localhost:9001/analyzeUrl
+    POST request - x-www-form-urlencoded
+    request body:
+        key: data / value: the url you want to analyze
+        https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134
+    Response: An array containts 2 element, the analyzed (get core feature) title, and the analyzed of the article content
+    [
+        {
+            "sentimentValue": 2,
+            "sentencesCount": 1,
+            "charactersCount": 58,
+            "discreteEntitiesList": [],
+            "abstractEntitiesList": []
+        },
+        {
+            "sentimentValue": 1.2727272727272727,
+            "sentencesCount": 22,
+            "charactersCount": 2118,
+            "discreteEntitiesList": [],
+            "abstractEntitiesList": []
+        }
+    ]   
+        
 ```
