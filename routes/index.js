@@ -46,7 +46,6 @@ router.post('/getCoreFeature', function(req, res, next) {
     })
 });
 
-//Test service
 //send an url to the service and the out put is the content of the article.
 router.post('/getUrlContent', function(req, res, next) {
     console.log('Get Url content')
@@ -73,5 +72,35 @@ router.post('/analyzeUrl', function(req, res, next) {
         }
     })
 });
+
+//----------------- TEST --------------------------
+
+
+router.post('/getUrlContentNoCleanup', function(req, res, next) {
+    console.log('getContentWithoutURL')
+    console.log(req.body)
+    webReader.getContentNoCleanUp(req.body.data, function(error, response) {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the server!';
+            res.json(error)
+        } else {
+            res.json(response)
+        }
+    })
+});
+
+router.post('/getContentWithHtml', function(req, res, next) {
+    console.log('getContentWithHtml')
+    console.log(req.body)
+    webReader.getContentWithHtml(req.body.data, function(error, response) {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the server!';
+            res.json(error)
+        } else {
+            res.json(response)
+        }
+    })
+});
+
 
 module.exports = router;

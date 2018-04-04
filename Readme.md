@@ -148,8 +148,10 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
     http://localhost:9001/getUrlContent
     POST request - x-www-form-urlencoded
     request body:
-        key: data / value: the url you want to get content, for example
-        https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134
+        key: data / value: the url you want to get content
+        For example:
+            'data': 'https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134'
+
     Response: The content of the web, without all of the html and suggestion and nonsense
     {
         "title": "News Anchor At Sinclair-Owned Station Hits Back At Trump",
@@ -162,22 +164,23 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
     POST request - x-www-form-urlencoded
     request body:
         key: data / value: the url you want to analyze
-        https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134
+        For example:
+            'data': 'https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134'
     Response: An array containts 2 element, the analyzed (get core feature) title, and the analyzed of the article content
     [
         {
             "sentimentValue": 2,
             "sentencesCount": 1,
             "charactersCount": 58,
-            "discreteEntitiesList": [],
-            "abstractEntitiesList": []
+            "discreteEntitiesList": [... , ...],
+            "abstractEntitiesList": [... , ...]
         },
         {
             "sentimentValue": 1.2727272727272727,
             "sentencesCount": 22,
             "charactersCount": 2118,
-            "discreteEntitiesList": [],
-            "abstractEntitiesList": []
+            "discreteEntitiesList": [... , ...],
+            "abstractEntitiesList": [... , ...]
         }
     ]   
         
