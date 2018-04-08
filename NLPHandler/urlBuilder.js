@@ -12,7 +12,6 @@ to this, which is a valid URL:
     properties=%7B%22annotators%22:%22tokenize,ssplit,pos%22,%22outputFormat%22:%22json%22%7D
 
 */
-
 let baseURL = 'http://localhost:9000/?'
 let defaultSettings = 'properties={"annotators":"sentiment,ner","outputFormat":"json"}'
 

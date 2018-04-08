@@ -5,7 +5,6 @@ const request = require('request');
 const urlBuilder = require('./urlBuilder')
 var webReader = require('./../NewsGetter/webContentReader')
 
-
 console.log(urlBuilder.getDefaultURL());
 
 //list about some particular entities like person, organization, city or country
@@ -47,12 +46,14 @@ function analyzeUrl(url, callback) {
         if (err_1) {
             callback(err_1, null)
         } else {
+            //content
             getCoreFeature(article.content, function(err_2, analyzedContent) {
                 if (err_2) {
                     callback(err_2, null)
                 } else {
+                    //the title
                     getCoreFeature(article.title, function(err_3, analyzedTitle) {
-                        console.log(article.title)
+                        console.log("Article title: " + article.title)
                         if (err_3) {
                             callback(err_3, null)
                         } else {
@@ -173,7 +174,7 @@ function annotateParagraph(paragraph, callback) {
     _requestNlpAnnotation(paragraph, function(error, response, body) {
         if (!error) {
             if (response.statusCode == 200) {
-                console.log('Successfully receive stuff from the server!')
+                console.log('Successfully receive annotation from the Core NLP server!')
                 let sentencesList = [];
                 for (var i = 0; i < body.sentences.length; i ++) {
                     let sentence = {};
