@@ -6,6 +6,11 @@
     With all of their "suggestion" and useless stuffs.
     https://github.com/luin/readability
 */
+/*
+    Case this lib didn't read
+    https://dailytrojan.com/2018/04/05/playing-politics-trump-uses-scare-tactics-to-distract-from-reality/
+    the article is quite long but this tool only get the footer I think
+*/
 var read = require('node-readability');
 
 function extractWebContent(url, callback) {

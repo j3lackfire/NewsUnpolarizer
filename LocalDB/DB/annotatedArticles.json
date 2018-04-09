@@ -16331,5 +16331,5641 @@
         }
       ]
     }
+  },
+  {
+    "url": "http://www.dailymail.co.uk/news/article-5581925/Las-Vegas-GOP-adviser-35-ex-fiancee-SLAVE.html",
+    "title": "Las Vegas GOP adviser, 35, 'made ex-fiancee his SLAVE",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 55,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.469387755102041,
+      "sentencesCount": 49,
+      "charactersCount": 4139,
+      "discreteEntitiesList": [
+        {
+          "text": "Benjamin Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": 1.8,
+          "timesAppear": 5,
+          "appearIn": [
+            1,
+            11,
+            13,
+            21,
+            23
+          ]
+        },
+        {
+          "text": "Las Vegas",
+          "ner": "CITY",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            37
+          ]
+        },
+        {
+          "text": "Mitt Romney",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            4,
+            17,
+            20
+          ]
+        },
+        {
+          "text": "Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 15,
+          "appearIn": [
+            6,
+            10,
+            11,
+            15,
+            16,
+            17,
+            20,
+            26,
+            28,
+            32,
+            34,
+            36,
+            37,
+            39,
+            44
+          ]
+        },
+        {
+          "text": "Review Journal",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            8,
+            10,
+            17,
+            24
+          ]
+        },
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Texas",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Wisconsin",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            17,
+            20,
+            34
+          ]
+        },
+        {
+          "text": "Scott Walker",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            17,
+            20,
+            34
+          ]
+        },
+        {
+          "text": "Utah County Republican Party",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Cresent Hardy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "Yvette Herrell",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            23
+          ]
+        },
+        {
+          "text": "New Mexico",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 2,
+          "timesAppear": 3,
+          "appearIn": [
+            23,
+            46,
+            48
+          ]
+        },
+        {
+          "text": "Herrell",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "Red Rock Strategies",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "U.S.",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Congress",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "His",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Walker",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Madison",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Red Rock",
+          "ner": "LOCATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            40,
+            47
+          ]
+        },
+        {
+          "text": "Crescent Hardy",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            46,
+            48
+          ]
+        },
+        {
+          "text": "John Sanchez",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            46,
+            48
+          ]
+        },
+        {
+          "text": "California",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            46,
+            48
+          ]
+        },
+        {
+          "text": "Jim Brulte",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            46,
+            48
+          ]
+        },
+        {
+          "text": "DailyMail.com",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            47
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "spokesman",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            17,
+            20
+          ]
+        },
+        {
+          "text": "Gov.",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            17,
+            20,
+            34
+          ]
+        },
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            21,
+            23
+          ]
+        },
+        {
+          "text": "consultant",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "suicide",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            36
+          ]
+        },
+        {
+          "text": "Lieutenant Governor",
+          "ner": "TITLE",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            46,
+            48
+          ]
+        },
+        {
+          "text": "Senator",
+          "ner": "TITLE",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            46,
+            48
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/woman-says-las-vegas-gop-campaign-adviser-made-her-his-sex-slave/",
+    "title": "Woman says Las Vegas GOP campaign adviser made her his sex slave",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 66,
+      "discreteEntitiesList": [
+        {
+          "text": "Las Vegas GOP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.3584905660377358,
+      "sentencesCount": 53,
+      "charactersCount": 4569,
+      "discreteEntitiesList": [
+        {
+          "text": "GOP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Benjamin Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "text": "Las Vegas Review-Journal",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 18,
+          "appearIn": [
+            2,
+            5,
+            6,
+            7,
+            9,
+            14,
+            14,
+            15,
+            16,
+            19,
+            20,
+            22,
+            33,
+            35,
+            36,
+            39,
+            42,
+            43
+          ]
+        },
+        {
+          "text": "Las Vegas",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            3,
+            5,
+            16,
+            39
+          ]
+        },
+        {
+          "text": "Nevada",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Cresent Hardy",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Hardy",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            7,
+            8
+          ]
+        },
+        {
+          "text": "Yvette Herrell",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "New Mexico",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Herrell",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            10,
+            11
+          ]
+        },
+        {
+          "text": "Review-Journal",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Texas",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "RedRock Strategies",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Washington",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "D.C.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 5,
+          "appearIn": [
+            17,
+            22,
+            24,
+            37,
+            38
+          ]
+        },
+        {
+          "text": "Mitt Romney",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Wisconsin",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Scott Walker",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            31,
+            41
+          ]
+        },
+        {
+          "text": "Boulder City",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Ramona Giwargis",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            47
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "consultant",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": 0.5,
+          "timesAppear": 2,
+          "appearIn": [
+            5,
+            9
+          ]
+        },
+        {
+          "text": "director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "spokesman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Gov.",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.foxnews.com/politics/2018/04/07/south-carolina-rep-ralph-norman-draws-gun-says-im-not-going-to-be-gabby-giffords.html",
+    "title": "South Carolina Rep. Ralph Norman draws gun, says 'I'm not going to be a Gabby Giffords'",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 89,
+      "discreteEntitiesList": [
+        {
+          "text": "South Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Ralph Norman",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Rep.",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.25,
+      "sentencesCount": 24,
+      "charactersCount": 2211,
+      "discreteEntitiesList": [
+        {
+          "text": "U.S.",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "Ralph Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "Rock Hill",
+          "ner": "CITY",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            1,
+            4
+          ]
+        },
+        {
+          "text": "S.C.",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Associated Press",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            2,
+            23
+          ]
+        },
+        {
+          "text": "South Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 7,
+          "appearIn": [
+            5,
+            8,
+            10,
+            11,
+            12,
+            15,
+            22
+          ]
+        },
+        {
+          "text": "Arizona",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "NASA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Mark Kelly",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Americans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "Gabby",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "NRA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "Kelly",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Republicans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "GOP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Drew McKissick",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Lori Carter",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "N.C.",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "Carter",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "South Carolina Democratic Party",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Trav Robertson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Rep.",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "congresswoman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "astronaut",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "Courier",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Chairman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "schoolteacher",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "owner",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://edition.cnn.com/2018/04/06/politics/ralph-norman-loaded-gun-sc-congressman/index.html",
+    "title": "Congressman pulls out gun to make point on violence",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 53,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": [
+        {
+          "text": "Congressman",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "violence",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5454545454545454,
+      "sentencesCount": 22,
+      "charactersCount": 1896,
+      "discreteEntitiesList": [
+        {
+          "text": "Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1.4285714285714286,
+          "timesAppear": 7,
+          "appearIn": [
+            0,
+            2,
+            4,
+            9,
+            12,
+            13,
+            17
+          ]
+        },
+        {
+          "text": "CNN",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Arizona",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            6,
+            17
+          ]
+        },
+        {
+          "text": "Lori Freemon",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Jeff Flake",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "Flake",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "violence",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "Democratic",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "congresswoman",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "communications director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Rep.",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "representative",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.newsweek.com/gop-adviser-benjamin-sparks-ex-fiance-sex-slave-report-873143",
+    "title": "GOP adviser kept ex-fiancée as a sex slave, she says: Report",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 62,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5555555555555556,
+      "sentencesCount": 54,
+      "charactersCount": 3828,
+      "discreteEntitiesList": [
+        {
+          "text": "Las Vegas",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            0,
+            12,
+            13
+          ]
+        },
+        {
+          "text": "Republican",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            15
+          ]
+        },
+        {
+          "text": "Las Vegas Review-Journal",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.6,
+          "timesAppear": 5,
+          "appearIn": [
+            4,
+            11,
+            13,
+            25,
+            40
+          ]
+        },
+        {
+          "text": "GOP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            13
+          ]
+        },
+        {
+          "text": "Benjamin Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            13
+          ]
+        },
+        {
+          "text": "Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1.0909090909090908,
+          "timesAppear": 11,
+          "appearIn": [
+            7,
+            8,
+            15,
+            23,
+            28,
+            32,
+            33,
+            34,
+            38,
+            39,
+            43
+          ]
+        },
+        {
+          "text": "Las Vegas Metropolitan Police Department",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            8,
+            12,
+            47
+          ]
+        },
+        {
+          "text": "Aiden OcampoGomez",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Newsweek",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 3,
+          "appearIn": [
+            9,
+            35,
+            48
+          ]
+        },
+        {
+          "text": "Thomas & Mack Center",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Paul J. Richards/AFP/Getty Images",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            18,
+            42
+          ]
+        },
+        {
+          "text": "Las Vegas Metropolitan Police",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            24,
+            30
+          ]
+        },
+        {
+          "text": "Texas",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Dripping",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Springs",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Nevada",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "Cresent Hardy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "RedRock Strategies",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "Ryan Erwin",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "Associated Press",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "Mitt Romney",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            43
+          ]
+        },
+        {
+          "text": "Rob Portman",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            43
+          ]
+        },
+        {
+          "text": "Senate",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            43
+          ]
+        },
+        {
+          "text": "New Jersey Republican state committee communications",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            46
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "consultant",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            15,
+            39
+          ]
+        },
+        {
+          "text": "suicide",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Representative",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "founder",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.theolympian.com/news/nation-world/article208115264.html",
+    "title": "10 Things to Know for Today",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 29,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.3636363636363635,
+      "sentencesCount": 33,
+      "charactersCount": 2127,
+      "discreteEntitiesList": [
+        {
+          "text": "U.S.",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "China",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Trump",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            15
+          ]
+        },
+        {
+          "text": "U.S. National Guard",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Mexico",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Central Americans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Mexicans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Park Geun-hye",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Israel",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Hamas",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Gaza-Israel",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "John Kelly",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Northern",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "California",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "Oklahoma",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "Cardi",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "AUGUSTA",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Tiger Woods",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        },
+        {
+          "text": "Masters",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "President",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            3,
+            9,
+            15
+          ]
+        },
+        {
+          "text": "Chinese",
+          "ner": "NATIONALITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "MEXICAN",
+          "ner": "NATIONALITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "ASIAN",
+          "ner": "NATIONALITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "LEADER",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "South Korean",
+          "ner": "NATIONALITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "CHIEF OF STAFF",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "COLD",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "COMMANDER",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "chief of staff",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "storm",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://dailytrojan.com/2018/04/05/playing-politics-trump-uses-scare-tactics-to-distract-from-reality/",
+    "title": "Playing Politics: Trump uses scare tactics to distract from reality",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 69,
+      "discreteEntitiesList": [
+        {
+          "text": "Trump",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5,
+      "sentencesCount": 2,
+      "charactersCount": 75,
+      "discreteEntitiesList": [
+        {
+          "text": "University of Southern California/Daily Trojan",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    }
+  },
+  {
+    "url": "https://www.zdnet.com/article/managing-healthcare-data-technology-standards-and-the-3-trillion-dollar-question/",
+    "title": "Healthcare's $3 trillion question: Should the likes of Google and Facebook control this data?",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 95,
+      "discreteEntitiesList": [
+        {
+          "text": "Healthcare",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Google",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.562043795620438,
+      "sentencesCount": 137,
+      "charactersCount": 12525,
+      "discreteEntitiesList": [
+        {
+          "text": "World Health",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "World Health Organization",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 5,
+          "appearIn": [
+            11,
+            17,
+            72,
+            111,
+            113
+          ]
+        },
+        {
+          "text": "Cambridge Analytica",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            11,
+            72
+          ]
+        },
+        {
+          "text": "Google",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            17,
+            113,
+            114
+          ]
+        },
+        {
+          "text": "Raj Sharma",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Evgeny Chereshnev",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Electronic Health Records",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            34,
+            53
+          ]
+        },
+        {
+          "text": "Electronic Health Record",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            36
+          ]
+        },
+        {
+          "text": "EHRs",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            37,
+            86
+          ]
+        },
+        {
+          "text": "Sharma",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            43,
+            75,
+            122
+          ]
+        },
+        {
+          "text": "HIPAA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            44,
+            47,
+            47
+          ]
+        },
+        {
+          "text": "Meaningful Use",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            50
+          ]
+        },
+        {
+          "text": "Affordable Care Act",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            50
+          ]
+        },
+        {
+          "text": "Chereshnev",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 3,
+          "appearIn": [
+            54,
+            93,
+            112
+          ]
+        },
+        {
+          "text": "EHR",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            61
+          ]
+        },
+        {
+          "text": "HRBA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            73,
+            82,
+            82
+          ]
+        },
+        {
+          "text": "FHIR Foundation",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            75
+          ]
+        },
+        {
+          "text": "FHIR",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            78,
+            80,
+            88
+          ]
+        },
+        {
+          "text": "Health Record Banking Alliance",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            81
+          ]
+        },
+        {
+          "text": "Cures Act",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            84,
+            85,
+            86
+          ]
+        },
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            84
+          ]
+        },
+        {
+          "text": "House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            84
+          ]
+        },
+        {
+          "text": "Senate",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            84
+          ]
+        },
+        {
+          "text": "Mark Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            111
+          ]
+        },
+        {
+          "text": "Amazon",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            114
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "CEO",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            28,
+            29
+          ]
+        },
+        {
+          "text": "founder",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "mobile",
+          "ner": "TITLE",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            32,
+            123
+          ]
+        },
+        {
+          "text": "general",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "Independent",
+          "ner": "RELIGION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            118
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://theinsidercarnews.com/2018/04/06/without-data-targeted-ads-facebook-would-look-like-a-pay/",
+    "title": "Without data-targeted ads, Facebook would look like a pay service",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 67,
+      "discreteEntitiesList": [
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5,
+      "sentencesCount": 36,
+      "charactersCount": 2500,
+      "discreteEntitiesList": [
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "NBC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "Sandberg",
+          "ner": "PERSON",
+          "sentimentValue": 1.25,
+          "timesAppear": 4,
+          "appearIn": [
+            6,
+            19,
+            20,
+            33
+          ]
+        },
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 8,
+          "appearIn": [
+            7,
+            15,
+            16,
+            19,
+            23,
+            23,
+            32,
+            34
+          ]
+        },
+        {
+          "text": "Sheryl Sandberg",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            9,
+            16
+          ]
+        },
+        {
+          "text": "NBC News",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "CA",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Guthrie",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            22,
+            22
+          ]
+        },
+        {
+          "text": "House Energy and Commerce Committee",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "New York Times",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "London",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Cambridge Analytica",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            29,
+            31
+          ]
+        },
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Chief Operating Officer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "developer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.usatoday.com/story/news/politics/onpolitics/2018/04/05/ex-romney-staffer-had-woman-sign-sex-slave-contract/490522002/",
+    "title": "Ex-Romney adviser Benjamin Sparks had fiancée sign sex slave contract",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 71,
+      "discreteEntitiesList": [
+        {
+          "text": "Benjamin Sparks",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5660377358490567,
+      "sentencesCount": 53,
+      "charactersCount": 3047,
+      "discreteEntitiesList": [
+        {
+          "text": "Benjamin Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "Las Vegas",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            0,
+            2,
+            19
+          ]
+        },
+        {
+          "text": "Las Vegas Review-Journal",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "Mitt Romney",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Sparks",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 8,
+          "appearIn": [
+            15,
+            21,
+            24,
+            27,
+            29,
+            33,
+            35,
+            37
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            15,
+            17,
+            22
+          ]
+        },
+        {
+          "text": "Texas",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Cresent Hardy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "U.S.",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "House",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "Yvette Herrell",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "New Mexico",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Herrell",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Romney",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Wisconsin",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Scott Walker",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Rob Porter",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            45,
+            47,
+            49
+          ]
+        },
+        {
+          "text": "Orrin Hatch",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            49
+          ]
+        },
+        {
+          "text": "ex-White House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            49
+          ]
+        },
+        {
+          "text": "William Cummings",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            50
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            0,
+            2,
+            27,
+            29
+          ]
+        },
+        {
+          "text": "candidate",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Gov.",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2018-04-06/-it-s-becoming-childish-investors-react-as-trump-ups-the-ante",
+    "title": "‘It's Becoming Childish’: Investors React to Trump’s Tariff Talk",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 66,
+      "discreteEntitiesList": [
+        {
+          "text": "Becoming Childish",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Trump",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5714285714285714,
+      "sentencesCount": 49,
+      "charactersCount": 3732,
+      "discreteEntitiesList": [
+        {
+          "text": "Donald Trump",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "U.S.",
+          "ner": "COUNTRY",
+          "sentimentValue": 1.1666666666666667,
+          "timesAppear": 6,
+          "appearIn": [
+            4,
+            13,
+            20,
+            21,
+            26,
+            44
+          ]
+        },
+        {
+          "text": "Trump",
+          "ner": "PERSON",
+          "sentimentValue": 0.8,
+          "timesAppear": 5,
+          "appearIn": [
+            6,
+            20,
+            21,
+            34,
+            38
+          ]
+        },
+        {
+          "text": "Asia",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            6,
+            28
+          ]
+        },
+        {
+          "text": "Japan",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Topix",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "South Korea",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Kospi",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Hong Kong",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Hang Seng Index",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "China",
+          "ner": "COUNTRY",
+          "sentimentValue": 1.25,
+          "timesAppear": 4,
+          "appearIn": [
+            8,
+            11,
+            21,
+            22
+          ]
+        },
+        {
+          "text": "Nader Naeimi",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "AMP Capital Investors Ltd.",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Gary Greenberg",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Hermes Investment Management",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Kerry Craig",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "JPMorgan Asset Management",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "Craig",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Stephen Innes",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Pacific",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Oanda Corp.",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Jingyi Pan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "IG Asia Pte.",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Kenny Wen",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "Everbright Sun Hung Kai Co.",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "Norihiro Fujito",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            40
+          ]
+        },
+        {
+          "text": "Mitsubishi UFJ Morgan Stanley Securities Co.",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            40
+          ]
+        },
+        {
+          "text": "Singapore",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            44,
+            46,
+            47
+          ]
+        },
+        {
+          "text": "Thailand",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            44,
+            47
+          ]
+        },
+        {
+          "text": "Jonathan Garner",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            44
+          ]
+        },
+        {
+          "text": "Morgan Stanley",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            44
+          ]
+        },
+        {
+          "text": "Aaron",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            46
+          ]
+        },
+        {
+          "text": "Singapore-based",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            46
+          ]
+        },
+        {
+          "text": "Aggregate Asset Management",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            46
+          ]
+        },
+        {
+          "text": "Malaysia",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            47
+          ]
+        },
+        {
+          "text": "En Han Choong",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            48
+          ]
+        },
+        {
+          "text": "Moxy Ying",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            48
+          ]
+        },
+        {
+          "text": "Min Jeong Lee",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            48
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Chinese",
+          "ner": "NATIONALITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "protectionism",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "strategist",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 5,
+          "appearIn": [
+            24,
+            33,
+            39,
+            40,
+            44
+          ]
+        },
+        {
+          "text": "war",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 1.6666666666666667,
+          "timesAppear": 3,
+          "appearIn": [
+            29,
+            36,
+            47
+          ]
+        },
+        {
+          "text": "Picker",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "War",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "investment analyst",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            46
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://dailycaller.com/2018/04/07/congressman-ralph-norman-handgun/",
+    "title": "SC Congressman Pulls Out Loaded Handgun At Meeting With Constituents Via @dailycaller",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 87,
+      "discreteEntitiesList": [
+        {
+          "text": "SC",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5,
+      "sentencesCount": 24,
+      "charactersCount": 1886,
+      "discreteEntitiesList": [
+        {
+          "text": "South Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            0,
+            2,
+            16
+          ]
+        },
+        {
+          "text": "Ralph Norman",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Rock Hill",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Diner",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 4,
+          "appearIn": [
+            1,
+            2,
+            10,
+            20
+          ]
+        },
+        {
+          "text": "Smith & Wesson",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Bloomberg-funded",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Moms Demand Action",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Lori Freemon",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Herald",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Washington",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Courier",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "shooting",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "congressman",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            17,
+            18
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.wired.com/story/why-zuckerberg-15-year-apology-tour-hasnt-fixed-facebook/",
+    "title": "Why Zuckerberg’s 14-Year Apology Tour Hasn’t Fixed Facebook",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 61,
+      "discreteEntitiesList": [
+        {
+          "text": "Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Apology Tour Hasn't Fixed Facebook",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.4444444444444444,
+      "sentencesCount": 153,
+      "charactersCount": 16436,
+      "discreteEntitiesList": [
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.153846153846154,
+          "timesAppear": 65,
+          "appearIn": [
+            2,
+            9,
+            15,
+            23,
+            24,
+            28,
+            29,
+            35,
+            36,
+            38,
+            43,
+            44,
+            47,
+            50,
+            64,
+            65,
+            66,
+            67,
+            70,
+            72,
+            74,
+            80,
+            80,
+            82,
+            82,
+            83,
+            84,
+            85,
+            85,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            97,
+            98,
+            99,
+            100,
+            101,
+            103,
+            109,
+            111,
+            112,
+            114,
+            116,
+            119,
+            120,
+            126,
+            126,
+            128,
+            129,
+            131,
+            133,
+            133,
+            134,
+            135,
+            138,
+            139,
+            139,
+            140,
+            141,
+            146,
+            150
+          ]
+        },
+        {
+          "text": "Harvard",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            9
+          ]
+        },
+        {
+          "text": "Mark Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            6,
+            145
+          ]
+        },
+        {
+          "text": "Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 15,
+          "appearIn": [
+            9,
+            14,
+            25,
+            28,
+            29,
+            49,
+            54,
+            63,
+            65,
+            75,
+            80,
+            82,
+            83,
+            98,
+            126
+          ]
+        },
+        {
+          "text": "Zeynep Tufekci",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "University of North Carolina",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "New York Times",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2.5,
+          "timesAppear": 2,
+          "appearIn": [
+            20,
+            55
+          ]
+        },
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": 1.6666666666666667,
+          "timesAppear": 3,
+          "appearIn": [
+            26,
+            64,
+            76
+          ]
+        },
+        {
+          "text": "Washington Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            30
+          ]
+        },
+        {
+          "text": "Federal Trade Commission",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Cambridge University",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "Aleksandr Kogan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "United States",
+          "ner": "COUNTRY",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            41,
+            67
+          ]
+        },
+        {
+          "text": "Cambridge Analytica",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            41,
+            70,
+            141
+          ]
+        },
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "Kogan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            43
+          ]
+        },
+        {
+          "text": "CNN",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            55,
+            60
+          ]
+        },
+        {
+          "text": "Vox",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            56,
+            65
+          ]
+        },
+        {
+          "text": "Ezra Klein",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            65
+          ]
+        },
+        {
+          "text": "Apple",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            65,
+            67
+          ]
+        },
+        {
+          "text": "His",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            77
+          ]
+        },
+        {
+          "text": "Philippines",
+          "ner": "COUNTRY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            115
+          ]
+        },
+        {
+          "text": "Rodrigo Duterte",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            115
+          ]
+        },
+        {
+          "text": "Congress",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            145
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "developer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "professor",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "writer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "editor",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            50
+          ]
+        },
+        {
+          "text": "CEO",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            66
+          ]
+        },
+        {
+          "text": "model",
+          "ner": "TITLE",
+          "sentimentValue": 1.2,
+          "timesAppear": 5,
+          "appearIn": [
+            95,
+            103,
+            116,
+            128,
+            131
+          ]
+        },
+        {
+          "text": "leader",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            119
+          ]
+        },
+        {
+          "text": "independent",
+          "ner": "RELIGION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            134,
+            135,
+            139
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.theguardian.com/us-news/2018/apr/07/south-carolina-republican-loaded-gun-table-constituent",
+    "title": "South Carolina Republican puts loaded gun on table in constituent meeting",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 75,
+      "discreteEntitiesList": [
+        {
+          "text": "South Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.4857142857142858,
+      "sentencesCount": 35,
+      "charactersCount": 3156,
+      "discreteEntitiesList": [
+        {
+          "text": "South Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.25,
+          "timesAppear": 4,
+          "appearIn": [
+            1,
+            25,
+            30,
+            33
+          ]
+        },
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            30
+          ]
+        },
+        {
+          "text": "Ralph Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            21
+          ]
+        },
+        {
+          "text": "Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1.125,
+          "timesAppear": 8,
+          "appearIn": [
+            4,
+            8,
+            9,
+            10,
+            15,
+            22,
+            22,
+            26
+          ]
+        },
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            8
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Arizona",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            6,
+            10
+          ]
+        },
+        {
+          "text": "Giffords",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            8,
+            11
+          ]
+        },
+        {
+          "text": "Nasa",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Mark Kelly",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Americans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Gabby",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "National Rifle Association",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Kelly",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Jeff Flake",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "Twitter",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Lori Carter",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "North Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Lori Freemon",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "Moms Demand Action for Gun Sense",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "America",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "Fort",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Sumter",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Charleston",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            2,
+            10,
+            30
+          ]
+        },
+        {
+          "text": "representative",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            27
+          ]
+        },
+        {
+          "text": "Democratic",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "congresswoman",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "astronaut",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "violence",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            8,
+            27
+          ]
+        },
+        {
+          "text": "congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Senator",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "Courier",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "schoolteacher",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "war",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            33,
+            34
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://globalnews.ca/news/4129337/facebook-suspends-aggregateiq/",
+    "title": "Facebook suspends AggregateIQ over alleged ties with data harvesting operation",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 80,
+      "discreteEntitiesList": [
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.3636363636363635,
+      "sentencesCount": 33,
+      "charactersCount": 2989,
+      "discreteEntitiesList": [
+        {
+          "text": "B.C.",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.1666666666666667,
+          "timesAppear": 6,
+          "appearIn": [
+            1,
+            11,
+            12,
+            15,
+            21,
+            26
+          ]
+        },
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 6,
+          "appearIn": [
+            1,
+            7,
+            12,
+            13,
+            15,
+            29
+          ]
+        },
+        {
+          "text": "Christopher Wylie",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Republican Party",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "AIQ",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            4,
+            6,
+            10
+          ]
+        },
+        {
+          "text": "Cambridge Analytica",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.2,
+          "timesAppear": 5,
+          "appearIn": [
+            4,
+            8,
+            12,
+            24,
+            29
+          ]
+        },
+        {
+          "text": "U.K.",
+          "ner": "LOCATION",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            4,
+            21,
+            26
+          ]
+        },
+        {
+          "text": "Brexit",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            16
+          ]
+        },
+        {
+          "text": "Victoria",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "SCL",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            7,
+            8
+          ]
+        },
+        {
+          "text": "Global News",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            7,
+            27
+          ]
+        },
+        {
+          "text": "Wylie",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Office of the Privacy Commissioner of Canada",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Canada",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Britan",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "BC Greens",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "Victoria-based",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "Patrick Cain",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Jesse Ferreras",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Jeff Semple",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Reuters",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Corus Entertainment Inc.",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "spokesperson",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.nydailynews.com/news/politics/lawmaker-not-gabby-giffords-showing-gun-article-1.3920143",
+    "title": "Lawmaker says he’s not like Gabby Giffords after showing off gun",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 66,
+      "discreteEntitiesList": [
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Lawmaker",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5833333333333333,
+      "sentencesCount": 24,
+      "charactersCount": 1861,
+      "discreteEntitiesList": [
+        {
+          "text": "South Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            1,
+            10
+          ]
+        },
+        {
+          "text": "Ralph Norman",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Rock Hill",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Arizona",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Tucson",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "NASA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Mark Kelly",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            10
+          ]
+        },
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Americans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Gabby",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "NRA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            5,
+            5,
+            6
+          ]
+        },
+        {
+          "text": "Kelly",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "D-Ariz.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "J. Scott Applewhite/AP",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Republicans",
+          "ner": "MISC",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "News Wire Services",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Rep.",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            1,
+            10
+          ]
+        },
+        {
+          "text": "congresswoman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "attack",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "astronaut",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Courier",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Astronaut",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "shooting",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "shooter",
+          "ner": "TITLE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "lawmaker",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Editor",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://adage.com/article/digital/facebook-officials-head-europe-respond-data-scandal/313026/",
+    "title": "Facebook officials head to Europe to respond to data scandal",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 62,
+      "discreteEntitiesList": [
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Europe",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.1363636363636365,
+      "sentencesCount": 22,
+      "charactersCount": 3498,
+      "discreteEntitiesList": [
+        {
+          "text": "Sheryl Sandberg",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Patrick T. Fallon/Bloomberg",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Facebook Inc.",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Europe",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "European Union",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Donald Trump",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "U.S.",
+          "ner": "COUNTRY",
+          "sentimentValue": 0.6666666666666666,
+          "timesAppear": 3,
+          "appearIn": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 0.875,
+          "timesAppear": 8,
+          "appearIn": [
+            2,
+            5,
+            8,
+            13,
+            13,
+            15,
+            16,
+            20
+          ]
+        },
+        {
+          "text": "EU",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 0.8333333333333334,
+          "timesAppear": 6,
+          "appearIn": [
+            2,
+            9,
+            10,
+            10,
+            12,
+            15
+          ]
+        },
+        {
+          "text": "U.K.",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            2,
+            12,
+            13,
+            19
+          ]
+        },
+        {
+          "text": "Italy",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            2,
+            16
+          ]
+        },
+        {
+          "text": "Cambridge Analytica",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            19
+          ]
+        },
+        {
+          "text": "Mark Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Europeans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "EU Justice",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Vera Jourova",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Sandberg",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            8,
+            10,
+            11
+          ]
+        },
+        {
+          "text": "Menlo Park",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "California",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Jourova",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            10,
+            11,
+            11
+          ]
+        },
+        {
+          "text": "Christian Wigand",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Brussels",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Information Commissioner's Office",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Stephen Deadman",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Competition Authority",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Giovanni Pitruzzella",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "Alexander Nix",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Brittany Kaiser",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Fake News",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Mike Schroepfer",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Bloomberg Media",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Chief Operating Officer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "justice commissioner",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "deputy",
+          "ner": "TITLE",
+          "sentimentValue": 0.5,
+          "timesAppear": 2,
+          "appearIn": [
+            2,
+            15
+          ]
+        },
+        {
+          "text": "Chief Executive Officer",
+          "ner": "TITLE",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "democratic",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "spokesman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Italian",
+          "ner": "NATIONALITY",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "chairman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "CEO",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Chief Technology Officer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.nydailynews.com/news/politics/lawmaker-not-gabby-giffords-showing-gun-article-1.3920143",
+    "title": "Lawmaker says he’s not like Gabby Giffords after showing off gun",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 66,
+      "discreteEntitiesList": [
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Lawmaker",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5833333333333333,
+      "sentencesCount": 24,
+      "charactersCount": 1861,
+      "discreteEntitiesList": [
+        {
+          "text": "South Carolina",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Gabby Giffords",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            1,
+            10
+          ]
+        },
+        {
+          "text": "Ralph Norman",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Rock Hill",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Giffords",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Arizona",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Tucson",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "NASA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Mark Kelly",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            10
+          ]
+        },
+        {
+          "text": "She",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Americans",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Gabby",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "NRA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Norman",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            5,
+            5,
+            6
+          ]
+        },
+        {
+          "text": "Kelly",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "D-Ariz.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "J. Scott Applewhite/AP",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Republicans",
+          "ner": "MISC",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "News Wire Services",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Rep.",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            1,
+            10
+          ]
+        },
+        {
+          "text": "congresswoman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "attack",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "astronaut",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Courier",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Astronaut",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "shooting",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "shooter",
+          "ner": "TITLE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "lawmaker",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Editor",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        }
+      ]
+    }
   }
 ]
