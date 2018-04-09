@@ -8,20 +8,34 @@ const fs = require('fs') //file system to save the file
 
 let baseFilePath = __dirname + '/DB/'
 
-readFile('myFile.json', (err, data) => {
-    if (err) {
-    } else {
-        console.log(JSON.parse(data))
-    }
-})
+let dbName = 'annotatedArticles.json'
 
-function readFile(fileName, callback) {
-    fs.readFile(baseFilePath + fileName, 'utf8', (err, data) => {
+function readDbAsJson(callback) {
+    _readFile(dbName, (err, response) => {
         if (err) {
-            console.log('Error reading the file ' + fileName)
+            callback(err, null)
+        } else {
+            try {
+                let jSonObject = JSON.parse(response)
+                callback(null, jSonObject)
+            }
+            catch (e) {
+                callback('not exist!', null)
+            }
+        }
+    })
+}
+
+function _readFile(_fileName, callback) {
+    fs.readFile(baseFilePath + _fileName, 'utf8', (err, data) => {
+        if (err) {
+            console.log('Error reading the file ' + _fileName)
             callback(err, null)
         } else {
             callback(null, data)
         }
     })
 }
+
+module.exports.dbName = dbName
+module.exports.readDbAsJson = readDbAsJson

@@ -61,9 +61,11 @@ function analyzeUrl(url, callback) {
                             //but I kind of want the title to be more powerful, more close
                             //to the final result,
                             //but maybe just add a weight value would be enough.
-                            let finalResponse = [];
-                            finalResponse.push(analyzedTitle)
-                            finalResponse.push(analyzedContent)
+                            let finalResponse = {};
+                            finalResponse.url = url
+                            finalResponse.title = article.title
+                            finalResponse.analyzedTitle = analyzedTitle
+                            finalResponse.analyzedContent = analyzedContent
                             callback(null, finalResponse);
                         }
                     })
@@ -106,6 +108,7 @@ function _getFeatureFromAnnotatedData(annotatedResult, callback) {
                             sum = +sum + +annotatedResult[i].sentimentValue;
                             entitiesList[k].timesAppear ++;
                             entitiesList[k].sentimentValue = sum / entitiesList[k].timesAppear;
+                            entitiesList[k].appearIn.push(i)
                         }
                     }
                 } else {
@@ -114,6 +117,8 @@ function _getFeatureFromAnnotatedData(annotatedResult, callback) {
                     myEntity.ner = annotatedResult[i].entities[j].ner;
                     myEntity.sentimentValue = annotatedResult[i].sentimentValue;
                     myEntity.timesAppear = 1;
+                    myEntity.appearIn = [];
+                    myEntity.appearIn.push(i)
                     entitiesList.push(myEntity)
                 }
             }
