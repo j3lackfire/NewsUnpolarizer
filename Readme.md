@@ -168,20 +168,52 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
             'data': 'https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134'
     Response: An array containts 2 element, the analyzed (get core feature) title, and the analyzed of the article content
     [
-        {
+        "url": "https://www.bangkokpost.com/news/world/1442427/japan-activates-first-marines-since-wwii",
+        "title": "Japan activates first marines since WWII",
+        "analyzedTitle": {
             "sentimentValue": 2,
             "sentencesCount": 1,
-            "charactersCount": 58,
-            "discreteEntitiesList": [... , ...],
-            "abstractEntitiesList": [... , ...]
+            "charactersCount": 42,
+            "discreteEntitiesList": [...],
+            "abstractEntitiesList": [...]
         },
-        {
-            "sentimentValue": 1.2727272727272727,
-            "sentencesCount": 22,
-            "charactersCount": 2118,
-            "discreteEntitiesList": [... , ...],
-            "abstractEntitiesList": [... , ...]
-        }
+        "analyzedContent": {
+            "sentimentValue": 2,
+            "sentencesCount": 1,
+            "charactersCount": 42,
+            "discreteEntitiesList": [...],
+            "abstractEntitiesList": [...]
+        },
     ]   
         
 ```
+
+## Interesting stories
+For a project this big, there must always be some interesting stories that I would love to share with you guys
+
+### The try/catch every exception that is wayy outside of it scope.
+would probably inside the dbReader file. There is a very simple function that says
+```
+    function readDbAsJson(callback) {
+        _readFile(dbName, (err, response) => {
+            if (err) {
+                callback(err, null)
+            } else {
+                try {
+                    let jSonObject = JSON.parse(response)
+                    callback(null, jSonObject)
+                }
+                catch (e) {
+                    console.log('Dead lock in the db reader, it might be the Local DB is wrong, or it has cautch another error from external module')
+                    // callback('Can not parse the string data to JSON', null)
+                }
+            }
+        })
+    }
+```
+Quite simple stuffs, it try to read from the local db file, which is a js file (annotatedArticles.json) and then parse it into a json file.
+So, when it read something wrong (not json) it will return an error because it's not a json, because of the try/catch. Simple stuffs, right?
+Nope, not. Ofcourse, in this case, it works. But when I'm implementing the similarity module, I chain this function to many outer function, because well, since I store it, I will need to access it later, right?
+Which, well, cause the later catch function to just catch error happens after it has done it jobs. OK, JSON object received? Yes, go on. Oh, some you did some typo and cause everything wrong again. Oh, well, it's inside the catch now and let's call the callback function again
+Which, drive me a little bit crazy, and clearly, this little try/catch function has gone way, way beyond its purpose.
+But since this is just a student project, who knows if it will ever get fixed.

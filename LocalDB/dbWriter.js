@@ -5,7 +5,7 @@
 // The url of the article
 const fs = require('fs') //file system to save the file
 
-const paragraphAnnotator = require('./../NLPHandler/paragraphAnnotator')
+const paragraphAnnotator = require('./../NLPHandler/annotator')
 const dbReader = require('./dbReader')
 
 let baseFilePath = __dirname + '/DB/'
@@ -91,7 +91,7 @@ function _appendLog(url, callback) {
     });
 }
 
-// paragraphAnnotator.analyzeUrl(articleUrls[1], (err, res) => {
+// annotator.analyzeUrl(articleUrls[1], (err, res) => {
 //     if (err) {
 //         console.log(err)
 //     } else {

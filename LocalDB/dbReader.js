@@ -20,7 +20,8 @@ function readDbAsJson(callback) {
                 callback(null, jSonObject)
             }
             catch (e) {
-                callback('not exist!', null)
+                console.log('Dead lock in the db reader, it might be the Local DB is wrong, or it has cautch another error from external module')
+                // callback('Can not parse the string data to JSON', null)
             }
         }
     })
