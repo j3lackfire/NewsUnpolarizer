@@ -7,10 +7,10 @@
 const dbReader = require('./../LocalDB/dbReader')
 const annotator = require('./annotator')
 
-findSimilarArticlesToUrl('https://www.bangkokpost.com/news/world/1442427/japan-activates-first-marines-since-wwii', (err, res) => {
-    console.log('My function!!!!')
-    console.log(res)
-})
+// findSimilarArticlesToUrl('https://www.bangkokpost.com/news/world/1442427/japan-activates-first-marines-since-wwii', (err, res) => {
+//     console.log('The most similar article are')
+//     console.log(res)
+// })
 
 //Call this function from outside.
 //This function will get the core features of
@@ -20,7 +20,8 @@ function findSimilarArticlesToUrl(_url, callback) {
         if (err) {
             callback(err, null)
         } else {
-            _isArticleExist(_url, (isExist) => {
+            console.log('All articles loaded, start comparing...')
+            _isArticleExist(_url, allArticles,(isExist) => {
                 if (isExist) {
                     console.log('Article exist in local db, load it and do function')
                     _getArticleCoreFeatureByUrl(_url, allArticles, (features) => {
@@ -49,7 +50,7 @@ function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
     let mostSimilarDiscreteEntities = -1
     let mostSimilarAbstractEntities = -1
     let mostSimilarIndex = -1
-    for (let articleIndex = 0; _allArticles.length; articleIndex ++) {
+    for (let articleIndex = 0; articleIndex < _allArticles.length; articleIndex ++) {
         if (_allArticles[articleIndex].url == _coreFeatures.url) {
             continue;
         }
@@ -57,22 +58,22 @@ function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
         let similarDiscrete = 0
         let similarAbstract = 0
         //Discrete entities list
-        for (let i = 0; i < thisArticle.discreteEntitiesList.length; i ++) {
+        for (let i = 0; i < thisArticle.analyzedContent.discreteEntitiesList.length; i ++) {
             for (let j = 0; j < discreteEntitiesList.length; j ++) {
-                if (thisArticle.discreteEntitiesList[i].text == discreteEntitiesList[j].text) {
+                if (thisArticle.analyzedContent.discreteEntitiesList[i].text == discreteEntitiesList[j].text) {
                     //set that number to whichever smaller value.
-                    similarDiscrete += thisArticle.discreteEntitiesList[i].timesAppear < discreteEntitiesList[j].timesAppear ?
-                        thisArticle.discreteEntitiesList[i].timesAppear : discreteEntitiesList[j].timesAppear
+                    similarDiscrete += thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear < discreteEntitiesList[j].timesAppear ?
+                        thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear : discreteEntitiesList[j].timesAppear
                 }
             }
         }
         //Abstract entities list
-        for (let i = 0; i < thisArticle.abstractEntitiesList.length; i ++) {
+        for (let i = 0; i < thisArticle.analyzedContent.abstractEntitiesList.length; i ++) {
             for (let j = 0; j < abstractEntitiesList.length; j ++) {
-                if (thisArticle.abstractEntitiesList[i].text == abstractEntitiesList[j].text) {
+                if (thisArticle.analyzedContent.abstractEntitiesList[i].text == abstractEntitiesList[j].text) {
                     //set that number to whichever smaller value.
-                    similarAbstract += thisArticle.abstractEntitiesList[i].timesAppear < abstractEntitiesList[j].timesAppear ?
-                        thisArticle.abstractEntitiesList[i].timesAppear : abstractEntitiesList[j].timesAppear
+                    similarAbstract += thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear < abstractEntitiesList[j].timesAppear ?
+                        thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear : abstractEntitiesList[j].timesAppear
                 }
             }
         }
@@ -105,11 +106,7 @@ function _getArticleCoreFeatureByUrl(_url, _allArticles, callback) {
 }
 
 function _getAllArticle(callback) {
-    console.log('1')
     dbReader.readDbAsJson((err, response) => {
-        // console.log('Yo !!!!')
-        // console.log('Error: ' + err)
-        // console.log('Response: ' + response)
         if(err) {
             console.log('Error getting the articles from DB: ' + err)
             callback(err, null)
@@ -122,8 +119,6 @@ function _getAllArticle(callback) {
 //return null if the article not exist
 function _getArticleExistingIndex(_url, _allArticles, callback) {
     let index = -1
-    // console.log(_allArticles.length)
-    // console.log(_allArticles[0])
     for (let i = 0; i < _allArticles.length; i ++) {
         if (_allArticles[i].url == _url) {
             index = i
@@ -142,3 +137,5 @@ function _isArticleExist(_url, _allArticle, callback) {
         callback(returnIndex >= 0)
     })
 }
+
+module.exports.findSimilarArticlesToUrl = findSimilarArticlesToUrl

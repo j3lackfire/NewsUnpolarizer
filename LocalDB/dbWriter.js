@@ -91,21 +91,6 @@ function _appendLog(url, callback) {
     });
 }
 
-// annotator.analyzeUrl(articleUrls[1], (err, res) => {
-//     if (err) {
-//         console.log(err)
-//     } else {
-//         // console.log(res)
-//         checkAndWriteToDbSingle(res, (err) => {
-//             if (err) {
-//                 console.log(err);
-//             }else {
-//                 console.log('The file has been saved!');
-//             }
-//         })
-//     }
-// })
-
 function generateDB(index) {
     paragraphAnnotator.analyzeUrl(articleUrls[index], (err, res) => {
         if (err) {

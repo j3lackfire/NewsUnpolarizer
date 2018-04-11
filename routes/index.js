@@ -1,14 +1,15 @@
-var express = require('express');
-var bodyParser = require('body-parser');
+let express = require('express');
+let bodyParser = require('body-parser');
 
-var router = express.Router()
-var app = express()
+let router = express.Router()
+let app = express()
 
 app.use(bodyParser.urlencoded({extended: false}))
 
 //My custom scripts
-var annotator = require('./../NLPHandler/annotator');
-var webReader = require('./../NewsGetter/webContentReader')
+const annotator = require('./../NLPHandler/annotator');
+const webReader = require('./../NewsGetter/webContentReader')
+const similarityModule = require('./../NLPHandler/similarityModule')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -72,6 +73,21 @@ router.post('/analyzeUrl', function(req, res, next) {
         }
     })
 });
+
+router.post('/suggestSimilarArticle', (req, res, next) => {
+    console.log('Suggest Similar Article')
+    console.log(req.body)
+    similarityModule.findSimilarArticlesToUrl(req.body.data, (error, response) => {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the server!';
+            res.json(error)
+        } else {
+            response.sourceUrl = req.body.data
+            res.json(response)
+        }
+    })
+});
+
 
 //----------------- TEST --------------------------
 

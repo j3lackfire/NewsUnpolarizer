@@ -15,13 +15,19 @@ function readDbAsJson(callback) {
         if (err) {
             callback(err, null)
         } else {
+            let jsonObject = null
             try {
-                let jSonObject = JSON.parse(response)
-                callback(null, jSonObject)
+                jsonObject = JSON.parse(response)
             }
             catch (e) {
-                console.log('Dead lock in the db reader, it might be the Local DB is wrong, or it has cautch another error from external module')
-                // callback('Can not parse the string data to JSON', null)
+                console.log('Error parsing the localDb to JSON format')
+                jsonObject = null
+            }
+
+            if (jsonObject == null) {
+                callback('Can not parse the string data to JSON', null)
+            } else {
+                callback(null, jsonObject)
             }
         }
     })
