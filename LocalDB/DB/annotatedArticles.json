@@ -21967,5 +21967,4772 @@
         }
       ]
     }
+  },
+  {
+    "url": "http://fortune.com/2018/04/11/ftc-warranty-void-stickers/",
+    "title": "'Warranty Void If Removed' Stickers Are Illegal, FTC Says",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 59,
+      "discreteEntitiesList": [
+        {
+          "text": "FTC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 2,
+      "sentencesCount": 3,
+      "charactersCount": 127,
+      "discreteEntitiesList": [
+        {
+          "text": "FTC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Warranty Void If Removed' Stickers Are No Good",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    }
+  },
+  {
+    "url": "http://www.alphr.com/technology/1009030/warranty-void-if-removed-consumer-rights-nonsense",
+    "title": "Regulators state that “warranty void if removed” stickers are absolute nonsense",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 81,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.4864864864864864,
+      "sentencesCount": 37,
+      "charactersCount": 4190,
+      "discreteEntitiesList": [
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            1,
+            21,
+            36
+          ]
+        },
+        {
+          "text": "Magnuson-Moss Warranty Act",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            5,
+            8,
+            16
+          ]
+        },
+        {
+          "text": "Sony",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Microsoft",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "FTC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 8,
+          "appearIn": [
+            6,
+            7,
+            8,
+            8,
+            15,
+            16,
+            16,
+            17
+          ]
+        },
+        {
+          "text": "Apple",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            12,
+            30,
+            31
+          ]
+        },
+        {
+          "text": "United States",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Thomas Pahl",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "Bureau of Consumer Protection",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "UK",
+          "ner": "COUNTRY",
+          "sentimentValue": 2,
+          "timesAppear": 4,
+          "appearIn": [
+            19,
+            22,
+            28,
+            36
+          ]
+        },
+        {
+          "text": "EU",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            22,
+            23
+          ]
+        },
+        {
+          "text": "Europe",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Sale of Goods Act",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "manufacturer",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            5,
+            23,
+            28,
+            32
+          ]
+        },
+        {
+          "text": "director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "retailer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.extremetech.com/gaming/267288-ftc-warns-companies-warranty-void-if-removed-stickers-are-flatly-illegal",
+    "title": "FTC Warns Companies 'Warranty Void if Removed' Stickers Are Flatly Illegal",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 76,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.434782608695652,
+      "sentencesCount": 46,
+      "charactersCount": 3741,
+      "discreteEntitiesList": [
+        {
+          "text": "Mag-Moss Act",
+          "ner": "MISC",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "FTC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.2857142857142858,
+          "timesAppear": 7,
+          "appearIn": [
+            13,
+            26,
+            27,
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        {
+          "text": "Microsoft",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            23,
+            38,
+            38
+          ]
+        },
+        {
+          "text": "United States",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Hyundai",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Nintendo",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "Sony",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            33,
+            38
+          ]
+        },
+        {
+          "text": "Xbox",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        },
+        {
+          "text": "Apple",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "sticker",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "author",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "manufacturer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            30
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.trustedreviews.com/news/warranty-sticker-removal-ftc-void-3450128",
+    "title": "In the US? It's probably safe to ignore those warranty voiding stickers",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 2,
+      "charactersCount": 72,
+      "discreteEntitiesList": [
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5294117647058822,
+      "sentencesCount": 17,
+      "charactersCount": 2042,
+      "discreteEntitiesList": [
+        {
+          "text": "USA",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "Federal Trade Commission",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "FTC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            0,
+            5,
+            13
+          ]
+        },
+        {
+          "text": "UK",
+          "ner": "COUNTRY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "owner",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.bbc.com/news/technology-43724348",
+    "title": "Warranty void stickers 'not valid' in US",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 42,
+      "discreteEntitiesList": [
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.2142857142857142,
+      "sentencesCount": 14,
+      "charactersCount": 1603,
+      "discreteEntitiesList": [
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Federal Trade Commission",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "FTC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            1,
+            3,
+            9
+          ]
+        },
+        {
+          "text": "Nintendo",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Sony",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Hyundai",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "BBC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Thomas Pahl",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Magnuson-Moss Warranty Act",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    }
+  },
+  {
+    "url": "http://www.sportingnews.com/nba/news/jeff-hornacek-fired-knicks-coach-nba-missed-playoffs-phil-jackson-madison-square-garden/1to0jf3ow8tvc10u85gwvozoe7",
+    "title": "Knicks fire coach Jeff Hornacek, report says",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 46,
+      "discreteEntitiesList": [
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Jeff Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "fire",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "coach",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.3076923076923077,
+      "sentencesCount": 13,
+      "charactersCount": 1101,
+      "discreteEntitiesList": [
+        {
+          "text": "The Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Jeff Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "ESPN",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Adrian Wojnarowski",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Wojnarowski",
+          "ner": "PERSON",
+          "sentimentValue": 1.25,
+          "timesAppear": 4,
+          "appearIn": [
+            3,
+            6,
+            11,
+            12
+          ]
+        },
+        {
+          "text": "Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": 1.1666666666666667,
+          "timesAppear": 6,
+          "appearIn": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Cleveland",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 0.5,
+          "timesAppear": 2,
+          "appearIn": [
+            7,
+            12
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "His",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Phil Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Jackson",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            10,
+            11
+          ]
+        },
+        {
+          "text": "Kurt Rambis",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Warriors",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Mark Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Kristaps Porzingis",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Emmanuel Mudiay",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Frank Ntilikina",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Tim Hardaway Jr.",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "coach",
+          "ner": "TITLE",
+          "sentimentValue": 0.5,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "president",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Assistant coach",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "guard",
+          "ner": "TITLE",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "power forward",
+          "ner": "TITLE",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "shooting guard",
+          "ner": "TITLE",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.espn.com/nba/story/_/id/23126263/new-york-knicks-dismiss-coach-jeff-hornacek",
+    "title": "Knicks part with Hornacek after 60-104 mark",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 45,
+      "discreteEntitiesList": [
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.673913043478261,
+      "sentencesCount": 46,
+      "charactersCount": 3447,
+      "discreteEntitiesList": [
+        {
+          "text": "Adrian Wojnarowski ESPN",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "New York Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Jeff Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Jeff",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.125,
+          "timesAppear": 8,
+          "appearIn": [
+            4,
+            7,
+            11,
+            12,
+            15,
+            31,
+            37,
+            43
+          ]
+        },
+        {
+          "text": "Steve Mills",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Scott Perry",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Mills",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            7,
+            15,
+            40,
+            44
+          ]
+        },
+        {
+          "text": "Perry",
+          "ner": "PERSON",
+          "sentimentValue": 1.25,
+          "timesAppear": 4,
+          "appearIn": [
+            7,
+            15,
+            30,
+            44
+          ]
+        },
+        {
+          "text": "Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": 1.125,
+          "timesAppear": 8,
+          "appearIn": [
+            7,
+            12,
+            13,
+            14,
+            40,
+            42,
+            42,
+            44
+          ]
+        },
+        {
+          "text": "New York",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.8,
+          "timesAppear": 10,
+          "appearIn": [
+            7,
+            10,
+            16,
+            18,
+            33,
+            34,
+            38,
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "text": "Cleveland",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Cavaliers",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            8,
+            35
+          ]
+        },
+        {
+          "text": "NBA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "ESPN Stats & Information",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Kurt Rambis",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Kurt",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Milwaukee",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Phoenix",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Memphis",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Steve Clifford",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "Detroit",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Stan Van Gundy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "All-Star",
+          "ner": "MISC",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Kristaps Porzingis",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        },
+        {
+          "text": "Porzingis",
+          "ner": "LOCATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Madison",
+          "ner": "CITY",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Square Garden",
+          "ner": "LOCATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Grizzlies",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "David Fizdale",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "David Blatt",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Turkey",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Golden State Warriors",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            36
+          ]
+        },
+        {
+          "text": "Mark Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "ESPN",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            37,
+            45
+          ]
+        },
+        {
+          "text": "Jerry Stackhouse",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        },
+        {
+          "text": "Toronto",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        },
+        {
+          "text": "Toronto Raptors ' G League",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "Phil Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            40
+          ]
+        },
+        {
+          "text": "Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "Ian Begley",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            45
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "coach",
+          "ner": "TITLE",
+          "sentimentValue": 1.2857142857142858,
+          "timesAppear": 7,
+          "appearIn": [
+            3,
+            27,
+            30,
+            35,
+            35,
+            37,
+            42
+          ]
+        },
+        {
+          "text": "president",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            40
+          ]
+        },
+        {
+          "text": "general manager",
+          "ner": "TITLE",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            30
+          ]
+        },
+        {
+          "text": "head coach",
+          "ner": "TITLE",
+          "sentimentValue": 1.2,
+          "timesAppear": 5,
+          "appearIn": [
+            10,
+            14,
+            15,
+            15,
+            38
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.foxsports.com/nba/story/knicks-fire-coach-jeff-hornacek-after-2-seasons-041218",
+    "title": "AP Source: Knicks fire coach Jeff Hornacek after 2 seasons ",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 61,
+      "discreteEntitiesList": [
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Jeff Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "fire",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "coach",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5675675675675675,
+      "sentencesCount": 37,
+      "charactersCount": 3373,
+      "discreteEntitiesList": [
+        {
+          "text": "NEW YORK",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "AP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "New York Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Jeff Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Cleveland",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": 1.1428571428571428,
+          "timesAppear": 14,
+          "appearIn": [
+            5,
+            10,
+            12,
+            20,
+            21,
+            21,
+            22,
+            23,
+            24,
+            28,
+            30,
+            31,
+            32,
+            34
+          ]
+        },
+        {
+          "text": "Jeff",
+          "ner": "PERSON",
+          "sentimentValue": 3,
+          "timesAppear": 2,
+          "appearIn": [
+            6,
+            14
+          ]
+        },
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5714285714285714,
+          "timesAppear": 7,
+          "appearIn": [
+            6,
+            11,
+            13,
+            20,
+            24,
+            28,
+            30
+          ]
+        },
+        {
+          "text": "Steve Mills",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Scott Perry",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Kurt Rambis",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "NBA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            11,
+            21,
+            32
+          ]
+        },
+        {
+          "text": "Jeff Van Gundy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": 1.6666666666666667,
+          "timesAppear": 3,
+          "appearIn": [
+            11,
+            17,
+            34
+          ]
+        },
+        {
+          "text": "Phil Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Jackson",
+          "ner": "PERSON",
+          "sentimentValue": 1.25,
+          "timesAppear": 8,
+          "appearIn": [
+            12,
+            21,
+            21,
+            22,
+            22,
+            24,
+            28,
+            33
+          ]
+        },
+        {
+          "text": "Mills",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Perry",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Michael Beasley",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Phoenix",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "Utah",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "Chicago Bulls",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "All-Star",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "Kristaps Porzingis",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Carmelo Anthony",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Joakim Noah",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Anthony",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            30
+          ]
+        },
+        {
+          "text": "Noah",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            30
+          ]
+        },
+        {
+          "text": "Derrick Rose",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            30
+          ]
+        },
+        {
+          "text": "Rambis",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "New York",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Derek Fisher",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Fisher",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "coach",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            4,
+            22,
+            32
+          ]
+        },
+        {
+          "text": "president",
+          "ner": "TITLE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "general manager",
+          "ner": "TITLE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "head coach",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            9,
+            11,
+            21,
+            33
+          ]
+        },
+        {
+          "text": "assistant",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://nypost.com/2018/04/12/its-not-safe-to-be-a-coach-in-new-york-right-now/",
+    "title": "Firing Jeff Hornacek was the easy part for Knicks brass",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 57,
+      "discreteEntitiesList": [
+        {
+          "text": "Jeff Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.8181818181818181,
+      "sentencesCount": 44,
+      "charactersCount": 4618,
+      "discreteEntitiesList": [
+        {
+          "text": "New York",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1,
+          "timesAppear": 5,
+          "appearIn": [
+            4,
+            5,
+            8,
+            27,
+            29
+          ]
+        },
+        {
+          "text": "Jeff Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Knicks",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.7,
+          "timesAppear": 10,
+          "appearIn": [
+            5,
+            5,
+            9,
+            10,
+            12,
+            12,
+            15,
+            25,
+            30,
+            35
+          ]
+        },
+        {
+          "text": "Cleveland",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            5,
+            29
+          ]
+        },
+        {
+          "text": "Cavaliers",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Alain Vigneault",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Rangers",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Todd Bowles",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Jets",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 6,
+          "appearIn": [
+            8,
+            9,
+            10,
+            14,
+            16,
+            38
+          ]
+        },
+        {
+          "text": "Terry Collins",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Mets",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            8,
+            29
+          ]
+        },
+        {
+          "text": "NBA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Red Auerbach",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Pat Riley",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            12,
+            25
+          ]
+        },
+        {
+          "text": "Phil Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Kristaps Porzingis",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Jackson Era",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Jackson Guy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Jackson",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            16,
+            16
+          ]
+        },
+        {
+          "text": "Tom Thibodeau",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Steve Mills",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Scott Perry",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Canning Hornacek",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Mills",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            22,
+            26
+          ]
+        },
+        {
+          "text": "Perry",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            22,
+            26
+          ]
+        },
+        {
+          "text": "Patrick Ewing",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "Mark Jackson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "David Fizdale",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "Giants",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Pat Shurmur",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Noah Syndergaard",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Yoenis Cespedes",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Mickey Callaway",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Don Imus",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Billy Joel",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "LeBron James",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            41
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "coach",
+          "ner": "TITLE",
+          "sentimentValue": 1.7142857142857142,
+          "timesAppear": 7,
+          "appearIn": [
+            6,
+            7,
+            16,
+            16,
+            18,
+            24,
+            25
+          ]
+        },
+        {
+          "text": "manager",
+          "ner": "TITLE",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            6,
+            18
+          ]
+        },
+        {
+          "text": "boss",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://blogs.discovermagazine.com/d-brief/2018/04/11/ocean-current-climate-change-amoc/",
+    "title": "Climate Change Is Weakening a Crucial Ocean Current",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 53,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5714285714285714,
+      "sentencesCount": 42,
+      "charactersCount": 3384,
+      "discreteEntitiesList": [
+        {
+          "text": "Atlantic Ocean",
+          "ner": "LOCATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            19
+          ]
+        },
+        {
+          "text": "NASA/Goddard Space Flight Center Scientific Visualization Studio",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Norway",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Arctic",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Seattle",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Anchorage",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Gulf Stream",
+          "ner": "LOCATION",
+          "sentimentValue": 2.5,
+          "timesAppear": 2,
+          "appearIn": [
+            5,
+            8
+          ]
+        },
+        {
+          "text": "Europe",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "North",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "America",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Atlantic Meridional",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "AMOC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.4,
+          "timesAppear": 5,
+          "appearIn": [
+            7,
+            14,
+            24,
+            34,
+            36
+          ]
+        },
+        {
+          "text": "Earth",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Greenland",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "North Atlantic",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            14,
+            14,
+            38
+          ]
+        },
+        {
+          "text": "Levke Caesar",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Potsdam Institute for Climate Impact Research",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Germany",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "David Thornalley",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "University College London",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        },
+        {
+          "text": "Little Ice Age",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "Industrial Era",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "independent",
+          "ner": "RELIGION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.bbc.com/news/science-environment-43713719",
+    "title": "Ice melt 'weakens ocean heating system'",
+    "analyzedTitle": {
+      "sentimentValue": 2,
+      "sentencesCount": 1,
+      "charactersCount": 41,
+      "discreteEntitiesList": [],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5675675675675675,
+      "sentencesCount": 37,
+      "charactersCount": 4104,
+      "discreteEntitiesList": [
+        {
+          "text": "WHOI",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Earth",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            27
+          ]
+        },
+        {
+          "text": "Europe",
+          "ner": "LOCATION",
+          "sentimentValue": 2.6666666666666665,
+          "timesAppear": 3,
+          "appearIn": [
+            4,
+            9,
+            21
+          ]
+        },
+        {
+          "text": "UK",
+          "ner": "COUNTRY",
+          "sentimentValue": 3,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            30
+          ]
+        },
+        {
+          "text": "Atlantic Ocean",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Atlantic",
+          "ner": "LOCATION",
+          "sentimentValue": 1.8333333333333333,
+          "timesAppear": 6,
+          "appearIn": [
+            7,
+            8,
+            10,
+            24,
+            25,
+            30
+          ]
+        },
+        {
+          "text": "Hollywood",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Atlantic Meridional Overturning Circulation",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            9,
+            14
+          ]
+        },
+        {
+          "text": "North Atlantic",
+          "ner": "LOCATION",
+          "sentimentValue": 2.5,
+          "timesAppear": 2,
+          "appearIn": [
+            9,
+            21
+          ]
+        },
+        {
+          "text": "David Thornalley",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "University College London",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Amoc",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            23,
+            34
+          ]
+        },
+        {
+          "text": "Murray Roberts",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "University of Edinburgh",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "BBC News",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "Potsdam Institute for Climate Impact Research",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Germany",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Victoria",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            36
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "spanner",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "lead researcher",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Prof",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "model",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            34
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zmescience.com/ecology/climate/atlantic-ocean-circulation-04322/",
+    "title": "The Atlantic Ocean’s circulation is at its weakest in 1,600 years, and this could disrupt weather patterns",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 108,
+      "discreteEntitiesList": [
+        {
+          "text": "Atlantic Ocean",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.4642857142857142,
+      "sentencesCount": 28,
+      "charactersCount": 3078,
+      "discreteEntitiesList": [
+        {
+          "text": "Atlantic Ocean",
+          "ner": "LOCATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Global Ocean Conveyor Belt",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Intergovernmental Panel",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Atlantic",
+          "ner": "LOCATION",
+          "sentimentValue": 2,
+          "timesAppear": 3,
+          "appearIn": [
+            4,
+            7,
+            10
+          ]
+        },
+        {
+          "text": "United States",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "North Atlantic",
+          "ner": "LOCATION",
+          "sentimentValue": 1.6666666666666667,
+          "timesAppear": 3,
+          "appearIn": [
+            8,
+            15,
+            17
+          ]
+        },
+        {
+          "text": "Western Europe",
+          "ner": "LOCATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Antarctica",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Gulf Stream",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "University College London",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "David Thornalley",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Little Ice Age",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Atlantic Meridional Overturning Circulation",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "AMOC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 6,
+          "appearIn": [
+            13,
+            15,
+            16,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "text": "Arctic sea ice",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Arctic",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Thornalley",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            16,
+            21
+          ]
+        },
+        {
+          "text": "Nature",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Potsdam Institute for Climate Impact Research",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Germany",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "African",
+          "ner": "NATIONALITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "cold",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "author",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.nonpareilonline.com/news/politics/national_government/grassley-wants-vote-next-week-on-bill-to-prevent-undue/article_f8023e42-3db7-11e8-a278-7f254d8c96ff.html",
+    "title": "Grassley wants vote next week on bill to prevent undue firing of special counsels",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 83,
+      "discreteEntitiesList": [
+        {
+          "text": "Grassley",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.2826086956521738,
+      "sentencesCount": 46,
+      "charactersCount": 6112,
+      "discreteEntitiesList": [
+        {
+          "text": "WASHINGTON",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Senate Judiciary Committee",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Robert Mueller",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Chuck Grassley",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "R-Iowa",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Dianne Feinstein",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            5
+          ]
+        },
+        {
+          "text": "Feinstein",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "D-Calif.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "Grassley",
+          "ner": "PERSON",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 6,
+          "appearIn": [
+            7,
+            13,
+            20,
+            22,
+            25,
+            30
+          ]
+        },
+        {
+          "text": "Thom Tillis",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Christopher Coons",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "D-Del.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Lindsey Graham",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Cory Booker",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "D-N.J.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            9
+          ]
+        },
+        {
+          "text": "Donald Trump",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Jeff Sessions",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Trump",
+          "ner": "PERSON",
+          "sentimentValue": 0.5,
+          "timesAppear": 2,
+          "appearIn": [
+            12,
+            21
+          ]
+        },
+        {
+          "text": "FBI",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Michael Cohen",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Mueller",
+          "ner": "PERSON",
+          "sentimentValue": 1.1666666666666667,
+          "timesAppear": 6,
+          "appearIn": [
+            12,
+            13,
+            18,
+            21,
+            37,
+            38
+          ]
+        },
+        {
+          "text": "Fox Business Network",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Republicans",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            15,
+            25,
+            31
+          ]
+        },
+        {
+          "text": "Tillis",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            17,
+            31,
+            36
+          ]
+        },
+        {
+          "text": "Congress",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            23,
+            24
+          ]
+        },
+        {
+          "text": "He",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            23
+          ]
+        },
+        {
+          "text": "D.C. Circuit Court of Appeals",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Supreme Court",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Judiciary Committee",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "Graham",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            31,
+            36
+          ]
+        },
+        {
+          "text": "Department of Justice",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        },
+        {
+          "text": "Coons",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            32,
+            36
+          ]
+        },
+        {
+          "text": "Booker",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            36
+          ]
+        },
+        {
+          "text": "Rod J. Rosenstein",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            37,
+            38
+          ]
+        },
+        {
+          "text": "Senate",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        },
+        {
+          "text": "Chuck Schumer",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        },
+        {
+          "text": "D-N.Y.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        },
+        {
+          "text": "Schumer",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            40
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "chairman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "spokesman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "senator",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            6
+          ]
+        },
+        {
+          "text": "President",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Attorney General",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "lawyer",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "suicide",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "president",
+          "ner": "TITLE",
+          "sentimentValue": 1.2857142857142858,
+          "timesAppear": 7,
+          "appearIn": [
+            13,
+            15,
+            23,
+            25,
+            32,
+            37,
+            38
+          ]
+        },
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "inspector general",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            23
+          ]
+        },
+        {
+          "text": "executive",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "independent",
+          "ner": "RELIGION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Democrats",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            31
+          ]
+        },
+        {
+          "text": "deputy attorney general",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "Minority Leader",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.chicagotribune.com/business/ct-biz-boehner-acreage-holdings-20180411-story.html",
+    "title": "Ex-Speaker Boehner, who opposed pot legalization, joins marijuana firm's board",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 80,
+      "discreteEntitiesList": [
+        {
+          "text": "Boehner",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.25,
+      "sentencesCount": 48,
+      "charactersCount": 6289,
+      "discreteEntitiesList": [
+        {
+          "text": "John Boehner",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Ohio",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Acreage Holdings",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 0.6666666666666666,
+          "timesAppear": 3,
+          "appearIn": [
+            1,
+            21,
+            39
+          ]
+        },
+        {
+          "text": "Boehner",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 12,
+          "appearIn": [
+            1,
+            3,
+            4,
+            9,
+            10,
+            14,
+            17,
+            20,
+            29,
+            31,
+            34,
+            46
+          ]
+        },
+        {
+          "text": "Americans",
+          "ner": "MISC",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            3,
+            37
+          ]
+        },
+        {
+          "text": "Erik Altieri",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Washington-based",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "NORML",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "The Washington Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Quartz",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            10
+          ]
+        },
+        {
+          "text": "VA",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1.6666666666666667,
+          "timesAppear": 3,
+          "appearIn": [
+            12,
+            33,
+            47
+          ]
+        },
+        {
+          "text": "David Schnittger",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Washington",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "D.C.",
+          "ner": "LOCATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Justice Department",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Massachusetts",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            17,
+            26
+          ]
+        },
+        {
+          "text": "Bill Weld",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "New Mexico",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "Gary Johnson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "Weld",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 6,
+          "appearIn": [
+            19,
+            20,
+            22,
+            25,
+            27,
+            31
+          ]
+        },
+        {
+          "text": "Lewis Goldberg",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "Bloomberg",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Arcview Market Research",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "Reagan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Jeff Sessions",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "Morgan Fox",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "New York Times",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "David Shulkin",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        },
+        {
+          "text": "Schnittger",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            35
+          ]
+        },
+        {
+          "text": "Kevin Murphy",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            40
+          ]
+        },
+        {
+          "text": "The Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            41
+          ]
+        },
+        {
+          "text": "Murphy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            43
+          ]
+        },
+        {
+          "text": "American Legion",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            44
+          ]
+        },
+        {
+          "text": "Altieri",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            46
+          ]
+        },
+        {
+          "text": "GOP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            46
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            0,
+            3,
+            17,
+            28
+          ]
+        },
+        {
+          "text": "congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "executive director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "Spokesperson",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "governor",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            17,
+            17,
+            19
+          ]
+        },
+        {
+          "text": "libertarian",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            18
+          ]
+        },
+        {
+          "text": "spokesman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "prosecutor",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "Attorney General",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        },
+        {
+          "text": "spokesperson",
+          "ner": "TITLE",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Secretary",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            32
+          ]
+        },
+        {
+          "text": "Democrats",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            38
+          ]
+        },
+        {
+          "text": "chief executive",
+          "ner": "TITLE",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "suicide",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            47
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://www.kmaland.com/news/grassley-senate-committees-grill-facebook-ceo-over-data-misuse/article_c4a845f2-3da6-11e8-9120-3f7dd81ded2d.html",
+    "title": "Grassley, Senate committees grill Facebook CEO over data misuse",
+    "analyzedTitle": {
+      "sentimentValue": 1,
+      "sentencesCount": 1,
+      "charactersCount": 65,
+      "discreteEntitiesList": [
+        {
+          "text": "Grassley",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Senate",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "CEO",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.5333333333333334,
+      "sentencesCount": 30,
+      "charactersCount": 3082,
+      "discreteEntitiesList": [
+        {
+          "text": "Washington",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "D.C.",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Iowa",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "Facebook",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.1428571428571428,
+          "timesAppear": 7,
+          "appearIn": [
+            0,
+            3,
+            17,
+            19,
+            20,
+            21,
+            21
+          ]
+        },
+        {
+          "text": "Chuck Grassley",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Senate Judiciary Committee",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Judiciary and Commerce",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Facebook Founder",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Mark Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            1,
+            19
+          ]
+        },
+        {
+          "text": "British Political Consulting Firm Cambridge Analytica",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Trump",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Grassley",
+          "ner": "PERSON",
+          "sentimentValue": 1.2,
+          "timesAppear": 5,
+          "appearIn": [
+            3,
+            4,
+            9,
+            12,
+            17
+          ]
+        },
+        {
+          "text": "Zuckerberg",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 7,
+          "appearIn": [
+            9,
+            13,
+            17,
+            20,
+            24,
+            25,
+            29
+          ]
+        },
+        {
+          "text": "House Energy and Commerce Committee",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "senator",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "Senator",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "CEO",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Chairman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Messenger",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.seattletimes.com/nation-world/john-boehner-was-a-longtime-opponent-of-marijuana-reform-heres-what-changed-his-mind/",
+    "title": "John Boehner was a longtime opponent of marijuana reform. Here’s what changed his mind.",
+    "analyzedTitle": {
+      "sentimentValue": 1.5,
+      "sentencesCount": 2,
+      "charactersCount": 88,
+      "discreteEntitiesList": [
+        {
+          "text": "John Boehner",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.3478260869565217,
+      "sentencesCount": 46,
+      "charactersCount": 6522,
+      "discreteEntitiesList": [
+        {
+          "text": "GOP House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "John Boehner",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            1
+          ]
+        },
+        {
+          "text": "Ohio",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Acreage Holdings",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            2,
+            19,
+            37
+          ]
+        },
+        {
+          "text": "Boehner",
+          "ner": "PERSON",
+          "sentimentValue": 1.0833333333333333,
+          "timesAppear": 12,
+          "appearIn": [
+            2,
+            4,
+            5,
+            10,
+            11,
+            13,
+            16,
+            18,
+            27,
+            29,
+            32,
+            42
+          ]
+        },
+        {
+          "text": "Americans",
+          "ner": "MISC",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            35
+          ]
+        },
+        {
+          "text": "Erik Altieri",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Washington-based",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "NORML",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "The Washington Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Quartz",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "VA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            12,
+            31,
+            43
+          ]
+        },
+        {
+          "text": "David Schnittger",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "Washington",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "D.C.",
+          "ner": "LOCATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Justice Department",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Massachusetts",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            16,
+            24
+          ]
+        },
+        {
+          "text": "Bill Weld",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "New Mexico",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Gary Johnson",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Weld",
+          "ner": "PERSON",
+          "sentimentValue": 1.5,
+          "timesAppear": 6,
+          "appearIn": [
+            17,
+            18,
+            20,
+            23,
+            25,
+            29
+          ]
+        },
+        {
+          "text": "Lewis Goldberg",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "Bloomberg",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Arcview Market Research",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Reagan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            23
+          ]
+        },
+        {
+          "text": "Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "Jeff Sessions",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "Morgan Fox",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "New York Times",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "David Shulkin",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            30
+          ]
+        },
+        {
+          "text": "Schnittger",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            33
+          ]
+        },
+        {
+          "text": "Kevin Murphy",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "The Post",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "Murphy",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            39
+          ]
+        },
+        {
+          "text": "American Legion",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            40
+          ]
+        },
+        {
+          "text": "Altieri",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "GOP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            1,
+            4,
+            16,
+            26
+          ]
+        },
+        {
+          "text": "congressman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "executive director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            4
+          ]
+        },
+        {
+          "text": "Spokesperson",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "governor",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            16,
+            16,
+            17
+          ]
+        },
+        {
+          "text": "libertarian",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "spokesman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            19
+          ]
+        },
+        {
+          "text": "prosecutor",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            23
+          ]
+        },
+        {
+          "text": "Attorney General",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            26
+          ]
+        },
+        {
+          "text": "spokesperson",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        },
+        {
+          "text": "Secretary",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            30
+          ]
+        },
+        {
+          "text": "Democrats",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            36
+          ]
+        },
+        {
+          "text": "chief executive",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "suicide",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            43
+          ]
+        }
+      ]
+    }
   }
 ]

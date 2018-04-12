@@ -14,6 +14,7 @@ let dbName = dbReader.dbName
 let logFileName = 'url.txt'
 
 let articleUrls = [
+
 ]
 
 
@@ -92,6 +93,11 @@ function _appendLog(url, callback) {
 }
 
 function generateDB(index) {
+    if (articleUrls.length == 0) {
+        console.log('There is no article to analyze!!!')
+        return;
+    }
+    console.log(articleUrls[index])
     paragraphAnnotator.analyzeUrl(articleUrls[index], (err, res) => {
         if (err) {
             console.log(err)

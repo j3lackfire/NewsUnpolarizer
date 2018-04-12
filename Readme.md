@@ -188,7 +188,23 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
         
 ```
 
-## Interesting stories
+```
+    http://localhost:9001/suggestSimilarArticle
+    POST request - x-www-form-urlencoded
+    request body:
+        key: data / value: the url you want to suggest a similar stories
+        For example:
+            'data': 'https://www.huffingtonpost.com/entry/sinclair-news-anchor-hits-back-trump_us_5ac2883be4b04646b6453134'
+    Response: An array containts 2 element, the analyzed (get core feature) title, and the analyzed of the article content
+    [
+        .
+        .
+        .
+    ]   
+        
+```
+
+## Interesting stories / problems
 For a project this big, there must always be some interesting stories that I would love to share with you guys
 
 ### The try/catch every exception that is wayy outside of it scope.
@@ -216,4 +232,23 @@ So, when it read something wrong (not json) it will return an error because it's
 Nope, not. Ofcourse, in this case, it works. But when I'm implementing the similarity module, I chain this function to many outer function, because well, since I store it, I will need to access it later, right?
 Which, well, cause the later catch function to just catch error happens after it has done it jobs. OK, JSON object received? Yes, go on. Oh, some you did some typo and cause everything wrong again. Oh, well, it's inside the catch now and let's call the callback function again
 Which, drive me a little bit crazy, and clearly, this little try/catch function has gone way, way beyond its purpose.
-But since this is just a student project, who knows if it will ever get fixed.
+
+
+### The wild world of analyzing website content
+I have a library to automatically capture the content inside a url link because the content got from an url link contains a lot of html tags, as well as non important information on the website.
+The library works OK, for I would say 95% of the time, but first, it left a lot of html tag back, which, I find a way to remove them, but there are some problems, and sometimes, for case like this:
+    
+    http://www.nonpareilonline.com/news/politics/national_government/grassley-wants-vote-next-week-on-bill-to-prevent-undue/article_f8023e42-3db7-11e8-a278-7f254d8c96ff.html
+    
+the content I finally received before putting into the annotation was:
+    
+    #inform-video-player-1 
+    .inform-embed { margin-top: 10px; margin-bottom: 20px; } . 
+    #inform-video-player-2 .inform-embed { margin-top: 10px; margin-bottom: 20px; } . 
+    WASHINGTON — The chairman of the Senate Judiciary Committee wants his panel to vote as soon as next week on a bipartisan bill to prevent the undue firing of special counsels like Robert Mueller,
+    .
+    .
+    .
+    .... #inform-video-player-3 .inform-embed { margin-top: 10px; margin-bottom: 20px; } . 
+
+which was, well, passable, but it could be better, and these results can sometimes mess up with the overall annotation of the article and the sentiment checking.
