@@ -2,9 +2,12 @@
  * Created by Le Pham Minh Duc on 31-Mar-18.
  */
 const request = require('request');
-const urlBuilder = require('./urlBuilder')
-var webReader = require('./../NewsGetter/webContentReader')
+const webReader = require('./../NewsGetter/webContentReader')
 
+const urlBuilder = require('./urlBuilder')
+const dbWriter = require('./../LocalDB/dbWriter')
+
+console.log('Default request URL to send to core NLP');
 console.log(urlBuilder.getDefaultURL());
 
 //list about some particular entities like person, organization, city or country
@@ -81,6 +84,65 @@ function getCoreFeature (paragraph, callback) {
             callback(error, null)
         } else {
             _getFeatureFromAnnotatedData(response, callback)
+        }
+    })
+}
+
+function analyzeUrlAndAddToDb(url, callback) {
+    analyzeUrl(url, (err, res) => {
+        if (err) {
+            callback(err)
+        } else {
+            dbWriter.checkAndWriteToDb(res, (err) => {
+                if (err) {
+                    console.log('Error trying to write analyzed content to the local db')
+                    callback(err, null)
+                } else {
+                    callback(null, res)
+                }
+            })
+        }
+    })
+}
+
+/*
+ The NLP function return the paragraph in an array of sentences that are analyzed by the service.
+ What I do in this function is to pick only the neccessary information that will be needed for future use
+ Which is Sentiment value and the Named Entity recognition
+ */
+function annotateParagraph(paragraph, callback) {
+    _requestNlpAnnotation(paragraph, function(error, response, body) {
+        if (!error) {
+            if (response.statusCode == 200) {
+                console.log('Successfully receive annotation from the Core NLP server!')
+                let sentencesList = [];
+                for (var i = 0; i < body.sentences.length; i ++) {
+                    let sentence = {};
+                    sentence.sentiment = body.sentences[i].sentiment
+                    sentence.sentimentValue = body.sentences[i].sentimentValue
+                    // sentence.sentimentDistribution = body.sentences[i].sentimentDistribution
+                    sentence.entities = [];
+                    for (var j = 0; j < body.sentences[i].entitymentions.length; j ++) {
+                        let entities = {};
+                        entities.text = body.sentences[i].entitymentions[j].text
+                        entities.ner = body.sentences[i].entitymentions[j].ner
+                        sentence.entities.push(entities);
+                    }
+
+                    sentence.tokensCount = body.sentences[i].tokens.length
+                    let offsetBegin = body.sentences[i].tokens[0].characterOffsetBegin;
+                    sentence.charactersCount = +body.sentences[i].tokens[sentence.tokensCount - 1].characterOffsetEnd - +offsetBegin;
+                    // sentence.characterLength = body.sentences[i].tokens[sentence.tokenNumber - 1].characterOffsetEnd;
+                    // sentence.tokens = body.sentences[i].tokens
+                    sentencesList.push(sentence)
+                }
+                callback(null, sentencesList);
+            } else {
+                callback({'statusCode':statusCode}, null)
+            }
+        } else {
+            console.log("ERROR Annotating the paragraph!!!!!!!!!!!");
+            callback(error, null)
         }
     })
 }
@@ -170,47 +232,6 @@ function _isDiscreteEntity(entity) {
     return (discreteNerList.indexOf(entity.ner) != -1);
 }
 
-/*
- The NLP function return the paragraph in an array of sentences that are analyzed by the service.
- What I do in this function is to pick only the neccessary information that will be needed for future use
- Which is Sentiment value and the Named Entity recognition
- */
-function annotateParagraph(paragraph, callback) {
-    _requestNlpAnnotation(paragraph, function(error, response, body) {
-        if (!error) {
-            if (response.statusCode == 200) {
-                console.log('Successfully receive annotation from the Core NLP server!')
-                let sentencesList = [];
-                for (var i = 0; i < body.sentences.length; i ++) {
-                    let sentence = {};
-                    sentence.sentiment = body.sentences[i].sentiment
-                    sentence.sentimentValue = body.sentences[i].sentimentValue
-                    // sentence.sentimentDistribution = body.sentences[i].sentimentDistribution
-                    sentence.entities = [];
-                    for (var j = 0; j < body.sentences[i].entitymentions.length; j ++) {
-                        let entities = {};
-                        entities.text = body.sentences[i].entitymentions[j].text
-                        entities.ner = body.sentences[i].entitymentions[j].ner
-                        sentence.entities.push(entities);
-                    }
-
-                    sentence.tokensCount = body.sentences[i].tokens.length
-                    let offsetBegin = body.sentences[i].tokens[0].characterOffsetBegin;
-                    sentence.charactersCount = +body.sentences[i].tokens[sentence.tokensCount - 1].characterOffsetEnd - +offsetBegin;
-                    // sentence.characterLength = body.sentences[i].tokens[sentence.tokenNumber - 1].characterOffsetEnd;
-                    // sentence.tokens = body.sentences[i].tokens
-                    sentencesList.push(sentence)
-                }
-                callback(null, sentencesList);
-            } else {
-                callback({'statusCode':statusCode}, null)
-            }
-        } else {
-            console.log("ERROR !!!!!!!!!!!");
-            callback(error, null)
-        }
-    })
-}
 
 //This function request an annotation from the Stanford Core NLP Web Services
 function _requestNlpAnnotation(content, callback) {
@@ -226,3 +247,4 @@ function _requestNlpAnnotation(content, callback) {
 module.exports.annotateParagraph = annotateParagraph;
 module.exports.getCoreFeature = getCoreFeature;
 module.exports.analyzeUrl = analyzeUrl;
+module.exports.analyzeUrlAndAddToDb = analyzeUrlAndAddToDb

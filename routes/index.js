@@ -61,10 +61,24 @@ router.post('/getUrlContent', function(req, res, next) {
     })
 });
 
+//analyze url but NOT add it to the db
+router.post('/analyzeUrlNoAdded', function(req, res, next) {
+    console.log('Analyze Url No add')
+    console.log(req.body)
+    annotator.analyzeUrl(req.body.data, function(error, response) {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the server!';
+            res.json(error)
+        } else {
+            res.json(response)
+        }
+    })
+});
+
 router.post('/analyzeUrl', function(req, res, next) {
     console.log('Analyze Url')
     console.log(req.body)
-    annotator.analyzeUrl(req.body.data, function(error, response) {
+    annotator.analyzeUrlAndAddToDb(req.body.data, function(error, response) {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the server!';
             res.json(error)

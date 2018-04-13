@@ -26,28 +26,28 @@ let articleUrls = [
 // what we should do is read the file, parse it to a json file, add new info to the json
 // and save it again
 //Single entries
-function checkAndWriteToDbSingle(singleJson, callback) {
+function checkAndWriteToDbSingle(_coreFeatureJson, callback) {
     dbReader.readDbAsJson((err, response) => {
         if (err) {
             if (err == 'not exist!') {
                 console.log('Create new')
                 myArray = []
-                myArray.push(singleJson)
+                myArray.push(_coreFeatureJson)
                 _writeToDb(myArray, (err) => {
                     if (err) callback(err)
                     else{
-                        _writeLog(singleJson.url, callback)
+                        _writeLog(_coreFeatureJson.url, callback)
                     }
                 })
             } else{
                 callback(err, null)
             }
         } else {
-            response.push(singleJson)
+            response.push(_coreFeatureJson)
             _writeToDb(response, (err) => {
                 if (err) callback(err)
                 else{
-                    _appendLog(singleJson.url, callback)
+                    _appendLog(_coreFeatureJson.url, callback)
                 }
             })
         }

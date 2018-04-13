@@ -26734,5 +26734,239 @@
         }
       ]
     }
+  },
+  {
+    "url": "https://edition.cnn.com/2018/04/12/opinions/effort-to-discredit-comey-is-fascinating-campbell/index.html",
+    "title": "The effort to discredit Comey's book is fascinating",
+    "analyzedTitle": {
+      "sentimentValue": 3,
+      "sentencesCount": 1,
+      "charactersCount": 53,
+      "discreteEntitiesList": [
+        {
+          "text": "Comey",
+          "ner": "PERSON",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntitiesList": []
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.6363636363636365,
+      "sentencesCount": 33,
+      "charactersCount": 4210,
+      "discreteEntitiesList": [
+        {
+          "text": "Comey",
+          "ner": "PERSON",
+          "sentimentValue": 1.2222222222222223,
+          "timesAppear": 9,
+          "appearIn": [
+            1,
+            2,
+            4,
+            7,
+            7,
+            11,
+            12,
+            24,
+            31
+          ]
+        },
+        {
+          "text": "FBI",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5454545454545454,
+          "timesAppear": 11,
+          "appearIn": [
+            2,
+            3,
+            4,
+            6,
+            12,
+            18,
+            21,
+            21,
+            23,
+            24,
+            29
+          ]
+        },
+        {
+          "text": "Russia",
+          "ner": "COUNTRY",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            6,
+            10
+          ]
+        },
+        {
+          "text": "White House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            7,
+            16,
+            24
+          ]
+        },
+        {
+          "text": "Justice Department",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "Clinton",
+          "ner": "PERSON",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            7,
+            11,
+            24
+          ]
+        },
+        {
+          "text": "Donald Trump",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Hillary Clinton",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "Robert Mueller",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            12
+          ]
+        },
+        {
+          "text": "Mueller",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Congress",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Lisa Page",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "Peter Strzok",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        },
+        {
+          "text": "Andrew McCabe",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            22
+          ]
+        },
+        {
+          "text": "Department of Justice",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            23
+          ]
+        },
+        {
+          "text": "RNC",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            28
+          ]
+        }
+      ],
+      "abstractEntitiesList": [
+        {
+          "text": "President",
+          "ner": "TITLE",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            8,
+            24
+          ]
+        },
+        {
+          "text": "Republican",
+          "ner": "IDEOLOGY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            11
+          ]
+        },
+        {
+          "text": "attacks",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            16
+          ]
+        },
+        {
+          "text": "Deputy Director",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            21
+          ]
+        }
+      ]
+    }
   }
 ]
