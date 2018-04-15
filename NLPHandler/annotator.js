@@ -31,17 +31,8 @@ let abstractNerList = [
 //these words are recognized by the algorithm under the PERSON category
 //but we should not record them since they are just general word
 let ignoreTextList = [
-    'she',
-    'he',
-    'his',
-    'her',
-    'him',
-    'they',
-    'them',
-    'we',
-    'us',
-    'I',
-    'me'
+    'She', 'she', 'He', 'he', 'His', 'his', 'Her', 'her', 'Him', 'him',
+    'They', 'they', 'Them', 'them', 'We', 'we', 'Us', 'us', 'I', 'Me', 'me'
 ]
 
 function analyzeUrl(url, callback) {

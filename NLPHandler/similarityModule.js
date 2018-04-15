@@ -7,10 +7,49 @@
 const dbReader = require('./../LocalDB/dbReader')
 const annotator = require('./annotator')
 
-// findSimilarArticlesToUrl('https://www.bangkokpost.com/news/world/1442427/japan-activates-first-marines-since-wwii', (err, res) => {
-//     console.log('The most similar article are')
-//     console.log(res)
+let url_1 = 'https://www.reviewjournal.com/news/politics-and-government/nevada/woman-says-las-vegas-gop-campaign-adviser-made-her-his-sex-slave/'
+
+// _getAllArticle((err, allArticles) => {
+//     if (err) {
+//         callback(err, null)
+//     } else {
+//         console.log('All articles loaded, start comparing...')
+//         _getArticleCoreFeatureByUrl(url_1, allArticles, (features_1) => {
+//             _getArticleCoreFeatureByUrl(url_2, allArticles, (features_2) => {
+//                 _compareArticles(features_1, features_2, (error, response) => {
+//                     if (error) {
+//                         console.log(error)
+//                     } else {
+//                         console.log(response)
+//                     }
+//                 })
+//             })
+//         })
+//     }
 // })
+
+_getAllArticle((err, allArticles) => {
+    if (err) {
+        callback(err, null)
+    } else {
+        console.log('All articles loaded, start comparing...')
+        _getArticleCoreFeatureByUrl(url_1, allArticles, (features_1) => {
+            _getSimilarityRanked(features_1, allArticles, (err, res) => {
+                console.log(res.length)
+                // console.log(res)
+                console.log('Source: ' + features_1.title)
+                console.log(res[0].targetTitle)
+                console.log(res[0].similarAbstract + res[0].similarDiscrete)
+                console.log(res[1].targetTitle)
+                console.log(res[0].similarAbstract + res[1].similarDiscrete)
+                console.log(res[2].targetTitle)
+                console.log(res[0].similarAbstract + res[2].similarDiscrete)
+            })
+        })
+    }
+})
+
+//-----------------------------------------------------------------------
 
 //Call this function from outside.
 //This function will get the core features of
@@ -46,7 +85,7 @@ function findSimilarArticlesToUrl(_url, callback) {
 function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
     console.log('Finding most similar article from our local db')
     let discreteEntitiesList = _coreFeatures.analyzedContent.discreteEntitiesList
-    let abstractEntitiesList = _coreFeatures.analyzedContent.discreteEntitiesList
+    let abstractEntitiesList = _coreFeatures.analyzedContent.abstractEntitiesList
     let mostSimilarDiscreteEntities = -1
     let mostSimilarAbstractEntities = -1
     let mostSimilarIndex = -1
@@ -87,6 +126,99 @@ function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
     console.log('FROM: ' + _coreFeatures.url)
     console.log('MOST SIMILAR: ' + _allArticles[mostSimilarIndex].url)
     callback(null, _allArticles[mostSimilarIndex])
+}
+
+function _getSimilarityRanked(_feature, _allArticles, callback) {
+    console.log('Loop through the whole articles database and get the list of all similar article')
+    _generateComparisionList(_feature, _allArticles, [], (err, comparisionList) => {
+        if (err) {
+            callback(err, null)
+        } else {
+            comparisionList.sort((a, b) => {
+                return (b.similarDiscrete + b.similarAbstract) - (a.similarDiscrete + a.similarAbstract)
+            })
+            callback(null, comparisionList)
+        }
+    })
+}
+
+//we need to loop through all of the article, rank their similarity to the base article and
+function _generateComparisionList(_feature, _allArticle, _comparisionList, callback) {
+    let index = _comparisionList.length
+    let comparisionList = _comparisionList
+    _compareArticles(_feature, _allArticle[index], (err, comparisionValue) => {
+        if (err) {
+            console.log('Error happen during generating comparision list')
+            callback(err, null)
+        } else {
+            comparisionList.push(comparisionValue)
+            if (comparisionList.length == _allArticle.length) {
+                callback(null, comparisionList)
+            } else {
+                _generateComparisionList(_feature, _allArticle, comparisionList, callback)
+            }
+        }
+    })
+}
+
+//Get the similarity between two articles
+function _compareArticles(_firstFeature, _secondFeature, callback) {
+    // console.log('Trying to find similarity between two article')
+    // console.log('Source: ' + _firstFeature.title)
+    // console.log('Target: ' + _secondFeature.title)
+
+    let discrete_1 = _firstFeature.analyzedContent.discreteEntitiesList
+    let abstract_1 = _firstFeature.analyzedContent.abstractEntitiesList
+
+    let discrete_2 = _secondFeature.analyzedContent.discreteEntitiesList
+    let abstract_2 = _secondFeature.analyzedContent.abstractEntitiesList
+
+    let returnVal = {}
+    returnVal.sourceUrl = _firstFeature.url
+    returnVal.sourceTitle = _firstFeature.title
+    returnVal.sourceSentiment = _firstFeature.analyzedContent.sentimentValue
+
+    returnVal.targetUrl = _secondFeature.url
+    returnVal.targetTitle = _secondFeature.title
+    returnVal.targetSentiment = _secondFeature.analyzedContent.sentimentValue
+
+    returnVal.similarDiscrete = 0
+    returnVal.similarAbstract = 0
+
+    returnVal.discreteEntities = []
+    returnVal.abstractEntities = []
+
+    for (let i = 0; i < discrete_1.length; i ++) {
+        for (let j = 0; j < discrete_2.length; j ++) {
+            if (discrete_1[i].text == discrete_2[j].text) {
+                let similarities = {}
+                similarities.text = discrete_1[i].text
+                similarities.ner = discrete_1[i].ner
+                similarities.sourceAppearIn = discrete_1[i].appearIn
+                similarities.targetAppearIn = discrete_2[j].appearIn
+                returnVal.discreteEntities.push(similarities)
+                returnVal.similarDiscrete +=  discrete_1[i].timesAppear < discrete_2[j].timesAppear ? discrete_1[i].timesAppear : discrete_2[j].timesAppear
+                break
+            }
+        }
+    }
+
+    for (let i = 0; i < abstract_1.length; i ++) {
+        for (let j = 0; j < abstract_2.length; j ++) {
+            if (abstract_1[i].text == abstract_2[j].text) {
+                let similarities = {}
+                similarities.text = abstract_1[i].text
+                similarities.ner = abstract_1[i].ner
+                similarities.sourceAppearIn = abstract_1[i].appearIn
+                similarities.targetAppearIn = abstract_2[j].appearIn
+                returnVal.abstractEntities.push(similarities)
+                returnVal.similarAbstract +=  abstract_1[i].timesAppear < abstract_2[j].timesAppear ? abstract_1[i].timesAppear : abstract_2[j].timesAppear
+                break
+            }
+        }
+    }
+
+    callback(null, returnVal)
 }
 
 function _getArticleCoreFeatureByUrl(_url, _allArticles, callback) {
