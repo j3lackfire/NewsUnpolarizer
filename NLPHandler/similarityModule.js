@@ -9,51 +9,11 @@ const annotator = require('./annotator')
 
 let url_1 = 'https://www.reviewjournal.com/news/politics-and-government/nevada/woman-says-las-vegas-gop-campaign-adviser-made-her-his-sex-slave/'
 
-// _getAllArticle((err, allArticles) => {
-//     if (err) {
-//         callback(err, null)
-//     } else {
-//         console.log('All articles loaded, start comparing...')
-//         _getArticleCoreFeatureByUrl(url_1, allArticles, (features_1) => {
-//             _getArticleCoreFeatureByUrl(url_2, allArticles, (features_2) => {
-//                 _compareArticles(features_1, features_2, (error, response) => {
-//                     if (error) {
-//                         console.log(error)
-//                     } else {
-//                         console.log(response)
-//                     }
-//                 })
-//             })
-//         })
-//     }
-// })
-
-_getAllArticle((err, allArticles) => {
-    if (err) {
-        callback(err, null)
-    } else {
-        console.log('All articles loaded, start comparing...')
-        _getArticleCoreFeatureByUrl(url_1, allArticles, (features_1) => {
-            _getSimilarityRanked(features_1, allArticles, (err, res) => {
-                console.log(res.length)
-                // console.log(res)
-                console.log('Source: ' + features_1.title)
-                console.log(res[0].targetTitle)
-                console.log(res[0].similarAbstract + res[0].similarDiscrete)
-                console.log(res[1].targetTitle)
-                console.log(res[0].similarAbstract + res[1].similarDiscrete)
-                console.log(res[2].targetTitle)
-                console.log(res[0].similarAbstract + res[2].similarDiscrete)
-            })
-        })
-    }
-})
-
 //-----------------------------------------------------------------------
 
 //Call this function from outside.
 //This function will get the core features of
-function findSimilarArticlesToUrl(_url, callback) {
+function findSimilarArticles(_url, callback) {
     console.log('Trying to find similar article to the one from URL')
     _getAllArticle((err, allArticles) => {
         if (err) {
@@ -64,7 +24,7 @@ function findSimilarArticlesToUrl(_url, callback) {
                 if (isExist) {
                     console.log('Article exist in local db, load it and do function')
                     _getArticleCoreFeatureByUrl(_url, allArticles, (features) => {
-                        findMostSimilarArticle(features, allArticles, callback)
+                        _getSimilarityArticlesList(features, allArticles, callback)
                     })
                 } else {
                     console.log('Annotating the article')
@@ -73,7 +33,7 @@ function findSimilarArticlesToUrl(_url, callback) {
                             console.log('Error when getting core features of an url')
                             callback(error, null)
                         } else {
-                            findMostSimilarArticle(coreFeatures, allArticles, callback)
+                            _getSimilarityArticlesList(coreFeatures, allArticles, callback)
                         }
                     })
                 }
@@ -128,7 +88,7 @@ function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
     callback(null, _allArticles[mostSimilarIndex])
 }
 
-function _getSimilarityRanked(_feature, _allArticles, callback) {
+function _getSimilarityArticlesList(_feature, _allArticles, callback) {
     console.log('Loop through the whole articles database and get the list of all similar article')
     _generateComparisionList(_feature, _allArticles, [], (err, comparisionList) => {
         if (err) {
@@ -137,6 +97,12 @@ function _getSimilarityRanked(_feature, _allArticles, callback) {
             comparisionList.sort((a, b) => {
                 return (b.similarDiscrete + b.similarAbstract) - (a.similarDiscrete + a.similarAbstract)
             })
+            //for case when the url exist in the db, the most relevance result will always be THAT article
+            //make sense, eh ?
+            if (comparisionList[0].sourceUrl == comparisionList[0].targetUrl) {
+                comparisionList.shift()
+            }
+            comparisionList.shift()
             callback(null, comparisionList)
         }
     })
@@ -270,4 +236,4 @@ function _isArticleExist(_url, _allArticle, callback) {
     })
 }
 
-module.exports.findSimilarArticlesToUrl = findSimilarArticlesToUrl
+module.exports.findSimilarArticlesToUrl = findSimilarArticles

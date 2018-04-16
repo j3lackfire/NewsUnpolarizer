@@ -21,7 +21,12 @@ function extractWebContent(url, callback) {
             let returnForm = {};
             returnForm.title = article.title;
             returnForm.content = _cleanUpResult(article.content)
-            callback(null, returnForm)
+            //if the returned function is too short, chance are, the web content reader can't really read it
+            if (returnForm.content.length < 500) {
+                callback('The content length was too short, mostly because the article is not gotten correctly', null)
+            } else {
+                callback(null, returnForm)
+            }
         }
     })
 }

@@ -26,7 +26,7 @@ router.post('/annotateParagraph', function(req, res, next) {
     console.log(req.body)
     annotator.annotateParagraph(req.body.data, function(error, response) {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
             res.json(response)
@@ -39,7 +39,7 @@ router.post('/getCoreFeature', function(req, res, next) {
     console.log(req.body)
     annotator.getCoreFeature(req.body.data, function(error, response) {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
             res.json(response)
@@ -53,7 +53,7 @@ router.post('/getUrlContent', function(req, res, next) {
     console.log(req.body)
     webReader.extractWebContent(req.body.data, function(error, response) {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
             res.json(response)
@@ -67,7 +67,7 @@ router.post('/analyzeUrlNoAdded', function(req, res, next) {
     console.log(req.body)
     annotator.analyzeUrl(req.body.data, function(error, response) {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
             res.json(response)
@@ -80,7 +80,7 @@ router.post('/analyzeUrl', function(req, res, next) {
     console.log(req.body)
     annotator.analyzeUrlAndAddToDb(req.body.data, function(error, response) {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
             res.json(response)
@@ -88,16 +88,23 @@ router.post('/analyzeUrl', function(req, res, next) {
     })
 });
 
-router.post('/suggestSimilarArticle', (req, res, next) => {
+router.post('/suggestSimilarArticles', (req, res, next) => {
     console.log('Suggest Similar Article')
     console.log(req.body)
     similarityModule.findSimilarArticlesToUrl(req.body.data, (error, response) => {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
-            response.sourceUrl = req.body.data
-            res.json(response)
+            let returnValue = []
+            let numberOfSuggestion = (typeof (req.body.numberOfSuggestion) == 'undefined') ? 3 : parseInt(req.body.numberOfSuggestion)
+            if (numberOfSuggestion >= response.length) {
+                numberOfSuggestion = response.length - 1
+            }
+            for (let i = 0; i < numberOfSuggestion; i ++) {
+                returnValue.push(response[i])
+            }
+            res.json(returnValue)
         }
     })
 });
@@ -111,7 +118,7 @@ router.post('/getUrlContentNoCleanup', function(req, res, next) {
     console.log(req.body)
     webReader.getContentNoCleanUp(req.body.data, function(error, response) {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
             res.json(response)
@@ -124,7 +131,7 @@ router.post('/getContentWithHtml', function(req, res, next) {
     console.log(req.body)
     webReader.getContentWithHtml(req.body.data, function(error, response) {
         if (error) {
-            error.note = 'There is an ERROR, please check if you have started the server!';
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
             res.json(response)

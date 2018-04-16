@@ -108,10 +108,11 @@ function generateDB(index) {
                     console.log(err);
                 }else {
                     console.log('The file has been saved!');
-                    let newIndex = index  + 1
-                    if (newIndex  < articleUrls.length) {
-                        generateDB(newIndex)
-                    }
+
+                }
+                let newIndex = index  + 1
+                if (newIndex  < articleUrls.length) {
+                    generateDB(newIndex)
                 }
             })
         }
