@@ -42,52 +42,6 @@ function findSimilarArticles(_url, callback) {
     })
 }
 
-function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
-    console.log('Finding most similar article from our local db')
-    let discreteEntitiesList = _coreFeatures.analyzedContent.discreteEntitiesList
-    let abstractEntitiesList = _coreFeatures.analyzedContent.abstractEntitiesList
-    let mostSimilarDiscreteEntities = -1
-    let mostSimilarAbstractEntities = -1
-    let mostSimilarIndex = -1
-    for (let articleIndex = 0; articleIndex < _allArticles.length; articleIndex ++) {
-        if (_allArticles[articleIndex].url == _coreFeatures.url) {
-            continue;
-        }
-        let thisArticle = _allArticles[articleIndex]
-        let similarDiscrete = 0
-        let similarAbstract = 0
-        //Discrete entities list
-        for (let i = 0; i < thisArticle.analyzedContent.discreteEntitiesList.length; i ++) {
-            for (let j = 0; j < discreteEntitiesList.length; j ++) {
-                if (thisArticle.analyzedContent.discreteEntitiesList[i].text == discreteEntitiesList[j].text) {
-                    //set that number to whichever smaller value.
-                    similarDiscrete += thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear < discreteEntitiesList[j].timesAppear ?
-                        thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear : discreteEntitiesList[j].timesAppear
-                }
-            }
-        }
-        //Abstract entities list
-        for (let i = 0; i < thisArticle.analyzedContent.abstractEntitiesList.length; i ++) {
-            for (let j = 0; j < abstractEntitiesList.length; j ++) {
-                if (thisArticle.analyzedContent.abstractEntitiesList[i].text == abstractEntitiesList[j].text) {
-                    //set that number to whichever smaller value.
-                    similarAbstract += thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear < abstractEntitiesList[j].timesAppear ?
-                        thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear : abstractEntitiesList[j].timesAppear
-                }
-            }
-        }
-        if ((mostSimilarAbstractEntities + mostSimilarDiscreteEntities)
-            < (similarAbstract + similarDiscrete)) {
-            mostSimilarAbstractEntities = similarAbstract
-            mostSimilarDiscreteEntities = similarDiscrete
-            mostSimilarIndex = articleIndex
-        }
-    }
-    console.log('FROM: ' + _coreFeatures.url)
-    console.log('MOST SIMILAR: ' + _allArticles[mostSimilarIndex].url)
-    callback(null, _allArticles[mostSimilarIndex])
-}
-
 function _getSimilarityArticlesList(_feature, _allArticles, callback) {
     console.log('Loop through the whole articles database and get the list of all similar article')
     _generateComparisionList(_feature, _allArticles, [], (err, comparisionList) => {
@@ -102,7 +56,6 @@ function _getSimilarityArticlesList(_feature, _allArticles, callback) {
             if (comparisionList[0].sourceUrl == comparisionList[0].targetUrl) {
                 comparisionList.shift()
             }
-            comparisionList.shift()
             callback(null, comparisionList)
         }
     })
@@ -129,9 +82,6 @@ function _generateComparisionList(_feature, _allArticle, _comparisionList, callb
 
 //Get the similarity between two articles
 function _compareArticles(_firstFeature, _secondFeature, callback) {
-    // console.log('Trying to find similarity between two article')
-    // console.log('Source: ' + _firstFeature.title)
-    // console.log('Target: ' + _secondFeature.title)
 
     let discrete_1 = _firstFeature.analyzedContent.discreteEntitiesList
     let abstract_1 = _firstFeature.analyzedContent.abstractEntitiesList
@@ -236,4 +186,61 @@ function _isArticleExist(_url, _allArticle, callback) {
     })
 }
 
-module.exports.findSimilarArticlesToUrl = findSimilarArticles
+module.exports.findSimilarArticles = findSimilarArticles
+
+
+
+
+
+
+//------------- OLD AND UNUSED FUNCTION -------------
+// ---------- BUT I DON'T WANT TO DELETE IT ----------
+// ------- BECAUSE I SPENT SO MUCH TIME ON THIS -------
+
+/*
+function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
+    console.log('Finding most similar article from our local db')
+    let discreteEntitiesList = _coreFeatures.analyzedContent.discreteEntitiesList
+    let abstractEntitiesList = _coreFeatures.analyzedContent.abstractEntitiesList
+    let mostSimilarDiscreteEntities = -1
+    let mostSimilarAbstractEntities = -1
+    let mostSimilarIndex = -1
+    for (let articleIndex = 0; articleIndex < _allArticles.length; articleIndex ++) {
+        if (_allArticles[articleIndex].url == _coreFeatures.url) {
+            continue;
+        }
+        let thisArticle = _allArticles[articleIndex]
+        let similarDiscrete = 0
+        let similarAbstract = 0
+        //Discrete entities list
+        for (let i = 0; i < thisArticle.analyzedContent.discreteEntitiesList.length; i ++) {
+            for (let j = 0; j < discreteEntitiesList.length; j ++) {
+                if (thisArticle.analyzedContent.discreteEntitiesList[i].text == discreteEntitiesList[j].text) {
+                    //set that number to whichever smaller value.
+                    similarDiscrete += thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear < discreteEntitiesList[j].timesAppear ?
+                        thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear : discreteEntitiesList[j].timesAppear
+                }
+            }
+        }
+        //Abstract entities list
+        for (let i = 0; i < thisArticle.analyzedContent.abstractEntitiesList.length; i ++) {
+            for (let j = 0; j < abstractEntitiesList.length; j ++) {
+                if (thisArticle.analyzedContent.abstractEntitiesList[i].text == abstractEntitiesList[j].text) {
+                    //set that number to whichever smaller value.
+                    similarAbstract += thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear < abstractEntitiesList[j].timesAppear ?
+                        thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear : abstractEntitiesList[j].timesAppear
+                }
+            }
+        }
+        if ((mostSimilarAbstractEntities + mostSimilarDiscreteEntities)
+            < (similarAbstract + similarDiscrete)) {
+            mostSimilarAbstractEntities = similarAbstract
+            mostSimilarDiscreteEntities = similarDiscrete
+            mostSimilarIndex = articleIndex
+        }
+    }
+    console.log('FROM: ' + _coreFeatures.url)
+    console.log('MOST SIMILAR: ' + _allArticles[mostSimilarIndex].url)
+    callback(null, _allArticles[mostSimilarIndex])
+}
+*/

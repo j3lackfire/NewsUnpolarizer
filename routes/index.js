@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 const annotator = require('./../NLPHandler/annotator');
 const webReader = require('./../NewsGetter/webContentReader')
 const similarityModule = require('./../NLPHandler/similarityModule')
+const truthExplorer = require('./../NLPHandler/truthExplorer')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -91,20 +92,35 @@ router.post('/analyzeUrl', function(req, res, next) {
 router.post('/suggestSimilarArticles', (req, res, next) => {
     console.log('Suggest Similar Article')
     console.log(req.body)
-    similarityModule.findSimilarArticlesToUrl(req.body.data, (error, response) => {
+    similarityModule.findSimilarArticles(req.body.data, (error, response) => {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
         } else {
-            let returnValue = []
-            let numberOfSuggestion = (typeof (req.body.numberOfSuggestion) == 'undefined') ? 3 : parseInt(req.body.numberOfSuggestion)
-            if (numberOfSuggestion >= response.length) {
-                numberOfSuggestion = response.length - 1
-            }
-            for (let i = 0; i < numberOfSuggestion; i ++) {
-                returnValue.push(response[i])
-            }
-            res.json(returnValue)
+            //this only return the first 3 value, but is that really neccessary???
+            // let returnValue = []
+            // let numberOfSuggestion = (typeof (req.body.numberOfSuggestion) == 'undefined') ? 3 : parseInt(req.body.numberOfSuggestion)
+            // if (numberOfSuggestion >= response.length) {
+            //     numberOfSuggestion = response.length - 1
+            // }
+            // for (let i = 0; i < numberOfSuggestion; i ++) {
+            //     returnValue.push(response[i])
+            // }
+            // res.json(returnValue)
+            res.json(response)
+        }
+    })
+});
+
+router.post('/mostSimilarArticle', function(req, res, next) {
+    console.log('Most similar article')
+    console.log(req.body)
+    truthExplorer.getGetMostSimilarArticleWithInsight(req.body.data, function(error, response) {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
+            res.json(error)
+        } else {
+            res.json(response)
         }
     })
 });

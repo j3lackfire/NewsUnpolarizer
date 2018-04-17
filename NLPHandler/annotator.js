@@ -102,7 +102,7 @@ function analyzeUrlAndAddToDb(url, callback) {
  Which is Sentiment value and the Named Entity recognition
  */
 function annotateParagraph(paragraph, callback) {
-    _requestNlpAnnotation(paragraph, function(error, response, body) {
+    requestNlpAnnotation(paragraph, function(error, response, body) {
         if (!error) {
             if (response.statusCode == 200) {
                 console.log('Successfully receive annotation from the Core NLP server!')
@@ -225,7 +225,7 @@ function _isDiscreteEntity(entity) {
 
 
 //This function request an annotation from the Stanford Core NLP Web Services
-function _requestNlpAnnotation(content, callback) {
+function requestNlpAnnotation(content, callback) {
     request.post(
         urlBuilder.getDefaultURL(),
         { json: content},
@@ -239,3 +239,5 @@ module.exports.annotateParagraph = annotateParagraph;
 module.exports.getCoreFeature = getCoreFeature;
 module.exports.analyzeUrl = analyzeUrl;
 module.exports.analyzeUrlAndAddToDb = analyzeUrlAndAddToDb
+
+module.exports.requestNlpAnnotation = requestNlpAnnotation
