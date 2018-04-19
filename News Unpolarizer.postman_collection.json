@@ -1,0 +1,316 @@
+{
+	"variables": [],
+	"info": {
+		"name": "News Unpolarizer",
+		"_postman_id": "a421868d-a365-366d-2b83-11100428c2a9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Stanford Core NLP",
+			"request": {
+				"url": {
+					"raw": "http://localhost:9000/?properties%3D%7B%22annotators%22%3A%22sentiment%2Cner%22%2C%22outputFormat%22%3A%22json%22%7D",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "properties%3D%7B%22annotators%22%3A%22sentiment%2Cner%22%2C%22outputFormat%22%3A%22json%22%7D\n",
+							"value": "",
+							"equals": false,
+							"description": ""
+						},
+						{
+							"key": "properties%3D%7B%22annotators%22%3A%22sentiment%2Cner%22%2C%22outputFormat%22%3A%22json%22%7D",
+							"value": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "Fox News host Laura Ingraham apologized Thursday to Marjory Stoneman Douglas High School student David Hogg for her tweet mocking his college rejections, but that hasn’t stopped advertisers from fleeing her show.\r\n\r\nAt least 16 companies have said they intend to pull their sponsorship of Ingraham’s evening show. The companies include Nutrish, Expedia, TripAdvisor, Nestle, Hulu, Wayfair, Stitch Fix, Office Depot, Ruby Tuesday, Entertainment Studios, Bayer, Miracle Ear and Liberty Mutual. The Associated Press reports Jenny Craig and Atlantis Paradise Island Resort have pulled ads, too. Johnson & Johnson told The Huffington Post it had yanked its ads.\r\n\r\n\"The decision of an adult to personally criticize a high school student who has lost his classmates in an unspeakable tragedy is not consistent with our values,\" Wayfair said in a statement yesterday.\r\n\r\nThe sponsor exodus follows a spat between the outspoken Parkland, Florida, student and the Fox News host, one of several involving conservative figures and the students who have advocated for greater action against gun violence in the wake of the mass shooting at their school last month.\r\n\r\nIngraham announced on Friday night's show she would be taking a vacation next week. In a statement Saturday, Fox News said the vacation was pre-planned.\r\n\r\nHogg told TMZ this week that several colleges had rejected him, but dismissed the rejections in the face of his and his classmates' advocacy.\r\n\r\n“We're changing the world,” he said. \"Right now, it's too hard to focus on that.\"\r\n\r\nIngraham tweeted about the comments on Wednesday, saying Hogg “whines about” the rejections.\r\n\r\nOn Thursday she issued an apology.\r\n\r\nHogg, who has proven adept at leveraging the pace and amplification of social media, quickly responded with a tweet of his own, listing her major sponsors and encouraging his rapidly growing social media base to pressure them.\r\n\r\nIngraham’s apology came after a few companies pulled their ads, which led Hogg not to accept her apology.\r\n\r\n\"An apology in an effort just to save your advertisers is not enough,\" he tweeted Thursday. \"I will only accept your apology only if you denounce the way your network has treated my friends and I in this fight. It’s time to love thy neighbor, not mudsling at children.\"\r\n\r\nABC News' Dominick Proto and Christopher Donato contributed to report.\r\n\r\n\r\n\r\n"
+				},
+				"description": "Generated from a curl request: \ncurl --data 'The quick brown fox jumped over the lazy dog.' 'http://localhost:9000/?properties={%22annotators%22%3A%22tokenize%2Cssplit%2Cpos%22%2C%22outputFormat%22%3A%22json%22}' -o"
+			},
+			"response": []
+		},
+		{
+			"name": "Hello World from my App",
+			"request": {
+				"url": "http://localhost:9001/helloWorld",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Summary url",
+			"request": {
+				"url": "https://api.smmry.com/&SM_API_KEY=E84A0513B7&SM_IGNORE_LENGTH&SM_URL=https://www.huffingtonpost.com/entry/michigan-declares-flints-water-restored_us_5ac7b81be4b0337ad1e7df07",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Annotate Paragraph",
+			"request": {
+				"url": "http://localhost:9001/annotateParagraph",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "   Soldiers of the Japanese Ground Self-Defence Force (JGSDF) Amphibious Rapid Deployment Brigade, Japan's first marine unit since World War II, take part in a drill at Camp Ainoura in Sasebo, on the southwest island of Kyushu. (Reuters Photo) . TOKYO: Japan on Saturday activated its first marine unit since World War II, trained to counter invaders occupying Japanese islands along the edge of the East China Sea that Tokyo fears are vulnerable to attack by China. In a ceremony held at a military base near Sasebo on the southwest island of Kyushu, about 1,500 members of the Amphibious Rapid Deployment Brigade (ARDB) wearing camouflage lined up outside amid cold, windy weather. \"Given the increasingly difficult defense and security situation surrounding Japan, defence of our islands has become a critical mandate,\" Tomohiro Yamamoto, vice-defence minister, said in a speech. The troops conducted a 20-minute mock public exercise recapturing a remote island from invaders. The formation of the Japanese marine brigade is controversial because amphibious units can project military force and could, critics warn, be used to threaten Japan’s neighbours. In its post World War II constitution Japan renounced the right to wage war. The brigade is the latest component of a growing marine force that includes helicopter carriers, amphibious ships, Osprey tilt-rotor troop carriers and amphibious assault vehicles, meant to deter China as it pushes for easier access to the Western Pacific. China, which dominates the South China Sea, is outpacing Japan in defense spending. In 2018, Beijing which claims a group of uninhabited islets in the East China Sea controlled by Tokyo, will spend 1.11 trillion yuan (US$177 billion) on its armed forces, more than three times as much as Japan. The activation of the 2,100 strong ARDB takes Japan a step closer to creating a force similar to a US marine expeditionary unit (MEU) able to plan and execute operations at sea far from its home base. \"They've already demonstrated the ability to put together an ad hoc MEU. But to have a solid, standing MEU capability requires concerted effort,\" Grant Newsham, a research fellow at the Japan Forum for Strategic Studies. \"If Japan put its mind to it, within a year or year and a half it could have a reasonable capability.\" . Newsham, who helped train Japan's first amphibious troops as a US Marine Corps liaison officer assigned to the Ground Self Defence Force (GSDF), said Japan still needs a joint navy-army amphibious headquarters to coordinate operations as well as more amphibious ships to carry troops and equipment. Japanese military planners are already mulling some of those additions. Its Air Self Defence Force (ASDF) wants to acquire F-35Bs to operate from its Izumo and Ise helicopter carriers, or from islands along the East China Sea, sources have told Reuters. The United States last month deployed its F-35Bs for their first at-sea operations aboard the USS Wasp amphibious assault ship, which is based in Sasebo. The Kyushu port is also home to Japan's Ise and close to the ARDB's base. Separately the GSDF may acquire small amphibious ships up to a 100 metres long to transport troops and equipment between islands and from ship to shore, two sources familiar with the discussion said. Japanese ground forces have not operated their own ships since World War II. \n",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get Core Feature",
+			"request": {
+				"url": "http://localhost:9001/getCoreFeature",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "   Soldiers of the Japanese Ground Self-Defence Force (JGSDF) Amphibious Rapid Deployment Brigade, Japan's first marine unit since World War II, take part in a drill at Camp Ainoura in Sasebo, on the southwest island of Kyushu. (Reuters Photo) . TOKYO: Japan on Saturday activated its first marine unit since World War II, trained to counter invaders occupying Japanese islands along the edge of the East China Sea that Tokyo fears are vulnerable to attack by China. In a ceremony held at a military base near Sasebo on the southwest island of Kyushu, about 1,500 members of the Amphibious Rapid Deployment Brigade (ARDB) wearing camouflage lined up outside amid cold, windy weather. \"Given the increasingly difficult defense and security situation surrounding Japan, defence of our islands has become a critical mandate,\" Tomohiro Yamamoto, vice-defence minister, said in a speech. The troops conducted a 20-minute mock public exercise recapturing a remote island from invaders. The formation of the Japanese marine brigade is controversial because amphibious units can project military force and could, critics warn, be used to threaten Japan’s neighbours. In its post World War II constitution Japan renounced the right to wage war. The brigade is the latest component of a growing marine force that includes helicopter carriers, amphibious ships, Osprey tilt-rotor troop carriers and amphibious assault vehicles, meant to deter China as it pushes for easier access to the Western Pacific. China, which dominates the South China Sea, is outpacing Japan in defense spending. In 2018, Beijing which claims a group of uninhabited islets in the East China Sea controlled by Tokyo, will spend 1.11 trillion yuan (US$177 billion) on its armed forces, more than three times as much as Japan. The activation of the 2,100 strong ARDB takes Japan a step closer to creating a force similar to a US marine expeditionary unit (MEU) able to plan and execute operations at sea far from its home base. \"They've already demonstrated the ability to put together an ad hoc MEU. But to have a solid, standing MEU capability requires concerted effort,\" Grant Newsham, a research fellow at the Japan Forum for Strategic Studies. \"If Japan put its mind to it, within a year or year and a half it could have a reasonable capability.\" . Newsham, who helped train Japan's first amphibious troops as a US Marine Corps liaison officer assigned to the Ground Self Defence Force (GSDF), said Japan still needs a joint navy-army amphibious headquarters to coordinate operations as well as more amphibious ships to carry troops and equipment. Japanese military planners are already mulling some of those additions. Its Air Self Defence Force (ASDF) wants to acquire F-35Bs to operate from its Izumo and Ise helicopter carriers, or from islands along the East China Sea, sources have told Reuters. The United States last month deployed its F-35Bs for their first at-sea operations aboard the USS Wasp amphibious assault ship, which is based in Sasebo. The Kyushu port is also home to Japan's Ise and close to the ARDB's base. Separately the GSDF may acquire small amphibious ships up to a 100 metres long to transport troops and equipment between islands and from ship to shore, two sources familiar with the discussion said. Japanese ground forces have not operated their own ships since World War II. \n",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get article content inside URL",
+			"request": {
+				"url": "http://localhost:9001/getUrlContent",
+				"method": "POST",
+				"header": [
+					{
+						"key": "data",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "https://www.bangkokpost.com/news/world/1442427/japan-activates-first-marines-since-wwii",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get content with <html>",
+			"request": {
+				"url": "http://localhost:9001/getContentWithHtml",
+				"method": "POST",
+				"header": [
+					{
+						"key": "data",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "https://www.washingtonpost.com/world/china-steel-slams-trumps-stupid-protectionism-but-trade-war-is-unlikely/2018/03/02/33ec5274-1d94-11e8-98f5-ceecfa8741b6_story.html?utm_term=.d9c274037185",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Analyze URL",
+			"request": {
+				"url": "http://localhost:9001/analyzeUrl",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "https://edition.cnn.com/2018/04/12/opinions/effort-to-discredit-comey-is-fascinating-campbell/index.html",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Analyze URL No Added",
+			"request": {
+				"url": "http://localhost:9001/analyzeUrlNoAdded",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "https://www.bangkokpost.com/news/world/1442427/japan-activates-first-marines-since-wwii",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Similarity suggestion",
+			"request": {
+				"url": "http://localhost:9001/suggestSimilarArticles",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "https://www.yahoo.com/news/watch-falcon-heavy-reel-westworld-150115945.html",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Most similar article",
+			"request": {
+				"url": "http://localhost:9001/mostSimilarArticle",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data",
+							"value": "https://www.yahoo.com/news/watch-falcon-heavy-reel-westworld-150115945.html",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
