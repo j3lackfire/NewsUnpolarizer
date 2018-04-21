@@ -11,6 +11,9 @@ const webContentReader = require('./../NewsGetter/webContentReader')
     It works by looking at the most similar articles to the source article
     See which sentences that the "similar" work appear in, and maybe find the contradiction between them.
 */
+/*
+    This might not works, so I might as well just leave it here.
+*/
 
 // getGetMostSimilarArticleWithInsight('https://www.yahoo.com/news/watch-falcon-heavy-reel-westworld-150115945.html', (err, res) => {
 //     if (err) {

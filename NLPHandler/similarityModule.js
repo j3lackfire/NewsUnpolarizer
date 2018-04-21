@@ -7,8 +7,6 @@
 const dbReader = require('./../LocalDB/dbReader')
 const annotator = require('./annotator')
 
-let url_1 = 'https://www.reviewjournal.com/news/politics-and-government/nevada/woman-says-las-vegas-gop-campaign-adviser-made-her-his-sex-slave/'
-
 //-----------------------------------------------------------------------
 
 //Call this function from outside.

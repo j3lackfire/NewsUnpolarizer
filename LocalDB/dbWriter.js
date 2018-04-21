@@ -14,14 +14,19 @@ let dbName = dbReader.dbName
 let logFileName = 'url.txt'
 
 let articleUrls = [
-
+    "https://www.independent.co.uk/news/world/middle-east/syria-civil-war-rocket-attack-damascus-dead-injured-assad-a8265896.html",
+    "https://www.reuters.com/article/us-mideast-crisis-syria-damascus/scores-killed-in-rocket-attack-on-damascus-market-and-rebel-held-douma-idUSKBN1GW2I1",
+    "http://www.bbc.com/news/world-middle-east-43850979",
+    "https://www.channel4.com/news/factcheck/syria-chemical-attack-the-evidence",
+    "https://www.nytimes.com/2018/04/19/world/middleeast/syria-strikes.html",
+    "http://www.bbc.com/news/world-middle-east-39500947",
+    "https://www.washingtonpost.com/world/chemical-weapons-coverup-suspected-in-syria-as-inspectors-remain-blocked/2018/04/20/1ca0f164-440a-11e8-b2dc-b0a403e4720a_story.html?noredirect=on&utm_term=.d5e5b15c1c1c",
+    "https://www.nytimes.com/2018/04/11/world/middleeast/syria-chemical-attack.html"
 ]
-
 
 //Add stuffs to articles URL array
 //Run this command so this automatically annotate articles
-// generateDB(0)
-
+generateDB(0)
 
 // what we should do is read the file, parse it to a json file, add new info to the json
 // and save it again
@@ -33,23 +38,13 @@ function checkAndWriteToDbSingle(_coreFeatureJson, callback) {
                 console.log('Create new')
                 myArray = []
                 myArray.push(_coreFeatureJson)
-                _writeToDb(myArray, (err) => {
-                    if (err) callback(err)
-                    else{
-                        _writeLog(_coreFeatureJson.url, callback)
-                    }
-                })
+                _writeToDb(myArray, callback)
             } else{
-                callback(err, null)
+                callback(err)
             }
         } else {
             response.push(_coreFeatureJson)
-            _writeToDb(response, (err) => {
-                if (err) callback(err)
-                else{
-                    _appendLog(_coreFeatureJson.url, callback)
-                }
-            })
+            _writeToDb(response, callback)
         }
     })
 }
@@ -62,9 +57,15 @@ function _writeToDb(content, callback) {
         if (err) {
             callback(err)
         } else {
-            callback(null)
+            let articleUrl = Array.isArray(content) ? content[content.length - 1].url : content.url
+            console.log(articleUrl)
+            _appendLog(articleUrl, callback)
         }
     });
+}
+
+function updateEntitiesDetail(content, callback) {
+
 }
 
 function _isNullOrUndefined(param) {
