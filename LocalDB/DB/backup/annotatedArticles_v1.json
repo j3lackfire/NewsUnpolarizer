@@ -6,7 +6,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 42,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -17,13 +17,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.173913043478261,
       "sentencesCount": 23,
       "charactersCount": 3360,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Ground Self-Defence Force",
           "ner": "MISC",
@@ -332,7 +332,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Japanese",
           "ner": "NATIONALITY",
@@ -417,7 +417,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 71,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -428,7 +428,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "war",
           "ner": "CAUSE_OF_DEATH",
@@ -444,7 +444,7 @@
       "sentimentValue": 1.125,
       "sentencesCount": 24,
       "charactersCount": 3452,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -690,7 +690,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "marine",
           "ner": "TITLE",
@@ -782,7 +782,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 62,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -802,7 +802,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Marine",
           "ner": "TITLE",
@@ -827,7 +827,7 @@
       "sentimentValue": 1.125,
       "sentencesCount": 8,
       "charactersCount": 1053,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -925,7 +925,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "marine",
           "ner": "TITLE",
@@ -974,7 +974,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 50,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -985,13 +985,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.3333333333333333,
       "sentencesCount": 30,
       "charactersCount": 2597,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Amphibious Rapid Deployment Brigade",
           "ner": "ORGANIZATION",
@@ -1237,7 +1237,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Japanese",
           "ner": "NATIONALITY",
@@ -1322,7 +1322,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 92,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -1333,7 +1333,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "marine",
           "ner": "TITLE",
@@ -1367,7 +1367,7 @@
       "sentimentValue": 1.537037037037037,
       "sentencesCount": 54,
       "charactersCount": 4222,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -1706,7 +1706,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "war",
           "ner": "CAUSE_OF_DEATH",
@@ -1866,7 +1866,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 84,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -1904,7 +1904,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "War",
           "ner": "CAUSE_OF_DEATH",
@@ -1920,7 +1920,7 @@
       "sentimentValue": 1.2307692307692308,
       "sentencesCount": 26,
       "charactersCount": 3659,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Richard Atrero de Guzman",
           "ner": "PERSON",
@@ -2241,7 +2241,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Japanese",
           "ner": "NATIONALITY",
@@ -2340,7 +2340,7 @@
       "sentimentValue": 3,
       "sentencesCount": 1,
       "charactersCount": 55,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -2351,13 +2351,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.4,
       "sentencesCount": 30,
       "charactersCount": 3625,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -2647,7 +2647,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "marine",
           "ner": "TITLE",
@@ -2755,7 +2755,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 41,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -2766,13 +2766,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1,
       "sentencesCount": 12,
       "charactersCount": 1949,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -2963,7 +2963,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "marine",
           "ner": "TITLE",
@@ -3050,7 +3050,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 59,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -3079,13 +3079,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.736842105263158,
       "sentencesCount": 38,
       "charactersCount": 1566,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Self-Defence Forces",
           "ner": "ORGANIZATION",
@@ -3183,7 +3183,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "defence minister",
           "ner": "TITLE",
@@ -3212,7 +3212,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 90,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -3223,13 +3223,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.380952380952381,
       "sentencesCount": 21,
       "charactersCount": 2521,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -3384,7 +3384,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "war",
           "ner": "CAUSE_OF_DEATH",
@@ -3462,7 +3462,7 @@
       "sentimentValue": 3,
       "sentencesCount": 1,
       "charactersCount": 92,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -3491,7 +3491,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "marine",
           "ner": "TITLE",
@@ -3516,7 +3516,7 @@
       "sentimentValue": 1.4444444444444444,
       "sentencesCount": 36,
       "charactersCount": 3457,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Japan",
           "ner": "COUNTRY",
@@ -3785,7 +3785,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "marine",
           "ner": "TITLE",
@@ -3901,7 +3901,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 66,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Vanessa Trump",
           "ner": "PERSON",
@@ -3921,13 +3921,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.58,
       "sentencesCount": 50,
       "charactersCount": 3982,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "America",
           "ner": "COUNTRY",
@@ -4247,7 +4247,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "President",
           "ner": "TITLE",
@@ -4318,7 +4318,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 92,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Americans",
           "ner": "MISC",
@@ -4347,13 +4347,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.75,
       "sentencesCount": 28,
       "charactersCount": 1922,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Trump",
           "ner": "PERSON",
@@ -4453,7 +4453,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "American",
           "ner": "NATIONALITY",
@@ -4504,14 +4504,14 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 54,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5514018691588785,
       "sentencesCount": 107,
       "charactersCount": 7813,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "SpaceX",
           "ner": "ORGANIZATION",
@@ -4789,7 +4789,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "CEO",
           "ner": "TITLE",
@@ -4855,7 +4855,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 88,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Trump",
           "ner": "PERSON",
@@ -4884,7 +4884,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "president",
           "ner": "TITLE",
@@ -4900,7 +4900,7 @@
       "sentimentValue": 1.4285714285714286,
       "sentencesCount": 70,
       "charactersCount": 9548,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Enrique Peña Nieto",
           "ner": "PERSON",
@@ -5436,7 +5436,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Mexican",
           "ner": "NATIONALITY",
@@ -5624,7 +5624,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 84,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "China",
           "ner": "COUNTRY",
@@ -5653,13 +5653,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.4842105263157894,
       "sentencesCount": 95,
       "charactersCount": 8247,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "BEIJING",
           "ner": "CITY",
@@ -6480,7 +6480,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "President",
           "ner": "TITLE",
@@ -6711,7 +6711,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 58,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Russia",
           "ner": "COUNTRY",
@@ -6722,13 +6722,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5180722891566265,
       "sentencesCount": 83,
       "charactersCount": 7160,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Robert S. Mueller III",
           "ner": "PERSON",
@@ -7252,7 +7252,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -7496,7 +7496,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 65,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "China",
           "ner": "COUNTRY",
@@ -7507,7 +7507,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "African",
           "ner": "NATIONALITY",
@@ -7523,8 +7523,8 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 28,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     }
   },
   {
@@ -7534,7 +7534,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 92,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Alexei Navalny",
           "ner": "PERSON",
@@ -7545,7 +7545,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -7570,8 +7570,8 @@
       "sentimentValue": 2,
       "sentencesCount": 3,
       "charactersCount": 106,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     }
   },
   {
@@ -7581,14 +7581,14 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 14,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.1891891891891893,
       "sentencesCount": 37,
       "charactersCount": 4384,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "MOSCOW",
           "ner": "CITY",
@@ -7818,7 +7818,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -7906,14 +7906,14 @@
       "sentimentValue": 2,
       "sentencesCount": 2,
       "charactersCount": 28,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.6363636363636365,
       "sentencesCount": 11,
       "charactersCount": 447,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "ABC Home Page",
           "ner": "ORGANIZATION",
@@ -7933,7 +7933,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -7943,7 +7943,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 69,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Russia",
           "ner": "COUNTRY",
@@ -7954,13 +7954,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.671875,
       "sentencesCount": 128,
       "charactersCount": 7884,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Rick Gates",
           "ner": "PERSON",
@@ -8555,7 +8555,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "campaign manager",
           "ner": "TITLE",
@@ -8779,7 +8779,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 54,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Elon Musk",
           "ner": "ORGANIZATION",
@@ -8790,7 +8790,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "war",
           "ner": "CAUSE_OF_DEATH",
@@ -8806,7 +8806,7 @@
       "sentimentValue": 1.6666666666666667,
       "sentencesCount": 39,
       "charactersCount": 3036,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Elon Musk",
           "ner": "PERSON",
@@ -8943,7 +8943,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "war",
           "ner": "CAUSE_OF_DEATH",
@@ -9000,7 +9000,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 103,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Mexico",
           "ner": "COUNTRY",
@@ -9038,13 +9038,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1,
       "sentencesCount": 2,
       "charactersCount": 210,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Washington DC",
           "ner": "CITY",
@@ -9073,7 +9073,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -9083,7 +9083,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 83,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Falcon Heavy",
           "ner": "ORGANIZATION",
@@ -9094,13 +9094,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.3333333333333333,
       "sentencesCount": 6,
       "charactersCount": 1567,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "SpaceX Falcon Heavy",
           "ner": "ORGANIZATION",
@@ -9188,7 +9188,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -9198,7 +9198,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 77,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Europe",
           "ner": "LOCATION",
@@ -9218,13 +9218,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5,
       "sentencesCount": 20,
       "charactersCount": 1331,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "U.K.",
           "ner": "LOCATION",
@@ -9350,7 +9350,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "European",
           "ner": "NATIONALITY",
@@ -9379,7 +9379,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 40,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "MX",
           "ner": "COUNTRY",
@@ -9390,13 +9390,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5,
       "sentencesCount": 36,
       "charactersCount": 3407,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "United States",
           "ner": "COUNTRY",
@@ -9653,7 +9653,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "President",
           "ner": "TITLE",
@@ -9741,8 +9741,8 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 53,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": [
+      "discreteEntities": [],
+      "abstractEntities": [
         {
           "text": "war",
           "ner": "CAUSE_OF_DEATH",
@@ -9758,7 +9758,7 @@
       "sentimentValue": 1,
       "sentencesCount": 37,
       "charactersCount": 4737,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "NEW YORK",
           "ner": "STATE_OR_PROVINCE",
@@ -10215,7 +10215,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "war",
           "ner": "CAUSE_OF_DEATH",
@@ -10347,7 +10347,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 70,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Mueller",
           "ner": "PERSON",
@@ -10367,7 +10367,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -10383,7 +10383,7 @@
       "sentimentValue": 1.3783783783783783,
       "sentencesCount": 37,
       "charactersCount": 4714,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Robert Mueller",
           "ner": "PERSON",
@@ -10781,7 +10781,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "president",
           "ner": "TITLE",
@@ -10869,7 +10869,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 73,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Xi Jinping",
           "ner": "PERSON",
@@ -10880,7 +10880,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Chinese",
           "ner": "NATIONALITY",
@@ -10905,7 +10905,7 @@
       "sentimentValue": 1.3235294117647058,
       "sentencesCount": 34,
       "charactersCount": 3332,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "BEIJING",
           "ner": "CITY",
@@ -11137,7 +11137,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Chinese",
           "ner": "NATIONALITY",
@@ -11249,7 +11249,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 99,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Trump",
           "ner": "PERSON",
@@ -11269,7 +11269,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Mexican",
           "ner": "NATIONALITY",
@@ -11294,7 +11294,7 @@
       "sentimentValue": 1.4487179487179487,
       "sentencesCount": 78,
       "charactersCount": 9801,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Enrique Peña Nieto",
           "ner": "PERSON",
@@ -11846,7 +11846,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Mexican",
           "ner": "NATIONALITY",
@@ -12073,14 +12073,14 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 62,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.8571428571428572,
       "sentencesCount": 7,
       "charactersCount": 344,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Donald Trump",
           "ner": "PERSON",
@@ -12118,7 +12118,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "president",
           "ner": "TITLE",
@@ -12147,7 +12147,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 80,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Alexey Navalny",
           "ner": "PERSON",
@@ -12167,7 +12167,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -12192,7 +12192,7 @@
       "sentimentValue": 1.511111111111111,
       "sentencesCount": 45,
       "charactersCount": 3850,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "MOSCOW",
           "ner": "CITY",
@@ -12477,7 +12477,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -12576,7 +12576,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 78,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Trump",
           "ner": "PERSON",
@@ -12596,13 +12596,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5625,
       "sentencesCount": 32,
       "charactersCount": 2903,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "US",
           "ner": "COUNTRY",
@@ -12716,7 +12716,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "President",
           "ner": "TITLE",
@@ -12779,7 +12779,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 78,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Alexei Navalny",
           "ner": "PERSON",
@@ -12790,7 +12790,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -12815,7 +12815,7 @@
       "sentimentValue": 1.375,
       "sentencesCount": 48,
       "charactersCount": 4565,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Moscow",
           "ner": "CITY",
@@ -13038,7 +13038,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Russian",
           "ner": "NATIONALITY",
@@ -13126,7 +13126,7 @@
       "sentimentValue": 2.5,
       "sentencesCount": 2,
       "charactersCount": 79,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "China",
           "ner": "COUNTRY",
@@ -13137,13 +13137,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5,
       "sentencesCount": 8,
       "charactersCount": 671,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Xi",
           "ner": "MISC",
@@ -13164,7 +13164,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -13174,7 +13174,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 67,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Vanessa Trump",
           "ner": "PERSON",
@@ -13194,13 +13194,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.8412698412698412,
       "sentencesCount": 63,
       "charactersCount": 2962,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Vanessa Trump",
           "ner": "PERSON",
@@ -13474,7 +13474,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "president",
           "ner": "TITLE",
@@ -13512,7 +13512,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 75,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Donald Trump Jr.",
           "ner": "PERSON",
@@ -13541,13 +13541,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.830188679245283,
       "sentencesCount": 53,
       "charactersCount": 3000,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Brendan Hoffman/Getty Images",
           "ner": "PERSON",
@@ -13748,7 +13748,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "president",
           "ner": "TITLE",
@@ -13777,7 +13777,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 112,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Amazon",
           "ner": "LOCATION",
@@ -13806,13 +13806,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.7676767676767677,
       "sentencesCount": 99,
       "charactersCount": 5924,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Amazon",
           "ner": "LOCATION",
@@ -14144,7 +14144,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "independent",
           "ner": "RELIGION",
@@ -14246,14 +14246,14 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 68,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.336734693877551,
       "sentencesCount": 98,
       "charactersCount": 13229,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "U.S. Court of Appeals for the Second Circuit",
           "ner": "ORGANIZATION",
@@ -14928,7 +14928,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "skydiver",
           "ner": "TITLE",
@@ -15033,7 +15033,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 43,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Adriana Cohen",
           "ner": "PERSON",
@@ -15044,13 +15044,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5,
       "sentencesCount": 4,
       "charactersCount": 288,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Vanessa",
           "ner": "PERSON",
@@ -15070,7 +15070,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -15080,7 +15080,7 @@
       "sentimentValue": 3,
       "sentencesCount": 1,
       "charactersCount": 69,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "U.S.",
           "ner": "COUNTRY",
@@ -15091,13 +15091,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.1428571428571428,
       "sentencesCount": 21,
       "charactersCount": 2532,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Reuters",
           "ner": "ORGANIZATION",
@@ -15378,7 +15378,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "instructor",
           "ner": "TITLE",
@@ -15443,7 +15443,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 81,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "2nd Circuit En Banc",
           "ner": "ORGANIZATION",
@@ -15454,13 +15454,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.4210526315789473,
       "sentencesCount": 76,
       "charactersCount": 8678,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "U.S. Court of Appeals for the Second Circuit",
           "ner": "ORGANIZATION",
@@ -15874,7 +15874,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Judge",
           "ner": "TITLE",
@@ -15943,7 +15943,7 @@
       "sentimentValue": 3,
       "sentencesCount": 1,
       "charactersCount": 76,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Amazon",
           "ner": "ORGANIZATION",
@@ -15972,13 +15972,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5,
       "sentencesCount": 38,
       "charactersCount": 4763,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Amazon",
           "ner": "LOCATION",
@@ -16246,7 +16246,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "retailer",
           "ner": "TITLE",
@@ -16339,14 +16339,14 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 55,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.469387755102041,
       "sentencesCount": 49,
       "charactersCount": 4139,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Benjamin Sparks",
           "ner": "PERSON",
@@ -16627,7 +16627,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "spokesman",
           "ner": "TITLE",
@@ -16707,7 +16707,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 66,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Las Vegas GOP",
           "ner": "ORGANIZATION",
@@ -16718,13 +16718,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.3584905660377358,
       "sentencesCount": 53,
       "charactersCount": 4569,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "GOP",
           "ner": "ORGANIZATION",
@@ -16964,7 +16964,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "consultant",
           "ner": "TITLE",
@@ -17022,7 +17022,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 89,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "South Carolina",
           "ner": "STATE_OR_PROVINCE",
@@ -17051,7 +17051,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Rep.",
           "ner": "TITLE",
@@ -17067,7 +17067,7 @@
       "sentimentValue": 1.25,
       "sentencesCount": 24,
       "charactersCount": 2211,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "U.S.",
           "ner": "COUNTRY",
@@ -17313,7 +17313,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Rep.",
           "ner": "TITLE",
@@ -17415,8 +17415,8 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 53,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": [
+      "discreteEntities": [],
+      "abstractEntities": [
         {
           "text": "Congressman",
           "ner": "TITLE",
@@ -17441,7 +17441,7 @@
       "sentimentValue": 1.5454545454545454,
       "sentencesCount": 22,
       "charactersCount": 1896,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Norman",
           "ner": "PERSON",
@@ -17523,7 +17523,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "violence",
           "ner": "CAUSE_OF_DEATH",
@@ -17598,14 +17598,14 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 62,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5555555555555556,
       "sentencesCount": 54,
       "charactersCount": 3828,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Las Vegas",
           "ner": "CITY",
@@ -17866,7 +17866,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "consultant",
           "ner": "TITLE",
@@ -17914,14 +17914,14 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 29,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.3636363636363635,
       "sentencesCount": 33,
       "charactersCount": 2127,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "U.S.",
           "ner": "COUNTRY",
@@ -18096,7 +18096,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "President",
           "ner": "TITLE",
@@ -18208,7 +18208,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 69,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Trump",
           "ner": "PERSON",
@@ -18219,13 +18219,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5,
       "sentencesCount": 2,
       "charactersCount": 75,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "University of Southern California/Daily Trojan",
           "ner": "ORGANIZATION",
@@ -18236,7 +18236,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -18246,7 +18246,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 95,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Healthcare",
           "ner": "ORGANIZATION",
@@ -18275,13 +18275,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.562043795620438,
       "sentencesCount": 137,
       "charactersCount": 12525,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "World Health",
           "ner": "MISC",
@@ -18538,7 +18538,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "CEO",
           "ner": "TITLE",
@@ -18596,7 +18596,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 67,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Facebook",
           "ner": "ORGANIZATION",
@@ -18607,13 +18607,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5,
       "sentencesCount": 36,
       "charactersCount": 2500,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "She",
           "ner": "PERSON",
@@ -18764,7 +18764,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Chief Operating Officer",
           "ner": "TITLE",
@@ -18793,7 +18793,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 71,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Benjamin Sparks",
           "ner": "PERSON",
@@ -18804,13 +18804,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5660377358490567,
       "sentencesCount": 53,
       "charactersCount": 3047,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Benjamin Sparks",
           "ner": "PERSON",
@@ -19007,7 +19007,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -19057,7 +19057,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 66,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Becoming Childish",
           "ner": "MISC",
@@ -19077,13 +19077,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5714285714285714,
       "sentencesCount": 49,
       "charactersCount": 3732,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Donald Trump",
           "ner": "PERSON",
@@ -19443,7 +19443,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Chinese",
           "ner": "NATIONALITY",
@@ -19523,7 +19523,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 87,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "SC",
           "ner": "STATE_OR_PROVINCE",
@@ -19534,7 +19534,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Congressman",
           "ner": "TITLE",
@@ -19550,7 +19550,7 @@
       "sentimentValue": 1.5,
       "sentencesCount": 24,
       "charactersCount": 1886,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "South Carolina",
           "ner": "STATE_OR_PROVINCE",
@@ -19674,7 +19674,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -19731,7 +19731,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 61,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Zuckerberg",
           "ner": "PERSON",
@@ -19751,13 +19751,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.4444444444444444,
       "sentencesCount": 153,
       "charactersCount": 16436,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Facebook",
           "ner": "ORGANIZATION",
@@ -20073,7 +20073,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "developer",
           "ner": "TITLE",
@@ -20162,7 +20162,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 75,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "South Carolina",
           "ner": "STATE_OR_PROVINCE",
@@ -20173,7 +20173,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -20189,7 +20189,7 @@
       "sentimentValue": 1.4857142857142858,
       "sentencesCount": 35,
       "charactersCount": 3156,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "South Carolina",
           "ner": "STATE_OR_PROVINCE",
@@ -20440,7 +20440,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -20555,7 +20555,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 80,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Facebook",
           "ner": "ORGANIZATION",
@@ -20566,13 +20566,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.3636363636363635,
       "sentencesCount": 33,
       "charactersCount": 2989,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "B.C.",
           "ner": "STATE_OR_PROVINCE",
@@ -20793,7 +20793,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -20822,7 +20822,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 66,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Gabby Giffords",
           "ner": "PERSON",
@@ -20833,7 +20833,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Lawmaker",
           "ner": "TITLE",
@@ -20849,7 +20849,7 @@
       "sentimentValue": 1.5833333333333333,
       "sentencesCount": 24,
       "charactersCount": 1861,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "South Carolina",
           "ner": "STATE_OR_PROVINCE",
@@ -21044,7 +21044,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -21173,7 +21173,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 62,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Facebook",
           "ner": "ORGANIZATION",
@@ -21193,13 +21193,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.1363636363636365,
       "sentencesCount": 22,
       "charactersCount": 3498,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Sheryl Sandberg",
           "ner": "PERSON",
@@ -21513,7 +21513,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Chief Operating Officer",
           "ner": "TITLE",
@@ -21624,7 +21624,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 66,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Gabby Giffords",
           "ner": "PERSON",
@@ -21635,7 +21635,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Lawmaker",
           "ner": "TITLE",
@@ -21651,7 +21651,7 @@
       "sentimentValue": 1.5833333333333333,
       "sentencesCount": 24,
       "charactersCount": 1861,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "South Carolina",
           "ner": "STATE_OR_PROVINCE",
@@ -21846,7 +21846,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -21975,7 +21975,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 59,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "FTC",
           "ner": "ORGANIZATION",
@@ -21986,13 +21986,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 2,
       "sentencesCount": 3,
       "charactersCount": 127,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "FTC",
           "ner": "ORGANIZATION",
@@ -22012,7 +22012,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -22022,14 +22022,14 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 81,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.4864864864864864,
       "sentencesCount": 37,
       "charactersCount": 4190,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "US",
           "ner": "COUNTRY",
@@ -22165,7 +22165,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "manufacturer",
           "ner": "TITLE",
@@ -22206,14 +22206,14 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 76,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.434782608695652,
       "sentencesCount": 46,
       "charactersCount": 3741,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Mag-Moss Act",
           "ner": "MISC",
@@ -22306,7 +22306,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "sticker",
           "ner": "TITLE",
@@ -22344,7 +22344,7 @@
       "sentimentValue": 2,
       "sentencesCount": 2,
       "charactersCount": 72,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "US",
           "ner": "COUNTRY",
@@ -22355,13 +22355,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5294117647058822,
       "sentencesCount": 17,
       "charactersCount": 2042,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "USA",
           "ner": "COUNTRY",
@@ -22411,7 +22411,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "owner",
           "ner": "TITLE",
@@ -22431,7 +22431,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 42,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "US",
           "ner": "COUNTRY",
@@ -22442,13 +22442,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.2142857142857142,
       "sentencesCount": 14,
       "charactersCount": 1603,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "US",
           "ner": "COUNTRY",
@@ -22533,7 +22533,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     }
   },
   {
@@ -22543,7 +22543,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 46,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Knicks",
           "ner": "ORGANIZATION",
@@ -22563,7 +22563,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "fire",
           "ner": "CAUSE_OF_DEATH",
@@ -22588,7 +22588,7 @@
       "sentimentValue": 1.3076923076923077,
       "sentencesCount": 13,
       "charactersCount": 1101,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "The Knicks",
           "ner": "ORGANIZATION",
@@ -22771,7 +22771,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "coach",
           "ner": "TITLE",
@@ -22837,7 +22837,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 45,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Knicks",
           "ner": "ORGANIZATION",
@@ -22857,13 +22857,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.673913043478261,
       "sentencesCount": 46,
       "charactersCount": 3447,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Adrian Wojnarowski ESPN",
           "ner": "PERSON",
@@ -23274,7 +23274,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "coach",
           "ner": "TITLE",
@@ -23333,7 +23333,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 61,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Knicks",
           "ner": "ORGANIZATION",
@@ -23353,7 +23353,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "fire",
           "ner": "CAUSE_OF_DEATH",
@@ -23378,7 +23378,7 @@
       "sentimentValue": 1.5675675675675675,
       "sentencesCount": 37,
       "charactersCount": 3373,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "NEW YORK",
           "ner": "STATE_OR_PROVINCE",
@@ -23708,7 +23708,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "coach",
           "ner": "TITLE",
@@ -23769,7 +23769,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 57,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Jeff Hornacek",
           "ner": "PERSON",
@@ -23789,13 +23789,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.8181818181818181,
       "sentencesCount": 44,
       "charactersCount": 4618,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "New York",
           "ner": "STATE_OR_PROVINCE",
@@ -24163,7 +24163,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "coach",
           "ner": "TITLE",
@@ -24208,14 +24208,14 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 53,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5714285714285714,
       "sentencesCount": 42,
       "charactersCount": 3384,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Atlantic Ocean",
           "ner": "LOCATION",
@@ -24423,7 +24423,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "independent",
           "ner": "RELIGION",
@@ -24443,14 +24443,14 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 41,
-      "discreteEntitiesList": [],
-      "abstractEntitiesList": []
+      "discreteEntities": [],
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.5675675675675675,
       "sentencesCount": 37,
       "charactersCount": 4104,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "WHOI",
           "ner": "ORGANIZATION",
@@ -24626,7 +24626,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "spanner",
           "ner": "TITLE",
@@ -24673,7 +24673,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 108,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Atlantic Ocean",
           "ner": "LOCATION",
@@ -24684,13 +24684,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.4642857142857142,
       "sentencesCount": 28,
       "charactersCount": 3078,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Atlantic Ocean",
           "ner": "LOCATION",
@@ -24883,7 +24883,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "African",
           "ner": "NATIONALITY",
@@ -24921,7 +24921,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 83,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Grassley",
           "ner": "PERSON",
@@ -24932,13 +24932,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.2826086956521738,
       "sentencesCount": 46,
       "charactersCount": 6112,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "WASHINGTON",
           "ner": "STATE_OR_PROVINCE",
@@ -25301,7 +25301,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "chairman",
           "ner": "TITLE",
@@ -25453,7 +25453,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 80,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Boehner",
           "ner": "PERSON",
@@ -25464,13 +25464,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.25,
       "sentencesCount": 48,
       "charactersCount": 6289,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "John Boehner",
           "ner": "PERSON",
@@ -25827,7 +25827,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -25969,7 +25969,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 65,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Grassley",
           "ner": "PERSON",
@@ -25998,7 +25998,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "CEO",
           "ner": "TITLE",
@@ -26014,7 +26014,7 @@
       "sentimentValue": 1.5333333333333334,
       "sentencesCount": 30,
       "charactersCount": 3082,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Washington",
           "ner": "STATE_OR_PROVINCE",
@@ -26159,7 +26159,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "senator",
           "ner": "TITLE",
@@ -26216,7 +26216,7 @@
       "sentimentValue": 1.5,
       "sentencesCount": 2,
       "charactersCount": 88,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "John Boehner",
           "ner": "PERSON",
@@ -26227,13 +26227,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.3478260869565217,
       "sentencesCount": 46,
       "charactersCount": 6522,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "GOP House",
           "ner": "ORGANIZATION",
@@ -26600,7 +26600,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Republican",
           "ner": "IDEOLOGY",
@@ -26742,7 +26742,7 @@
       "sentimentValue": 3,
       "sentencesCount": 1,
       "charactersCount": 53,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Comey",
           "ner": "PERSON",
@@ -26753,13 +26753,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.6363636363636365,
       "sentencesCount": 33,
       "charactersCount": 4210,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Comey",
           "ner": "PERSON",
@@ -26928,7 +26928,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "President",
           "ner": "TITLE",

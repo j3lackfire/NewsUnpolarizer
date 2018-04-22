@@ -9,7 +9,7 @@ const fs = require('fs') //file system to save the file
 let baseFilePath = __dirname + '/DB/'
 
 let dbName = 'annotatedArticles.json'
-let entitiesDetailName = 'entitiesDetail.json'
+let entitiesPopularityName = 'entitiesPopularity.json'
 
 function readDbAsJson(callback) {
     _readFile(dbName, (err, response) => {
@@ -19,8 +19,7 @@ function readDbAsJson(callback) {
             let jsonObject = null
             try {
                 jsonObject = JSON.parse(response)
-            }
-            catch (e) {
+            } catch (e) {
                 console.log('Error parsing the localDb to JSON format')
                 jsonObject = null
             }
@@ -34,26 +33,23 @@ function readDbAsJson(callback) {
     })
 }
 
-function readEntitiesDetailDb(callback) {
-    _readFile(entitiesDetailName, (err, response) => {
+function readEntitiesDetail(callback) {
+    _readFile(entitiesPopularityName, (err, response) => {
         if (err) {
             callback(err, null)
         } else {
             let jsonObject = null
             try {
                 jsonObject = JSON.parse(response)
-            }
-            catch (e) {
+            } catch (e) {
                 console.log('Error parsing the ENTITIES details to JSON format')
                 jsonObject = null
             }
-
             if (jsonObject == null) {
                 callback('not exist', null)
             } else {
                 callback(null, jsonObject)
             }
-
         }
     })
 }
@@ -70,4 +66,7 @@ function _readFile(_fileName, callback) {
 }
 
 module.exports.dbName = dbName
+module.exports.entitiesPopularityName = entitiesPopularityName
+
 module.exports.readDbAsJson = readDbAsJson
+module.exports.readEntitiesDetail = readEntitiesDetail

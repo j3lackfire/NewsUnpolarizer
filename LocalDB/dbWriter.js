@@ -58,14 +58,65 @@ function _writeToDb(content, callback) {
             callback(err)
         } else {
             let articleUrl = Array.isArray(content) ? content[content.length - 1].url : content.url
-            console.log(articleUrl)
-            _appendLog(articleUrl, callback)
+            _appendLog(articleUrl, (err) => {
+                if (err) {
+                    console.log('Error happening writing the url log to the db')
+                    callback(err)
+                } else {
+                    let coreFeatures = Array.isArray(content) ? content[content.length - 1] : content;
+                    updateEntitiesDetail(coreFeatures, callback)
+                }
+            })
         }
     });
 }
 
 function updateEntitiesDetail(content, callback) {
+    dbReader.readEntitiesDetail((err, res) => {
+        let entitiesPopularity = err ? [] : res
 
+        _checkAndAddToEntityList(content.analyzedContent.discreteEntities, entitiesPopularity);
+        _checkAndAddToEntityList(content.analyzedContent.abstractEntities, entitiesPopularity);
+
+        fs.writeFile(
+            baseFilePath + dbReader.entitiesPopularityName,
+            JSON.stringify(entitiesPopularity, null, 2),
+            'utf8', (error) => {
+            if (error) {
+                console.log('Error writing the entity details to the lobal DB')
+                callback(error)
+            } else {
+                callback(null)
+            }
+        })
+    })
+}
+
+function _checkAndAddToEntityList(_entityList, _entitiesPopularity) {
+    for (let i = 0; i < _entityList.length; i ++) {
+        //not exist
+        let myIndex = _getIndexOfEntity(_entityList[i], _entitiesPopularity)
+        if (myIndex == -1) {
+            let newEntry = {}
+            newEntry.text = _entityList[i].text
+            newEntry.ner = _entityList[i].ner
+            newEntry.timesAppear = _entityList[i].timesAppear
+            newEntry.articleAppear = 1
+            _entitiesPopularity.push(newEntry)
+        } else {
+            _entitiesPopularity[myIndex].timesAppear += _entityList[i].timesAppear
+            _entitiesPopularity[myIndex].articleAppear ++
+        }
+    }
+}
+
+function _getIndexOfEntity(entity, entityList) {
+    for (let i = 0; i < entityList.length; i ++) {
+        if (entityList[i].text == entity.text) {
+            return i
+        }
+    }
+    return -1
 }
 
 function _isNullOrUndefined(param) {

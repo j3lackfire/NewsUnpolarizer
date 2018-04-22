@@ -1,0 +1,1208 @@
+[
+  {
+    "text": "Damascus",
+    "ner": "CITY",
+    "timesAppear": 15,
+    "articleAppear": 6
+  },
+  {
+    "text": "Kashkol",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Bashar al-Assad",
+    "ner": "PERSON",
+    "timesAppear": 7,
+    "articleAppear": 4
+  },
+  {
+    "text": "Ghouta",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Russia",
+    "ner": "COUNTRY",
+    "timesAppear": 21,
+    "articleAppear": 7
+  },
+  {
+    "text": "Boris Johnson",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "UK",
+    "ner": "COUNTRY",
+    "timesAppear": 4,
+    "articleAppear": 3
+  },
+  {
+    "text": "Syria",
+    "ner": "COUNTRY",
+    "timesAppear": 42,
+    "articleAppear": 7
+  },
+  {
+    "text": "Bashar",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "al-Assad",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Eastern Ghouta",
+    "ner": "LOCATION",
+    "timesAppear": 6,
+    "articleAppear": 3
+  },
+  {
+    "text": "Isis",
+    "ner": "ORGANIZATION",
+    "timesAppear": 3,
+    "articleAppear": 1
+  },
+  {
+    "text": "Qadam",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Syrian Observatory for Human Rights",
+    "ner": "ORGANIZATION",
+    "timesAppear": 3,
+    "articleAppear": 3
+  },
+  {
+    "text": "United Nations",
+    "ner": "ORGANIZATION",
+    "timesAppear": 3,
+    "articleAppear": 2
+  },
+  {
+    "text": "Syrian Civil Defence",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Press Association",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Syrian",
+    "ner": "NATIONALITY",
+    "timesAppear": 50,
+    "articleAppear": 8
+  },
+  {
+    "text": "attack",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 69,
+    "articleAppear": 7
+  },
+  {
+    "text": "President",
+    "ner": "TITLE",
+    "timesAppear": 12,
+    "articleAppear": 6
+  },
+  {
+    "text": "pro-government",
+    "ner": "IDEOLOGY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "war",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 6,
+    "articleAppear": 4
+  },
+  {
+    "text": "Turkish",
+    "ner": "NATIONALITY",
+    "timesAppear": 3,
+    "articleAppear": 2
+  },
+  {
+    "text": "Russian",
+    "ner": "NATIONALITY",
+    "timesAppear": 18,
+    "articleAppear": 6
+  },
+  {
+    "text": "spokesman",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "AMMAN",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Reuters",
+    "ner": "ORGANIZATION",
+    "timesAppear": 8,
+    "articleAppear": 3
+  },
+  {
+    "text": "Kashkoul",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Douma",
+    "ner": "PERSON",
+    "timesAppear": 36,
+    "articleAppear": 5
+  },
+  {
+    "text": "Iyad Abdel Aziz",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Douma civil council",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "U.N.",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Suleiman Al-Khalidi",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Gareth Jones",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Western",
+    "ner": "MISC",
+    "timesAppear": 10,
+    "articleAppear": 5
+  },
+  {
+    "text": "Organisation for the Prohibition of Chemical Weapons",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "OPCW",
+    "ner": "ORGANIZATION",
+    "timesAppear": 18,
+    "articleAppear": 4
+  },
+  {
+    "text": "US",
+    "ner": "COUNTRY",
+    "timesAppear": 7,
+    "articleAppear": 2
+  },
+  {
+    "text": "France",
+    "ner": "COUNTRY",
+    "timesAppear": 4,
+    "articleAppear": 3
+  },
+  {
+    "text": "BBC Arab Affairs",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Sebastian Usher",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "OPCW Laboratory",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Rijswijk",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "The Hague",
+    "ner": "CITY",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "UN",
+    "ner": "ORGANIZATION",
+    "timesAppear": 6,
+    "articleAppear": 3
+  },
+  {
+    "text": "AFP",
+    "ner": "ORGANIZATION",
+    "timesAppear": 5,
+    "articleAppear": 2
+  },
+  {
+    "text": "Alastair Hay",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "University of Leeds",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "EPA",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Jaish al-Islam",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Khan Sheikhoun",
+    "ner": "LOCATION",
+    "timesAppear": 18,
+    "articleAppear": 4
+  },
+  {
+    "text": "attacks",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 14,
+    "articleAppear": 6
+  },
+  {
+    "text": "editor",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "correspondent",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "fire",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "professor",
+    "ner": "TITLE",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "Russian-backed Syrian",
+    "ner": "NATIONALITY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "foreign minister",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Assad",
+    "ner": "PERSON",
+    "timesAppear": 22,
+    "articleAppear": 5
+  },
+  {
+    "text": "Theresa May",
+    "ner": "PERSON",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "U.S. Defense",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Jim Mattis",
+    "ner": "PERSON",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "Britain",
+    "ner": "COUNTRY",
+    "timesAppear": 4,
+    "articleAppear": 3
+  },
+  {
+    "text": "Human Rights Watch",
+    "ner": "ORGANIZATION",
+    "timesAppear": 3,
+    "articleAppear": 2
+  },
+  {
+    "text": "Aleppo",
+    "ner": "CITY",
+    "timesAppear": 5,
+    "articleAppear": 2
+  },
+  {
+    "text": "World Health Organisation",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Jaysh al-Islam -LRB-Army of Islam",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "ISIS",
+    "ner": "ORGANIZATION",
+    "timesAppear": 3,
+    "articleAppear": 2
+  },
+  {
+    "text": "Jaysh al-Islam",
+    "ner": "PERSON",
+    "timesAppear": 3,
+    "articleAppear": 1
+  },
+  {
+    "text": "National Security Bureau",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Douma.Revolution Facebook",
+    "ner": "MISC",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Facebook",
+    "ner": "MISC",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Fadi Abdullah",
+    "ner": "PERSON",
+    "timesAppear": 4,
+    "articleAppear": 1
+  },
+  {
+    "text": "Liwa al-Islam",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Syria Civil Defence",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "pro-Assad",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "White Helmets",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "American Medical Society",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "SAMS",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "BBC",
+    "ner": "ORGANIZATION",
+    "timesAppear": 3,
+    "articleAppear": 2
+  },
+  {
+    "text": "Open",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Syrian Arab Air Force",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "British",
+    "ner": "NATIONALITY",
+    "timesAppear": 3,
+    "articleAppear": 2
+  },
+  {
+    "text": "prime minister",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "independent",
+    "ner": "RELIGION",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "respiratory failure",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Islamist",
+    "ner": "IDEOLOGY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "cameraman",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Islamic",
+    "ner": "IDEOLOGY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "execution",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "burns",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "doctor",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "reporter",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "poison",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "accident",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "WASHINGTON",
+    "ner": "STATE_OR_PROVINCE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Pentagon",
+    "ner": "ORGANIZATION",
+    "timesAppear": 5,
+    "articleAppear": 2
+  },
+  {
+    "text": "Trump",
+    "ner": "PERSON",
+    "timesAppear": 10,
+    "articleAppear": 2
+  },
+  {
+    "text": "Mission Accomplished",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "New York Times",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "Kenneth F. McKenzie Jr.",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "McKenzie",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Homs",
+    "ner": "PERSON",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Washington",
+    "ner": "STATE_OR_PROVINCE",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Twitter",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Nikki R. Haley",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Security Council",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "United States",
+    "ner": "COUNTRY",
+    "timesAppear": 12,
+    "articleAppear": 4
+  },
+  {
+    "text": "Khan Shaykhun",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Mediterranean",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Red Sea",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Persian Gulf",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "White House",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Bahrain",
+    "ner": "COUNTRY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Fifth Fleet",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Al",
+    "ner": "CITY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Udeid Air Base",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Qatar",
+    "ner": "COUNTRY",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Middle East",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Saudi Arabia",
+    "ner": "COUNTRY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Jordan",
+    "ner": "CITY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "American-led",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "B-1",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Him Shinshar",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Barzeh",
+    "ner": "LOCATION",
+    "timesAppear": 3,
+    "articleAppear": 1
+  },
+  {
+    "text": "Jeffrey Lewis",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Center for Nonproliferation Studies",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Middlebury Institute of International Studies",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Chemical Weapons Convention",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Mattis",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "State Department",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "Al Jazeera",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Eric Schmitt",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Rick Gladstone",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "New York",
+    "ner": "STATE_OR_PROVINCE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "American",
+    "ner": "NATIONALITY",
+    "timesAppear": 13,
+    "articleAppear": 2
+  },
+  {
+    "text": "French",
+    "ner": "NATIONALITY",
+    "timesAppear": 4,
+    "articleAppear": 2
+  },
+  {
+    "text": "president",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "analyst",
+    "ner": "TITLE",
+    "timesAppear": 4,
+    "articleAppear": 1
+  },
+  {
+    "text": "Lt. Gen.",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "director",
+    "ner": "TITLE",
+    "timesAppear": 2,
+    "articleAppear": 2
+  },
+  {
+    "text": "General",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "ambassador",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "complications",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "escort",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Jordanian",
+    "ner": "NATIONALITY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Defense Secretary",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Idlib",
+    "ner": "CITY",
+    "timesAppear": 3,
+    "articleAppear": 1
+  },
+  {
+    "text": "Mariam Abu Khalil",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Hussein Kayal",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Edlib Media Center",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Mohammed Rasoul",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Union of Medical Care",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Bab al-Hawa",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "EMC",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "UK-based",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Organisation for the Prevention of Chemical Weapons",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Sarin-like",
+    "ner": "MISC",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Ahmet Uzumcu",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Uzumcu",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Recep Akdag",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "IMPA",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Turkey",
+    "ner": "COUNTRY",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Syrian Scientific Studies and Research Centre",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "West",
+    "ner": "MISC",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Iraq",
+    "ner": "COUNTRY",
+    "timesAppear": 3,
+    "articleAppear": 1
+  },
+  {
+    "text": "Hama province",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Air Force Sukhoi",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "NBC News",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Syrian Air Force",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Hamish de Bretton-Gordon",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "British Armed Forces Joint Chemical",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "de Bretton-Gordon",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Moscow",
+    "ner": "CITY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Islamic State",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Hasan Haj Ali",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Free Idlib Army",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "explosion",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 4,
+    "articleAppear": 1
+  },
+  {
+    "text": "photographer",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "asphyxiation",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "Health Minister",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "crater",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "al-Qaeda",
+    "ner": "IDEOLOGY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "commander",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "cyanide",
+    "ner": "CAUSE_OF_DEATH",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Omar Sanadiki/Reuters",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "BEIRUT",
+    "ner": "CITY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Heather Nauert",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Jerry Smith",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Alastair W.M. Hay",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Washington Post",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Ghanem Tayara",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Union of Medical Care and Relief Organizations",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Raqqa",
+    "ner": "LOCATION",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "spokeswoman",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "consultant",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "toxicologist",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Obama",
+    "ner": "PERSON",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "Syrians",
+    "ner": "MISC",
+    "timesAppear": 2,
+    "articleAppear": 1
+  },
+  {
+    "text": "U.S.",
+    "ner": "COUNTRY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  },
+  {
+    "text": "America",
+    "ner": "COUNTRY",
+    "timesAppear": 1,
+    "articleAppear": 1
+  }
+]

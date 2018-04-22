@@ -132,7 +132,7 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
             },
             ...
         ],
-        "abstractEntitiesList": [
+        "abstractEntities": [
             {
                 "text": "host",
                 "ner": "TITLE",
@@ -174,15 +174,15 @@ The Regex Named Entities Recognition doesn't work. It seems, it freeze on my com
             "sentimentValue": 2,
             "sentencesCount": 1,
             "charactersCount": 42,
-            "discreteEntitiesList": [...],
-            "abstractEntitiesList": [...]
+            "discreteEntities": [...],
+            "abstractEntities": [...]
         },
         "analyzedContent": {
             "sentimentValue": 2,
             "sentencesCount": 1,
             "charactersCount": 42,
-            "discreteEntitiesList": [...],
-            "abstractEntitiesList": [...]
+            "discreteEntities": [...],
+            "abstractEntities": [...]
         },
     ]   
         

@@ -6,7 +6,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 51,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Damascus",
           "ner": "CITY",
@@ -17,7 +17,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "attack",
           "ner": "CAUSE_OF_DEATH",
@@ -42,7 +42,7 @@
       "sentimentValue": 1.44,
       "sentencesCount": 25,
       "charactersCount": 1913,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Damascus",
           "ner": "CITY",
@@ -207,7 +207,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Syrian",
           "ner": "NATIONALITY",
@@ -293,7 +293,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 72,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Damascus",
           "ner": "CITY",
@@ -304,7 +304,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "attack",
           "ner": "CAUSE_OF_DEATH",
@@ -320,7 +320,7 @@
       "sentimentValue": 1,
       "sentencesCount": 11,
       "charactersCount": 1764,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "AMMAN",
           "ner": "LOCATION",
@@ -413,7 +413,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Syrian",
           "ner": "NATIONALITY",
@@ -455,7 +455,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 41,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Syria",
           "ner": "COUNTRY",
@@ -466,13 +466,35 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
-      "sentimentValue": 1.4285714285714286,
-      "sentencesCount": 56,
-      "charactersCount": 4581,
-      "discreteEntitiesList": [
+      "sentimentValue": 1.4444444444444444,
+      "sentencesCount": 54,
+      "charactersCount": 4482,
+      "discreteEntities": [
+        {
+          "text": "Western",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            1,
+            4,
+            21
+          ]
+        },
+        {
+          "text": "Syria",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            1,
+            5,
+            7
+          ]
+        },
         {
           "text": "Damascus",
           "ner": "CITY",
@@ -480,9 +502,9 @@
           "timesAppear": 4,
           "appearIn": [
             2,
-            16,
-            34,
-            42
+            14,
+            32,
+            40
           ]
         },
         {
@@ -501,12 +523,12 @@
           "timesAppear": 7,
           "appearIn": [
             3,
-            10,
-            13,
-            16,
-            22,
-            37,
-            51
+            8,
+            11,
+            14,
+            20,
+            35,
+            49
           ]
         },
         {
@@ -517,31 +539,9 @@
           "appearIn": [
             3,
             5,
-            33,
-            34,
-            41
-          ]
-        },
-        {
-          "text": "Western",
-          "ner": "MISC",
-          "sentimentValue": 1,
-          "timesAppear": 3,
-          "appearIn": [
-            4,
-            7,
-            23
-          ]
-        },
-        {
-          "text": "Syria",
-          "ner": "COUNTRY",
-          "sentimentValue": 1,
-          "timesAppear": 3,
-          "appearIn": [
-            5,
-            7,
-            9
+            31,
+            32,
+            39
           ]
         },
         {
@@ -551,9 +551,9 @@
           "timesAppear": 4,
           "appearIn": [
             5,
-            9,
-            48,
-            50
+            7,
+            46,
+            48
           ]
         },
         {
@@ -562,8 +562,8 @@
           "sentimentValue": 2,
           "timesAppear": 2,
           "appearIn": [
-            9,
-            46
+            7,
+            44
           ]
         },
         {
@@ -572,8 +572,8 @@
           "sentimentValue": 2,
           "timesAppear": 2,
           "appearIn": [
-            9,
-            46
+            7,
+            44
           ]
         },
         {
@@ -582,8 +582,8 @@
           "sentimentValue": 2,
           "timesAppear": 2,
           "appearIn": [
-            9,
-            46
+            7,
+            44
           ]
         },
         {
@@ -592,7 +592,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            10
+            8
           ]
         },
         {
@@ -601,7 +601,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            10
+            8
           ]
         },
         {
@@ -610,7 +610,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            14
+            12
           ]
         },
         {
@@ -619,7 +619,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            14
+            12
           ]
         },
         {
@@ -628,8 +628,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            14,
-            22
+            12,
+            20
           ]
         },
         {
@@ -638,8 +638,8 @@
           "sentimentValue": 1.5,
           "timesAppear": 2,
           "appearIn": [
-            18,
-            51
+            16,
+            49
           ]
         },
         {
@@ -648,8 +648,8 @@
           "sentimentValue": 2,
           "timesAppear": 2,
           "appearIn": [
-            20,
-            24
+            18,
+            22
           ]
         },
         {
@@ -658,7 +658,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            24
+            22
           ]
         },
         {
@@ -667,7 +667,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            24
+            22
           ]
         },
         {
@@ -676,7 +676,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            31
+            29
           ]
         },
         {
@@ -685,7 +685,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            41
+            39
           ]
         },
         {
@@ -694,7 +694,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            42
+            40
           ]
         },
         {
@@ -703,43 +703,19 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            53
+            51
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
-          "text": "guide",
-          "ner": "TITLE",
-          "sentimentValue": "1",
-          "timesAppear": 1,
-          "appearIn": [
-            1
-          ]
-        },
-        {
-          "text": "Syrian",
-          "ner": "NATIONALITY",
-          "sentimentValue": 1,
-          "timesAppear": 5,
-          "appearIn": [
-            1,
-            4,
-            17,
-            48,
-            51
-          ]
-        },
-        {
-          "text": "war",
+          "text": "attacks",
           "ner": "CAUSE_OF_DEATH",
           "sentimentValue": 1,
-          "timesAppear": 4,
+          "timesAppear": 2,
           "appearIn": [
             1,
-            9,
-            34,
-            51
+            49
           ]
         },
         {
@@ -750,24 +726,37 @@
           "appearIn": [
             2,
             4,
-            23,
-            34,
-            38,
-            41,
-            44,
-            50,
-            53,
-            55
+            21,
+            32,
+            36,
+            39,
+            42,
+            48,
+            51,
+            53
           ]
         },
         {
-          "text": "attacks",
+          "text": "Syrian",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            4,
+            15,
+            46,
+            49
+          ]
+        },
+        {
+          "text": "war",
           "ner": "CAUSE_OF_DEATH",
           "sentimentValue": 1,
-          "timesAppear": 2,
+          "timesAppear": 3,
           "appearIn": [
             7,
-            51
+            32,
+            49
           ]
         },
         {
@@ -776,7 +765,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            10
+            8
           ]
         },
         {
@@ -785,7 +774,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            16
+            14
           ]
         },
         {
@@ -794,7 +783,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            18
+            16
           ]
         },
         {
@@ -803,7 +792,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            24
+            22
           ]
         },
         {
@@ -812,7 +801,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            34
+            32
           ]
         },
         {
@@ -821,8 +810,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            35,
-            37
+            33,
+            35
           ]
         },
         {
@@ -831,7 +820,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            50
+            48
           ]
         }
       ]
@@ -844,7 +833,7 @@
       "sentimentValue": 2,
       "sentencesCount": 1,
       "charactersCount": 37,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Syria",
           "ner": "COUNTRY",
@@ -855,7 +844,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "attack",
           "ner": "CAUSE_OF_DEATH",
@@ -871,7 +860,7 @@
       "sentimentValue": 1.5693069306930694,
       "sentencesCount": 202,
       "charactersCount": 15593,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Assad",
           "ner": "PERSON",
@@ -1250,7 +1239,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "President",
           "ner": "TITLE",
@@ -1448,7 +1437,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 78,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Syria",
           "ner": "COUNTRY",
@@ -1468,7 +1457,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Attacks",
           "ner": "CAUSE_OF_DEATH",
@@ -1484,7 +1473,7 @@
       "sentimentValue": 1.2465753424657535,
       "sentencesCount": 73,
       "charactersCount": 9627,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "WASHINGTON",
           "ner": "STATE_OR_PROVINCE",
@@ -1985,7 +1974,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "American",
           "ner": "NATIONALITY",
@@ -2201,7 +2190,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 39,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Syria",
           "ner": "COUNTRY",
@@ -2212,7 +2201,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "attack",
           "ner": "CAUSE_OF_DEATH",
@@ -2228,7 +2217,7 @@
       "sentimentValue": 1.5176470588235293,
       "sentencesCount": 170,
       "charactersCount": 12335,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "AFP",
           "ner": "ORGANIZATION",
@@ -2739,7 +2728,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "attack",
           "ner": "CAUSE_OF_DEATH",
@@ -2917,7 +2906,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 74,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Syria",
           "ner": "COUNTRY",
@@ -2928,13 +2917,13 @@
           ]
         }
       ],
-      "abstractEntitiesList": []
+      "abstractEntities": []
     },
     "analyzedContent": {
       "sentimentValue": 1.3846153846153846,
       "sentencesCount": 52,
       "charactersCount": 5240,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Douma",
           "ner": "LOCATION",
@@ -3150,7 +3139,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Syrian",
           "ner": "NATIONALITY",
@@ -3287,7 +3276,7 @@
       "sentimentValue": 1,
       "sentencesCount": 1,
       "charactersCount": 65,
-      "discreteEntitiesList": [
+      "discreteEntities": [
         {
           "text": "Syria",
           "ner": "COUNTRY",
@@ -3298,7 +3287,7 @@
           ]
         }
       ],
-      "abstractEntitiesList": [
+      "abstractEntities": [
         {
           "text": "Attack",
           "ner": "CAUSE_OF_DEATH",
@@ -3311,84 +3300,20 @@
       ]
     },
     "analyzedContent": {
-      "sentimentValue": 1.5714285714285714,
-      "sentencesCount": 49,
-      "charactersCount": 3123,
-      "discreteEntitiesList": [
-        {
-          "text": "Douma",
-          "ner": "PERSON",
-          "sentimentValue": "1",
-          "timesAppear": 1,
-          "appearIn": [
-            3
-          ]
-        },
-        {
-          "text": "Syria",
-          "ner": "COUNTRY",
-          "sentimentValue": 1.4,
-          "timesAppear": 5,
-          "appearIn": [
-            8,
-            10,
-            24,
-            30,
-            38
-          ]
-        },
-        {
-          "text": "Russia",
-          "ner": "COUNTRY",
-          "sentimentValue": 1.5,
-          "timesAppear": 4,
-          "appearIn": [
-            10,
-            15,
-            39,
-            47
-          ]
-        },
-        {
-          "text": "Iran",
-          "ner": "COUNTRY",
-          "sentimentValue": "1",
-          "timesAppear": 1,
-          "appearIn": [
-            10
-          ]
-        },
-        {
-          "text": "Assad",
-          "ner": "PERSON",
-          "sentimentValue": 1,
-          "timesAppear": 2,
-          "appearIn": [
-            10,
-            44
-          ]
-        },
+      "sentimentValue": 1.6451612903225807,
+      "sentencesCount": 31,
+      "charactersCount": 2028,
+      "discreteEntities": [
         {
           "text": "United States",
           "ner": "COUNTRY",
-          "sentimentValue": 1.5,
-          "timesAppear": 6,
+          "sentimentValue": 2,
+          "timesAppear": 4,
           "appearIn": [
-            11,
-            15,
-            16,
-            18,
-            38,
-            41
-          ]
-        },
-        {
-          "text": "United Nations",
-          "ner": "ORGANIZATION",
-          "sentimentValue": "2",
-          "timesAppear": 1,
-          "appearIn": [
-            12
+            0,
+            2,
+            21,
+            24
           ]
         },
         {
@@ -3397,11 +3322,22 @@
           "sentimentValue": 1.8,
           "timesAppear": 5,
           "appearIn": [
+            4,
+            14,
+            15,
             20,
-            31,
-            32,
-            37,
-            44
+            27
+          ]
+        },
+        {
+          "text": "Syria",
+          "ner": "COUNTRY",
+          "sentimentValue": 1.3333333333333333,
+          "timesAppear": 3,
+          "appearIn": [
+            8,
+            13,
+            21
           ]
         },
         {
@@ -3410,7 +3346,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            30
+            13
           ]
         },
         {
@@ -3419,7 +3355,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            34
+            17
           ]
         },
         {
@@ -3428,8 +3364,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            35,
-            45
+            18,
+            28
           ]
         },
         {
@@ -3438,7 +3374,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            35
+            18
           ]
         },
         {
@@ -3447,7 +3383,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            36
+            19
           ]
         },
         {
@@ -3456,32 +3392,39 @@
           "sentimentValue": "3",
           "timesAppear": 1,
           "appearIn": [
-            39
-          ]
-        }
-      ],
-      "abstractEntitiesList": [
-        {
-          "text": "suffocation",
-          "ner": "CAUSE_OF_DEATH",
-          "sentimentValue": "1",
-          "timesAppear": 1,
-          "appearIn": [
-            0
+            22
           ]
         },
         {
+          "text": "Russia",
+          "ner": "COUNTRY",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            22,
+            30
+          ]
+        },
+        {
+          "text": "Assad",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            27
+          ]
+        }
+      ],
+      "abstractEntities": [
+        {
           "text": "attack",
           "ner": "CAUSE_OF_DEATH",
-          "sentimentValue": 1.3333333333333333,
-          "timesAppear": 6,
+          "sentimentValue": 1.6666666666666667,
+          "timesAppear": 3,
           "appearIn": [
-            7,
-            14,
-            15,
-            16,
-            29,
-            37
+            0,
+            12,
+            20
           ]
         },
         {
@@ -3490,8 +3433,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            17,
-            45
+            1,
+            28
           ]
         },
         {
@@ -3500,8 +3443,8 @@
           "sentimentValue": 2,
           "timesAppear": 2,
           "appearIn": [
-            20,
-            32
+            4,
+            15
           ]
         },
         {
@@ -3510,7 +3453,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            24
+            8
           ]
         },
         {
@@ -3519,8 +3462,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            34,
-            36
+            17,
+            19
           ]
         },
         {
@@ -3529,7 +3472,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            45
+            28
           ]
         }
       ]

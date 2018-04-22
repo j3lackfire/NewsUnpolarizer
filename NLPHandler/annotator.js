@@ -178,14 +178,14 @@ function _getFeatureFromAnnotatedData(annotatedResult, callback) {
         }
     }
 
-    let discreteEntitiesList = []
-    let abstractEntitiesList = []
+    let discreteEntities = []
+    let abstractEntities = []
 
     for(let i = 0; i < entitiesList.length; i ++) {
         if (_isDiscreteEntity(entitiesList[i])) {
-            discreteEntitiesList.push(entitiesList[i])
+            discreteEntities.push(entitiesList[i])
         } else {
-            abstractEntitiesList.push(entitiesList[i])
+            abstractEntities.push(entitiesList[i])
         }
     }
     averageSentimentValue = +averageSentimentValue / +sentencesCount;
@@ -194,8 +194,8 @@ function _getFeatureFromAnnotatedData(annotatedResult, callback) {
     returnValue.sentencesCount = sentencesCount;
     returnValue.charactersCount = charactersCount;
 
-    returnValue.discreteEntitiesList = discreteEntitiesList;
-    returnValue.abstractEntitiesList = abstractEntitiesList;
+    returnValue.discreteEntities = discreteEntities;
+    returnValue.abstractEntities = abstractEntities;
 
     callback(null, returnValue);
 }

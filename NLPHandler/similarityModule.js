@@ -81,11 +81,11 @@ function _generateComparisionList(_feature, _allArticle, _comparisionList, callb
 //Get the similarity between two articles
 function _compareArticles(_firstFeature, _secondFeature, callback) {
 
-    let discrete_1 = _firstFeature.analyzedContent.discreteEntitiesList
-    let abstract_1 = _firstFeature.analyzedContent.abstractEntitiesList
+    let discrete_1 = _firstFeature.analyzedContent.discreteEntities
+    let abstract_1 = _firstFeature.analyzedContent.abstractEntities
 
-    let discrete_2 = _secondFeature.analyzedContent.discreteEntitiesList
-    let abstract_2 = _secondFeature.analyzedContent.abstractEntitiesList
+    let discrete_2 = _secondFeature.analyzedContent.discreteEntities
+    let abstract_2 = _secondFeature.analyzedContent.abstractEntities
 
     let returnVal = {}
     returnVal.sourceUrl = _firstFeature.url
@@ -198,8 +198,8 @@ module.exports.findSimilarArticles = findSimilarArticles
 /*
 function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
     console.log('Finding most similar article from our local db')
-    let discreteEntitiesList = _coreFeatures.analyzedContent.discreteEntitiesList
-    let abstractEntitiesList = _coreFeatures.analyzedContent.abstractEntitiesList
+    let discreteEntities = _coreFeatures.analyzedContent.discreteEntities
+    let abstractEntities = _coreFeatures.analyzedContent.abstractEntities
     let mostSimilarDiscreteEntities = -1
     let mostSimilarAbstractEntities = -1
     let mostSimilarIndex = -1
@@ -211,22 +211,22 @@ function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
         let similarDiscrete = 0
         let similarAbstract = 0
         //Discrete entities list
-        for (let i = 0; i < thisArticle.analyzedContent.discreteEntitiesList.length; i ++) {
-            for (let j = 0; j < discreteEntitiesList.length; j ++) {
-                if (thisArticle.analyzedContent.discreteEntitiesList[i].text == discreteEntitiesList[j].text) {
+        for (let i = 0; i < thisArticle.analyzedContent.discreteEntities.length; i ++) {
+            for (let j = 0; j < discreteEntities.length; j ++) {
+                if (thisArticle.analyzedContent.discreteEntities[i].text == discreteEntities[j].text) {
                     //set that number to whichever smaller value.
-                    similarDiscrete += thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear < discreteEntitiesList[j].timesAppear ?
-                        thisArticle.analyzedContent.discreteEntitiesList[i].timesAppear : discreteEntitiesList[j].timesAppear
+                    similarDiscrete += thisArticle.analyzedContent.discreteEntities[i].timesAppear < discreteEntities[j].timesAppear ?
+                        thisArticle.analyzedContent.discreteEntities[i].timesAppear : discreteEntities[j].timesAppear
                 }
             }
         }
         //Abstract entities list
-        for (let i = 0; i < thisArticle.analyzedContent.abstractEntitiesList.length; i ++) {
-            for (let j = 0; j < abstractEntitiesList.length; j ++) {
-                if (thisArticle.analyzedContent.abstractEntitiesList[i].text == abstractEntitiesList[j].text) {
+        for (let i = 0; i < thisArticle.analyzedContent.abstractEntities.length; i ++) {
+            for (let j = 0; j < abstractEntities.length; j ++) {
+                if (thisArticle.analyzedContent.abstractEntities[i].text == abstractEntities[j].text) {
                     //set that number to whichever smaller value.
-                    similarAbstract += thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear < abstractEntitiesList[j].timesAppear ?
-                        thisArticle.analyzedContent.abstractEntitiesList[i].timesAppear : abstractEntitiesList[j].timesAppear
+                    similarAbstract += thisArticle.analyzedContent.abstractEntities[i].timesAppear < abstractEntities[j].timesAppear ?
+                        thisArticle.analyzedContent.abstractEntities[i].timesAppear : abstractEntities[j].timesAppear
                 }
             }
         }
