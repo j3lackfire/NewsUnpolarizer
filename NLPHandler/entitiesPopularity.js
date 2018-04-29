@@ -82,11 +82,6 @@ function updateAndRankEntitiesPopularity(_entitiesList) {
         _entitiesList[i].timesAppearRank = timesAppearArray.length - timesAppearArray.indexOf(_entitiesList[i].timesAppear) - 1
         _entitiesList[i].articleAppearRank = articleAppearArray.length - articleAppearArray.indexOf(_entitiesList[i].articleAppear) - 1
     }
-    console.log('\n\nTimes appear array:')
-    console.log(timesAppearArray)
-
-    console.log('\n\nArticles appear array:')
-    console.log(articleAppearArray)
 }
 
 function _getEntityIndex(entity, entityList) {

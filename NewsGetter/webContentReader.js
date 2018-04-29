@@ -11,9 +11,20 @@
     https://dailytrojan.com/2018/04/05/playing-politics-trump-uses-scare-tactics-to-distract-from-reality/
     the article is quite long but this tool only get the footer I think
 */
-var read = require('node-readability');
+const read = require('node-readability');
+
+//because they don't work with this extension
+let blacklistWebsite = [
+    'www.itv.com',
+    'thehill.com',
+    'dailytrojan.com'
+]
 
 function extractWebContent(url, callback) {
+    if (_isWebsiteInBlacklist(url)) {
+        callback('Website is inside blacklist, stop the program all-together', null)
+        return
+    }
     read(url, function(err, article, meta) {
         if (err) {
             callback(err, null)
@@ -23,12 +34,22 @@ function extractWebContent(url, callback) {
             returnForm.content = _cleanUpResult(article.content)
             //if the returned function is too short, chance are, the web content reader can't really read it
             if (returnForm.content.length < 500) {
-                callback('The content length was too short, mostly because the article is not gotten correctly', null)
+                console.log('\nThe content length was too short, mostly because the article is not gotten correctly')
+                callback('Too short!', null)
             } else {
                 callback(null, returnForm)
             }
         }
     })
+}
+
+function _isWebsiteInBlacklist(_url) {
+    for (let i = 0; i < blacklistWebsite.length; i ++) {
+        if (_url.includes(blacklistWebsite[i])) {
+            return true
+        }
+    }
+    return false
 }
 
 function getContentWithHtml(url, callback) {
