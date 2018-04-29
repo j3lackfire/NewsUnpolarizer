@@ -75,6 +75,11 @@ __ For the Stanford core NLP server, you will need to download the core NLP serv
 
 ```    java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 60000```
 
+- Alternatively, just run one command (this is just chaining 2 command together, so you don't have to press enter twice)
+
+```` cd C:\Users\Le Pham Minh Duc\Desktop\MasterThesis\Standford Core NLP\stanford-corenlp-full && java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 60000 ````
+
+
 The Stanford Core NLP server is now running on port 9000. You can test it by going to 
     
 ```http://localhost:9000/```

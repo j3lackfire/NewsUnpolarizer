@@ -33,7 +33,7 @@ function readDbAsJson(callback) {
     })
 }
 
-function readEntitiesDetail(callback) {
+function readEntitiesPopularity(callback) {
     _readFile(entitiesPopularityName, (err, response) => {
         if (err) {
             callback(err, null)
@@ -69,4 +69,4 @@ module.exports.dbName = dbName
 module.exports.entitiesPopularityName = entitiesPopularityName
 
 module.exports.readDbAsJson = readDbAsJson
-module.exports.readEntitiesDetail = readEntitiesDetail
+module.exports.readEntitiesPopularity = readEntitiesPopularity

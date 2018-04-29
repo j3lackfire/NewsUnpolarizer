@@ -7,6 +7,7 @@ const fs = require('fs') //file system to save the file
 
 const paragraphAnnotator = require('./../NLPHandler/annotator')
 const dbReader = require('./dbReader')
+const entitiesPopularity = require('./../NLPHandler/entitiesPopularity')
 
 let baseFilePath = __dirname + '/DB/'
 
@@ -24,9 +25,8 @@ let articleUrls = [
     "https://www.nytimes.com/2018/04/11/world/middleeast/syria-chemical-attack.html"
 ]
 
-//Add stuffs to articles URL array
-//Run this command so this automatically annotate articles
-generateDB(0)
+
+generateDB(0) //Run this command so this automatically annotate articles
 
 // what we should do is read the file, parse it to a json file, add new info to the json
 // and save it again
@@ -64,23 +64,24 @@ function _writeToDb(content, callback) {
                     callback(err)
                 } else {
                     let coreFeatures = Array.isArray(content) ? content[content.length - 1] : content;
-                    updateEntitiesDetail(coreFeatures, callback)
+                    updateEntitiesPopularity(coreFeatures, callback)
                 }
             })
         }
     });
 }
 
-function updateEntitiesDetail(content, callback) {
-    dbReader.readEntitiesDetail((err, res) => {
-        let entitiesPopularity = err ? [] : res
+function updateEntitiesPopularity(content, callback) {
+    dbReader.readEntitiesPopularity((err, res) => {
+        let entitiesPopularityList = err ? [] : res
 
-        _checkAndAddToEntityList(content.analyzedContent.discreteEntities, entitiesPopularity);
-        _checkAndAddToEntityList(content.analyzedContent.abstractEntities, entitiesPopularity);
+        entitiesPopularity.checkAndUpdateEntitiesInfo(content.analyzedContent.discreteEntities, entitiesPopularityList);
+        entitiesPopularity.checkAndUpdateEntitiesInfo(content.analyzedContent.abstractEntities, entitiesPopularityList);
+        entitiesPopularity.updateAndRankEntitiesPopularity(entitiesPopularityList)
 
         fs.writeFile(
             baseFilePath + dbReader.entitiesPopularityName,
-            JSON.stringify(entitiesPopularity, null, 2),
+            JSON.stringify(entitiesPopularityList, null, 2),
             'utf8', (error) => {
             if (error) {
                 console.log('Error writing the entity details to the lobal DB')
@@ -92,32 +93,6 @@ function updateEntitiesDetail(content, callback) {
     })
 }
 
-function _checkAndAddToEntityList(_entityList, _entitiesPopularity) {
-    for (let i = 0; i < _entityList.length; i ++) {
-        //not exist
-        let myIndex = _getIndexOfEntity(_entityList[i], _entitiesPopularity)
-        if (myIndex == -1) {
-            let newEntry = {}
-            newEntry.text = _entityList[i].text
-            newEntry.ner = _entityList[i].ner
-            newEntry.timesAppear = _entityList[i].timesAppear
-            newEntry.articleAppear = 1
-            _entitiesPopularity.push(newEntry)
-        } else {
-            _entitiesPopularity[myIndex].timesAppear += _entityList[i].timesAppear
-            _entitiesPopularity[myIndex].articleAppear ++
-        }
-    }
-}
-
-function _getIndexOfEntity(entity, entityList) {
-    for (let i = 0; i < entityList.length; i ++) {
-        if (entityList[i].text == entity.text) {
-            return i
-        }
-    }
-    return -1
-}
 
 function _isNullOrUndefined(param) {
     return (param == null || param == '' || typeof (param) == 'undefined')

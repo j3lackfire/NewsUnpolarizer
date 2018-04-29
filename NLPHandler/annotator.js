@@ -182,7 +182,7 @@ function _getFeatureFromAnnotatedData(annotatedResult, callback) {
     let abstractEntities = []
 
     for(let i = 0; i < entitiesList.length; i ++) {
-        if (_isDiscreteEntity(entitiesList[i])) {
+        if (isDiscreteEntity(entitiesList[i])) {
             discreteEntities.push(entitiesList[i])
         } else {
             abstractEntities.push(entitiesList[i])
@@ -219,10 +219,9 @@ function _shouldSaveEntity(entity) {
 }
 
 //check if that entity is individual entity or abstract entity
-function _isDiscreteEntity(entity) {
+function isDiscreteEntity(entity) {
     return (discreteNerList.indexOf(entity.ner) != -1);
 }
-
 
 //This function request an annotation from the Stanford Core NLP Web Services
 function requestNlpAnnotation(content, callback) {
@@ -239,5 +238,5 @@ module.exports.annotateParagraph = annotateParagraph;
 module.exports.getCoreFeature = getCoreFeature;
 module.exports.analyzeUrl = analyzeUrl;
 module.exports.analyzeUrlAndAddToDb = analyzeUrlAndAddToDb
-
+module.exports.isDiscreteEntity = isDiscreteEntity
 module.exports.requestNlpAnnotation = requestNlpAnnotation

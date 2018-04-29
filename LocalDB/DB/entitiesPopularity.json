@@ -3,1206 +3,1640 @@
     "text": "Damascus",
     "ner": "CITY",
     "timesAppear": 15,
-    "articleAppear": 6
+    "articleAppear": 6,
+    "timesAppearRank": 7,
+    "articleAppearRank": 2
   },
   {
     "text": "Kashkol",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Bashar al-Assad",
     "ner": "PERSON",
     "timesAppear": 7,
-    "articleAppear": 4
+    "articleAppear": 4,
+    "timesAppearRank": 13,
+    "articleAppearRank": 4
   },
   {
     "text": "Ghouta",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Russia",
     "ner": "COUNTRY",
     "timesAppear": 21,
-    "articleAppear": 7
+    "articleAppear": 7,
+    "timesAppearRank": 5,
+    "articleAppearRank": 1
   },
   {
     "text": "Boris Johnson",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "UK",
     "ner": "COUNTRY",
     "timesAppear": 4,
-    "articleAppear": 3
+    "articleAppear": 3,
+    "timesAppearRank": 16,
+    "articleAppearRank": 5
   },
   {
     "text": "Syria",
     "ner": "COUNTRY",
     "timesAppear": 42,
-    "articleAppear": 7
+    "articleAppear": 7,
+    "timesAppearRank": 2,
+    "articleAppearRank": 1
   },
   {
     "text": "Bashar",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "al-Assad",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Eastern Ghouta",
     "ner": "LOCATION",
     "timesAppear": 6,
-    "articleAppear": 3
+    "articleAppear": 3,
+    "timesAppearRank": 14,
+    "articleAppearRank": 5
   },
   {
     "text": "Isis",
     "ner": "ORGANIZATION",
     "timesAppear": 3,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 17,
+    "articleAppearRank": 7
   },
   {
     "text": "Qadam",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Syrian Observatory for Human Rights",
     "ner": "ORGANIZATION",
     "timesAppear": 3,
-    "articleAppear": 3
+    "articleAppear": 3,
+    "timesAppearRank": 17,
+    "articleAppearRank": 5
   },
   {
     "text": "United Nations",
     "ner": "ORGANIZATION",
     "timesAppear": 3,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 17,
+    "articleAppearRank": 6
   },
   {
     "text": "Syrian Civil Defence",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Press Association",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Syrian",
     "ner": "NATIONALITY",
     "timesAppear": 50,
-    "articleAppear": 8
+    "articleAppear": 8,
+    "timesAppearRank": 1,
+    "articleAppearRank": 0
   },
   {
     "text": "attack",
     "ner": "CAUSE_OF_DEATH",
-    "timesAppear": 69,
-    "articleAppear": 7
+    "timesAppear": 70,
+    "articleAppear": 7,
+    "timesAppearRank": 0,
+    "articleAppearRank": 1
   },
   {
     "text": "President",
     "ner": "TITLE",
     "timesAppear": 12,
-    "articleAppear": 6
+    "articleAppear": 6,
+    "timesAppearRank": 10,
+    "articleAppearRank": 2
   },
   {
     "text": "pro-government",
     "ner": "IDEOLOGY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "war",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 6,
-    "articleAppear": 4
+    "articleAppear": 4,
+    "timesAppearRank": 14,
+    "articleAppearRank": 4
   },
   {
     "text": "Turkish",
     "ner": "NATIONALITY",
     "timesAppear": 3,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 17,
+    "articleAppearRank": 6
   },
   {
     "text": "Russian",
     "ner": "NATIONALITY",
     "timesAppear": 18,
-    "articleAppear": 6
+    "articleAppear": 6,
+    "timesAppearRank": 6,
+    "articleAppearRank": 2
   },
   {
     "text": "spokesman",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "AMMAN",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Reuters",
     "ner": "ORGANIZATION",
     "timesAppear": 8,
-    "articleAppear": 3
+    "articleAppear": 3,
+    "timesAppearRank": 12,
+    "articleAppearRank": 5
   },
   {
     "text": "Kashkoul",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Douma",
     "ner": "PERSON",
     "timesAppear": 36,
-    "articleAppear": 5
+    "articleAppear": 5,
+    "timesAppearRank": 3,
+    "articleAppearRank": 3
   },
   {
     "text": "Iyad Abdel Aziz",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Douma civil council",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "U.N.",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Suleiman Al-Khalidi",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Gareth Jones",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Western",
     "ner": "MISC",
     "timesAppear": 10,
-    "articleAppear": 5
+    "articleAppear": 5,
+    "timesAppearRank": 11,
+    "articleAppearRank": 3
   },
   {
     "text": "Organisation for the Prohibition of Chemical Weapons",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "OPCW",
     "ner": "ORGANIZATION",
     "timesAppear": 18,
-    "articleAppear": 4
+    "articleAppear": 4,
+    "timesAppearRank": 6,
+    "articleAppearRank": 4
   },
   {
     "text": "US",
     "ner": "COUNTRY",
     "timesAppear": 7,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 13,
+    "articleAppearRank": 6
   },
   {
     "text": "France",
     "ner": "COUNTRY",
     "timesAppear": 4,
-    "articleAppear": 3
+    "articleAppear": 3,
+    "timesAppearRank": 16,
+    "articleAppearRank": 5
   },
   {
     "text": "BBC Arab Affairs",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Sebastian Usher",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "OPCW Laboratory",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Rijswijk",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "The Hague",
     "ner": "CITY",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "UN",
     "ner": "ORGANIZATION",
     "timesAppear": 6,
-    "articleAppear": 3
+    "articleAppear": 3,
+    "timesAppearRank": 14,
+    "articleAppearRank": 5
   },
   {
     "text": "AFP",
     "ner": "ORGANIZATION",
     "timesAppear": 5,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 15,
+    "articleAppearRank": 6
   },
   {
     "text": "Alastair Hay",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "University of Leeds",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "EPA",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Jaish al-Islam",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Khan Sheikhoun",
     "ner": "LOCATION",
     "timesAppear": 18,
-    "articleAppear": 4
+    "articleAppear": 4,
+    "timesAppearRank": 6,
+    "articleAppearRank": 4
   },
   {
     "text": "attacks",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 14,
-    "articleAppear": 6
+    "articleAppear": 6,
+    "timesAppearRank": 8,
+    "articleAppearRank": 2
   },
   {
     "text": "editor",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "correspondent",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "fire",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "professor",
     "ner": "TITLE",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "Russian-backed Syrian",
     "ner": "NATIONALITY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "foreign minister",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Assad",
     "ner": "PERSON",
     "timesAppear": 22,
-    "articleAppear": 5
+    "articleAppear": 5,
+    "timesAppearRank": 4,
+    "articleAppearRank": 3
   },
   {
     "text": "Theresa May",
     "ner": "PERSON",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "U.S. Defense",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Jim Mattis",
     "ner": "PERSON",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "Britain",
     "ner": "COUNTRY",
     "timesAppear": 4,
-    "articleAppear": 3
+    "articleAppear": 3,
+    "timesAppearRank": 16,
+    "articleAppearRank": 5
   },
   {
     "text": "Human Rights Watch",
     "ner": "ORGANIZATION",
     "timesAppear": 3,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 17,
+    "articleAppearRank": 6
   },
   {
     "text": "Aleppo",
     "ner": "CITY",
     "timesAppear": 5,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 15,
+    "articleAppearRank": 6
   },
   {
     "text": "World Health Organisation",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Jaysh al-Islam -LRB-Army of Islam",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "ISIS",
     "ner": "ORGANIZATION",
     "timesAppear": 3,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 17,
+    "articleAppearRank": 6
   },
   {
     "text": "Jaysh al-Islam",
     "ner": "PERSON",
-    "timesAppear": 3,
-    "articleAppear": 1
+    "timesAppear": 5,
+    "articleAppear": 1,
+    "timesAppearRank": 15,
+    "articleAppearRank": 7
   },
   {
     "text": "National Security Bureau",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
+  },
+  {
+    "text": "Amnesty International",
+    "ner": "ORGANIZATION",
+    "timesAppear": 2,
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
+  },
+  {
+    "text": "Amnesty",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
+  },
+  {
+    "text": "Army of Islam",
+    "ner": "ORGANIZATION",
+    "timesAppear": 1,
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Douma.Revolution Facebook",
     "ner": "MISC",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Facebook",
     "ner": "MISC",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Fadi Abdullah",
     "ner": "PERSON",
     "timesAppear": 4,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 16,
+    "articleAppearRank": 7
   },
   {
     "text": "Liwa al-Islam",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Syria Civil Defence",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "pro-Assad",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "White Helmets",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "American Medical Society",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "SAMS",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "BBC",
     "ner": "ORGANIZATION",
     "timesAppear": 3,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 17,
+    "articleAppearRank": 6
   },
   {
     "text": "Open",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Syrian Arab Air Force",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "British",
     "ner": "NATIONALITY",
     "timesAppear": 3,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 17,
+    "articleAppearRank": 6
   },
   {
     "text": "prime minister",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "independent",
     "ner": "RELIGION",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "respiratory failure",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Islamist",
     "ner": "IDEOLOGY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
+  },
+  {
+    "text": "toxicologist",
+    "ner": "TITLE",
+    "timesAppear": 2,
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
+  },
+  {
+    "text": "leader",
+    "ner": "TITLE",
+    "timesAppear": 1,
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
+  },
+  {
+    "text": "commander",
+    "ner": "TITLE",
+    "timesAppear": 2,
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "cameraman",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Islamic",
     "ner": "IDEOLOGY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "execution",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "burns",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "doctor",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "reporter",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "poison",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "accident",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "WASHINGTON",
     "ner": "STATE_OR_PROVINCE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Pentagon",
     "ner": "ORGANIZATION",
     "timesAppear": 5,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 15,
+    "articleAppearRank": 6
   },
   {
     "text": "Trump",
     "ner": "PERSON",
     "timesAppear": 10,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 11,
+    "articleAppearRank": 6
   },
   {
     "text": "Mission Accomplished",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "New York Times",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "Kenneth F. McKenzie Jr.",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "McKenzie",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Homs",
     "ner": "PERSON",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Washington",
     "ner": "STATE_OR_PROVINCE",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Twitter",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Nikki R. Haley",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Security Council",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "United States",
     "ner": "COUNTRY",
     "timesAppear": 12,
-    "articleAppear": 4
+    "articleAppear": 4,
+    "timesAppearRank": 10,
+    "articleAppearRank": 4
   },
   {
     "text": "Khan Shaykhun",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Mediterranean",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Red Sea",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Persian Gulf",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "White House",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Bahrain",
     "ner": "COUNTRY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Fifth Fleet",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Al",
     "ner": "CITY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Udeid Air Base",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Qatar",
     "ner": "COUNTRY",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Middle East",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Saudi Arabia",
     "ner": "COUNTRY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Jordan",
     "ner": "CITY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "American-led",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "B-1",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Him Shinshar",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Barzeh",
     "ner": "LOCATION",
     "timesAppear": 3,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 17,
+    "articleAppearRank": 7
   },
   {
     "text": "Jeffrey Lewis",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Center for Nonproliferation Studies",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Middlebury Institute of International Studies",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Chemical Weapons Convention",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Mattis",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "State Department",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "Al Jazeera",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Eric Schmitt",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Rick Gladstone",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "New York",
     "ner": "STATE_OR_PROVINCE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "American",
     "ner": "NATIONALITY",
     "timesAppear": 13,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 9,
+    "articleAppearRank": 6
   },
   {
     "text": "French",
     "ner": "NATIONALITY",
     "timesAppear": 4,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 16,
+    "articleAppearRank": 6
   },
   {
     "text": "president",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "analyst",
     "ner": "TITLE",
     "timesAppear": 4,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 16,
+    "articleAppearRank": 7
   },
   {
     "text": "Lt. Gen.",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "director",
     "ner": "TITLE",
     "timesAppear": 2,
-    "articleAppear": 2
+    "articleAppear": 2,
+    "timesAppearRank": 18,
+    "articleAppearRank": 6
   },
   {
     "text": "General",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "ambassador",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "complications",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "escort",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Jordanian",
     "ner": "NATIONALITY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Defense Secretary",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Idlib",
     "ner": "CITY",
     "timesAppear": 3,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 17,
+    "articleAppearRank": 7
   },
   {
     "text": "Mariam Abu Khalil",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Hussein Kayal",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Edlib Media Center",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Mohammed Rasoul",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Union of Medical Care",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Bab al-Hawa",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "EMC",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "UK-based",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Organisation for the Prevention of Chemical Weapons",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Sarin-like",
     "ner": "MISC",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Ahmet Uzumcu",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Uzumcu",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Recep Akdag",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "IMPA",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Turkey",
     "ner": "COUNTRY",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Syrian Scientific Studies and Research Centre",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "West",
     "ner": "MISC",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Iraq",
     "ner": "COUNTRY",
     "timesAppear": 3,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 17,
+    "articleAppearRank": 7
   },
   {
     "text": "Hama province",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Air Force Sukhoi",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "NBC News",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Syrian Air Force",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Hamish de Bretton-Gordon",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "British Armed Forces Joint Chemical",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "de Bretton-Gordon",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Moscow",
     "ner": "CITY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Islamic State",
     "ner": "ORGANIZATION",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Hasan Haj Ali",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Free Idlib Army",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "explosion",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 4,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 16,
+    "articleAppearRank": 7
   },
   {
     "text": "photographer",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "asphyxiation",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "Health Minister",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "crater",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "al-Qaeda",
     "ner": "IDEOLOGY",
     "timesAppear": 1,
-    "articleAppear": 1
-  },
-  {
-    "text": "commander",
-    "ner": "TITLE",
-    "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "cyanide",
     "ner": "CAUSE_OF_DEATH",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Omar Sanadiki/Reuters",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "BEIRUT",
     "ner": "CITY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Heather Nauert",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Jerry Smith",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Alastair W.M. Hay",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Washington Post",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Ghanem Tayara",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Union of Medical Care and Relief Organizations",
     "ner": "ORGANIZATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Raqqa",
     "ner": "LOCATION",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "spokeswoman",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "consultant",
     "ner": "TITLE",
     "timesAppear": 1,
-    "articleAppear": 1
-  },
-  {
-    "text": "toxicologist",
-    "ner": "TITLE",
-    "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Obama",
     "ner": "PERSON",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "Syrians",
     "ner": "MISC",
     "timesAppear": 2,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 18,
+    "articleAppearRank": 7
   },
   {
     "text": "U.S.",
     "ner": "COUNTRY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   },
   {
     "text": "America",
     "ner": "COUNTRY",
     "timesAppear": 1,
-    "articleAppear": 1
+    "articleAppear": 1,
+    "timesAppearRank": 19,
+    "articleAppearRank": 7
   }
 ]

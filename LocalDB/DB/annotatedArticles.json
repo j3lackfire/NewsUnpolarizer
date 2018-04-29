@@ -857,9 +857,9 @@
       ]
     },
     "analyzedContent": {
-      "sentimentValue": 1.5693069306930694,
-      "sentencesCount": 202,
-      "charactersCount": 15593,
+      "sentimentValue": 1.5592417061611374,
+      "sentencesCount": 211,
+      "charactersCount": 16439,
       "discreteEntities": [
         {
           "text": "Assad",
@@ -869,15 +869,15 @@
           "appearIn": [
             2,
             49,
-            92,
-            120,
-            158,
-            172,
-            181,
-            185,
-            195,
-            195,
-            197
+            98,
+            126,
+            165,
+            179,
+            188,
+            192,
+            202,
+            202,
+            204
           ]
         },
         {
@@ -891,17 +891,17 @@
             20,
             36,
             46,
-            56,
-            71,
-            94,
-            98,
-            122,
-            158,
-            159,
+            62,
+            77,
+            100,
+            104,
+            129,
             165,
-            167,
-            189,
-            195
+            166,
+            172,
+            174,
+            196,
+            202
           ]
         },
         {
@@ -911,7 +911,7 @@
           "timesAppear": 2,
           "appearIn": [
             4,
-            198
+            205
           ]
         },
         {
@@ -948,7 +948,7 @@
           "timesAppear": 2,
           "appearIn": [
             13,
-            97
+            103
           ]
         },
         {
@@ -987,13 +987,13 @@
             38,
             47,
             55,
-            156,
-            160,
             163,
-            163,
-            164,
-            169,
-            173
+            167,
+            170,
+            170,
+            171,
+            176,
+            180
           ]
         },
         {
@@ -1036,12 +1036,14 @@
         {
           "text": "Jaysh al-Islam",
           "ner": "PERSON",
-          "sentimentValue": 1.3333333333333333,
-          "timesAppear": 3,
+          "sentimentValue": 1.2,
+          "timesAppear": 5,
           "appearIn": [
             50,
-            69,
-            91
+            56,
+            61,
+            75,
+            97
           ]
         },
         {
@@ -1054,13 +1056,41 @@
           ]
         },
         {
+          "text": "Amnesty International",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            59,
+            209
+          ]
+        },
+        {
+          "text": "Amnesty",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            60
+          ]
+        },
+        {
+          "text": "Army of Islam",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            61
+          ]
+        },
+        {
           "text": "Douma.Revolution Facebook",
           "ner": "MISC",
           "sentimentValue": 1.5,
           "timesAppear": 2,
           "appearIn": [
-            67,
-            80
+            73,
+            86
           ]
         },
         {
@@ -1069,8 +1099,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            69,
-            71
+            75,
+            77
           ]
         },
         {
@@ -1079,10 +1109,10 @@
           "sentimentValue": 1.25,
           "timesAppear": 4,
           "appearIn": [
-            74,
-            77,
             80,
-            92
+            83,
+            86,
+            98
           ]
         },
         {
@@ -1091,8 +1121,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            85,
-            89
+            91,
+            95
           ]
         },
         {
@@ -1101,7 +1131,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            97
+            103
           ]
         },
         {
@@ -1110,7 +1140,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            107
+            113
           ]
         },
         {
@@ -1119,7 +1149,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            109
+            115
           ]
         },
         {
@@ -1128,7 +1158,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            126
+            133
           ]
         },
         {
@@ -1137,7 +1167,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            126
+            133
           ]
         },
         {
@@ -1146,7 +1176,7 @@
           "sentimentValue": "3",
           "timesAppear": 1,
           "appearIn": [
-            132
+            139
           ]
         },
         {
@@ -1155,8 +1185,8 @@
           "sentimentValue": 1,
           "timesAppear": 2,
           "appearIn": [
-            142,
-            145
+            149,
+            152
           ]
         },
         {
@@ -1165,8 +1195,8 @@
           "sentimentValue": 1.5,
           "timesAppear": 2,
           "appearIn": [
-            154,
-            156
+            161,
+            163
           ]
         },
         {
@@ -1175,7 +1205,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            154
+            161
           ]
         },
         {
@@ -1184,11 +1214,11 @@
           "sentimentValue": 1.2,
           "timesAppear": 5,
           "appearIn": [
-            154,
-            171,
-            174,
-            180,
-            193
+            161,
+            178,
+            181,
+            187,
+            200
           ]
         },
         {
@@ -1197,9 +1227,9 @@
           "sentimentValue": 1,
           "timesAppear": 3,
           "appearIn": [
-            158,
-            164,
-            197
+            165,
+            171,
+            204
           ]
         },
         {
@@ -1208,7 +1238,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            159
+            166
           ]
         },
         {
@@ -1217,7 +1247,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            159
+            166
           ]
         },
         {
@@ -1226,7 +1256,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            173
+            180
           ]
         },
         {
@@ -1235,7 +1265,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            182
+            189
           ]
         }
       ],
@@ -1247,14 +1277,14 @@
           "timesAppear": 2,
           "appearIn": [
             2,
-            92
+            98
           ]
         },
         {
           "text": "attack",
           "ner": "CAUSE_OF_DEATH",
-          "sentimentValue": 1.1578947368421053,
-          "timesAppear": 19,
+          "sentimentValue": 1.15,
+          "timesAppear": 20,
           "appearIn": [
             2,
             13,
@@ -1262,19 +1292,20 @@
             35,
             42,
             46,
-            56,
-            64,
-            84,
-            98,
-            121,
-            122,
-            158,
-            173,
-            176,
-            184,
-            189,
-            190,
-            200
+            60,
+            62,
+            70,
+            90,
+            104,
+            127,
+            129,
+            165,
+            180,
+            183,
+            191,
+            196,
+            197,
+            207
           ]
         },
         {
@@ -1285,9 +1316,9 @@
           "appearIn": [
             2,
             32,
-            115,
-            126,
-            200
+            121,
+            133,
+            207
           ]
         },
         {
@@ -1315,7 +1346,7 @@
           "timesAppear": 2,
           "appearIn": [
             30,
-            123
+            130
           ]
         },
         {
@@ -1337,12 +1368,39 @@
           ]
         },
         {
+          "text": "toxicologist",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            60
+          ]
+        },
+        {
+          "text": "leader",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            61
+          ]
+        },
+        {
+          "text": "commander",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            61
+          ]
+        },
+        {
           "text": "cameraman",
           "ner": "TITLE",
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            82
+            88
           ]
         },
         {
@@ -1351,7 +1409,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            89
+            95
           ]
         },
         {
@@ -1360,7 +1418,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            111
+            117
           ]
         },
         {
@@ -1369,7 +1427,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            127
+            134
           ]
         },
         {
@@ -1378,7 +1436,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            131
+            138
           ]
         },
         {
@@ -1387,7 +1445,7 @@
           "sentimentValue": "3",
           "timesAppear": 1,
           "appearIn": [
-            132
+            139
           ]
         },
         {
@@ -1396,7 +1454,7 @@
           "sentimentValue": "1",
           "timesAppear": 1,
           "appearIn": [
-            143
+            150
           ]
         },
         {
@@ -1405,7 +1463,7 @@
           "sentimentValue": "3",
           "timesAppear": 1,
           "appearIn": [
-            147
+            154
           ]
         },
         {
@@ -1414,8 +1472,8 @@
           "sentimentValue": 1.5,
           "timesAppear": 2,
           "appearIn": [
-            169,
-            182
+            176,
+            189
           ]
         },
         {
@@ -1424,7 +1482,7 @@
           "sentimentValue": "2",
           "timesAppear": 1,
           "appearIn": [
-            176
+            183
           ]
         }
       ]

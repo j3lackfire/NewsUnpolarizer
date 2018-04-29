@@ -15,13 +15,6 @@ const webContentReader = require('./../NewsGetter/webContentReader')
     This might not works, so I might as well just leave it here.
 */
 
-// getGetMostSimilarArticleWithInsight('https://www.yahoo.com/news/watch-falcon-heavy-reel-westworld-150115945.html', (err, res) => {
-//     if (err) {
-//         console.log(err)
-//     } else {
-//         console.log(res)
-//     }
-// })
 
 function getGetMostSimilarArticleWithInsight(_sourceUrl, callback) {
     similarityModule.findSimilarArticles(_sourceUrl, (err_0, similarArticles) => {
