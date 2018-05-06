@@ -46,11 +46,17 @@ function _getSimilarityArticlesList(_feature, _allArticles, callback) {
         if (err) {
             callback(err, null)
         } else {
-            comparisionList.sort((a, b) => {
-                return (b.similarDiscrete + b.similarAbstract) - (a.similarDiscrete + a.similarAbstract)
+            comparisionList.forEach((element) => {
+                element.similarDifferentRatio =
+                    (element.uniqueSimilarDiscrete + element.uniqueSimilarDiscrete)
+                    / (element.uniqueDifferentDiscrete+ element.uniqueDifferentAbstract)
             })
+            //sort by b-a => biggest first / a - b => smallest first.
+            comparisionList.sort((a, b) => {
+                return (1 - a.similarDifferentRatio) - (1 -b.similarDifferentRatio)
+            })
+
             //for case when the url exist in the db, the most relevance result will always be THAT article
-            //make sense, eh ?
             if (comparisionList[0].sourceUrl == comparisionList[0].targetUrl) {
                 comparisionList.shift()
             }
@@ -58,7 +64,7 @@ function _getSimilarityArticlesList(_feature, _allArticles, callback) {
             for (let i = 0; i < 5; i ++) {
                 returnList.push(comparisionList[i])
             }
-            console.log("\n\nReturn all the value!!!")
+            console.log("Finish comparing function, return all the result")
             callback(null, returnList)
         }
     })
@@ -85,11 +91,6 @@ function _generateComparisionList(_feature, _allArticle, _comparisionList, callb
 
 //Get the similarity between two articles
 function _compareArticles(_firstFeature, _secondFeature, callback) {
-
-    console.log("\n\nCompare between two articles:")
-    console.log(_firstFeature.title)
-    console.log(_secondFeature.title)
-
     let discrete_1 = _firstFeature.analyzedContent.discreteEntities
     let abstract_1 = _firstFeature.analyzedContent.abstractEntities
 
@@ -97,27 +98,29 @@ function _compareArticles(_firstFeature, _secondFeature, callback) {
     let abstract_2 = _secondFeature.analyzedContent.abstractEntities
 
     let comparisionResult = {}
-    comparisionResult.sourceUrl = _firstFeature.url
-    comparisionResult.sourceTitle = _firstFeature.title
-    comparisionResult.sourceSentiment = _firstFeature.analyzedContent.sentimentValue
-
-    comparisionResult.targetUrl = _secondFeature.url
+    //let just display the result first, so I don't get confust
     comparisionResult.targetTitle = _secondFeature.title
+    comparisionResult.targetUrl = _secondFeature.url
     comparisionResult.targetSentiment = _secondFeature.analyzedContent.sentimentValue
+    comparisionResult.sourceTitle = _firstFeature.title
+    comparisionResult.sourceUrl = _firstFeature.url
+    comparisionResult.sourceSentiment = _firstFeature.analyzedContent.sentimentValue
+    //the ratio to compare between different and similarity
+    comparisionResult.similarDifferentRatio = 1
 
+    //similar stuffs
     comparisionResult.similarDiscrete = 0
     comparisionResult.uniqueSimilarDiscrete = 0
     comparisionResult.similarAbstract = 0
     comparisionResult.uniqueSimilarAbstract = 0
-
+    //different stuffs
     comparisionResult.differentDiscreteCount = 0
     comparisionResult.differentAbstractCount = 0
     comparisionResult.uniqueDifferentDiscrete = 0
     comparisionResult.uniqueDifferentAbstract = 0
-
+    //the array to store all the result in case we need it.
     comparisionResult.similarDiscreteEntities = []
     comparisionResult.similarAbstractEntities = []
-
     comparisionResult.differentDiscreteEntities = []
     comparisionResult.differentAbstractEntities = []
 
@@ -137,18 +140,21 @@ function _compareArticles(_firstFeature, _secondFeature, callback) {
         }
     }
 
-    for (let i = 0; i < discrete_1.length; i ++) {
-        for (let j = 0; j < discrete_2.length; j ++) {
-            _differentEntitiesHandler(comparisionResult, discrete_1[i], discrete_2[j], true)
-        }
-    }
+    discrete_1.forEach((element) => {
+        _differentEntitiesHandler(comparisionResult, element, true, true)
+    })
 
-    for (let i = 0; i < abstract_1.length; i ++) {
-        for (let j = 0; j < abstract_2.length; j ++) {
-            _differentEntitiesHandler(comparisionResult, abstract_1[i], abstract_2[j], false)
-        }
-    }
+    abstract_1.forEach((element) => {
+        _differentEntitiesHandler(comparisionResult, element, false, true)
+    })
 
+    discrete_2.forEach((element) => {
+        _differentEntitiesHandler(comparisionResult, element, true, false)
+    })
+
+    abstract_2.forEach((element) => {
+        _differentEntitiesHandler(comparisionResult, element, false, false)
+    })
     callback(null, comparisionResult)
 }
 
@@ -172,49 +178,28 @@ function _addSimilarityResult(_comparisionResult, _entity1, _entity2, _isDiscret
     }
 }
 
-function _differentEntitiesHandler(_comparisionResult, _entity1, _entity2, _isDiscrete) {
+function _differentEntitiesHandler(_comparisionResult, _entity, _isDiscrete, _isSourceArticle) {
     let comparingArray = _isDiscrete ?
-        _comparisionResult.differentDiscreteEntities : _comparisionResult.differentDiscreteEntities
+        _comparisionResult.differentDiscreteEntities : _comparisionResult.differentAbstractEntities
 
     //FIRST, we have to check if the entity is not ALREADY inside the similar entities list
-    if (_isEntityInArray(_comparisionResult.similarDiscreteEntities, _entity1) ||
-        _isEntityInArray(_comparisionResult.similarAbstractEntities, _entity2)) {
+    if (_isEntityInArray(_comparisionResult.similarDiscreteEntities, _entity) ||
+        _isEntityInArray(_comparisionResult.similarAbstractEntities, _entity) ) {
         return
     }
 
-    if (!_isEntityInArray(comparingArray, _entity1)) {
+    if (!_isEntityInArray(comparingArray, _entity)) {
         let newVal = {}
-        newVal.text = _entity1.text
-        newVal.ner = _entity1.ner
-        newVal.appearIn = _entity1.appearIn
-        newVal.appearInSource = true
+        newVal.text = _entity.text
+        newVal.ner = _entity.ner
+        newVal.appearIn = _entity.appearIn
+        newVal.appearInSource = _isSourceArticle
         comparingArray.push(newVal)
         if (_isDiscrete) {
-            _comparisionResult.differentDiscreteCount += _entity1.appearIn.length
+            _comparisionResult.differentDiscreteCount += _entity.appearIn.length
             _comparisionResult.uniqueDifferentDiscrete ++
         } else {
-            _comparisionResult.differentAbstractCount += _entity1.appearIn.length
-            _comparisionResult.uniqueDifferentAbstract ++
-        }
-    }
-
-    if (!_isEntityInArray(comparingArray, _entity2)) {
-        // console.log("_isEntityInArray " + _entity2.text)
-        // if (_entity2.text == 'Beijing') {
-        //     console.log("\n\n\nIt's fucking beijing\n\n\n")
-        //     console.log(comparingArray)
-        // }
-        let newVal = {}
-        newVal.text = _entity2.text
-        newVal.ner = _entity2.ner
-        newVal.appearIn = _entity1.appearIn
-        newVal.appearInSource = true
-        comparingArray.push(newVal)
-        if (_isDiscrete) {
-            _comparisionResult.differentDiscreteCount += _entity2.appearIn.length
-            _comparisionResult.uniqueDifferentDiscrete ++
-        } else {
-            _comparisionResult.differentAbstractCount += _entity2.appearIn.length
+            _comparisionResult.differentAbstractCount += _entity.appearIn.length
             _comparisionResult.uniqueDifferentAbstract ++
         }
     }
@@ -222,9 +207,8 @@ function _differentEntitiesHandler(_comparisionResult, _entity1, _entity2, _isDi
 
 function _isEntityInArray(_entitiesArray, _entity) {
     for (let i = 0; i < _entitiesArray.length; i ++) {
-        if (_entitiesArray[i].text == _entity.text) {
+        if (_entitiesArray[i].text == _entity.text)
             return true
-        }
     }
     return false
 }
@@ -265,11 +249,7 @@ function _getArticleExistingIndex(_url, _allArticles, callback) {
             break
         }
     }
-    if (index >= 0) {
-        callback(index)
-    } else {
-        callback(-1)
-    }
+    callback(index >= 0 ? index : -1)
 }
 
 function _isArticleExist(_url, _allArticle, callback) {
@@ -282,55 +262,3 @@ module.exports.findSimilarArticles = findSimilarArticles
 
 
 
-
-//------------- OLD AND UNUSED FUNCTION -------------
-// ---------- BUT I DON'T WANT TO DELETE IT ----------
-// ------- BECAUSE I SPENT SO MUCH TIME ON THIS -------
-
-/*
-function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
-    console.log('Finding most similar article from our local db')
-    let discreteEntities = _coreFeatures.analyzedContent.discreteEntities
-    let abstractEntities = _coreFeatures.analyzedContent.abstractEntities
-    let mostSimilarDiscreteEntities = -1
-    let mostSimilarAbstractEntities = -1
-    let mostSimilarIndex = -1
-    for (let articleIndex = 0; articleIndex < _allArticles.length; articleIndex ++) {
-        if (_allArticles[articleIndex].url == _coreFeatures.url) {
-            continue;
-        }
-        let thisArticle = _allArticles[articleIndex]
-        let similarDiscrete = 0
-        let similarAbstract = 0
-        //Discrete entities list
-        for (let i = 0; i < thisArticle.analyzedContent.discreteEntities.length; i ++) {
-            for (let j = 0; j < discreteEntities.length; j ++) {
-                if (thisArticle.analyzedContent.discreteEntities[i].text == discreteEntities[j].text) {
-                    //set that number to whichever smaller value.
-                    similarDiscrete += thisArticle.analyzedContent.discreteEntities[i].timesAppear < discreteEntities[j].timesAppear ?
-                        thisArticle.analyzedContent.discreteEntities[i].timesAppear : discreteEntities[j].timesAppear
-                }
-            }
-        }
-        //Abstract entities list
-        for (let i = 0; i < thisArticle.analyzedContent.abstractEntities.length; i ++) {
-            for (let j = 0; j < abstractEntities.length; j ++) {
-                if (thisArticle.analyzedContent.abstractEntities[i].text == abstractEntities[j].text) {
-                    //set that number to whichever smaller value.
-                    similarAbstract += thisArticle.analyzedContent.abstractEntities[i].timesAppear < abstractEntities[j].timesAppear ?
-                        thisArticle.analyzedContent.abstractEntities[i].timesAppear : abstractEntities[j].timesAppear
-                }
-            }
-        }
-        if ((mostSimilarAbstractEntities + mostSimilarDiscreteEntities)
-            < (similarAbstract + similarDiscrete)) {
-            mostSimilarAbstractEntities = similarAbstract
-            mostSimilarDiscreteEntities = similarDiscrete
-            mostSimilarIndex = articleIndex
-        }
-    }
-    console.log('FROM: ' + _coreFeatures.url)
-    console.log('MOST SIMILAR: ' + _allArticles[mostSimilarIndex].url)
-    callback(null, _allArticles[mostSimilarIndex])
-}
-*/

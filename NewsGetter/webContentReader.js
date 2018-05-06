@@ -20,10 +20,6 @@ let blacklistWebsite = [
     'dailytrojan.com'
 ]
 
-getContentWithHtml('https://www.independent.co.uk/news/world/asia/japan-first-marine-unit-second-world-war-east-china-sea-vulnerable-attack-a8293506.html', (err,res) => {
-    console.log(res)
-})
-
 function extractWebContent(url, callback) {
     if (_isWebsiteInBlacklist(url)) {
         callback('Website is inside blacklist, stop the program all-together', null)

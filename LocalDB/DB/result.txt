@@ -1,0 +1,29 @@
+Similarity only:
+    - Source:
+        Missile Strikes Are Unlikely to Stop Syria’s Chemical Attacks, Pentagon Says
+            https://www.nytimes.com/2018/04/19/world/middleeast/syria-strikes.html
+    - Result:
+        Syria chemical attack: the evidence
+            https://www.channel4.com/news/factcheck/syria-chemical-attack-the-evidence
+        Syria chemical 'attack': What we know
+            http://www.bbc.com/news/world-middle-east-39500947
+        Japan activates first marine unit since Second World War to bolster defences against China
+            https://www.independent.co.uk/news/world/asia/japan-first-marine-unit-second-world-war-east-china-sea-vulnerable-attack-a8293506.html
+            Problem due to web content reader lib (node-readability)
+        Chemical experts finally see Syria site
+            http://www.bbc.com/news/world-middle-east-43850979
+
+Similarity and different ratio (sorting = 1 - uniqueSim / uniqueDifferent)
+    - Source:
+        Missile Strikes Are Unlikely to Stop Syria’s Chemical Attacks, Pentagon Says
+            https://www.nytimes.com/2018/04/19/world/middleeast/syria-strikes.html
+    - Result:
+        Chemical weapons coverup suspected in Syria as inspectors remain blocked
+            https://www.washingtonpost.com/world/chemical-weapons-coverup-suspected-in-syria-as-inspectors-remain-blocked/2018/04/20/1ca0f164-440a-11e8-b2dc-b0a403e4720a_story.html?noredirect=on&utm_term=.d5e5b15c1c1c
+        Syria chemical 'attack': What we know
+            http://www.bbc.com/news/world-middle-east-39500947
+        Suspected Chemical Attack in Syria: What We Know and Don’t Know
+            https://www.nytimes.com/2018/04/11/world/middleeast/syria-chemical-attack.html
+        Chemical experts finally see Syria site
+            http://www.bbc.com/news/world-middle-east-43850979
+

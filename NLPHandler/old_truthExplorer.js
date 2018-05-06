@@ -112,3 +112,57 @@ function splitArticleIntoSentences(_article) {
 }
 
 module.exports.getGetMostSimilarArticleWithInsight = getGetMostSimilarArticleWithInsight
+
+
+
+//------------- OLD AND UNUSED FUNCTION -------------
+// ---------- BUT I DON'T WANT TO DELETE IT ----------
+// ------- BECAUSE I SPENT SO MUCH TIME ON THIS -------
+// ------- THIS IS FROM SIMILARITY MODULE
+/*
+ function findMostSimilarArticle(_coreFeatures, _allArticles, callback) {
+ console.log('Finding most similar article from our local db')
+ let discreteEntities = _coreFeatures.analyzedContent.discreteEntities
+ let abstractEntities = _coreFeatures.analyzedContent.abstractEntities
+ let mostSimilarDiscreteEntities = -1
+ let mostSimilarAbstractEntities = -1
+ let mostSimilarIndex = -1
+ for (let articleIndex = 0; articleIndex < _allArticles.length; articleIndex ++) {
+ if (_allArticles[articleIndex].url == _coreFeatures.url) {
+ continue;
+ }
+ let thisArticle = _allArticles[articleIndex]
+ let similarDiscrete = 0
+ let similarAbstract = 0
+ //Discrete entities list
+ for (let i = 0; i < thisArticle.analyzedContent.discreteEntities.length; i ++) {
+ for (let j = 0; j < discreteEntities.length; j ++) {
+ if (thisArticle.analyzedContent.discreteEntities[i].text == discreteEntities[j].text) {
+ //set that number to whichever smaller value.
+ similarDiscrete += thisArticle.analyzedContent.discreteEntities[i].timesAppear < discreteEntities[j].timesAppear ?
+ thisArticle.analyzedContent.discreteEntities[i].timesAppear : discreteEntities[j].timesAppear
+ }
+ }
+ }
+ //Abstract entities list
+ for (let i = 0; i < thisArticle.analyzedContent.abstractEntities.length; i ++) {
+ for (let j = 0; j < abstractEntities.length; j ++) {
+ if (thisArticle.analyzedContent.abstractEntities[i].text == abstractEntities[j].text) {
+ //set that number to whichever smaller value.
+ similarAbstract += thisArticle.analyzedContent.abstractEntities[i].timesAppear < abstractEntities[j].timesAppear ?
+ thisArticle.analyzedContent.abstractEntities[i].timesAppear : abstractEntities[j].timesAppear
+ }
+ }
+ }
+ if ((mostSimilarAbstractEntities + mostSimilarDiscreteEntities)
+ < (similarAbstract + similarDiscrete)) {
+ mostSimilarAbstractEntities = similarAbstract
+ mostSimilarDiscreteEntities = similarDiscrete
+ mostSimilarIndex = articleIndex
+ }
+ }
+ console.log('FROM: ' + _coreFeatures.url)
+ console.log('MOST SIMILAR: ' + _allArticles[mostSimilarIndex].url)
+ callback(null, _allArticles[mostSimilarIndex])
+ }
+ */
