@@ -3,45 +3,71 @@
  */
 const dbReader = require('./../LocalDB/dbReader')
 
-_getEntitiesPopularity((err,res) => {
-    _sortEntitiesByPopularity(res, () => {})
-})
+// _getEntitiesPopularity((err, entitiesPopularity, metaData) => {
+//     console.log(metaData)
+// })
 
+//to calculate the median, in this case, it's neccesary to remove all of the "1" result because if not
+//all the median value will be just 1
 function _getEntitiesPopularity(callback) {
     dbReader.readEntitiesPopularity((err, entitiesPopularity) => {
         if (err) {
             console.log('Error reading entities popularity from DB')
-            callback(err, null)
+            callback(err, null, null)
         } else {
-            callback(null, entitiesPopularity)
+            let popularityInfo = {}
+            popularityInfo.entitiesNumber = entitiesPopularity.length
+            let timesAppearTotal = 0
+            let articleAppearTotal = 0
+
+            let timesAppearArray = []
+            let articleAppearArray = []
+            for (let i = 0; i < entitiesPopularity.length; i ++) {
+                if (entitiesPopularity[i].timesAppear != 1) {
+                    timesAppearArray.push(entitiesPopularity[i].timesAppear)
+                }
+                timesAppearTotal += entitiesPopularity[i].timesAppear
+
+                if (entitiesPopularity[i].articleAppear != 1) {
+                    articleAppearArray.push(entitiesPopularity[i].articleAppear)
+                }
+                articleAppearTotal += entitiesPopularity[i].articleAppear
+
+                if (entitiesPopularity[i].timesAppearRank == 0) {
+                    popularityInfo.highestTimesAppear = entitiesPopularity[i].timesAppear
+                }
+                if (entitiesPopularity[i].articleAppearRank == 0) {
+                    popularityInfo.highestArticlesAppear = entitiesPopularity[i].articleAppear
+                }
+            }
+
+            timesAppearArray.sort((a,b) => a - b)
+            popularityInfo.timesApppearTotal = timesAppearTotal
+            popularityInfo.timesApppearAvg = timesAppearTotal / entitiesPopularity.length
+            popularityInfo.timesAppearMedian = _getMedian(timesAppearArray)
+
+            articleAppearArray.sort((a,b) => a - b)
+            popularityInfo.articleAppearTotal = articleAppearTotal
+            popularityInfo.articleAppearAvg = articleAppearTotal / entitiesPopularity.length
+            popularityInfo.articleAppearMedian = _getMedian(articleAppearArray)
+
+            callback(null, entitiesPopularity, popularityInfo)
         }
     })
 }
 
-function _sortEntitiesByPopularity(_entitiesList, callback) {
-    let timesAppearArray = []
-    let articleAppearArray = []
-    for (let i = 0; i < _entitiesList.length; i ++) {
-        if (timesAppearArray.indexOf(_entitiesList[i].timesAppear) == -1) {
-            timesAppearArray.push(_entitiesList[i].timesAppear)
-        }
-        if (articleAppearArray.indexOf(_entitiesList[i].articleAppear) == -1) {
-            articleAppearArray.push(_entitiesList[i].articleAppear)
-        }
-    }
-    timesAppearArray.sort()
-    articleAppearArray.sort()
-}
-
 function _getMedian(_sortedArray) {
     if (_sortedArray.length % 2 != 0) {
-        console.log("----1")
         return _sortedArray[(_sortedArray.length - 1)/2]
     } else {
-        console.log("----2")
         console.log(_sortedArray.length+1)
         return (_sortedArray[_sortedArray.length/2] + _sortedArray[_sortedArray.length/2-1])/2
     }
+}
+
+function _getMainEntity(_coreFeatures, _allEntitiesPopularity, callback) {
+    let similarityScore = 0
+    let differenceScore = 0
 }
 
 //----- DB initializer functions -------------

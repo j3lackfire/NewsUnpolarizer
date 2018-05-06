@@ -72,7 +72,6 @@ function _processExtractedArticles(article_1, article_2, analyzedResult, callbac
             if (currentEntity.targetAppearIn[j] != 0 && currentEntity.targetAppearIn[j] == currentEntity.targetAppearIn[j - 1]) {
                 continue
             } else {
-                console.log('\nCurrent entity target appear in')
                 discreteVal.targetSentences.push(sentenceList_2[currentEntity.targetAppearIn[j]])
             }
         }
@@ -110,14 +109,6 @@ function splitArticleIntoSentences(_article) {
     // let question = '? '
     // let exclamation = '! '
     return _article.split(/[\\.!?]/)
-}
-
-let s = "U.S is dog. Meat is good? It is! this is random. LOL?"
-let r = splitArticleIntoSentences(s)
-
-
-for (let i = 0; i < r.length; i ++) {
-    console.log(r[i])
 }
 
 module.exports.getGetMostSimilarArticleWithInsight = getGetMostSimilarArticleWithInsight

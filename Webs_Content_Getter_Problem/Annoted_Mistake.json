@@ -1,0 +1,2189 @@
+  {
+    "url": "https://www.independent.co.uk/news/world/asia/japan-first-marine-unit-second-world-war-east-china-sea-vulnerable-attack-a8293506.html",
+    "title": "Japan activates first marine unit since Second World War to bolster defences against China",
+    "analyzedTitle": {
+      "sentimentValue": 3,
+      "sentencesCount": 1,
+      "charactersCount": 92,
+      "discreteEntities": [
+        {
+          "text": "Japan",
+          "ner": "COUNTRY",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "World",
+          "ner": "MISC",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "China",
+          "ner": "COUNTRY",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ],
+      "abstractEntities": [
+        {
+          "text": "marine",
+          "ner": "TITLE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        },
+        {
+          "text": "War",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            0
+          ]
+        }
+      ]
+    },
+    "analyzedContent": {
+      "sentimentValue": 1.7196652719665273,
+      "sentencesCount": 239,
+      "charactersCount": 14077,
+      "discreteEntities": [
+        {
+          "text": "Islamic State",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Damascus",
+          "ner": "CITY",
+          "sentimentValue": 0.8333333333333334,
+          "timesAppear": 6,
+          "appearIn": [
+            2,
+            3,
+            3,
+            78,
+            79,
+            173
+          ]
+        },
+        {
+          "text": "al-Assali",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            3
+          ]
+        },
+        {
+          "text": "EPA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            4,
+            85
+          ]
+        },
+        {
+          "text": "Michelle Wolf",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "White House",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            7,
+            29
+          ]
+        },
+        {
+          "text": "Wolf",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            8
+          ]
+        },
+        {
+          "text": "Donald Trump",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            8,
+            29
+          ]
+        },
+        {
+          "text": "Getty",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 4,
+          "appearIn": [
+            9,
+            43,
+            153,
+            180
+          ]
+        },
+        {
+          "text": "Kim Jong Un",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            12,
+            13
+          ]
+        },
+        {
+          "text": "Moon Jae-in",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            12,
+            13,
+            15,
+            42
+          ]
+        },
+        {
+          "text": "Panmunjom",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            13,
+            42
+          ]
+        },
+        {
+          "text": "Demilitarized Zone",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            13
+          ]
+        },
+        {
+          "text": "South Korea",
+          "ner": "COUNTRY",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            13,
+            41
+          ]
+        },
+        {
+          "text": "North",
+          "ner": "LOCATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "South",
+          "ner": "LOCATION",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "Kim Jong-Un",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            15
+          ]
+        },
+        {
+          "text": "Korea",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            17
+          ]
+        },
+        {
+          "text": "Chernobyl",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Kiev",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Ukraine",
+          "ner": "COUNTRY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Reuters",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 15,
+          "appearIn": [
+            21,
+            34,
+            71,
+            89,
+            93,
+            102,
+            111,
+            121,
+            125,
+            143,
+            170,
+            186,
+            190,
+            221,
+            230
+          ]
+        },
+        {
+          "text": "Rohingya",
+          "ner": "MISC",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            24,
+            25
+          ]
+        },
+        {
+          "text": "Maungdaw",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "Rakhine",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            24
+          ]
+        },
+        {
+          "text": "Bangladesh",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            24,
+            229
+          ]
+        },
+        {
+          "text": "PR",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "UN",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            25
+          ]
+        },
+        {
+          "text": "Emmanuel Macron",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            29,
+            65,
+            237
+          ]
+        },
+        {
+          "text": "Melania Trump",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Brigitte Macron",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            29,
+            237
+          ]
+        },
+        {
+          "text": "Washington",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            29,
+            178
+          ]
+        },
+        {
+          "text": "AP",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 2,
+          "timesAppear": 4,
+          "appearIn": [
+            30,
+            62,
+            67,
+            234
+          ]
+        },
+        {
+          "text": "New Delhi",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            33,
+            83
+          ]
+        },
+        {
+          "text": "Pope Francis",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            37,
+            137
+          ]
+        },
+        {
+          "text": "Saint Peter",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            37
+          ]
+        },
+        {
+          "text": "Vatican",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            37,
+            137
+          ]
+        },
+        {
+          "text": "inter-Korean",
+          "ner": "MISC",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            41,
+            42
+          ]
+        },
+        {
+          "text": "North Korea",
+          "ner": "COUNTRY",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            41,
+            42
+          ]
+        },
+        {
+          "text": "Seoul",
+          "ner": "CITY",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            41
+          ]
+        },
+        {
+          "text": "Kim Jong-un",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            42
+          ]
+        },
+        {
+          "text": "Israel-Gaza",
+          "ner": "MISC",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            46,
+            120
+          ]
+        },
+        {
+          "text": "state of Israel",
+          "ner": "COUNTRY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            47
+          ]
+        },
+        {
+          "text": "Raul Castro",
+          "ner": "PERSON",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            51
+          ]
+        },
+        {
+          "text": "Cuba",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            52
+          ]
+        },
+        {
+          "text": "Miguel Diaz-Canel",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            52
+          ]
+        },
+        {
+          "text": "National Assembly",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            52,
+            54
+          ]
+        },
+        {
+          "text": "Havana",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            52
+          ]
+        },
+        {
+          "text": "Castro",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            53
+          ]
+        },
+        {
+          "text": "Diaz-Canel",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            54
+          ]
+        },
+        {
+          "text": "Turkey",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            59,
+            61,
+            124
+          ]
+        },
+        {
+          "text": "Recep Tayyip Erdogan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            59
+          ]
+        },
+        {
+          "text": "Presidential Palace",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            59
+          ]
+        },
+        {
+          "text": "Ankara",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            59,
+            124
+          ]
+        },
+        {
+          "text": "Erdogan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            60
+          ]
+        },
+        {
+          "text": "Kurdish",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            61
+          ]
+        },
+        {
+          "text": "Syria",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            61,
+            65,
+            65,
+            174
+          ]
+        },
+        {
+          "text": "Iraq",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            61,
+            88
+          ]
+        },
+        {
+          "text": "US",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            65
+          ]
+        },
+        {
+          "text": "Britain",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            65,
+            199
+          ]
+        },
+        {
+          "text": "France",
+          "ner": "COUNTRY",
+          "sentimentValue": 0.75,
+          "timesAppear": 4,
+          "appearIn": [
+            65,
+            78,
+            101,
+            184
+          ]
+        },
+        {
+          "text": "European Parliament",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            65
+          ]
+        },
+        {
+          "text": "Strasbourg",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            65
+          ]
+        },
+        {
+          "text": "Macron",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            66
+          ]
+        },
+        {
+          "text": "Europe",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            66,
+            225
+          ]
+        },
+        {
+          "text": "European Union",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            66
+          ]
+        },
+        {
+          "text": "Kathua",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            70
+          ]
+        },
+        {
+          "text": "Jammu",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            70,
+            83
+          ]
+        },
+        {
+          "text": "Unnao",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            70
+          ]
+        },
+        {
+          "text": "Uttar Pradesh",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            70,
+            83
+          ]
+        },
+        {
+          "text": "Bangalore",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            70
+          ]
+        },
+        {
+          "text": "India",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            70,
+            83,
+            189
+          ]
+        },
+        {
+          "text": "PA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            75,
+            162
+          ]
+        },
+        {
+          "text": "Barzeh",
+          "ner": "LOCATION",
+          "sentimentValue": 0.5,
+          "timesAppear": 2,
+          "appearIn": [
+            78,
+            79
+          ]
+        },
+        {
+          "text": "United States",
+          "ner": "COUNTRY",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            78
+          ]
+        },
+        {
+          "text": "UK",
+          "ner": "COUNTRY",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            78
+          ]
+        },
+        {
+          "text": "Bashar al-Assad",
+          "ner": "PERSON",
+          "sentimentValue": "0",
+          "timesAppear": 1,
+          "appearIn": [
+            78
+          ]
+        },
+        {
+          "text": "SANA",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            79
+          ]
+        },
+        {
+          "text": "Delhi Commission for Women",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            83
+          ]
+        },
+        {
+          "text": "Swati Maliwal",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            83
+          ]
+        },
+        {
+          "text": "Kashmir",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            83
+          ]
+        },
+        {
+          "text": "Maliwal",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            84
+          ]
+        },
+        {
+          "text": "Imam Moussa al-Kadhim",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            88
+          ]
+        },
+        {
+          "text": "Baghdad",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            88
+          ]
+        },
+        {
+          "text": "Matahari",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            92
+          ]
+        },
+        {
+          "text": "Sanur",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            92
+          ]
+        },
+        {
+          "text": "Bali",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            92
+          ]
+        },
+        {
+          "text": "Indonesia",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            92
+          ]
+        },
+        {
+          "text": "Idlib",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            96
+          ]
+        },
+        {
+          "text": "Syrian Observatory for Human Rights",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            97
+          ]
+        },
+        {
+          "text": "Deferred Development Zone",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            101
+          ]
+        },
+        {
+          "text": "Notre-Dame-des-Landes",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            101
+          ]
+        },
+        {
+          "text": "Nantes",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            101
+          ]
+        },
+        {
+          "text": "Pyongyang",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            105
+          ]
+        },
+        {
+          "text": "Marathon",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            105
+          ]
+        },
+        {
+          "text": "Yasser Murtaja",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            109
+          ]
+        },
+        {
+          "text": "Gaza",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            109,
+            142
+          ]
+        },
+        {
+          "text": "Gaza-Israel",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            110
+          ]
+        },
+        {
+          "text": "Jacob Zuma",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            114
+          ]
+        },
+        {
+          "text": "KwaZulu-Natal High Court",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            114
+          ]
+        },
+        {
+          "text": "Durban",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            114
+          ]
+        },
+        {
+          "text": "Zuma",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            115
+          ]
+        },
+        {
+          "text": "Hassan Rouhani",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            124
+          ]
+        },
+        {
+          "text": "Iran",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            124
+          ]
+        },
+        {
+          "text": "Tayyip Erdogan",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            124
+          ]
+        },
+        {
+          "text": "Vladimir Putin",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 5,
+          "appearIn": [
+            124,
+            161,
+            207,
+            216,
+            220
+          ]
+        },
+        {
+          "text": "Russia",
+          "ner": "COUNTRY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            124,
+            166,
+            207
+          ]
+        },
+        {
+          "text": "Winnie Madikizela-Mandela",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            128
+          ]
+        },
+        {
+          "text": "African National Congress",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            128
+          ]
+        },
+        {
+          "text": "Nelson Mandela",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            128,
+            129
+          ]
+        },
+        {
+          "text": "Soweto",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            128
+          ]
+        },
+        {
+          "text": "Cyril Ramaphosa",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            129
+          ]
+        },
+        {
+          "text": "Winnie",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            129
+          ]
+        },
+        {
+          "text": "Passover",
+          "ner": "MISC",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            133
+          ]
+        },
+        {
+          "text": "Western Wall",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            133
+          ]
+        },
+        {
+          "text": "Old City of",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            133
+          ]
+        },
+        {
+          "text": "Jerusalem",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            133
+          ]
+        },
+        {
+          "text": "St Peter",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            137
+          ]
+        },
+        {
+          "text": "Mass",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            137
+          ]
+        },
+        {
+          "text": "Christians",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            138
+          ]
+        },
+        {
+          "text": "Jesus Christ",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            138
+          ]
+        },
+        {
+          "text": "Mourners",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            142
+          ]
+        },
+        {
+          "text": "Hamdan Abu Amshah",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            142
+          ]
+        },
+        {
+          "text": "Israel",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            142
+          ]
+        },
+        {
+          "text": "Beit Hanoun",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            142
+          ]
+        },
+        {
+          "text": "Land",
+          "ner": "MISC",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            146
+          ]
+        },
+        {
+          "text": "Arab Israelis",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            147
+          ]
+        },
+        {
+          "text": "Arab",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            147
+          ]
+        },
+        {
+          "text": "Steve Smith",
+          "ner": "PERSON",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            151,
+            152
+          ]
+        },
+        {
+          "text": "Peter",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            151
+          ]
+        },
+        {
+          "text": "Sydney",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            151
+          ]
+        },
+        {
+          "text": "International Airport",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            151
+          ]
+        },
+        {
+          "text": "David Warner",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            152
+          ]
+        },
+        {
+          "text": "Cameron Bancroft",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            152
+          ]
+        },
+        {
+          "text": "Australia",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            152
+          ]
+        },
+        {
+          "text": "South Africa",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            152
+          ]
+        },
+        {
+          "text": "Arnaud Beltrame",
+          "ner": "PERSON",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            156,
+            157
+          ]
+        },
+        {
+          "text": "Paris",
+          "ner": "CITY",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            156
+          ]
+        },
+        {
+          "text": "Kemerovo",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            161,
+            167
+          ]
+        },
+        {
+          "text": "Kremlin Pool Photo",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            163
+          ]
+        },
+        {
+          "text": "Siberia",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            167
+          ]
+        },
+        {
+          "text": "Emergencies",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            167
+          ]
+        },
+        {
+          "text": "Vladimir Puchkov",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            167
+          ]
+        },
+        {
+          "text": "Russian Emergencies Ministry",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            170
+          ]
+        },
+        {
+          "text": "Arbin",
+          "ner": "LOCATION",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            173,
+            174
+          ]
+        },
+        {
+          "text": "Eastern Ghouta",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            173
+          ]
+        },
+        {
+          "text": "Zamalka",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            174
+          ]
+        },
+        {
+          "text": "Jobar",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            174
+          ]
+        },
+        {
+          "text": "Florida",
+          "ner": "STATE_OR_PROVINCE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            179
+          ]
+        },
+        {
+          "text": "Trebes",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            183
+          ]
+        },
+        {
+          "text": "Brahmaputra",
+          "ner": "LOCATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            189
+          ]
+        },
+        {
+          "text": "World Water",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            189
+          ]
+        },
+        {
+          "text": "Guwahati",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            189
+          ]
+        },
+        {
+          "text": "Kosovo",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            193
+          ]
+        },
+        {
+          "text": "Montenegro",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            193
+          ]
+        },
+        {
+          "text": "Russian Embassy",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            197
+          ]
+        },
+        {
+          "text": "London",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            197
+          ]
+        },
+        {
+          "text": "Moscow",
+          "ner": "CITY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            199,
+            207,
+            220
+          ]
+        },
+        {
+          "text": "Soyuz MS-08",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            203
+          ]
+        },
+        {
+          "text": "Russian-leased Baikonur",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            203
+          ]
+        },
+        {
+          "text": "Kazakhstan",
+          "ner": "COUNTRY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            203
+          ]
+        },
+        {
+          "text": "Barcelona",
+          "ner": "CITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            211
+          ]
+        },
+        {
+          "text": "Almazov National Medical Research Centre",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            216
+          ]
+        },
+        {
+          "text": "Saint Petersburg",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            216
+          ]
+        },
+        {
+          "text": "Security Council",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            220
+          ]
+        },
+        {
+          "text": "Angela Merkel",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            224
+          ]
+        },
+        {
+          "text": "Bundestag",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            224
+          ]
+        },
+        {
+          "text": "Berlin",
+          "ner": "CITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            224
+          ]
+        },
+        {
+          "text": "Merkel",
+          "ner": "PERSON",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            225
+          ]
+        },
+        {
+          "text": "Christian Democratic Party CDU",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            225
+          ]
+        },
+        {
+          "text": "SPD",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            225
+          ]
+        },
+        {
+          "text": "Nepali",
+          "ner": "MISC",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            229
+          ]
+        },
+        {
+          "text": "University of Dhaka",
+          "ner": "ORGANIZATION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            229
+          ]
+        },
+        {
+          "text": "Nepal",
+          "ner": "COUNTRY",
+          "sentimentValue": 1.5,
+          "timesAppear": 2,
+          "appearIn": [
+            229,
+            233
+          ]
+        },
+        {
+          "text": "Kathmandu",
+          "ner": "LOCATION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            233
+          ]
+        }
+      ],
+      "abstractEntities": [
+        {
+          "text": "general",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            2
+          ]
+        },
+        {
+          "text": "Syrian",
+          "ner": "NATIONALITY",
+          "sentimentValue": 0.8,
+          "timesAppear": 5,
+          "appearIn": [
+            3,
+            78,
+            79,
+            96,
+            173
+          ]
+        },
+        {
+          "text": "Comedian",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            7
+          ]
+        },
+        {
+          "text": "President",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 18,
+          "appearIn": [
+            8,
+            12,
+            13,
+            29,
+            29,
+            42,
+            51,
+            52,
+            59,
+            65,
+            78,
+            129,
+            157,
+            161,
+            207,
+            216,
+            224,
+            237
+          ]
+        },
+        {
+          "text": "North Korean",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            12,
+            13
+          ]
+        },
+        {
+          "text": "leader",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            12,
+            13,
+            42,
+            128
+          ]
+        },
+        {
+          "text": "South Korean",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            12,
+            13,
+            42
+          ]
+        },
+        {
+          "text": "Korean",
+          "ner": "NATIONALITY",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            14
+          ]
+        },
+        {
+          "text": "War",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 2,
+          "timesAppear": 2,
+          "appearIn": [
+            14,
+            65
+          ]
+        },
+        {
+          "text": "disaster",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            20
+          ]
+        },
+        {
+          "text": "Myanmar",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            24,
+            25
+          ]
+        },
+        {
+          "text": "French",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1.4285714285714286,
+          "timesAppear": 7,
+          "appearIn": [
+            29,
+            65,
+            101,
+            156,
+            157,
+            185,
+            237
+          ]
+        },
+        {
+          "text": "first",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "lady",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            29
+          ]
+        },
+        {
+          "text": "Palestinian",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1.5,
+          "timesAppear": 6,
+          "appearIn": [
+            46,
+            47,
+            110,
+            120,
+            142,
+            146
+          ]
+        },
+        {
+          "text": "war",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            47
+          ]
+        },
+        {
+          "text": "Cuban",
+          "ner": "NATIONALITY",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            51
+          ]
+        },
+        {
+          "text": "candidate",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            54
+          ]
+        },
+        {
+          "text": "president",
+          "ner": "TITLE",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            60,
+            114
+          ]
+        },
+        {
+          "text": "European",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            65,
+            66
+          ]
+        },
+        {
+          "text": "attack",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 0.6666666666666666,
+          "timesAppear": 3,
+          "appearIn": [
+            78,
+            157,
+            179
+          ]
+        },
+        {
+          "text": "Indian",
+          "ner": "NATIONALITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            83
+          ]
+        },
+        {
+          "text": "chairperson",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            83
+          ]
+        },
+        {
+          "text": "hunger strike",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            83,
+            84
+          ]
+        },
+        {
+          "text": "explosion",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 1,
+          "timesAppear": 2,
+          "appearIn": [
+            96,
+            97
+          ]
+        },
+        {
+          "text": "journalist",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            109
+          ]
+        },
+        {
+          "text": "Israeli",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1.5,
+          "timesAppear": 4,
+          "appearIn": [
+            110,
+            120,
+            146,
+            147
+          ]
+        },
+        {
+          "text": "South African",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 4,
+          "appearIn": [
+            114,
+            128,
+            128,
+            129
+          ]
+        },
+        {
+          "text": "Jewish",
+          "ner": "RELIGION",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            133
+          ]
+        },
+        {
+          "text": "escort",
+          "ner": "TITLE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            156
+          ]
+        },
+        {
+          "text": "Lieutenant Colonel",
+          "ner": "TITLE",
+          "sentimentValue": "3",
+          "timesAppear": 1,
+          "appearIn": [
+            156
+          ]
+        },
+        {
+          "text": "policeman",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            157
+          ]
+        },
+        {
+          "text": "Russian",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 5,
+          "appearIn": [
+            161,
+            167,
+            198,
+            199,
+            216
+          ]
+        },
+        {
+          "text": "fire",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": 1.2,
+          "timesAppear": 5,
+          "appearIn": [
+            161,
+            162,
+            162,
+            166,
+            168
+          ]
+        },
+        {
+          "text": "Siberian",
+          "ner": "RELIGION",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            161
+          ]
+        },
+        {
+          "text": "Minister",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            167
+          ]
+        },
+        {
+          "text": "minister",
+          "ner": "TITLE",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            185
+          ]
+        },
+        {
+          "text": "river",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            189
+          ]
+        },
+        {
+          "text": "poisoning",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            199
+          ]
+        },
+        {
+          "text": "Spanish",
+          "ner": "NATIONALITY",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            212
+          ]
+        },
+        {
+          "text": "German",
+          "ner": "NATIONALITY",
+          "sentimentValue": 1,
+          "timesAppear": 3,
+          "appearIn": [
+            224,
+            224,
+            225
+          ]
+        },
+        {
+          "text": "Chancellor",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            224
+          ]
+        },
+        {
+          "text": "chancellor",
+          "ner": "TITLE",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            225
+          ]
+        },
+        {
+          "text": "crash",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "1",
+          "timesAppear": 1,
+          "appearIn": [
+            229
+          ]
+        },
+        {
+          "text": "plane crash",
+          "ner": "CAUSE_OF_DEATH",
+          "sentimentValue": "2",
+          "timesAppear": 1,
+          "appearIn": [
+            233
+          ]
+        }
+      ]
+    }
+  }
