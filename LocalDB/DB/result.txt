@@ -1,3 +1,10 @@
+Google News APIs
+https://newsapi.org/register/success
+e8799e5baeb748ca8dc99b2ffc9c156f
+
+or this.
+http://eventregistry.org/
+
 Similarity only:
     - Source:
         Missile Strikes Are Unlikely to Stop Syria’s Chemical Attacks, Pentagon Says
