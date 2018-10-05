@@ -106,28 +106,41 @@ function annotateParagraph(paragraph, callback) {
         if (!error) {
             if (response.statusCode == 200) {
                 console.log('Successfully receive annotation from the Core NLP server!')
-                let sentencesList = [];
-                for (var i = 0; i < body.sentences.length; i ++) {
+                let annotatedSentences = body.sentences;
+                let returnSentences = [];
+                for (let i = 0; i < annotatedSentences.length; i ++) {
                     let sentence = {};
-                    sentence.sentiment = body.sentences[i].sentiment
-                    sentence.sentimentValue = body.sentences[i].sentimentValue
-                    // sentence.sentimentDistribution = body.sentences[i].sentimentDistribution
+                    //sentiment
+                    sentence.sentiment = annotatedSentences[i].sentiment
+                    sentence.sentimentValue = annotatedSentences[i].sentimentValue
+                    //named entities
                     sentence.entities = [];
-                    for (var j = 0; j < body.sentences[i].entitymentions.length; j ++) {
-                        let entities = {};
-                        entities.text = body.sentences[i].entitymentions[j].text
-                        entities.ner = body.sentences[i].entitymentions[j].ner
+                    for (let j = 0; j < annotatedSentences[i].entitymentions.length; j ++) {
+                        let entities = {}
+                        entities.text = annotatedSentences[i].entitymentions[j].text
+                        entities.ner = annotatedSentences[i].entitymentions[j].ner
                         sentence.entities.push(entities);
                     }
-
-                    sentence.tokensCount = body.sentences[i].tokens.length
-                    let offsetBegin = body.sentences[i].tokens[0].characterOffsetBegin;
-                    sentence.charactersCount = +body.sentences[i].tokens[sentence.tokensCount - 1].characterOffsetEnd - +offsetBegin;
-                    // sentence.characterLength = body.sentences[i].tokens[sentence.tokenNumber - 1].characterOffsetEnd;
-                    // sentence.tokens = body.sentences[i].tokens
-                    sentencesList.push(sentence)
+                    //OpenIE extraction
+                    sentence.openie = []
+                    for (let j = 0; j < annotatedSentences[i].openie.length; j ++) {
+                        let triplet = annotatedSentences[i].openie[j]
+                        let returnTriplet = {}
+                        returnTriplet.subject = triplet.subject
+                        returnTriplet.relation = triplet.relation
+                        returnTriplet.object = triplet.object
+                        sentence.openie.push(returnTriplet)
+                    }
+                    // Token counts = number of text in the sentence
+                    // Character counts = number of characters in the sentence
+                    sentence.tokensCount = annotatedSentences[i].tokens.length
+                    let offsetBegin = annotatedSentences[i].tokens[0].characterOffsetBegin;
+                    sentence.charactersCount = +annotatedSentences[i].tokens[sentence.tokensCount - 1].characterOffsetEnd - +offsetBegin;
+                    // sentence.characterLength = annotatedSentences[i].tokens[sentence.tokenNumber - 1].characterOffsetEnd;
+                    // sentence.tokens = annotatedSentences[i].tokens
+                    returnSentences.push(sentence)
                 }
-                callback(null, sentencesList);
+                callback(null, returnSentences);
             } else {
                 callback({'statusCode':statusCode}, null)
             }
