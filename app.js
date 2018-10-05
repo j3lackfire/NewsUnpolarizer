@@ -46,7 +46,7 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(myPort, function() {
-    console.log('Example app listening on port %s!', myPort)
+    console.log('News unpolarizer app listening on port %s!', myPort)
 });
 
 module.exports = app;

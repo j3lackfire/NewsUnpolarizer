@@ -14,6 +14,7 @@ to this, which is a valid URL:
 */
 let baseURL = 'http://localhost:9000/?'
 let defaultSettings = 'properties={"annotators":"sentiment,ner","outputFormat":"json"}'
+// let defaultSettings = 'properties={"annotators":"tokenize,ssplit,ner,openie","outputFormat":"json"}'
 
 //Default function, I think it will requires name
 function getDefaultURL() {
