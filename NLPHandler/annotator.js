@@ -2,7 +2,7 @@
  * Created by Le Pham Minh Duc on 31-Mar-18.
  */
 const request = require('request');
-const webReader = require('./../NewsGetter/webContentReader')
+const webReader = require('./../NewsGatherer/webContentReader')
 
 const urlBuilder = require('./urlBuilder')
 const dbWriter = require('./../LocalDB/dbWriter')

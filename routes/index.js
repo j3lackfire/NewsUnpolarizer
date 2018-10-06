@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 //My custom scripts
 const annotator = require('./../NLPHandler/annotator');
-const webReader = require('./../NewsGetter/webContentReader')
+const webReader = require('./../NewsGatherer/webContentReader')
 const similarityModule = require('./../NLPHandler/similarityModule')
 const truthExplorer = require('./../NLPHandler/old_truthExplorer')
 
