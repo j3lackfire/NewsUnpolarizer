@@ -12,6 +12,9 @@
     the article is quite long but this tool only get the footer I think
 */
 const read = require('node-readability');
+const summarizer = require('./summarizer')
+const utils = require('./../utils')
+const errorHandler = require('./../errorHandler')
 
 //because they don't work with this extension
 let blacklistWebsite = [
@@ -19,6 +22,25 @@ let blacklistWebsite = [
     'thehill.com',
     'dailytrojan.com'
 ]
+
+function extractWebContentUsingSummarizer(url, callback) {
+    summarizer.summaryUrl(url, (err, responseBody) => {
+        if (err) {
+            console.error(err)
+            callback(err, null)
+        } else {
+            let returnForm = {}
+            console.log(responseBody)
+            if (utils.isNullOrUndefined(responseBody.sm_api_title)) {
+                returnForm.title = "Random generic title, just so that it won't return a null exception"
+            } else {
+                returnForm.title = responseBody.sm_api_title
+            }
+            returnForm.content = responseBody.sm_api_content
+            callback(null, returnForm)
+        }
+    })
+}
 
 function extractWebContent(url, callback) {
     if (_isWebsiteInBlacklist(url)) {
@@ -111,18 +133,10 @@ function _removeExtraLines(content) {
     return content.replace(/\n+/g, ' . '); //this part remove the extra lines
 }
 
-//because in HTML content, all the QUOTE (") is \" so we have to change these as well
-//No need for this function it seems, Only POSTMAN displayed it wrongly
-// function _removeSlash(content) {
-//     console.log('Remove slash!!!')
-//     console.log(content)
-//     return content.replace(/\\/, '');
-// }
-
 function _removeExtraDot(content) {
     return content.split('. .').join('.')
 }
 
-module.exports.extractWebContent = extractWebContent;
+module.exports.extractWebContent = extractWebContentUsingSummarizer;
 module.exports.getContentNoCleanUp = getContentNoCleanUp;
 module.exports.getContentWithHtml = getContentWithHtml;

@@ -25,53 +25,51 @@ function _generateSummaryUrlRequest(url, length) {
     return _generateBaseRequest() + lengthParam + '&SM_URL=' + url
 }
 
-function _summaryUrl(url, summaryLength, callback) {
-    console.log("_summaryUrl " + summaryLength)
+function summaryUrl(url, callback) {
+    _localSummaryUrl(url, -1, callback)
+}
+
+function _localSummaryUrl(url, summaryLength, callback) {
+    console.log(_generateSummaryUrlRequest(url, summaryLength))
     request( _generateSummaryUrlRequest(url, summaryLength), function (error, response, body) {
-        console.log(_generateSummaryUrlRequest(url, summaryLength))
         if (error) {
-            console.log('Error happens when trying to summarize url')
+            console.log('Error happens with requesting SMMRY')
             callback(error, null);
         } else {
             let responseBody = JSON.parse(body)
-            console.log(responseBody.sm_api_limitation)
-            callback(null, responseBody)
-            // let suitableLength = _getSuitableSummaryLength(summaryLength, responseBody.sm_api_content_reduced)
-            // if (suitableLength == summaryLength) {
-            //     callback(null, responseBody)
-            // } else {
-            //     _summaryUrl(url, suitableLength, callback)
-            // }
+            if (responseBody.sm_api_error) {
+                console.log('Error at the SMMRY server - ' + responseBody.sm_api_message)
+                callback(responseBody.sm_api_message, null);
+            } else {
+                console.log(responseBody.sm_api_limitation)
+                callback(null, responseBody)
+                // let suitableLength = _getSuitableSummaryLength(summaryLength, responseBody.sm_api_content_reduced)
+                // if (suitableLength == summaryLength) {
+                //     callback(null, responseBody)
+                // } else {
+                //     _localSummaryUrl(url, suitableLength, callback)
+                // }
+            }
         }
     });
 }
 
-//if the percent is from 40~60%, it's good
+//if the percent is bigger than 60%, it's good
 function _getSuitableSummaryLength(currentLength, _percentReduced) {
     let percentReduced = parseInt(_percentReduced.split('%')[0])
-    if (percentReduced > 40 && percentReduced < 60) {
+    if (percentReduced < 40) {
         return currentLength
     }
     let currentPercentage = 100 - percentReduced
     let averageSentencePercentage = currentPercentage / currentLength
-    return Math.abs(Math.ceil(50 / averageSentencePercentage))
+    return Math.abs(Math.ceil(70 / averageSentencePercentage))
 }
 
 //example usage of the things.
-// _summaryUrl(
-//     'http://nbc25news.com/news/flint-water-woes/state-ends-water-distribution-in-flint',
-//     -1,
-//     function(err, response) {
-//         if (err) {
-//             console.log(err)
-//         } else{
-//             console.log(response.sm_api_character_count);
-//             console.log(response.sm_api_content_reduced);
-//             console.log(response.sm_api_title);
-//             console.log(response.sm_api_content);
-//             console.log(response.sm_api_limitation);
-//         }
-//     }
-// );
+// response.sm_api_character_count
+// response.sm_api_content_reduced
+// response.sm_api_title
+// response.sm_api_content
+// response.sm_api_limitation
 
-module.exports.summaryUrl = _summaryUrl;
+module.exports.summaryUrl = summaryUrl;

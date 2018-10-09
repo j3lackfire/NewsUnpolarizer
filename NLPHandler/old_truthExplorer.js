@@ -2,7 +2,7 @@
  * Created by Le Pham Minh Duc on 17-Apr-18.
  */
 const similarityModule = require('./similarityModule')
-const annotator = require('./annotator')
+const annotator = require('./nlpAnnotator')
 const webContentReader = require('./../NewsGatherer/webContentReader')
 
 /*
