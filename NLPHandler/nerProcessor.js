@@ -40,7 +40,7 @@ function _isEntityAlreadyExist(entitiesList, entity) {
 
 //return true if it's people, organization and stuffs
 //false if number and nonsense like that.
-function _shouldSaveEntity(entity) {
+function isEntityRelevant(entity) {
     return (((discreteNerList.indexOf(entity.ner) != -1)
     || (abstractNerList.indexOf(entity.ner) != -1))
     && (ignoreTextList.indexOf(entity.text) == -1));
@@ -65,7 +65,7 @@ function _analyzeNerFromAnnotatedData(annotatedResult, callback) {
         //Then,we should record it, as well as its sentiment value.
         //Loop through every entities inside the sentence
         for (let j = 0; j < annotatedResult[i].entities.length; j ++) {
-            if (_shouldSaveEntity(annotatedResult[i].entities[j])) {
+            if (isEntityRelevant(annotatedResult[i].entities[j])) {
                 if (_isEntityAlreadyExist(entitiesList, annotatedResult[i].entities[j])) {
                     for (let k = 0; k < entitiesList.length; k ++) {
                         if (entitiesList[k].text == annotatedResult[i].entities[j].text) {
@@ -125,4 +125,4 @@ function analyzeNerFromParagraph(paragraph, callback) {
 }
 
 module.exports.analyzeNerFromParagraph = analyzeNerFromParagraph;
-
+module.exports.isEntityRelevant = isEntityRelevant;

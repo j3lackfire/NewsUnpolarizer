@@ -10,43 +10,6 @@ const dbWriter = require('./../LocalDB/dbWriter')
 console.log('Default request URL to send to core NLP');
 console.log(urlBuilder.getDefaultURL());
 
-function analyzeUrl(url, callback) {
-    webReader.extractWebContent(url, function(err_1, article) {
-        if (err_1) {
-            callback(err_1, null)
-        } else {
-            //content
-            console.log("\n\nTrying to get the core features")
-            console.log(article.content)
-            console.log(article.title)
-            getCoreFeature(article.content, function(err_2, analyzedContent) {
-                if (err_2) {
-                    callback(err_2, null)
-                } else {
-                    //the title
-                    getCoreFeature(article.title, function(err_3, analyzedTitle) {
-                        console.log("Article title: " + article.title)
-                        if (err_3) {
-                            callback(err_3, null)
-                        } else {
-                            //right now, just push 2 of them in an array.
-                            //but I kind of want the title to be more powerful, more close
-                            //to the final result,
-                            //but maybe just add a weight value would be enough.
-                            let finalResponse = {};
-                            finalResponse.url = url
-                            finalResponse.title = article.title
-                            finalResponse.analyzedTitle = analyzedTitle
-                            finalResponse.analyzedContent = analyzedContent
-                            callback(null, finalResponse);
-                        }
-                    })
-                }
-            })
-        }
-    })
-}
-
 function analyzeUrlAndAddToDb(url, callback) {
     analyzeUrl(url, (err, res) => {
         if (err) {
@@ -71,7 +34,7 @@ function analyzeUrlAndAddToDb(url, callback) {
  And the OpenIE annotation
  */
 function annotateParagraph(paragraph, callback) {
-    _requestNlpAnnotation(paragraph, function(error, response, body) {
+    requestNlpAnnotation(paragraph, (error, response, body) => {
         if (!error) {
             if (response.statusCode == 200) {
                 console.log('Successfully receive annotation from the Core NLP server!')
@@ -121,7 +84,7 @@ function annotateParagraph(paragraph, callback) {
 }
 
 //This function request an annotation from the Stanford Core NLP Web Services
-function _requestNlpAnnotation(content, callback) {
+function requestNlpAnnotation(content, callback) {
     request.post(
         urlBuilder.getDefaultURL(),
         { json: content},
@@ -131,6 +94,6 @@ function _requestNlpAnnotation(content, callback) {
     );
 }
 
+module.exports.requestNlpAnnotation = requestNlpAnnotation
 module.exports.annotateParagraph = annotateParagraph;
-module.exports.analyzeUrl = analyzeUrl;
 module.exports.analyzeUrlAndAddToDb = analyzeUrlAndAddToDb
