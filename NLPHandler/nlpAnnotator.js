@@ -54,14 +54,14 @@ function annotateParagraph(paragraph, callback) {
                         sentence.entities.push(entities);
                     }
                     //OpenIE extraction
-                    sentence.openie = []
+                    sentence.triplets = []
                     for (let j = 0; j < annotatedSentences[i].openie.length; j ++) {
                         let triplet = annotatedSentences[i].openie[j]
                         let returnTriplet = {}
                         returnTriplet.subject = triplet.subject
                         returnTriplet.relation = triplet.relation
                         returnTriplet.object = triplet.object
-                        sentence.openie.push(returnTriplet)
+                        sentence.triplets.push(returnTriplet)
                     }
                     // Token counts = number of text in the sentence
                     // Character counts = number of characters in the sentence

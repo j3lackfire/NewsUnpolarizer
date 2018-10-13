@@ -2,6 +2,7 @@
  * Created by Le Pham Minh Duc on 09-Oct-18.
  */
 const nlpAnnotator = require('./nlpAnnotator')
+const utils = require('./../utils')
 
 //list about some particular entities like person, organization, city or country
 let discreteNerList = [
@@ -27,6 +28,27 @@ let ignoreTextList = [
     'She', 'she', 'He', 'he', 'His', 'his', 'Her', 'her', 'Him', 'him',
     'They', 'they', 'Them', 'them', 'We', 'we', 'Us', 'us', 'I', 'Me', 'me'
 ]
+
+function extractNerFromNLP(nlpAnnotation, callback) {
+    let returnVal = []
+    for (let i= 0; i < nlpAnnotation.length; i ++) {
+        let currentSentence = {}
+        currentSentence.entities = []
+        for (let j = 0; j < nlpAnnotation[i].entitymentions.length; j ++) {
+            let nlpEntity = nlpAnnotation[i].entitymentions[j]
+            if (!isEntityRelevant(nlpEntity)) {
+                continue
+            }
+            let entity = {}
+            entity.text = nlpEntity.text
+            entity.ner = nlpEntity.ner
+            entity.span = [nlpEntity.tokenBegin, nlpEntity.tokenEnd]
+            currentSentence.entities.push(entity);
+        }
+        returnVal.push(currentSentence)
+    }
+    callback(null, returnVal)
+}
 
 //check if the entity is already inside the list or not.
 function _isEntityAlreadyExist(entitiesList, entity) {
@@ -126,3 +148,4 @@ function analyzeNerFromParagraph(paragraph, callback) {
 
 module.exports.analyzeNerFromParagraph = analyzeNerFromParagraph;
 module.exports.isEntityRelevant = isEntityRelevant;
+module.exports.extractNerFromNLP = extractNerFromNLP
