@@ -4,8 +4,8 @@
 /*
     This module will try to find the similarities between two articles
 */
-const dbReader = require('./../LocalDB/dbReader')
-const annotator = require('./nlpAnnotator')
+const dbReader = require('./../../LocalDB/dbReader')
+const annotator = require('./../nlpAnnotator')
 
 //-----------------------------------------------------------------------
 

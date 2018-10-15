@@ -1,7 +1,7 @@
 /**
  * Created by Le Pham Minh Duc on 26-Apr-18.
  */
-const dbReader = require('./../LocalDB/dbReader')
+const dbReader = require('./../../LocalDB/dbReader')
 
 // _getEntitiesPopularity((err, entitiesPopularity, metaData) => {
 //     console.log(metaData)

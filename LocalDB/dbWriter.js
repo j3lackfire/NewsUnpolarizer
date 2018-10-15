@@ -7,7 +7,7 @@ const fs = require('fs') //file system to save the file
 
 const annotator = require('./../NLPHandler/nlpAnnotator')
 const dbReader = require('./dbReader')
-const entitiesPopularity = require('./../NLPHandler/entitiesPopularity')
+const entitiesPopularity = require('./../NLPHandler/legacy/entitiesPopularity')
 
 let baseFilePath = __dirname + '/DB/'
 

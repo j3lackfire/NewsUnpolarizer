@@ -2,8 +2,8 @@
  * Created by Le Pham Minh Duc on 17-Apr-18.
  */
 const similarityModule = require('./similarityModule')
-const annotator = require('./nlpAnnotator')
-const webContentReader = require('./../NewsGatherer/webContentReader')
+const annotator = require('./../nlpAnnotator')
+const webContentReader = require('./../../NewsGatherer/webContentReader')
 
 /*
     The truth explorer (the name might be changed later)

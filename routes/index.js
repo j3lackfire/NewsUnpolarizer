@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({extended: false}))
 //My custom scripts
 const annotator = require('./../NLPHandler/nlpAnnotator');
 const webReader = require('./../NewsGatherer/webContentReader')
-const similarityModule = require('./../NLPHandler/similarityModule')
-const truthExplorer = require('./../NLPHandler/old_truthExplorer')
+const similarityModule = require('./../NLPHandler/legacy/similarityModule')
+const truthExplorer = require('./../NLPHandler/legacy/old_truthExplorer')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

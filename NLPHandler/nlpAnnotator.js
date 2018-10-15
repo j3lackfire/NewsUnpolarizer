@@ -34,51 +34,47 @@ function analyzeUrlAndAddToDb(url, callback) {
  And the OpenIE annotation
  */
 function annotateParagraph(paragraph, callback) {
-    requestNlpAnnotation(paragraph, (error, response, body) => {
-        if (!error) {
-            if (response.statusCode == 200) {
-                console.log('Successfully receive annotation from the Core NLP server!')
-                let annotatedSentences = body.sentences;
-                let returnSentences = [];
-                for (let i = 0; i < annotatedSentences.length; i ++) {
-                    let sentence = {};
-                    //sentiment
-                    sentence.sentiment = annotatedSentences[i].sentiment
-                    sentence.sentimentValue = annotatedSentences[i].sentimentValue
-                    //named entities
-                    sentence.entities = [];
-                    for (let j = 0; j < annotatedSentences[i].entitymentions.length; j ++) {
-                        let entities = {}
-                        entities.text = annotatedSentences[i].entitymentions[j].text
-                        entities.ner = annotatedSentences[i].entitymentions[j].ner
-                        sentence.entities.push(entities);
-                    }
-                    //OpenIE extraction
-                    sentence.triplets = []
-                    for (let j = 0; j < annotatedSentences[i].openie.length; j ++) {
-                        let triplet = annotatedSentences[i].openie[j]
-                        let returnTriplet = {}
-                        returnTriplet.subject = triplet.subject
-                        returnTriplet.relation = triplet.relation
-                        returnTriplet.object = triplet.object
-                        sentence.triplets.push(returnTriplet)
-                    }
-                    // Token counts = number of text in the sentence
-                    // Character counts = number of characters in the sentence
-                    sentence.tokensCount = annotatedSentences[i].tokens.length
-                    let offsetBegin = annotatedSentences[i].tokens[0].characterOffsetBegin;
-                    sentence.charactersCount = +annotatedSentences[i].tokens[sentence.tokensCount - 1].characterOffsetEnd - +offsetBegin;
-                    // sentence.characterLength = annotatedSentences[i].tokens[sentence.tokenNumber - 1].characterOffsetEnd;
-                    // sentence.tokens = annotatedSentences[i].tokens
-                    returnSentences.push(sentence)
-                }
-                callback(null, returnSentences);
-            } else {
-                callback({'statusCode':statusCode}, null)
-            }
-        } else {
+    requestNlpAnnotation(paragraph, (error, nlpAnnotation) => {
+        if (error) {
             console.log("ERROR Annotating the paragraph!!!!!!!!!!!");
             callback(error, null)
+        } else {
+            console.log('Successfully receive annotation from the Core NLP server!')
+            let annotatedSentences = nlpAnnotation;
+            let returnSentences = [];
+            for (let i = 0; i < annotatedSentences.length; i ++) {
+                let sentence = {};
+                //sentiment
+                sentence.sentiment = annotatedSentences[i].sentiment
+                sentence.sentimentValue = annotatedSentences[i].sentimentValue
+                //named entities
+                sentence.entities = [];
+                for (let j = 0; j < annotatedSentences[i].entitymentions.length; j ++) {
+                    let entities = {}
+                    entities.text = annotatedSentences[i].entitymentions[j].text
+                    entities.ner = annotatedSentences[i].entitymentions[j].ner
+                    sentence.entities.push(entities);
+                }
+                //OpenIE extraction
+                sentence.triplets = []
+                for (let j = 0; j < annotatedSentences[i].openie.length; j ++) {
+                    let triplet = annotatedSentences[i].openie[j]
+                    let returnTriplet = {}
+                    returnTriplet.subject = triplet.subject
+                    returnTriplet.relation = triplet.relation
+                    returnTriplet.object = triplet.object
+                    sentence.triplets.push(returnTriplet)
+                }
+                // Token counts = number of text in the sentence
+                // Character counts = number of characters in the sentence
+                sentence.tokensCount = annotatedSentences[i].tokens.length
+                let offsetBegin = annotatedSentences[i].tokens[0].characterOffsetBegin;
+                sentence.charactersCount = +annotatedSentences[i].tokens[sentence.tokensCount - 1].characterOffsetEnd - +offsetBegin;
+                // sentence.characterLength = annotatedSentences[i].tokens[sentence.tokenNumber - 1].characterOffsetEnd;
+                // sentence.tokens = annotatedSentences[i].tokens
+                returnSentences.push(sentence)
+            }
+            callback(null, returnSentences);
         }
     })
 }
@@ -89,7 +85,16 @@ function requestNlpAnnotation(content, callback) {
         urlBuilder.getDefaultURL(),
         { json: content},
         function (error, response, body) {
-            callback(error, response, body)
+            if (error) {
+                console.log("ERROR Annotating the paragraph!!!!!!!!!!!");
+                callback(error, null)
+            } else {
+                if (response.statusCode != 200) {
+                    callback({'statusCode':statusCode}, null)
+                } else {
+                    callback(null, body.sentences)
+                }
+            }
         }
     );
 }
