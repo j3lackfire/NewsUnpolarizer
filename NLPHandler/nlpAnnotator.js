@@ -36,7 +36,7 @@ function analyzeUrlAndAddToDb(url, callback) {
 function annotateParagraph(paragraph, callback) {
     requestNlpAnnotation(paragraph, (error, nlpAnnotation) => {
         if (error) {
-            console.log("ERROR Annotating the paragraph!!!!!!!!!!!");
+            console.error("ERROR Annotating the paragraph!!!!!!!!!!!");
             callback(error, null)
         } else {
             console.log('Successfully receive annotation from the Core NLP server!')
@@ -86,11 +86,11 @@ function requestNlpAnnotation(content, callback) {
         { json: content},
         function (error, response, body) {
             if (error) {
-                console.log("ERROR Annotating the paragraph!!!!!!!!!!!");
+                console.error("ERROR trying to get result from core nlp annotator");
                 callback(error, null)
             } else {
                 if (response.statusCode != 200) {
-                    callback({'statusCode':statusCode}, null)
+                    callback({'statusCode':response.statusCode}, null)
                 } else {
                     callback(null, body.sentences)
                 }

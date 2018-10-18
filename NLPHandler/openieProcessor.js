@@ -7,7 +7,7 @@ const nerProcessor = require('./nerProcessor')
 function extractOpenIeFromParagraph(paragraph, callback) {
     nlpAnnotator.requestNlpAnnotation(paragraph, (error, nlpAnnotation) => {
         if (error) {
-            console.log("ERROR Annotating the paragraph!!!!!!!!!!!");
+            console.log("ERROR requesting the nlp annotation!");
             callback(error, null)
         } else {
             extractOpenieFromNLP(nlpAnnotation, callback)

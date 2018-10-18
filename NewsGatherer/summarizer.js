@@ -8,61 +8,48 @@ const request = require('request');
 
 let apiKey = 'E84A0513B7'
 let apiURL = 'https://api.smmry.com'
-let defaultSentencesLenght = 7
+let defaultSentencesLenght = 40 // 40 is the maximum value, if the whole paragraph article is shorter than 40 sentences, it's will return the whole article
+//so, this is a good way to filter out all of the random html stuffs inside the article
 //SM_LENGTH = the number of sentences - default 7
 //https://api.smmry.com/&SM_API_KEY=E84A0513B7&SM_URL=https://www.huffingtonpost.com/entry/michigan-declares-flints-water-restored_us_5ac7b81be4b0337ad1e7df07
 function _generateBaseRequest() {
-    return apiURL + '/&SM_API_KEY=' + apiKey;
+    return apiURL + '/&SM_API_KEY=' + apiKey + '&SM_LENGTH=' + defaultSentencesLenght;
 }
 
-function _generateSummaryUrlRequest(url, length) {
-    let lengthParam = "&SM_LENGTH="
-    if (typeof(length) == 'undefined' || length == null || length <= 0) {
-        lengthParam += defaultSentencesLenght.toString()
-    } else {
-        lengthParam += length.toString()
-    }
-    return _generateBaseRequest() + lengthParam + '&SM_URL=' + url
+function _generateSummaryUrlRequest(url) {
+    return _generateBaseRequest() + '&SM_URL=' + url
 }
 
 function summaryUrl(url, callback) {
-    _localSummaryUrl(url, -1, callback)
-}
-
-function _localSummaryUrl(url, summaryLength, callback) {
-    console.log(_generateSummaryUrlRequest(url, summaryLength))
-    request( _generateSummaryUrlRequest(url, summaryLength), function (error, response, body) {
+    request( _generateSummaryUrlRequest(url), function (error, response, body) {
         if (error) {
-            console.log('Error happens with requesting SMMRY')
+            console.error('Error happens with requesting SMMRY')
             callback(error, null);
         } else {
             let responseBody = JSON.parse(body)
             if (responseBody.sm_api_error) {
-                console.log('Error at the SMMRY server - ' + responseBody.sm_api_message)
+                console.error('Error at the SMMRY server - ' + responseBody.sm_api_message)
                 callback(responseBody.sm_api_message, null);
             } else {
                 console.log(responseBody.sm_api_limitation)
                 callback(null, responseBody)
-                // let suitableLength = _getSuitableSummaryLength(summaryLength, responseBody.sm_api_content_reduced)
-                // if (suitableLength == summaryLength) {
-                //     callback(null, responseBody)
-                // } else {
-                //     _localSummaryUrl(url, suitableLength, callback)
-                // }
             }
         }
     });
 }
 
-//if the percent is bigger than 60%, it's good
-function _getSuitableSummaryLength(currentLength, _percentReduced) {
-    let percentReduced = parseInt(_percentReduced.split('%')[0])
-    if (percentReduced < 40) {
-        return currentLength
-    }
-    let currentPercentage = 100 - percentReduced
-    let averageSentencePercentage = currentPercentage / currentLength
-    return Math.abs(Math.ceil(70 / averageSentencePercentage))
+function urlToParagraph(url, callback) {
+    summaryUrl(url, (err, response) => {
+        if (err) {
+            callback(err, null)
+        } else {
+            callback(null, _clearResponse(response.sm_api_content))
+        }
+    })
+}
+
+function _clearResponse(paragraph) {
+    return paragraph.split("\\").join("")
 }
 
 //example usage of the things.
@@ -73,3 +60,4 @@ function _getSuitableSummaryLength(currentLength, _percentReduced) {
 // response.sm_api_limitation
 
 module.exports.summaryUrl = summaryUrl;
+module.exports.urlToParagraph = urlToParagraph

@@ -28,7 +28,9 @@ function extractCoreFeatures(paragraph, callback) {
                     }
                     returnVal.push(currentSentence)
                 }
-                callback(null, returnVal)
+                trimShorterTriplets(returnVal, (trimmedContent) => {
+                    callback(null, trimmedContent)
+                })
             }
         }
     })
@@ -37,7 +39,7 @@ function extractCoreFeatures(paragraph, callback) {
 function extractNerAndOpenieFromParagraph(paragraph, callback) {
     nlpAnnotator.requestNlpAnnotation(paragraph, (error, nlpAnnotation) => {
         if (error) {
-            console.log("ERROR Annotating the paragraph!!!!!!!!!!!");
+            console.error("ERROR requesting nlp annotator");
             callback(error, null)
         } else {
             nerProcessor.extractNerFromNLP(nlpAnnotation, (err_2, entities) => {

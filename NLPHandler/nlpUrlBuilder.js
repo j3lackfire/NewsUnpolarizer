@@ -13,6 +13,8 @@ to this, which is a valid URL:
 
 */
 let baseURL = 'http://localhost:9000/?'
+// let baseURL = 'http://corenlp.run/?'
+
 // let defaultSettings = 'properties={"annotators":"sentiment,ner","outputFormat":"json"}'
 let defaultSettings = 'properties={"annotators":"tokenize,ssplit,ner,openie,sentiment,depparse,pos","outputFormat":"json"}'
 
