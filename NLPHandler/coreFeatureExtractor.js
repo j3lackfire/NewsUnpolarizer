@@ -3,6 +3,7 @@
  */
 const nlpAnnotator = require('./nlpAnnotator')
 const openieProcessor = require('./openieProcessor')
+const tripletProcessor = require('./tripletProcessor')
 const nerProcessor = require('./nerProcessor')
 
 function extractCoreFeatures(paragraph, callback) {
