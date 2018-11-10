@@ -29,6 +29,7 @@ function extractCoreFeatures(paragraph, callback) {
                     }
                     returnVal.push(currentSentence)
                 }
+                // callback(null, returnVal)
                 trimShorterTriplets(returnVal, (trimmedContent) => {
                     callback(null, trimmedContent)
                 })
@@ -48,7 +49,7 @@ function extractNerAndOpenieFromParagraph(paragraph, callback) {
                     console.error("Error trying to get NER from the paragraph")
                     callback(err_2, null)
                 } else {
-                    openieProcessor.extractOpenieFromNLP(nlpAnnotation, (err_3, openie) => {
+                    openieProcessor.extractFilteredOpenIeFromNLP(nlpAnnotation, (err_3, openie) => {
                         if (err_3) {
                             console.error("Error trying to get OPEN IE from the paragraph")
                             callback(err_3, null)
