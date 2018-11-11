@@ -1,8 +1,10 @@
 /**
  * Created by Le Pham Minh Duc on 10-Oct-18.
  */
+const utils = require('./../utils')
 const nlpAnnotator = require('./nlpAnnotator')
-const tripletProcessor = require('./tripletProcessor')
+const tripletMeaningfulProcessor = require('./tripletMeaningfulProcessor')
+const tripletTrimmer = require('./tripletTrimmer')
 const nerProcessor = require('./nerProcessor')
 
 function extractRawOpenIeFromParagraph(paragraph, callback) {
@@ -34,8 +36,7 @@ function extractRawOpenieFromNLP(nlpAnnotation, callback) {
             returnTriplet.subjectSpan = triplet.subjectSpan
             returnTriplet.relationSpan = triplet.relationSpan
             returnTriplet.objectSpan = triplet.objectSpan
-            returnTriplet.full = returnTriplet.subject + " " + returnTriplet.relation + " " + returnTriplet.object
-
+            returnTriplet.full = triplet.subject + " " + triplet.relation + " " + triplet.object
             currentSentence.triplets.push(returnTriplet)
         }
         for (let j = 0; j < currentResult.tokens.length; j ++) {
@@ -59,8 +60,10 @@ function extractFilteredOpenIeFromParagraph(paragraph, callback) {
             console.error("ERROR extracting openie from paragraph!");
             callback(error, null)
         } else {
-            tripletProcessor.filterOpenieResult(openie, (result) => {
-                callback(null, result)
+            tripletMeaningfulProcessor.filterOpenieResult(openie, (result) => {
+                tripletTrimmer.trimShorterTriplets(result, (trimmedTriplets) => {
+                    callback(null, trimmedTriplets)
+                })
             })
         }
     })
@@ -72,12 +75,15 @@ function extractFilteredOpenIeFromNLP(nlpAnnotation, callback) {
             console.error("ERROR extracting openie from paragraph!");
             callback(error, null)
         } else {
-            tripletProcessor.filterOpenieResult(openie, (result) => {
-                callback(null, result)
+            tripletMeaningfulProcessor.filterOpenieResult(openie, (result) => {
+                tripletTrimmer.trimShorterTriplets(result, (trimmedTriplets) => {
+                    callback(null, trimmedTriplets)
+                })
             })
         }
     })
 }
+
 
 module.exports.extractRawOpenIeFromParagraph = extractRawOpenIeFromParagraph
 module.exports.extractRawOpenieFromNLP = extractRawOpenieFromNLP

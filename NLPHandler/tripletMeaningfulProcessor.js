@@ -58,9 +58,9 @@ function filterOpenieResult(openieResult, callback) {
             if (_isTripletMeaningful(currentTriplet, tokenList)) {
                 currentSentence.triplets.push(currentTriplet)
             } else {
-                console.log(currentTriplet.full)
+                console.log(currentTriplet.full + " - is not MEANINGFUL!")
             }
-        }
+    }
         returnList.push(currentSentence)
     }
     callback(returnList)

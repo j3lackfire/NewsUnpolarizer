@@ -1,9 +1,10 @@
 /**
  * Created by Le Pham Minh Duc on 15-Oct-18.
  */
+const utils = require('./../utils')
 const nlpAnnotator = require('./nlpAnnotator')
 const openieProcessor = require('./openieProcessor')
-const tripletProcessor = require('./tripletProcessor')
+const tripletProcessor = require('./tripletMeaningfulProcessor')
 const nerProcessor = require('./nerProcessor')
 
 function extractCoreFeatures(paragraph, callback) {
@@ -29,10 +30,7 @@ function extractCoreFeatures(paragraph, callback) {
                     }
                     returnVal.push(currentSentence)
                 }
-                // callback(null, returnVal)
-                trimShorterTriplets(returnVal, (trimmedContent) => {
-                    callback(null, trimmedContent)
-                })
+                callback(null, returnVal)
             }
         }
     })
@@ -63,10 +61,6 @@ function extractNerAndOpenieFromParagraph(paragraph, callback) {
     })
 }
 
-function _shouldSaveTriplet(triplet, entitiesArray) {
-    return _getContainingEntities(_getContainingEntities(triplet, entitiesArray).length > 0)
-}
-
 function _getContainingEntities(triplet, entitiesArray) {
     let returnVal = []
     for (let i = 0; i < entitiesArray.length; i ++) {
@@ -83,37 +77,4 @@ function _isArrayWithinRange(smallerArray, biggerArray) {
     return (smallerArray[0] >= biggerArray[0]) && (smallerArray[1] <= biggerArray[1])
 }
 
-function _isTripletWithinTriplet(smallerTriplet, biggerTriplet) {
-    return smallerTriplet != biggerTriplet && //not the same triplet
-        _isArrayWithinRange(smallerTriplet.subjectSpan, biggerTriplet.subjectSpan) && //subject
-        _isArrayWithinRange(smallerTriplet.relationSpan, biggerTriplet.relationSpan) && //relation
-        _isArrayWithinRange(smallerTriplet.objectSpan, biggerTriplet.objectSpan) //object
-}
-
-function _isThereBiggerTriplet(triplet, tripletList) {
-    for (let i = 0; i < tripletList.length; i ++) {
-        if (_isTripletWithinTriplet(triplet, tripletList[i])) {
-            return true
-        }
-    }
-    return false
-}
-
-function trimShorterTriplets(coreFeatures, callback) {
-    let returnVal = []
-    for (let i = 0; i < coreFeatures.length; i++) {
-        let currentVal = {}
-        currentVal.triplets = []
-        for (let a = 0; a < coreFeatures[i].triplets.length; a ++) {
-            if (!_isThereBiggerTriplet(coreFeatures[i].triplets[a], coreFeatures[i].triplets)) {
-                currentVal.triplets.push(coreFeatures[i].triplets[a])
-            }
-        }
-        returnVal.push(currentVal)
-    }
-    callback(returnVal)
-}
-
-
 module.exports.extractCoreFeatures = extractCoreFeatures
-module.exports.trimShorterTriplets = trimShorterTriplets
