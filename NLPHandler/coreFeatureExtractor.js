@@ -66,7 +66,7 @@ function _getContainingEntities(triplet, entitiesArray) {
     for (let i = 0; i < entitiesArray.length; i ++) {
         let entitySpan =  entitiesArray[i].span
         if (_isArrayWithinRange(entitySpan, triplet.subjectSpan) ||
-            // _isArrayWithinRange(entitySpan, triplet.relationSpan) ||
+            // _isSubTextOf(entitySpan, triplet.relationSpan) ||
             _isArrayWithinRange(entitySpan, triplet.objectSpan))
             returnVal.push(entitiesArray[i])
     }

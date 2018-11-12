@@ -28,20 +28,20 @@ function _isWordCount_and_Span_sameLength(triplet) {
 }
 
 function trimShorterTriplets(untrimmedOpenie, callback) {
-    console.log("trimShorterTriplets")
-    callback(untrimmedOpenie)
-    // let returnVal = []
-    // for (let i = 0; i < untrimmedOpenie.length; i++) {
-    //     let currentVal = {}
-    //     currentVal.triplets = []
-    //     for (let a = 0; a < untrimmedOpenie[i].triplets.length; a ++) {
-    //         if (!_isThereBiggerTriplet(untrimmedOpenie[i].triplets[a], untrimmedOpenie[i].triplets)) {
-    //             currentVal.triplets.push(untrimmedOpenie[i].triplets[a])
-    //         }
-    //     }
-    //     returnVal.push(currentVal)
-    // }
-    // callback(returnVal)
+    // console.log("trimShorterTriplets")
+    // callback(untrimmedOpenie)
+    let returnVal = []
+    for (let i = 0; i < untrimmedOpenie.length; i++) {
+        let currentVal = {}
+        currentVal.triplets = []
+        for (let a = 0; a < untrimmedOpenie[i].triplets.length; a ++) {
+            if (!_isThereBiggerTriplet(untrimmedOpenie[i].triplets[a], untrimmedOpenie[i].triplets)) {
+                currentVal.triplets.push(untrimmedOpenie[i].triplets[a])
+            }
+        }
+        returnVal.push(currentVal)
+    }
+    callback(returnVal)
 }
 
 function _isThereBiggerTriplet(triplet, tripletList) {
@@ -56,13 +56,19 @@ function _isThereBiggerTriplet(triplet, tripletList) {
 
 function _isTripletWithinTriplet(smallerTriplet, biggerTriplet) {
     return smallerTriplet != biggerTriplet && //not the same triplet
-        _isArrayWithinRange(smallerTriplet.subjectSpan, biggerTriplet.subjectSpan) && //subject
-        _isArrayWithinRange(smallerTriplet.relationSpan, biggerTriplet.relationSpan) && //relation
-        _isArrayWithinRange(smallerTriplet.objectSpan, biggerTriplet.objectSpan) //object
+        _isSubTextOf(smallerTriplet.subject, biggerTriplet.subject) && //subject
+        _isSubTextOf(smallerTriplet.relation, biggerTriplet.relation) && //relation
+        _isSubTextOf(smallerTriplet.object, biggerTriplet.object) //object
 }
 
-function _isArrayWithinRange(smallerArray, biggerArray) {
-    return (smallerArray[0] >= biggerArray[0]) && (smallerArray[1] <= biggerArray[1])
+function _isSubTextOf(smallerText, biggerText) {
+    let smallerTextArray = smallerText.split(' ')
+    for (let i = 0; i < smallerTextArray.length; i ++) {
+        if (!biggerText.includes(smallerTextArray[i])) {
+            return false
+        }
+    }
+    return true
 }
 
 

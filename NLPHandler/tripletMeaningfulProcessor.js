@@ -67,21 +67,21 @@ function filterOpenieResult(openieResult, callback) {
 }
 
 function _isTripletMeaningful(_triplet, _tokensList) {
-    return _isRelationMeaningful(_triplet.relationSpan, _tokensList)
+    return _isRelationMeaningful(_triplet, _tokensList)
 }
 
 function _isSubjectMeaningful(_subject) {
     return false
 }
 
-function _isRelationMeaningful(_relationSpan, _tokenList) {
-    let relationTokensIndex = _getIndexFromSpan(_relationSpan)
+function _isRelationMeaningful(_triplet, _tokenList) {
+    let relationTokensIndex = _getContainingTokenIndexList(_triplet.relation, _triplet.relationSpan, _tokenList)
     let relationTokens = []
     for (let i = 0; i < relationTokensIndex.length; i ++) {
         let currentToken = _tokenList[relationTokensIndex[i]]
         relationTokens.push(currentToken)
-        // if (currentToken.pos.includes("VB") && currentToken.lemma != 'be') {
-        if (currentToken.pos.includes("VB")) {
+        if (currentToken.pos.includes("VB") && currentToken.lemma != 'be') {
+        // if (currentToken.pos.includes("VB")) {
             return true
         }
     }
@@ -96,10 +96,41 @@ function _isObjectMeaningful(_object) {
 // the displaying INDEX in their json response start from 1, so this will be 1 off
 // but because we only use this value to get from their return array, which start from 0,
 // this works and look less messy
-function _getIndexFromSpan(_spanList) {
+function _getContainingTokenIndexList(_text, _spanList, _tokenList) {
     let returnList = []
-    for (let i = _spanList[0]; i < _spanList[1]; i ++) {
-        returnList.push(i)
+    let textList = _text.split(' ')
+    if ((_spanList[1] - _spanList[0])!= textList.length) {
+        /*
+            The example for this would be:
+                subject: 'Fails',
+                relation: 'integration broadly in',
+                object: 'France',
+                relationSpan: [ 35, 36 ],
+            Which, the relation is 3 character long, but only generate 1 span
+         */
+        // console.log("\nEdge case in that relation length reported is different from the relation span field")
+        // console.log(_spanList + " - " + _text)
+    } else {
+        let count = 0
+        for (let i = _spanList[0]; i < _spanList[1]; i ++) {
+            if (_tokenList[i].word != textList[count]) {
+                /*
+                    An example for this would be like this, sentence is:
+                        IPL co-director David Laitin
+                    The result generated from stanford NLP would be
+                        subject: 'David Laitin',
+                        relation: 'is',
+                        object: 'IPL',
+                    Which is just wrong!
+                */
+                // console.log("\nEDGE case 2: Different from token and word")
+                // console.log(_tokenList[i].word + " - " + textList[count])
+                return []
+            } else {
+                count ++
+                returnList.push(i)
+            }
+        }
     }
     return returnList
 }
