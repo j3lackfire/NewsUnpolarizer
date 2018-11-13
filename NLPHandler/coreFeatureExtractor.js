@@ -19,11 +19,16 @@ function extractCoreFeatures(paragraph, callback) {
                 let returnVal = []
                 for (let i = 0; i < openie.length; i ++) {
                     let currentSentence = {}
+                    currentSentence.text = openie[i].text
                     currentSentence.triplets = []
                     for (let j = 0; j < openie[i].triplets.length; j ++) {
                         let containingEntities = _getContainingEntities(openie[i].triplets[j], ner[i].entities)
                         if (containingEntities.length > 0) {
-                            let savedTriplet = openie[i].triplets[j]
+                            let savedTriplet = {}
+                            savedTriplet.subject = openie[i].triplets[j].subject
+                            savedTriplet.relation = openie[i].triplets[j].relation
+                            savedTriplet.object = openie[i].triplets[j].object
+                            savedTriplet.full = openie[i].triplets[j].full
                             savedTriplet.entities = containingEntities
                             currentSentence.triplets.push(savedTriplet)
                         }
@@ -64,11 +69,24 @@ function extractNerAndOpenieFromParagraph(paragraph, callback) {
 function _getContainingEntities(triplet, entitiesArray) {
     let returnVal = []
     for (let i = 0; i < entitiesArray.length; i ++) {
-        let entitySpan =  entitiesArray[i].span
-        if (_isArrayWithinRange(entitySpan, triplet.subjectSpan) ||
-            // _isSubTextOf(entitySpan, triplet.relationSpan) ||
-            _isArrayWithinRange(entitySpan, triplet.objectSpan))
-            returnVal.push(entitiesArray[i])
+        let entity = entitiesArray[i]
+        if (_isArrayWithinRange(entity.span, triplet.subjectSpan)
+        && triplet.subject.includes(entity.text)) {
+            let returnEntity = {}
+            returnEntity.text = entity.text
+            returnEntity.ner = entity.ner
+            returnEntity.positionText = "subject"
+            returnVal.push(returnEntity)
+        } else {
+            if(_isArrayWithinRange(entity.span, triplet.objectSpan)
+            && triplet.object.includes(entity.text)) {
+                let returnEntity = {}
+                returnEntity.text = entity.text
+                returnEntity.ner = entity.ner
+                returnEntity.positionText = "object"
+                returnVal.push(returnEntity)
+            }
+        }
     }
     return returnVal
 }

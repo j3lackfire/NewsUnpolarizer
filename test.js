@@ -35,10 +35,11 @@ let paragraph = "Over the past few years, unprecedented numbers of immigrants ha
 coreFeatureExtractor.extractCoreFeatures(paragraph, (err, result) => {
     for (let i = 0; i < result.length; i ++) {
         for (let j = 0; j < result[i].triplets.length; j ++) {
-            console.log(result[i].triplets[j].full)
+            // console.log(result[i].triplets[j].full)
+            // utils.logFullObject(result[i].triplets[j].entities)
         }
-        // utils.logFullObject(result[i])
-        // console.log("\n\n")
+        // console.log(" [*] -> " + result[i].text)
+        // console.log("-------")
     }
-    // utils.logFullObject(result)
+    utils.logFullObject(result)
 })

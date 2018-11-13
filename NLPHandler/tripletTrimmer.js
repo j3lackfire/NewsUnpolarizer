@@ -28,8 +28,6 @@ function _isWordCount_and_Span_sameLength(triplet) {
 }
 
 function trimShorterTriplets(untrimmedOpenie, callback) {
-    // console.log("trimShorterTriplets")
-    // callback(untrimmedOpenie)
     let returnVal = []
     for (let i = 0; i < untrimmedOpenie.length; i++) {
         let currentVal = {}
@@ -39,6 +37,7 @@ function trimShorterTriplets(untrimmedOpenie, callback) {
                 currentVal.triplets.push(untrimmedOpenie[i].triplets[a])
             }
         }
+        currentVal.text = untrimmedOpenie[i].text
         returnVal.push(currentVal)
     }
     callback(returnVal)
@@ -47,7 +46,12 @@ function trimShorterTriplets(untrimmedOpenie, callback) {
 function _isThereBiggerTriplet(triplet, tripletList) {
     for (let i = 0; i < tripletList.length; i ++) {
         if (_isTripletWithinTriplet(triplet, tripletList[i])) {
-            console.log(triplet.full + " - is part of - " + tripletList[i].full)
+            if (triplet.full.split(' ').length > tripletList[i].length) {
+                console.log("The BIGGER triplets is somehow deemed as SMALLER!")
+                console.log("SMaller: " + triplet.full)
+                console.log("Bigger: " + tripletList[i].full)
+            }
+            // console.log(triplet.full + " - is part of - " + tripletList[i].full)
             return true
         }
     }

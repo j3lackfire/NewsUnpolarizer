@@ -57,10 +57,12 @@ function filterOpenieResult(openieResult, callback) {
             let currentTriplet = currentOpenie.triplets[j]
             if (_isTripletMeaningful(currentTriplet, tokenList)) {
                 currentSentence.triplets.push(currentTriplet)
-            } else {
-                console.log(currentTriplet.full + " - is not MEANINGFUL!")
             }
-    }
+        }
+        currentSentence.text = ""
+        for (let j = 0; j < tokenList.length; j ++) {
+            currentSentence.text += tokenList[j].word + " "
+        }
         returnList.push(currentSentence)
     }
     callback(returnList)
