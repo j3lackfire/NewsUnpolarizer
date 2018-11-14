@@ -51,7 +51,6 @@ function _isThereBiggerTriplet(triplet, tripletList) {
                 console.log("SMaller: " + triplet.full)
                 console.log("Bigger: " + tripletList[i].full)
             }
-            // console.log(triplet.full + " - is part of - " + tripletList[i].full)
             return true
         }
     }

@@ -7,9 +7,9 @@
 const fs = require('fs') //file system to save the file
 
 let baseFilePath = __dirname + '/DB/'
+let notExistError = 'not exist!'
 
 let dbName = 'annotatedArticles.json'
-let entitiesPopularityName = 'entitiesPopularity.json'
 
 function readDbAsJson(callback) {
     _readFile(dbName, (err, response) => {
@@ -20,33 +20,12 @@ function readDbAsJson(callback) {
             try {
                 jsonObject = JSON.parse(response)
             } catch (e) {
-                console.log('Error parsing the localDb to JSON format')
+                console.error('Error parsing the localDb to JSON format')
                 jsonObject = null
             }
 
             if (jsonObject == null) {
-                callback('not exist', null)
-            } else {
-                callback(null, jsonObject)
-            }
-        }
-    })
-}
-
-function readEntitiesPopularity(callback) {
-    _readFile(entitiesPopularityName, (err, response) => {
-        if (err) {
-            callback(err, null)
-        } else {
-            let jsonObject = null
-            try {
-                jsonObject = JSON.parse(response)
-            } catch (e) {
-                console.log('Error parsing the ENTITIES details to JSON format')
-                jsonObject = null
-            }
-            if (jsonObject == null) {
-                callback('not exist', null)
+                callback(notExistError, null)
             } else {
                 callback(null, jsonObject)
             }
@@ -66,7 +45,6 @@ function _readFile(_fileName, callback) {
 }
 
 module.exports.dbName = dbName
-module.exports.entitiesPopularityName = entitiesPopularityName
+module.exports.notExistError = notExistError
 
 module.exports.readDbAsJson = readDbAsJson
-module.exports.readEntitiesPopularity = readEntitiesPopularity

@@ -28,6 +28,7 @@ function extractCoreFeatures(paragraph, callback) {
                             savedTriplet.subject = openie[i].triplets[j].subject
                             savedTriplet.relation = openie[i].triplets[j].relation
                             savedTriplet.object = openie[i].triplets[j].object
+                            savedTriplet.relationVerb = openie[i].triplets[j].relationVerb
                             savedTriplet.full = openie[i].triplets[j].full
                             savedTriplet.entities = containingEntities
                             currentSentence.triplets.push(savedTriplet)

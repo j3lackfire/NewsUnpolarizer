@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "text": "`` In a project they documented in Why Muslim Integration Fails in Christian-Heritage Societies , IPL co-director David Laitin , IPL faculty affiliate Claire Adida , and Marie-Anne Valfort trace the roots of this failed integration in France and across Europe more broadly . '' ",
+      "triplets": [
+        {
+          "subject": "Fails",
+          "relation": "failed",
+          "object": "integration in France across Europe more broadly",
+          "relationVerb": "fail",
+          "full": "Fails failed integration in France across Europe more broadly",
+          "entities": [
+            {
+              "text": "France",
+              "ner": "COUNTRY",
+              "positionText": "object"
+            },
+            {
+              "text": "Europe",
+              "ner": "LOCATION",
+              "positionText": "object"
+            }
+          ]
+        },
+        {
+          "subject": "Marie-Anne Valfort",
+          "relation": "trace",
+          "object": "roots of this",
+          "relationVerb": "trace",
+          "full": "Marie-Anne Valfort trace roots of this",
+          "entities": [
+            {
+              "text": "Marie-Anne Valfort",
+              "ner": "PERSON",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]

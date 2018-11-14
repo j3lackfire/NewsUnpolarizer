@@ -55,7 +55,9 @@ function filterOpenieResult(openieResult, callback) {
         let tokenList = currentOpenie.tokens
         for (let j = 0; j < currentOpenie.triplets.length; j ++) {
             let currentTriplet = currentOpenie.triplets[j]
-            if (_isTripletMeaningful(currentTriplet, tokenList)) {
+            let relationVerb = _getRelationVerb(currentTriplet, tokenList)
+            if (relationVerb != null) {
+                currentTriplet.relationVerb = relationVerb
                 currentSentence.triplets.push(currentTriplet)
             }
         }
@@ -68,30 +70,15 @@ function filterOpenieResult(openieResult, callback) {
     callback(returnList)
 }
 
-function _isTripletMeaningful(_triplet, _tokensList) {
-    return _isRelationMeaningful(_triplet, _tokensList)
-}
-
-function _isSubjectMeaningful(_subject) {
-    return false
-}
-
-function _isRelationMeaningful(_triplet, _tokenList) {
+function _getRelationVerb(_triplet, _tokenList) {
     let relationTokensIndex = _getContainingTokenIndexList(_triplet.relation, _triplet.relationSpan, _tokenList)
-    let relationTokens = []
     for (let i = 0; i < relationTokensIndex.length; i ++) {
         let currentToken = _tokenList[relationTokensIndex[i]]
-        relationTokens.push(currentToken)
         if (currentToken.pos.includes("VB") && currentToken.lemma != 'be') {
-        // if (currentToken.pos.includes("VB")) {
-            return true
+            return currentToken.lemma
         }
     }
-    return false
-}
-
-function _isObjectMeaningful(_object) {
-    return false
+    return null
 }
 
 // a list of [22, 25] is expected to return 22, 23, 24 and 25
