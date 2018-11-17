@@ -24,7 +24,6 @@ function checkAndWriteToDbSingle(_coreFeatureJson, callback) {
     dbReader.readDbAsJson((err, response) => {
         if (err) {
             if (err == 'not exist!') {
-                console.log('Create new')
                 myArray = []
                 myArray.push(_coreFeatureJson)
                 _writeToDb(myArray, callback)

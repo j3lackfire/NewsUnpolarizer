@@ -20,7 +20,7 @@ function readDbAsJson(callback) {
             try {
                 jsonObject = JSON.parse(response)
             } catch (e) {
-                console.error('Error parsing the localDb to JSON format')
+                console.log('Error parsing the localDb to JSON format')
                 jsonObject = null
             }
 

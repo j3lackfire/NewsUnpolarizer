@@ -2,7 +2,7 @@
  * Created by Le Pham Minh Duc on 06-Oct-18.
  */
 const request = require('request');
-const errorHandler = require('./../errorHandler')
+const errorHandler = require('./../../errorHandler')
 
 const apiKey = "e8799e5baeb748ca8dc99b2ffc9c156f"
 const baseURL = "https://newsapi.org/"

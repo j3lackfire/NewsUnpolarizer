@@ -12,9 +12,9 @@
     the article is quite long but this tool only get the footer I think
 */
 const read = require('node-readability');
-const summarizer = require('./summarizer')
-const utils = require('./../utils')
-const errorHandler = require('./../errorHandler')
+const summarizer = require('./../summarizer')
+const utils = require('./../../utils')
+const errorHandler = require('./../../errorHandler')
 
 //because they don't work with this extension
 let blacklistWebsite = [

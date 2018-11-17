@@ -3,7 +3,7 @@
  */
 const similarityModule = require('./similarityModule')
 const annotator = require('./../nlpAnnotator')
-const webContentReader = require('./../../NewsGatherer/webContentReader')
+const webContentReader = require('./../../NewsGatherer/legacy/webContentReader')
 
 /*
     The truth explorer (the name might be changed later)

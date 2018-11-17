@@ -13,32 +13,50 @@ let paragraph = "In a project they documented in Why Muslim Integration Fails in
 
 
 
-// summarizer.urlToParagraph(url, (err, p) => {
-//     if (err) {
-//         console.error(err)
-//     } else {
-//         console.log("Result received from smmry service. Sending to annotator")
-//         console.log(p)
-//         coreFeatureExtractor.extractCoreFeatures(p, (err, result) => {
-//             utils.logFullObject(result)
-//             dbWriter.checkAndWriteToDb(result, (err) => {
-//                 if (!err) {
-//                     console.log("Successfully write the core feature to the database!")
-//                 } else {
-//                     console.log("eh ?")
-//                 }
-//             })
-//         })
-//     }
+summarizer.urlToParagraph(url, (err, p) => {
+    if (err) {
+        console.error(err)
+    } else {
+        console.log(p)
+        coreFeatureExtractor.extractCoreFeatures(p, (err, result) => {
+            utils.logFullObject(result)
+            dbWriter.checkAndWriteToDb(result, (err) => {
+                if (!err) {
+                    console.log("Successfully write the core feature to the database!")
+                } else {
+                    console.log("eh ?")
+                }
+            })
+        })
+    }
+})
+
+// coreFeatureExtractor.extractCoreFeatures(paragraph, (err, result) => {
+//     utils.logFullObject(result)
+//     dbWriter.checkAndWriteToDb(result, (err) => {
+//         if (!err) {
+//             console.log("Successfully write the core feature to the database!")
+//         } else {
+//             console.log("eh ?")
+//         }
+//     })
 // })
 
-coreFeatureExtractor.extractCoreFeatures(paragraph, (err, result) => {
-    utils.logFullObject(result)
-    dbWriter.checkAndWriteToDb(result, (err) => {
-        if (!err) {
-            console.log("Successfully write the core feature to the database!")
-        } else {
-            console.log("eh ?")
-        }
-    })
-})
+
+// let testPromise = (myParam) => {
+//     return new Promise((resolve, reject) => {
+//         console.log("this is the function - " + myParam)
+//         if (true) {
+//             resolve("Stuff worked!");
+//         }
+//         else {
+//             reject(Error("It broke"));
+//         }
+//     });
+// }
+//
+// testPromise("hello world").then((result) => {
+//     console.log(result); // "Stuff worked!"
+// }).catch((err) => {
+//     console.log(err); // Error: "It broke"
+// });

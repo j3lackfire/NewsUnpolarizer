@@ -1,42 +1,1326 @@
 [
-  [
-    {
-      "text": "`` In a project they documented in Why Muslim Integration Fails in Christian-Heritage Societies , IPL co-director David Laitin , IPL faculty affiliate Claire Adida , and Marie-Anne Valfort trace the roots of this failed integration in France and across Europe more broadly . '' ",
-      "triplets": [
-        {
-          "subject": "Fails",
-          "relation": "failed",
-          "object": "integration in France across Europe more broadly",
-          "relationVerb": "fail",
-          "full": "Fails failed integration in France across Europe more broadly",
-          "entities": [
-            {
-              "text": "France",
-              "ner": "COUNTRY",
-              "positionText": "object"
-            },
-            {
-              "text": "Europe",
-              "ner": "LOCATION",
-              "positionText": "object"
-            }
-          ]
-        },
-        {
-          "subject": "Marie-Anne Valfort",
-          "relation": "trace",
-          "object": "roots of this",
-          "relationVerb": "trace",
-          "full": "Marie-Anne Valfort trace roots of this",
-          "entities": [
-            {
-              "text": "Marie-Anne Valfort",
-              "ner": "PERSON",
-              "positionText": "subject"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  {
+    "meta": {
+      "url": "https://immigrationlab.org/project/the-struggle-to-integrate-muslims-in-europe/",
+      "title": "The Struggle to Integrate Muslims in Europe"
+    },
+    "data": [
+      {
+        "text": "'' Over the past few years , unprecedented numbers of immigrants have left Muslim-majority countries to come to Europe , fleeing the carnage in Syria and the turmoil across North Africa . ",
+        "triplets": [
+          {
+            "subject": "Muslim-majority countries",
+            "relation": "fleeing",
+            "object": "carnage in Syria",
+            "relationVerb": "flee",
+            "full": "Muslim-majority countries fleeing carnage in Syria",
+            "entities": [
+              {
+                "text": "Muslim-majority",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Syria",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim-majority countries",
+            "relation": "come to",
+            "object": "Europe",
+            "relationVerb": "come",
+            "full": "Muslim-majority countries come to Europe",
+            "entities": [
+              {
+                "text": "Muslim-majority",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim-majority countries",
+            "relation": "fleeing",
+            "object": "turmoil across North Africa",
+            "relationVerb": "flee",
+            "full": "Muslim-majority countries fleeing turmoil across North Africa",
+            "entities": [
+              {
+                "text": "Muslim-majority",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "North Africa",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "They join previous waves of muslim immigrants , many of whom who are not integrating well . ",
+        "triplets": [
+          {
+            "subject": "They",
+            "relation": "join",
+            "object": "previous waves of muslim immigrants",
+            "relationVerb": "join",
+            "full": "They join previous waves of muslim immigrants",
+            "entities": [
+              {
+                "text": "muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "In a project they documented in Why Muslim Integration Fails in Christian-Heritage Societies , IPL co-director David Laitin , IPL faculty affiliate Claire Adida , and Marie-Anne Valfort trace the roots of this failed integration in France and across Europe more broadly . ",
+        "triplets": [
+          {
+            "subject": "Fails",
+            "relation": "failed",
+            "object": "integration across Europe broadly",
+            "relationVerb": "fail",
+            "full": "Fails failed integration across Europe broadly",
+            "entities": [
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "they",
+            "relation": "documented in",
+            "object": "Why Muslim Integration",
+            "relationVerb": "document",
+            "full": "they documented in Why Muslim Integration",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Marie-Anne Valfort",
+            "relation": "trace",
+            "object": "roots of this",
+            "relationVerb": "trace",
+            "full": "Marie-Anne Valfort trace roots of this",
+            "entities": [
+              {
+                "text": "Marie-Anne Valfort",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Two immigrants who are alike in every single way except for their religious identity will integrate very differently within their host societies . ",
+        "triplets": []
+      },
+      {
+        "text": "By studying a population of Senegalese Christian and Muslim immigrants from the Serer and Joola religiously mixed communities who migrated to France under identical conditions , they found that Muslim immigrants face greater discrimination in the labor market , earn less monthly income , express less attachment to their host country , and exhibit greater attachment to their country of origin than do their Christian counterparts . ",
+        "triplets": [
+          {
+            "subject": "Muslim immigrants",
+            "relation": "earn",
+            "object": "less monthly income",
+            "relationVerb": "earn",
+            "full": "Muslim immigrants earn less monthly income",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim immigrants",
+            "relation": "face",
+            "object": "greater discrimination in labor market",
+            "relationVerb": "face",
+            "full": "Muslim immigrants face greater discrimination in labor market",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "they",
+            "relation": "studying",
+            "object": "population of Senegalese Christian from Serer",
+            "relationVerb": "study",
+            "full": "they studying population of Senegalese Christian from Serer",
+            "entities": [
+              {
+                "text": "Senegalese",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              },
+              {
+                "text": "Christian",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim immigrants",
+            "relation": "express",
+            "object": "less attachment to their host country",
+            "relationVerb": "express",
+            "full": "Muslim immigrants express less attachment to their host country",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              },
+              {
+                "text": "host",
+                "ner": "TITLE",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim immigrants",
+            "relation": "exhibit",
+            "object": "greater attachment to their country of origin",
+            "relationVerb": "exhibit",
+            "full": "Muslim immigrants exhibit greater attachment to their country of origin",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "These patterns do not improve in subsequent generations . ",
+        "triplets": []
+      },
+      {
+        "text": "The cause of this failure of integration is twofold : Islamophobia on the part of French society and Muslim immigrants ' tendency to identify more with their home communities in response . ",
+        "triplets": []
+      },
+      {
+        "text": "As a result , Europe is creating a class of under-employed immigrants who feel little or no connection with their host societies . ",
+        "triplets": [
+          {
+            "subject": "Europe",
+            "relation": "is creating",
+            "object": "class",
+            "relationVerb": "create",
+            "full": "Europe is creating class",
+            "entities": [
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The researchers sent similar resumés of three applicants to French firms . ",
+        "triplets": []
+      },
+      {
+        "text": "All three were French citizens with secondary school degrees and several years of experience in middle-class jobs . ",
+        "triplets": []
+      },
+      {
+        "text": "By their names , employers could tell that one was Christian Senegalese , one was Muslim Senegalese , and the third was a native French person . ",
+        "triplets": []
+      },
+      {
+        "text": "One Senegalese applicant , randomly assigned to the Muslim or Christian name , was matched with the native French applicant for each job . ",
+        "triplets": []
+      },
+      {
+        "text": "Employers were two and a half times more likely to offer the Christian an interview than the Muslim . ",
+        "triplets": []
+      },
+      {
+        "text": "In experimental games conducted in Paris ' nineteenth district where Serers and Joolas interacted with native French subjects , they once again found that the French exhibit a gratuitous distaste for Muslims , more so than they do for Senegalese Christians . ",
+        "triplets": [
+          {
+            "subject": "Serers",
+            "relation": "interacted with",
+            "object": "native French subjects",
+            "relationVerb": "interact",
+            "full": "Serers interacted with native French subjects",
+            "entities": [
+              {
+                "text": "French",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Joolas",
+            "relation": "interacted with",
+            "object": "native French subjects",
+            "relationVerb": "interact",
+            "full": "Joolas interacted with native French subjects",
+            "entities": [
+              {
+                "text": "Joolas",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "French",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "When given the opportunity to withhold money from other people in the experiment , native French subjects were more likely to do so with Senegalese Muslims than with Senegalese Christians . ",
+        "triplets": [
+          {
+            "subject": "native French subjects",
+            "relation": "do so with",
+            "object": "Senegalese Muslims",
+            "relationVerb": "do",
+            "full": "native French subjects do so with Senegalese Muslims",
+            "entities": [
+              {
+                "text": "French",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Senegalese",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              },
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "In a survey of 511 Muslim and Christian Serers and Joola living in France , the researchers found that on average , Muslim Serer and Joola families earned 400 euros , or about 15 percent of an average French income , less per month than their Christian counterparts . ",
+        "triplets": [
+          {
+            "subject": "Muslim Serer",
+            "relation": "earned",
+            "object": "400 euros less per month than their Christian counterparts",
+            "relationVerb": "earn",
+            "full": "Muslim Serer earned 400 euros less per month than their Christian counterparts",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Christian",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Joola families",
+            "relation": "earned",
+            "object": "400 euros less per month than their Christian counterparts",
+            "relationVerb": "earn",
+            "full": "Joola families earned 400 euros less per month than their Christian counterparts",
+            "entities": [
+              {
+                "text": "Joola",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "Christian",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Joola families",
+            "relation": "earned",
+            "object": "about 15 percent of income",
+            "relationVerb": "earn",
+            "full": "Joola families earned about 15 percent of income",
+            "entities": [
+              {
+                "text": "Joola",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim Serer",
+            "relation": "earned",
+            "object": "about 15 percent of income",
+            "relationVerb": "earn",
+            "full": "Muslim Serer earned about 15 percent of income",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "In other words , there was clear anti-Muslim discrimination in the competition for a middle-class job , which had significant implications for Muslims ' prospects of attaining a middle-class lifestyle . ",
+        "triplets": []
+      },
+      {
+        "text": "There is egregious discrimination in the French labor market . ",
+        "triplets": []
+      },
+      {
+        "text": "This discrimination led the study 's Muslim respondents to view French institutions with much greater distrust than their Christian counterparts . ",
+        "triplets": [
+          {
+            "subject": "discrimination",
+            "relation": "led",
+            "object": "study 's Muslim respondents",
+            "relationVerb": "lead",
+            "full": "discrimination led study 's Muslim respondents",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "study 's Muslim respondents",
+            "relation": "view",
+            "object": "French institutions",
+            "relationVerb": "view",
+            "full": "study 's Muslim respondents view French institutions",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              },
+              {
+                "text": "French",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The Muslim respondents were more likely to send remittances back to Senegal and to plan to be buried there . ",
+        "triplets": [
+          {
+            "subject": "Muslim respondents",
+            "relation": "send",
+            "object": "remittances",
+            "relationVerb": "send",
+            "full": "Muslim respondents send remittances",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "How can this vicious circle of discrimination and distrust be broken ? ",
+        "triplets": []
+      },
+      {
+        "text": "Small nudges , such as publicizing discrimination rates , can raise awareness and reduce discrimination . ",
+        "triplets": []
+      },
+      {
+        "text": "The researchers note , Muslim communities can do more to encourage gender equality and other norms of their host societies , for example , by shaming community members who refuse to take orders from women . ",
+        "triplets": [
+          {
+            "subject": "Muslim communities",
+            "relation": "encourage",
+            "object": "gender equality",
+            "relationVerb": "encourage",
+            "full": "Muslim communities encourage gender equality",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim communities",
+            "relation": "encourage",
+            "object": "other norms of their host societies",
+            "relationVerb": "encourage",
+            "full": "Muslim communities encourage other norms of their host societies",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              },
+              {
+                "text": "host",
+                "ner": "TITLE",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim communities",
+            "relation": "do",
+            "object": "more",
+            "relationVerb": "do",
+            "full": "Muslim communities do more",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "On a macro level , firms should scrutinize their own hiring practices . ",
+        "triplets": []
+      },
+      {
+        "text": "They should also consider hiring consultants who can help them address tensions that arise due to workplace conflicts related to religion . ",
+        "triplets": []
+      },
+      {
+        "text": "The one thing countries should n't do is ban immigration . ",
+        "triplets": []
+      },
+      {
+        "text": "Such policies are directed at the wrong targets ; they are also counter-productive . ",
+        "triplets": []
+      },
+      {
+        "text": "They do not tackle the discrimination Muslims face when trying to integrate into their host societies , and they may even exacerbate the failure of Muslim integration by encouraging Muslims to withdraw . ",
+        "triplets": [
+          {
+            "subject": "they",
+            "relation": "encouraging",
+            "object": "Muslims",
+            "relationVerb": "encourage",
+            "full": "they encouraging Muslims",
+            "entities": [
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "they",
+            "relation": "may even exacerbate",
+            "object": "failure of Muslim integration",
+            "relationVerb": "exacerbate",
+            "full": "they may even exacerbate failure of Muslim integration",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Alienating Muslims also comes at a cost to public security , the researchers note . ",
+        "triplets": []
+      },
+      {
+        "text": "After the Paris attacks of November 13 , 2015 , in which 130 people died , French authorities closed the country 's borders and launched a manhunt for the plot 's mastermind , Abdelhamid Abaaoud . ",
+        "triplets": [
+          {
+            "subject": "French authorities",
+            "relation": "closed",
+            "object": "country 's borders",
+            "relationVerb": "close",
+            "full": "French authorities closed country 's borders",
+            "entities": [
+              {
+                "text": "French",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The informant who tipped off French authorities about his location ? ",
+        "triplets": []
+      },
+      {
+        "text": "A fellow Muslim . '' ",
+        "triplets": []
+      }
+    ]
+  },
+  {
+    "meta": {
+      "url": "https://www.politico.eu/article/muslims-integrate-in-europe-despite-discrimination-study/",
+      "title": "Muslims integrate in Europe despite discrimination: study – POLITICO"
+    },
+    "data": [
+      {
+        "text": "'' Muslim migrants in Europe have been largely successful in learning the language of their adoptive countries and finding jobs despite a fifth of the local population being opposed to their presence , according to a study published Thursday . ",
+        "triplets": [
+          {
+            "subject": "Muslim migrants",
+            "relation": "have",
+            "object": "have largely successful",
+            "relationVerb": "have",
+            "full": "Muslim migrants have have largely successful",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Muslim migrants",
+            "relation": "learning",
+            "object": "language of their adoptive countries",
+            "relationVerb": "learn",
+            "full": "Muslim migrants learning language of their adoptive countries",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The Bertelsmann Foundation study looked at the Muslim populations of five countries - the U.K. , Austria , Germany , Switzerland and France - and found that 76 percent of second-generation Muslims learned the local European language as their mother tongue . ",
+        "triplets": [
+          {
+            "subject": "Bertelsmann Foundation study",
+            "relation": "looked at",
+            "object": "Muslim populations of five countries",
+            "relationVerb": "look",
+            "full": "Bertelsmann Foundation study looked at Muslim populations of five countries",
+            "entities": [
+              {
+                "text": "Bertelsmann Foundation",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "While 90 percent of French Muslims stay in school until the age of 17 , only 36 and 39 percent do the same in Germany and Austria . ",
+        "triplets": []
+      },
+      {
+        "text": "Germany leads the way in labor integration , where the proportion of Muslims in the labor force is at parity with the general population . ",
+        "triplets": [
+          {
+            "subject": "Germany",
+            "relation": "leads",
+            "object": "way",
+            "relationVerb": "lead",
+            "full": "Germany leads way",
+            "entities": [
+              {
+                "text": "Germany",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The study cited France 's \\ `` Tight labor market \\ '' as why the unemployment rate for Muslims is at 14 percent , far higher than the 8 percent average for non-Muslims . ",
+        "triplets": [
+          {
+            "subject": "study",
+            "relation": "cited",
+            "object": "France 's \\ Tight labor market \\",
+            "relationVerb": "cite",
+            "full": "study cited France 's \\ Tight labor market \\",
+            "entities": [
+              {
+                "text": "France",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The study also found that devout Muslims are likely to be less well-educated , less likely to be employed and earn less than other Muslims . ",
+        "triplets": []
+      },
+      {
+        "text": "The inequality may be down to discrimination - the study also found that 20 percent of non-Muslims do not want to live next to a Muslim - but it may also be due to devout Muslims ' jobs conflicting with their religious duties , such as fasting or praying five times a day . ",
+        "triplets": []
+      },
+      {
+        "text": "\\ `` So far , no country in Western Europe has found a convincing strategy that addresses both equal opportunity as well as respect for religious diversity , \\ '' said Yasemin El-Menouar , Islam expert at the Bertelsmann Foundation . '' ",
+        "triplets": []
+      }
+    ]
+  },
+  {
+    "meta": {
+      "url": "https://www.bbvaopenmind.com/en/articles/muslims-in-europe-the-construction-of-a-problem/",
+      "title": "Muslims in Europe: The Construction of a \\\"Problem\\\""
+    },
+    "data": [
+      {
+        "text": "'' The vast majority of these Muslims came seeking work and they were needed as they worked in sectors usually referred to as \\ `` Difficult , dirty and dangerous \\ '' . ",
+        "triplets": []
+      },
+      {
+        "text": "How could Europe encourage Muslim integration into secular states ? ",
+        "triplets": []
+      },
+      {
+        "text": "Are radicalisation and extremism linked to economic marginalisation ? ",
+        "triplets": []
+      },
+      {
+        "text": "Are they a product of a narrative that divides the world into two camps : us and them ? ",
+        "triplets": []
+      },
+      {
+        "text": "Is extremism is only faith-based ? ",
+        "triplets": []
+      },
+      {
+        "text": "If so , why did an extremist Norwegian kill , in 2011 , dozens of his compatriots who were not Muslims ? ",
+        "triplets": []
+      },
+      {
+        "text": "European states continue to grapple with these thorny questions without being able to devise a coherent response . ",
+        "triplets": [
+          {
+            "subject": "European states",
+            "relation": "grapple with",
+            "object": "thorny questions",
+            "relationVerb": "grapple",
+            "full": "European states grapple with thorny questions",
+            "entities": [
+              {
+                "text": "European",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "European states",
+            "relation": "grapple",
+            "object": "able",
+            "relationVerb": "grapple",
+            "full": "European states grapple able",
+            "entities": [
+              {
+                "text": "European",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "European states",
+            "relation": "continue",
+            "object": "grapple with thorny questions",
+            "relationVerb": "continue",
+            "full": "European states continue grapple with thorny questions",
+            "entities": [
+              {
+                "text": "European",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "My arguments are that Muslims are settling permanently in Europe , that the vast majority want to live in peace , that European integration policies have been erratic and inconsistent and that only a tiny minority of Muslims are engaged in radical activities . ",
+        "triplets": [
+          {
+            "subject": "Muslims",
+            "relation": "settling permanently in",
+            "object": "Europe",
+            "relationVerb": "settle",
+            "full": "Muslims settling permanently in Europe",
+            "entities": [
+              {
+                "text": "Muslims",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The Muslim population in the EU is mainly linked to migration dynamics The presence of Muslims in Europe is not a new phenomenon . ",
+        "triplets": []
+      },
+      {
+        "text": "This article specifically tackles the issue of Muslims who immigrated to Europe after the Second World War and who now represent the bulk of the European Union 's Muslims . ",
+        "triplets": []
+      },
+      {
+        "text": "Obviously , not all labour migrants in the 1950s were Muslims , but given that the immediate belt surrounding Europe consists of Northern African and Middle Eastern Muslim countries , most of which have been colonised by European countries , it is no wonder that the majority of foreign labour migrants in Europe are Muslims . ",
+        "triplets": []
+      },
+      {
+        "text": "First , Muslim migrants in Europe are , at most , a two to four hour flight from their home countries , while the distance between the USA and their home countries gives little choice but to integrate into the American \\ `` Melting pot \\ '' . ",
+        "triplets": [
+          {
+            "subject": "distance",
+            "relation": "integrate into",
+            "object": "American \\ Melting pot \\",
+            "relationVerb": "integrate",
+            "full": "distance integrate into American \\ Melting pot \\",
+            "entities": [
+              {
+                "text": "American",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Secondly , as Robert Leiken argues , \\ `` Unlike the American Muslims who are geographically diffuse , ethnically fragmented and generally well-off , Europe 's Muslims gather in bleak enclaves with their compatriots \\ '' . ",
+        "triplets": [
+          {
+            "subject": "Europe 's Muslims",
+            "relation": "gather in",
+            "object": "bleak enclaves",
+            "relationVerb": "gather",
+            "full": "Europe 's Muslims gather in bleak enclaves",
+            "entities": [
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "This differentiation explains , to a certain extent , why Islam and Muslims in the United States are not a major concern while in Europe , at least since the 1980s , migration has become an issue , mainly because two-thirds of the migrants are Muslims . ",
+        "triplets": [
+          {
+            "subject": "migration",
+            "relation": "has become",
+            "object": "mainly Muslims",
+            "relationVerb": "have",
+            "full": "migration has become mainly Muslims",
+            "entities": [
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "1 -RRB- Indigenous Muslims who have lived in Europe for many centuries , mainly in Bosnia , Albania and Kosovo , where Islam is a foundational element of their history , but also in Romania and Bulgaria , where they are a native minority , and Poland and Crimea , which is home to an old Tatar Muslim population . ",
+        "triplets": []
+      },
+      {
+        "text": "3 -RRB- Muslims who entered initially without restriction , such as the Commonwealth citizens in Great Britain , Algerians in France or Surinamese and Indonesians in Holland . ",
+        "triplets": []
+      },
+      {
+        "text": "4 -RRB- Muslims who came to Western Europe , in the 1950s and the 1960s , as labour migrants . ",
+        "triplets": []
+      },
+      {
+        "text": "5 -RRB- European Muslims who are born in Europe to migrant parents . ",
+        "triplets": []
+      },
+      {
+        "text": "Europeans greatly overestimate the share of Muslims in the total population : The French estimated it at 31 % in France , while it does not exceed 6 % . ",
+        "triplets": []
+      },
+      {
+        "text": "We do n't include in these categories the 30 million Muslims of the Russian Federation , which includes many Muslim countries . ",
+        "triplets": []
+      },
+      {
+        "text": "On the whole , I estimate that there are some 23 million Muslims living in the 28 European states , three-quarters of whom are already European citizens by naturalisation or birth . ",
+        "triplets": []
+      },
+      {
+        "text": "To these numbers , we may add some 2 million Muslims who migrated illegally and have not yet been officially legalised . ",
+        "triplets": []
+      },
+      {
+        "text": "Yet there is a widespread sentiment that Europe is being invaded by a growing Muslim population that can not or will not be assimilated and that dreams , as blogger Agnon de Albatros argues , of \\ `` Implementing Shari'a law in Europe and making this infidel continent part of the domain of Islam \\ '' . ",
+        "triplets": [
+          {
+            "subject": "Europe",
+            "relation": "being invaded by",
+            "object": "growing Muslim population",
+            "relationVerb": "invade",
+            "full": "Europe being invaded by growing Muslim population",
+            "entities": [
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Is there a reason for concern ? ",
+        "triplets": []
+      },
+      {
+        "text": "For many Europeans , the answer is yes , not only because of the increasing number of Muslims in Europe , but also because Europeans greatly overestimate the share of Muslims in the total population . ",
+        "triplets": []
+      },
+      {
+        "text": "A 2014 poll from the Social Research Institute found that French respondents estimated the percentage of Muslims in France at 31 % , while the real percentage does not exceed 6 % . ",
+        "triplets": []
+      },
+      {
+        "text": "Germans gave the percentage at 19 % in spite of the actual 4 % . ",
+        "triplets": [
+          {
+            "subject": "Germans",
+            "relation": "gave",
+            "object": "percentage",
+            "relationVerb": "give",
+            "full": "Germans gave percentage",
+            "entities": [
+              {
+                "text": "Germans",
+                "ner": "MISC",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Some demographers are not less anxious . ",
+        "triplets": []
+      },
+      {
+        "text": "In other words , as Sami Zemni , from the University of Gent , argues very aptly , \\ `` It is not Muslims who produce history , but Islam that conditions the behaviour and identity of Muslims . ",
+        "triplets": []
+      },
+      {
+        "text": "-LSB- -RSB- In the end a Muslim is an automatom , endlessly perpetuating the religious prescriptions of Islam \\ '' . ",
+        "triplets": [
+          {
+            "subject": "automatom",
+            "relation": "endlessly perpetuating",
+            "object": "religious prescriptions of Islam \\",
+            "relationVerb": "perpetuate",
+            "full": "automatom endlessly perpetuating religious prescriptions of Islam \\",
+            "entities": [
+              {
+                "text": "Islam",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Such a postulate is both erroneous and dangerous , not only because Islam assumes the role of an internal enemy in a societal cold war between European societies and their Muslims , but also because the integration issue is disconnected from the socio-economic context and becomes the sole responsibility of Muslims . ",
+        "triplets": []
+      },
+      {
+        "text": "Happily enough , many Muslims are fighting their way into European societies and gradually integrating their norms . ",
+        "triplets": [
+          {
+            "subject": "many Muslims",
+            "relation": "are fighting",
+            "object": "their way",
+            "relationVerb": "fight",
+            "full": "many Muslims are fighting their way",
+            "entities": [
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "many Muslims",
+            "relation": "gradually integrating",
+            "object": "their norms",
+            "relationVerb": "integrate",
+            "full": "many Muslims gradually integrating their norms",
+            "entities": [
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Many success stories of Muslims in all sectors , from economy to culture , provide ample proof that there is no Muslim fatality . ",
+        "triplets": []
+      },
+      {
+        "text": "Muslims with higher education and higher wages-like the 300.000 Arabs of the Middle East residing in London or the Lebanese expatriates in Paris-do not live in segregated communities and are well integrated in society . ",
+        "triplets": []
+      },
+      {
+        "text": "The bulk of Muslims in Europe are labour migrants or sons of labour migrants who are badly equipped to better integrate into European societies , not because of Islam , but because of their socio-economic condition . ",
+        "triplets": []
+      },
+      {
+        "text": "Muslim youth of Europe , radicalisation and violence European states recognise that the vast majority of Muslims in Europe do not engage in violence or terrorist activities at the same time , they admit the existence of small cells or \\ `` Lone wolves \\ '' , which are considered to be radical Islamists , prone to violence and with links to Al-Qaeda or ISIS . ",
+        "triplets": []
+      },
+      {
+        "text": "Personally , I do n't share the theory of the lone wolves because behind each terrorist , there are groups which provide logistics , ammunition and training . ",
+        "triplets": []
+      },
+      {
+        "text": "Three of the four perpetrators of the 2005 London attacks were home-grown , second-generation British Muslims trained in Pakistan . ",
+        "triplets": [
+          {
+            "subject": "second-generation British Muslims",
+            "relation": "trained in",
+            "object": "Pakistan",
+            "relationVerb": "train",
+            "full": "second-generation British Muslims trained in Pakistan",
+            "entities": [
+              {
+                "text": "British",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "subject"
+              },
+              {
+                "text": "Pakistan",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Merah , the French terrorist who killed three soldiers and three Jewish youth in Toulouse , and those who assassinated Charlie Hebdo 's cartoonists and Jewish shoppers were second-generation French Muslims of Algerian descent . ",
+        "triplets": []
+      },
+      {
+        "text": "A second school of thought , considered to be realist , asserts that the failure of European governments to fully integrate Muslim communities leaves some European Muslims more vulnerable to jihadist ideologies . ",
+        "triplets": []
+      },
+      {
+        "text": "Nowadays , Buddhist monks organise mass killings and deportations of Muslims in Myanmar , and Jewish extremists colonise Palestine and abuse secular Jews in the name of God . ",
+        "triplets": [
+          {
+            "subject": "Buddhist monks",
+            "relation": "organise",
+            "object": "mass killings",
+            "relationVerb": "organise",
+            "full": "Buddhist monks organise mass killings",
+            "entities": [
+              {
+                "text": "Buddhist",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Buddhist monks",
+            "relation": "organise",
+            "object": "deportations of Muslims in Myanmar",
+            "relationVerb": "organise",
+            "full": "Buddhist monks organise deportations of Muslims in Myanmar",
+            "entities": [
+              {
+                "text": "Buddhist",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "object"
+              },
+              {
+                "text": "Myanmar",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Jewish extremists",
+            "relation": "colonise",
+            "object": "Palestine secular Jews",
+            "relationVerb": "colonise",
+            "full": "Jewish extremists colonise Palestine secular Jews",
+            "entities": [
+              {
+                "text": "Jewish",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Palestine",
+                "ner": "CITY",
+                "positionText": "object"
+              },
+              {
+                "text": "secular",
+                "ner": "RELIGION",
+                "positionText": "object"
+              },
+              {
+                "text": "Jews",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "This relates to the constant exposure that young European Muslims have of the sufferings inflicted by the West and its regional allies on fellow Muslims in many parts of the Arab and Muslim worlds . ",
+        "triplets": []
+      },
+      {
+        "text": "The Islamophobic construction of the Muslim \\ `` Problem \\ '' Let us reiterate an undeniable fact : since 711 , Islam and Muslims have obsessed and captured the European imagination , first as conquerors , then as a competing religion and finally as the internal \\ `` Other \\ '' with the new waves of migration . ",
+        "triplets": []
+      },
+      {
+        "text": "Many intellectuals , both Muslims and non-Muslims , are convinced that Islamophobia is the natural outcome of extreme violence in Muslim countries , anti-Western terrorist attacks , reprehensible behaviour of certain groups of migrants and the radicalisation of some young native European Muslims . ",
+        "triplets": []
+      },
+      {
+        "text": "The permanent settlement of Muslim migrants , or Muslims of migrant origin , in Europe has brought the \\ `` Outside inside \\ '' and has transformed Islam and Muslims into a domestic issue and an internal threat . ",
+        "triplets": []
+      },
+      {
+        "text": "Muslim countries would be ill-advised to ignore them because they are also responsible for the degradation of the image of Islam and Muslims . ",
+        "triplets": [
+          {
+            "subject": "Muslim countries",
+            "relation": "ignore",
+            "object": "them",
+            "relationVerb": "ignore",
+            "full": "Muslim countries ignore them",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The government liaises with the Spanish Islamic Commission , which officially represents Spain 's Muslims and which coordinates two major Muslim Associations : the Spanish Federation of Islamic Religious Groups and the Union of Islamic Communities . ",
+        "triplets": []
+      },
+      {
+        "text": "As long as European countries tolerate , in their midst , radical imams who preach intolerance and hatred , accept that foreign Muslim countries continue to finance the construction of Mosques , exert structural influence by reinforcing close religious ties with their migrants and look to the other side when conservative Muslim regimes crackdown on their reformists , the fight against radicalisation may prove an uphill endeavour . ",
+        "triplets": [
+          {
+            "subject": "foreign Muslim countries",
+            "relation": "finance",
+            "object": "construction of Mosques",
+            "relationVerb": "finance",
+            "full": "foreign Muslim countries finance construction of Mosques",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Conclusion The vast majority of Muslims in Europe are immigrants or sons of immigrants , and almost half of Muslims in Denmark and Scandinavian countries are political refugees . ",
+        "triplets": []
+      },
+      {
+        "text": "The European states are caught by surprise by the magnitude of the phenomenon and somehow concerned by the truth that the vast majority of the newcomers are Muslims who are perceived to be inflating and swelling the European Muslim population of 25 million , a number which already sparks fears in European societies . ",
+        "triplets": [
+          {
+            "subject": "European states",
+            "relation": "are caught by",
+            "object": "surprise",
+            "relationVerb": "catch",
+            "full": "European states are caught by surprise",
+            "entities": [
+              {
+                "text": "European",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "European states",
+            "relation": "somehow concerned by",
+            "object": "truth",
+            "relationVerb": "concern",
+            "full": "European states somehow concerned by truth",
+            "entities": [
+              {
+                "text": "European",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The article examined the various stages of migration flows , from temporary labour migration to permanent settlements , and showed the gradual construction of the Muslim problem in Europe and the emergence of far-right anti-Muslim parties . '' ",
+        "triplets": [
+          {
+            "subject": "article",
+            "relation": "showed",
+            "object": "gradual construction of Muslim problem in Europe",
+            "relationVerb": "show",
+            "full": "article showed gradual construction of Muslim problem in Europe",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              },
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "article",
+            "relation": "showed",
+            "object": "emergence of far-right anti-Muslim parties",
+            "relationVerb": "show",
+            "full": "article showed emergence of far-right anti-Muslim parties",
+            "entities": [
+              {
+                "text": "far-right",
+                "ner": "IDEOLOGY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

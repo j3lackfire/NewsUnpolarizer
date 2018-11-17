@@ -1,59 +1,62 @@
 /**
  * Created by Le Pham Minh Duc on 06-Oct-18.
  */
-const errorHandler = require('./../errorHandler')
-const dbWriter = require('./dbWriter')
-const newsApi = require('./../NewsGatherer/googleNewsAPI')
+const coreFeatureExtractor = require('./../NLPHandler/coreFeatureExtractor')
 const summarizer = require('./../NewsGatherer/summarizer')
+const utils = require('./../utils')
+const dbWriter = require('./dbWriter')
 
-const nlpAnnotator = require('./../NLPHandler/nlpAnnotator')
-const nerProcessor = require('./../NLPHandler/nerProcessor')
-
-function summaryAllNews(newsList, callback) {
-    summaryAnnotateAndSaveNews(newsList, 0, callback)
-}
-
-function summaryAnnotateAndSaveNews(newsList, currentIndex, callback) {
-    //nlpAnnotator.analyzeUrl -> save to db
-    console.log("summaryAnnotateAndSaveNews " + currentIndex + " , " + newsList[currentIndex].title)
-    nlpAnnotator.analyzeUrl(newsList[currentIndex].url, (err, coreFeatureJson) => {
-        console.log("Annotating completed")
+//A db entry would contain meta data of the article and the annotated article
+function generateDbEntry(url, callback) {
+    summarizer.summaryUrl(url, (err, summaryResponse) => {
         if (err) {
-            errorHandler.logError(err, callback)
+            console.error("Error summarizing the url!!! " + err)
+            callback(err, null)
         } else {
-            dbWriter.checkAndWriteToDb(coreFeatureJson, (writeToDbErr) => {
-                if (writeToDbErr) {
-                    errorHandler.logError(writeToDbErr, callback)
-                }else {
-                    console.log('The file has been saved!');
-                    currentIndex ++
-                    if (currentIndex >= newsList.length) {
-                        callback(null)
+            let savedData = {}
+            savedData.meta = {}
+            savedData.meta.url = url
+            savedData.meta.title = summaryResponse.sm_api_title
+            console.log(summaryResponse.sm_api_content)
+            coreFeatureExtractor.extractCoreFeatures(summaryResponse.sm_api_content, (err, result) => {
+                savedData.data = result
+                dbWriter.checkAndWriteToDb(savedData, (err) => {
+                    if (err) {
+                        console.log("eh ?")
+                        callback(err)
                     } else {
-                        summaryAnnotateAndSaveNews(newsList, currentIndex, callback)
+                        console.log("Successfully write the core feature to the database!")
+                        callback(null)
                     }
-                }
+                })
             })
         }
     })
 }
 
-function populateDb(callback) {
-    newsApi.getTopHeadlines((newsList) => {
-        if (newsList == null) {
-            errorHandler.logError("Error getting the news from news API", (err) => {})
+function populateDatabase(index, urlsList, callback) {
+    generateDbEntry(urlsList[index], (err) => {
+        let newIndex = index + 1
+        if (err) {
+            console.log("Error while generating the DB Entry for " + urlsList[index])
         } else {
-            console.log("Summary all news")
-            console.log(newsList)
-            summaryAllNews(newsList, callback)
+            console.log("Successfully generate db entry for " + urlsList[index])
+        }
+        if (newIndex < urlsList.length) {
+            populateDatabase(newIndex, urlsList, callback)
+        } else {
+            callback(null)
         }
     })
 }
 
-// populateDb((err) => {
-//     if (!err) {
-//         callback("Successfully populate the database with today news!")
-//     } else {
-//         callback(err)
-//     }
-// })
+let urls = [
+    "https://immigrationlab.org/project/the-struggle-to-integrate-muslims-in-europe/",
+    "https://www.politico.eu/article/muslims-integrate-in-europe-despite-discrimination-study/",
+    "http://www.inss.org.il/publication/the-challenge-of-muslim-integration-in-europe/",
+    "https://www.bbvaopenmind.com/en/articles/muslims-in-europe-the-construction-of-a-problem/"
+]
+
+populateDatabase(0, urls, (err) => {
+    console.log("DONE populate the database!")
+})
