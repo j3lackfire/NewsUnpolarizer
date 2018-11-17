@@ -1,0 +1,28 @@
+An example for this would be like this, sentence is:
+IPL co-director David Laitin
+The result generated from stanford NLP would be
+subject: 'David Laitin',
+relation: 'is',
+object: 'IPL',
+Which is just wrong!
+
+The example for this would be:
+subject: 'Fails',
+relation: 'integration broadly in',
+object: 'France',
+relationSpan: [ 35, 36 ],
+Which, the relation is 3 character long, but only generate 1 span
+
+Given to same sentences back to back in a same paragraph:
+    They join previous waves of muslim immigrants , many of whom who are not integrating well.
+    They join previous waves of muslim immigrants , many of whom who are not integrating well.
+
+The first on return:
+    subject: 'They',
+    relation: 'join many',
+    object: 'previous waves of muslim immigrants',
+
+While the second one, missing the many (????)
+    subject: 'They',
+    relation: 'join',
+    object: 'previous waves of muslim immigrants'

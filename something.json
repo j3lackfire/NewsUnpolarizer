@@ -1,790 +1,195 @@
 {
   "sentences": [
     {
-      "index": 0,
-      "basicDependencies": [
-        {
-          "dep": "ROOT",
-          "governor": 0,
-          "governorGloss": "ROOT",
-          "dependent": 3,
-          "dependentGloss": "continue"
-        },
-        {
-          "dep": "amod",
-          "governor": 2,
-          "governorGloss": "states",
-          "dependent": 1,
-          "dependentGloss": "European"
-        },
-        {
-          "dep": "nsubj",
-          "governor": 3,
-          "governorGloss": "continue",
-          "dependent": 2,
-          "dependentGloss": "states"
-        },
-        {
-          "dep": "mark",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 4,
-          "dependentGloss": "to"
-        },
-        {
-          "dep": "xcomp",
-          "governor": 3,
-          "governorGloss": "continue",
-          "dependent": 5,
-          "dependentGloss": "grapple"
-        },
-        {
-          "dep": "case",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 6,
-          "dependentGloss": "with"
-        },
-        {
-          "dep": "det",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 7,
-          "dependentGloss": "these"
-        },
-        {
-          "dep": "amod",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 8,
-          "dependentGloss": "thorny"
-        },
-        {
-          "dep": "nmod",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 9,
-          "dependentGloss": "questions"
-        },
-        {
-          "dep": "mark",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 10,
-          "dependentGloss": "without"
-        },
-        {
-          "dep": "cop",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 11,
-          "dependentGloss": "being"
-        },
-        {
-          "dep": "advcl",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 12,
-          "dependentGloss": "able"
-        },
-        {
-          "dep": "mark",
-          "governor": 14,
-          "governorGloss": "devise",
-          "dependent": 13,
-          "dependentGloss": "to"
-        },
-        {
-          "dep": "xcomp",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 14,
-          "dependentGloss": "devise"
-        },
-        {
-          "dep": "det",
-          "governor": 17,
-          "governorGloss": "response",
-          "dependent": 15,
-          "dependentGloss": "a"
-        },
-        {
-          "dep": "amod",
-          "governor": 17,
-          "governorGloss": "response",
-          "dependent": 16,
-          "dependentGloss": "coherent"
-        },
-        {
-          "dep": "dobj",
-          "governor": 14,
-          "governorGloss": "devise",
-          "dependent": 17,
-          "dependentGloss": "response"
-        }
-      ],
-      "enhancedDependencies": [
-        {
-          "dep": "ROOT",
-          "governor": 0,
-          "governorGloss": "ROOT",
-          "dependent": 3,
-          "dependentGloss": "continue"
-        },
-        {
-          "dep": "amod",
-          "governor": 2,
-          "governorGloss": "states",
-          "dependent": 1,
-          "dependentGloss": "European"
-        },
-        {
-          "dep": "nsubj",
-          "governor": 3,
-          "governorGloss": "continue",
-          "dependent": 2,
-          "dependentGloss": "states"
-        },
-        {
-          "dep": "nsubj:xsubj",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 2,
-          "dependentGloss": "states"
-        },
-        {
-          "dep": "mark",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 4,
-          "dependentGloss": "to"
-        },
-        {
-          "dep": "xcomp",
-          "governor": 3,
-          "governorGloss": "continue",
-          "dependent": 5,
-          "dependentGloss": "grapple"
-        },
-        {
-          "dep": "case",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 6,
-          "dependentGloss": "with"
-        },
-        {
-          "dep": "det",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 7,
-          "dependentGloss": "these"
-        },
-        {
-          "dep": "amod",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 8,
-          "dependentGloss": "thorny"
-        },
-        {
-          "dep": "nmod:with",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 9,
-          "dependentGloss": "questions"
-        },
-        {
-          "dep": "mark",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 10,
-          "dependentGloss": "without"
-        },
-        {
-          "dep": "cop",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 11,
-          "dependentGloss": "being"
-        },
-        {
-          "dep": "advcl:without",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 12,
-          "dependentGloss": "able"
-        },
-        {
-          "dep": "mark",
-          "governor": 14,
-          "governorGloss": "devise",
-          "dependent": 13,
-          "dependentGloss": "to"
-        },
-        {
-          "dep": "xcomp",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 14,
-          "dependentGloss": "devise"
-        },
-        {
-          "dep": "det",
-          "governor": 17,
-          "governorGloss": "response",
-          "dependent": 15,
-          "dependentGloss": "a"
-        },
-        {
-          "dep": "amod",
-          "governor": 17,
-          "governorGloss": "response",
-          "dependent": 16,
-          "dependentGloss": "coherent"
-        },
-        {
-          "dep": "dobj",
-          "governor": 14,
-          "governorGloss": "devise",
-          "dependent": 17,
-          "dependentGloss": "response"
-        }
-      ],
-      "enhancedPlusPlusDependencies": [
-        {
-          "dep": "ROOT",
-          "governor": 0,
-          "governorGloss": "ROOT",
-          "dependent": 3,
-          "dependentGloss": "continue"
-        },
-        {
-          "dep": "amod",
-          "governor": 2,
-          "governorGloss": "states",
-          "dependent": 1,
-          "dependentGloss": "European"
-        },
-        {
-          "dep": "nsubj",
-          "governor": 3,
-          "governorGloss": "continue",
-          "dependent": 2,
-          "dependentGloss": "states"
-        },
-        {
-          "dep": "nsubj:xsubj",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 2,
-          "dependentGloss": "states"
-        },
-        {
-          "dep": "mark",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 4,
-          "dependentGloss": "to"
-        },
-        {
-          "dep": "xcomp",
-          "governor": 3,
-          "governorGloss": "continue",
-          "dependent": 5,
-          "dependentGloss": "grapple"
-        },
-        {
-          "dep": "case",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 6,
-          "dependentGloss": "with"
-        },
-        {
-          "dep": "det",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 7,
-          "dependentGloss": "these"
-        },
-        {
-          "dep": "amod",
-          "governor": 9,
-          "governorGloss": "questions",
-          "dependent": 8,
-          "dependentGloss": "thorny"
-        },
-        {
-          "dep": "nmod:with",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 9,
-          "dependentGloss": "questions"
-        },
-        {
-          "dep": "mark",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 10,
-          "dependentGloss": "without"
-        },
-        {
-          "dep": "cop",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 11,
-          "dependentGloss": "being"
-        },
-        {
-          "dep": "advcl:without",
-          "governor": 5,
-          "governorGloss": "grapple",
-          "dependent": 12,
-          "dependentGloss": "able"
-        },
-        {
-          "dep": "mark",
-          "governor": 14,
-          "governorGloss": "devise",
-          "dependent": 13,
-          "dependentGloss": "to"
-        },
-        {
-          "dep": "xcomp",
-          "governor": 12,
-          "governorGloss": "able",
-          "dependent": 14,
-          "dependentGloss": "devise"
-        },
-        {
-          "dep": "det",
-          "governor": 17,
-          "governorGloss": "response",
-          "dependent": 15,
-          "dependentGloss": "a"
-        },
-        {
-          "dep": "amod",
-          "governor": 17,
-          "governorGloss": "response",
-          "dependent": 16,
-          "dependentGloss": "coherent"
-        },
-        {
-          "dep": "dobj",
-          "governor": 14,
-          "governorGloss": "devise",
-          "dependent": 17,
-          "dependentGloss": "response"
-        }
-      ],
-      "openie": [
-        {
-          "subject": "states",
-          "subjectSpan": [
-            1,
-            2
-          ],
-          "relation": "continue",
-          "relationSpan": [
-            2,
-            3
-          ],
-          "object": "grapple with questions",
-          "objectSpan": [
-            4,
-            9
-          ]
-        },
-        {
-          "subject": "European states",
-          "subjectSpan": [
-            0,
-            2
-          ],
-          "relation": "grapple with",
-          "relationSpan": [
-            4,
-            6
-          ],
-          "object": "thorny questions",
-          "objectSpan": [
-            7,
-            9
-          ]
-        },
-        {
-          "subject": "states",
-          "subjectSpan": [
-            1,
-            2
-          ],
-          "relation": "continue",
-          "relationSpan": [
-            2,
-            3
-          ],
-          "object": "grapple",
-          "objectSpan": [
-            4,
-            5
-          ]
-        },
-        {
-          "subject": "European states",
-          "subjectSpan": [
-            0,
-            2
-          ],
-          "relation": "grapple",
-          "relationSpan": [
-            4,
-            5
-          ],
-          "object": "able",
-          "objectSpan": [
-            11,
-            12
-          ]
-        },
-        {
-          "subject": "states",
-          "subjectSpan": [
-            1,
-            2
-          ],
-          "relation": "grapple",
-          "relationSpan": [
-            4,
-            5
-          ],
-          "object": "able",
-          "objectSpan": [
-            11,
-            12
-          ]
-        },
-        {
-          "subject": "European states",
-          "subjectSpan": [
-            0,
-            2
-          ],
-          "relation": "continue",
-          "relationSpan": [
-            2,
-            3
-          ],
-          "object": "grapple with questions",
-          "objectSpan": [
-            4,
-            9
-          ]
-        },
-        {
-          "subject": "states",
-          "subjectSpan": [
-            1,
-            2
-          ],
-          "relation": "continue",
-          "relationSpan": [
-            2,
-            3
-          ],
-          "object": "grapple with thorny questions",
-          "objectSpan": [
-            4,
-            9
-          ]
-        },
-        {
-          "subject": "states",
-          "subjectSpan": [
-            1,
-            2
-          ],
-          "relation": "grapple with",
-          "relationSpan": [
-            4,
-            6
-          ],
-          "object": "thorny questions",
-          "objectSpan": [
-            7,
-            9
-          ]
-        },
-        {
-          "subject": "European states",
-          "subjectSpan": [
-            0,
-            2
-          ],
-          "relation": "continue",
-          "relationSpan": [
-            2,
-            3
-          ],
-          "object": "grapple",
-          "objectSpan": [
-            4,
-            5
-          ]
-        },
-        {
-          "subject": "European states",
-          "subjectSpan": [
-            0,
-            2
-          ],
-          "relation": "continue",
-          "relationSpan": [
-            2,
-            3
-          ],
-          "object": "grapple with thorny questions",
-          "objectSpan": [
-            4,
-            9
-          ]
-        },
-        {
-          "subject": "European states",
-          "subjectSpan": [
-            0,
-            2
-          ],
-          "relation": "grapple with",
-          "relationSpan": [
-            4,
-            6
-          ],
-          "object": "questions",
-          "objectSpan": [
-            8,
-            9
-          ]
-        },
-        {
-          "subject": "states",
-          "subjectSpan": [
-            1,
-            2
-          ],
-          "relation": "grapple with",
-          "relationSpan": [
-            4,
-            6
-          ],
-          "object": "questions",
-          "objectSpan": [
-            8,
-            9
-          ]
-        }
-      ],
-      "entitymentions": [
-        {
-          "docTokenBegin": 0,
-          "docTokenEnd": 1,
-          "tokenBegin": 0,
-          "tokenEnd": 1,
-          "text": "European",
-          "characterOffsetBegin": 0,
-          "characterOffsetEnd": 8,
-          "ner": "NATIONALITY"
-        }
-      ],
       "tokens": [
         {
           "index": 1,
-          "word": "European",
-          "originalText": "European",
-          "lemma": "european",
+          "word": "In",
+          "originalText": "In",
+          "lemma": "in",
           "characterOffsetBegin": 0,
-          "characterOffsetEnd": 8,
-          "pos": "JJ",
-          "ner": "NATIONALITY",
+          "characterOffsetEnd": 2,
+          "pos": "IN",
+          "ner": "O",
           "before": "",
           "after": " "
         },
         {
           "index": 2,
-          "word": "states",
-          "originalText": "states",
-          "lemma": "state",
-          "characterOffsetBegin": 9,
+          "word": "experimental",
+          "originalText": "experimental",
+          "lemma": "experimental",
+          "characterOffsetBegin": 3,
           "characterOffsetEnd": 15,
-          "pos": "NNS",
+          "pos": "JJ",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 3,
-          "word": "continue",
-          "originalText": "continue",
-          "lemma": "continue",
+          "word": "games",
+          "originalText": "games",
+          "lemma": "game",
           "characterOffsetBegin": 16,
-          "characterOffsetEnd": 24,
-          "pos": "VBP",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 4,
-          "word": "to",
-          "originalText": "to",
-          "lemma": "to",
-          "characterOffsetBegin": 25,
-          "characterOffsetEnd": 27,
-          "pos": "TO",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 5,
-          "word": "grapple",
-          "originalText": "grapple",
-          "lemma": "grapple",
-          "characterOffsetBegin": 28,
-          "characterOffsetEnd": 35,
-          "pos": "VB",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 6,
-          "word": "with",
-          "originalText": "with",
-          "lemma": "with",
-          "characterOffsetBegin": 36,
-          "characterOffsetEnd": 40,
-          "pos": "IN",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 7,
-          "word": "these",
-          "originalText": "these",
-          "lemma": "these",
-          "characterOffsetBegin": 41,
-          "characterOffsetEnd": 46,
-          "pos": "DT",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 8,
-          "word": "thorny",
-          "originalText": "thorny",
-          "lemma": "thorny",
-          "characterOffsetBegin": 47,
-          "characterOffsetEnd": 53,
-          "pos": "JJ",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 9,
-          "word": "questions",
-          "originalText": "questions",
-          "lemma": "question",
-          "characterOffsetBegin": 54,
-          "characterOffsetEnd": 63,
+          "characterOffsetEnd": 21,
           "pos": "NNS",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
-          "index": 10,
-          "word": "without",
-          "originalText": "without",
-          "lemma": "without",
-          "characterOffsetBegin": 64,
-          "characterOffsetEnd": 71,
+          "index": 4,
+          "word": "conducted",
+          "originalText": "conducted",
+          "lemma": "conduct",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 31,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 32,
+          "characterOffsetEnd": 34,
           "pos": "IN",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
+          "index": 6,
+          "word": "Paris",
+          "originalText": "Paris",
+          "lemma": "Paris",
+          "characterOffsetBegin": 35,
+          "characterOffsetEnd": 40,
+          "pos": "NNP",
+          "ner": "CITY",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 7,
+          "word": "'",
+          "originalText": "'",
+          "lemma": "'",
+          "characterOffsetBegin": 40,
+          "characterOffsetEnd": 41,
+          "pos": "POS",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "nineteenth",
+          "originalText": "nineteenth",
+          "lemma": "nineteenth",
+          "characterOffsetBegin": 42,
+          "characterOffsetEnd": 52,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "19.0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "district",
+          "originalText": "district",
+          "lemma": "district",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 61,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "where",
+          "originalText": "where",
+          "lemma": "where",
+          "characterOffsetBegin": 62,
+          "characterOffsetEnd": 67,
+          "pos": "WRB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
           "index": 11,
-          "word": "being",
-          "originalText": "being",
-          "lemma": "be",
-          "characterOffsetBegin": 72,
-          "characterOffsetEnd": 77,
-          "pos": "VBG",
+          "word": "Serers",
+          "originalText": "Serers",
+          "lemma": "Serers",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 74,
+          "pos": "NNP",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 12,
-          "word": "able",
-          "originalText": "able",
-          "lemma": "able",
-          "characterOffsetBegin": 78,
-          "characterOffsetEnd": 82,
-          "pos": "JJ",
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 78,
+          "pos": "CC",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 13,
-          "word": "to",
-          "originalText": "to",
-          "lemma": "to",
-          "characterOffsetBegin": 83,
+          "word": "Joolas",
+          "originalText": "Joolas",
+          "lemma": "Joolas",
+          "characterOffsetBegin": 79,
           "characterOffsetEnd": 85,
-          "pos": "TO",
-          "ner": "O",
+          "pos": "NNP",
+          "ner": "PERSON",
           "before": " ",
           "after": " "
         },
         {
           "index": 14,
-          "word": "devise",
-          "originalText": "devise",
-          "lemma": "devise",
+          "word": "interacted",
+          "originalText": "interacted",
+          "lemma": "interact",
           "characterOffsetBegin": 86,
-          "characterOffsetEnd": 92,
-          "pos": "VB",
+          "characterOffsetEnd": 96,
+          "pos": "VBD",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 15,
-          "word": "a",
-          "originalText": "a",
-          "lemma": "a",
-          "characterOffsetBegin": 93,
-          "characterOffsetEnd": 94,
-          "pos": "DT",
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 101,
+          "pos": "IN",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 16,
-          "word": "coherent",
-          "originalText": "coherent",
-          "lemma": "coherent",
-          "characterOffsetBegin": 95,
-          "characterOffsetEnd": 103,
+          "word": "native",
+          "originalText": "native",
+          "lemma": "native",
+          "characterOffsetBegin": 102,
+          "characterOffsetEnd": 108,
           "pos": "JJ",
           "ner": "O",
           "before": " ",
@@ -792,13 +197,307 @@
         },
         {
           "index": 17,
-          "word": "response",
-          "originalText": "response",
-          "lemma": "response",
-          "characterOffsetBegin": 104,
-          "characterOffsetEnd": 112,
+          "word": "French",
+          "originalText": "French",
+          "lemma": "french",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 115,
+          "pos": "JJ",
+          "ner": "NATIONALITY",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "subjects",
+          "originalText": "subjects",
+          "lemma": "subject",
+          "characterOffsetBegin": 116,
+          "characterOffsetEnd": 124,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 125,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 126,
+          "characterOffsetEnd": 130,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "once",
+          "originalText": "once",
+          "lemma": "once",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 135,
+          "pos": "RB",
+          "ner": "DATE",
+          "normalizedNER": "PAST_REF",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "PAST_REF"
+          }
+        },
+        {
+          "index": 22,
+          "word": "again",
+          "originalText": "again",
+          "lemma": "again",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 141,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "found",
+          "originalText": "found",
+          "lemma": "find",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 147,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 148,
+          "characterOffsetEnd": 152,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 156,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "French",
+          "originalText": "French",
+          "lemma": "french",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 163,
+          "pos": "JJ",
+          "ner": "NATIONALITY",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "exhibit",
+          "originalText": "exhibit",
+          "lemma": "exhibit",
+          "characterOffsetBegin": 164,
+          "characterOffsetEnd": 171,
           "pos": "NN",
           "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 172,
+          "characterOffsetEnd": 173,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "gratuitous",
+          "originalText": "gratuitous",
+          "lemma": "gratuitous",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 184,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "distaste",
+          "originalText": "distaste",
+          "lemma": "distaste",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 193,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 197,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "Muslims",
+          "originalText": "Muslims",
+          "lemma": "Muslims",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 205,
+          "pos": "NNPS",
+          "ner": "MISC",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 33,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 206,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "more",
+          "originalText": "more",
+          "lemma": "more",
+          "characterOffsetBegin": 207,
+          "characterOffsetEnd": 211,
+          "pos": "RBR",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "so",
+          "originalText": "so",
+          "lemma": "so",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 214,
+          "pos": "RB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "than",
+          "originalText": "than",
+          "lemma": "than",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 219,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 37,
+          "word": "they",
+          "originalText": "they",
+          "lemma": "they",
+          "characterOffsetBegin": 220,
+          "characterOffsetEnd": 224,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 38,
+          "word": "do",
+          "originalText": "do",
+          "lemma": "do",
+          "characterOffsetBegin": 225,
+          "characterOffsetEnd": 227,
+          "pos": "VBP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 39,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 228,
+          "characterOffsetEnd": 231,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 40,
+          "word": "Senegalese",
+          "originalText": "Senegalese",
+          "lemma": "Senegalese",
+          "characterOffsetBegin": 232,
+          "characterOffsetEnd": 242,
+          "pos": "NNP",
+          "ner": "NATIONALITY",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 41,
+          "word": "Christians",
+          "originalText": "Christians",
+          "lemma": "christian",
+          "characterOffsetBegin": 243,
+          "characterOffsetEnd": 253,
+          "pos": "NNS",
+          "ner": "MISC",
           "before": " ",
           "after": ""
         }

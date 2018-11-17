@@ -33,17 +33,18 @@ function extractRawOpenieFromNLP(nlpAnnotation, callback) {
             returnTriplet.subject = triplet.subject
             returnTriplet.relation = triplet.relation
             returnTriplet.object = triplet.object
-            returnTriplet.subjectSpan = triplet.subjectSpan
-            returnTriplet.relationSpan = triplet.relationSpan
-            returnTriplet.objectSpan = triplet.objectSpan
+            // returnTriplet.subjectSpan = triplet.subjectSpan
+            // returnTriplet.relationSpan = triplet.relationSpan
+            // returnTriplet.objectSpan = triplet.objectSpan
             returnTriplet.full = triplet.subject + " " + triplet.relation + " " + triplet.object
             currentSentence.triplets.push(returnTriplet)
         }
-        for (let j = 0; j < currentResult.tokens.length; j ++) {
-            let token = currentResult.tokens[j]
+        let filteredTokenList = _filterTokenList(currentResult.tokens)
+        for (let j = 0; j < filteredTokenList.length; j ++) {
+            let token = filteredTokenList[j]
             let returnToken = {}
 
-            returnToken.index = token.index
+            returnToken.index = j
             returnToken.word = token.word
             returnToken.lemma = token.lemma
             returnToken.pos = token.pos
@@ -60,6 +61,7 @@ function extractFilteredOpenIeFromParagraph(paragraph, callback) {
             console.error("ERROR extracting openie from paragraph!");
             callback(error, null)
         } else {
+            utils.logFullObject(openie)
             tripletMeaningfulProcessor.filterOpenieResult(openie, (result) => {
                 tripletTrimmer.trimShorterTriplets(result, (trimmedTriplets) => {
                     callback(null, trimmedTriplets)
@@ -84,8 +86,17 @@ function extractFilteredOpenIeFromNLP(nlpAnnotation, callback) {
     })
 }
 
+function _filterTokenList(tokenList) {
+    let filteredList = []
+    for (let i = 0; i < tokenList.length; i ++) {
+        if (tokenList[i].pos != '``' && tokenList[i].pos != '\'\'') {
+            filteredList.push(tokenList[i])
+        }
+    }
+    return filteredList
+}
 
 module.exports.extractRawOpenIeFromParagraph = extractRawOpenIeFromParagraph
 module.exports.extractRawOpenieFromNLP = extractRawOpenieFromNLP
-module.exports.extractFilteredhOpenIeFromParagraph = extractFilteredOpenIeFromParagraph
+module.exports.extractFilteredOpenIeFromParagraph = extractFilteredOpenIeFromParagraph
 module.exports.extractFilteredOpenIeFromNLP = extractFilteredOpenIeFromNLP

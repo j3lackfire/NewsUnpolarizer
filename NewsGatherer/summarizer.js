@@ -43,13 +43,9 @@ function urlToParagraph(url, callback) {
         if (err) {
             callback(err, null)
         } else {
-            callback(null, _clearResponse(response.sm_api_content))
+            callback(null, response.sm_api_content)
         }
     })
-}
-
-function _clearResponse(paragraph) {
-    return paragraph.split("\\").join("")
 }
 
 //example usage of the things.
