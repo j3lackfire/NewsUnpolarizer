@@ -44,7 +44,11 @@ function trimShorterTriplets(untrimmedOpenie, callback) {
 }
 
 function _isThereBiggerTriplet(triplet, tripletList) {
+    if (triplet.object == '\\') {
+        return true
+    }
     for (let i = 0; i < tripletList.length; i ++) {
+
         if (_isTripletWithinTriplet(triplet, tripletList[i])) {
             if (triplet.full.split(' ').length > tripletList[i].length) {
                 console.log("The BIGGER triplets is somehow deemed as SMALLER!")

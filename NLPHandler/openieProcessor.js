@@ -89,7 +89,7 @@ function extractFilteredOpenIeFromNLP(nlpAnnotation, callback) {
 function _filterTokenList(tokenList) {
     let filteredList = []
     for (let i = 0; i < tokenList.length; i ++) {
-        if (tokenList[i].pos != '``' && tokenList[i].pos != '\'\'') {
+        if (tokenList[i].pos != '``' && tokenList[i].pos != '\'\'' && tokenList[i].word != '\\') {
             filteredList.push(tokenList[i])
         }
     }

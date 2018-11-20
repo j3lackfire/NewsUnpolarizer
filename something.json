@@ -1,111 +1,606 @@
 {
   "sentences": [
     {
+      "index": 0,
+      "openie": [
+        {
+          "subject": "New laws",
+          "subjectSpan": [
+            0,
+            2
+          ],
+          "relation": "are",
+          "relationSpan": [
+            4,
+            5
+          ],
+          "object": "reminiscent",
+          "objectSpan": [
+            5,
+            6
+          ]
+        },
+        {
+          "subject": "innocent children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted",
+          "objectSpan": [
+            9,
+            15
+          ]
+        },
+        {
+          "subject": "innocent children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by masked monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "innocent Jewish children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by masked monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "innocent children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "Jewish children",
+          "subjectSpan": [
+            11,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "abducted",
+          "objectSpan": [
+            14,
+            15
+          ]
+        },
+        {
+          "subject": "Jewish children",
+          "subjectSpan": [
+            11,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "monks",
+          "objectSpan": [
+            17,
+            18
+          ]
+        },
+        {
+          "subject": "Jewish children",
+          "subjectSpan": [
+            11,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "innocent children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "abducted",
+          "objectSpan": [
+            14,
+            15
+          ]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [
+            12,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by masked monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "innocent Jewish children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "abducted",
+          "objectSpan": [
+            14,
+            15
+          ]
+        },
+        {
+          "subject": "Jewish children",
+          "subjectSpan": [
+            11,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by masked monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [
+            12,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "innocent children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "monks",
+          "objectSpan": [
+            17,
+            18
+          ]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [
+            12,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "abducted",
+          "objectSpan": [
+            14,
+            15
+          ]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [
+            12,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "masked monks",
+          "objectSpan": [
+            16,
+            18
+          ]
+        },
+        {
+          "subject": "innocent Jewish children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "imprisoned in",
+          "relationSpan": [
+            19,
+            21
+          ],
+          "object": "monasteries",
+          "objectSpan": [
+            21,
+            22
+          ]
+        },
+        {
+          "subject": "innocent Jewish children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted by monks",
+          "objectSpan": [
+            9,
+            18
+          ]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [
+            12,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted",
+          "objectSpan": [
+            9,
+            15
+          ]
+        },
+        {
+          "subject": "innocent children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "imprisoned in",
+          "relationSpan": [
+            19,
+            21
+          ],
+          "object": "monasteries",
+          "objectSpan": [
+            21,
+            22
+          ]
+        },
+        {
+          "subject": "innocent Jewish children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "monks",
+          "objectSpan": [
+            17,
+            18
+          ]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [
+            12,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "monks",
+          "objectSpan": [
+            17,
+            18
+          ]
+        },
+        {
+          "subject": "Jewish children",
+          "subjectSpan": [
+            11,
+            13
+          ],
+          "relation": "imprisoned in",
+          "relationSpan": [
+            19,
+            21
+          ],
+          "object": "monasteries",
+          "objectSpan": [
+            21,
+            22
+          ]
+        },
+        {
+          "subject": "Jewish children",
+          "subjectSpan": [
+            11,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "masked monks",
+          "objectSpan": [
+            16,
+            18
+          ]
+        },
+        {
+          "subject": "innocent Jewish children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted",
+          "objectSpan": [
+            9,
+            15
+          ]
+        },
+        {
+          "subject": "innocent Jewish children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "masked monks",
+          "objectSpan": [
+            16,
+            18
+          ]
+        },
+        {
+          "subject": "children",
+          "subjectSpan": [
+            12,
+            13
+          ],
+          "relation": "imprisoned in",
+          "relationSpan": [
+            19,
+            21
+          ],
+          "object": "monasteries",
+          "objectSpan": [
+            21,
+            22
+          ]
+        },
+        {
+          "subject": "innocent children",
+          "subjectSpan": [
+            10,
+            13
+          ],
+          "relation": "were abducted by",
+          "relationSpan": [
+            13,
+            16
+          ],
+          "object": "masked monks",
+          "objectSpan": [
+            16,
+            18
+          ]
+        },
+        {
+          "subject": "Jewish children",
+          "subjectSpan": [
+            11,
+            13
+          ],
+          "relation": "were",
+          "relationSpan": [
+            13,
+            14
+          ],
+          "object": "when abducted",
+          "objectSpan": [
+            9,
+            15
+          ]
+        }
+      ],
       "tokens": [
         {
           "index": 1,
-          "word": "In",
-          "originalText": "In",
-          "lemma": "in",
+          "word": "New",
+          "originalText": "New",
+          "lemma": "New",
           "characterOffsetBegin": 0,
-          "characterOffsetEnd": 2,
-          "pos": "IN",
+          "characterOffsetEnd": 3,
+          "pos": "NNP",
           "ner": "O",
           "before": "",
           "after": " "
         },
         {
           "index": 2,
-          "word": "experimental",
-          "originalText": "experimental",
-          "lemma": "experimental",
-          "characterOffsetBegin": 3,
-          "characterOffsetEnd": 15,
-          "pos": "JJ",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 3,
-          "word": "games",
-          "originalText": "games",
-          "lemma": "game",
-          "characterOffsetBegin": 16,
-          "characterOffsetEnd": 21,
+          "word": "laws",
+          "originalText": "laws",
+          "lemma": "law",
+          "characterOffsetBegin": 4,
+          "characterOffsetEnd": 8,
           "pos": "NNS",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
-          "index": 4,
-          "word": "conducted",
-          "originalText": "conducted",
-          "lemma": "conduct",
-          "characterOffsetBegin": 22,
-          "characterOffsetEnd": 31,
-          "pos": "VBN",
+          "index": 3,
+          "word": "targeting",
+          "originalText": "targeting",
+          "lemma": "target",
+          "characterOffsetBegin": 9,
+          "characterOffsetEnd": 18,
+          "pos": "VBG",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
+          "index": 4,
+          "word": "Muslims",
+          "originalText": "Muslims",
+          "lemma": "Muslims",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 26,
+          "pos": "NNPS",
+          "ner": "MISC",
+          "before": " ",
+          "after": " "
+        },
+        {
           "index": 5,
-          "word": "in",
-          "originalText": "in",
-          "lemma": "in",
-          "characterOffsetBegin": 32,
-          "characterOffsetEnd": 34,
-          "pos": "IN",
+          "word": "are",
+          "originalText": "are",
+          "lemma": "be",
+          "characterOffsetBegin": 27,
+          "characterOffsetEnd": 30,
+          "pos": "VBP",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 6,
-          "word": "Paris",
-          "originalText": "Paris",
-          "lemma": "Paris",
-          "characterOffsetBegin": 35,
-          "characterOffsetEnd": 40,
-          "pos": "NNP",
-          "ner": "CITY",
+          "word": "reminiscent",
+          "originalText": "reminiscent",
+          "lemma": "reminiscent",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 42,
+          "pos": "JJ",
+          "ner": "O",
           "before": " ",
-          "after": ""
+          "after": " "
         },
         {
           "index": 7,
-          "word": "'",
-          "originalText": "'",
-          "lemma": "'",
-          "characterOffsetBegin": 40,
-          "characterOffsetEnd": 41,
-          "pos": "POS",
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "IN",
           "ner": "O",
-          "before": "",
+          "before": " ",
           "after": " "
         },
         {
           "index": 8,
-          "word": "nineteenth",
-          "originalText": "nineteenth",
-          "lemma": "nineteenth",
-          "characterOffsetBegin": 42,
-          "characterOffsetEnd": 52,
-          "pos": "JJ",
-          "ner": "ORDINAL",
-          "normalizedNER": "19.0",
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 47,
+          "pos": "DT",
+          "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 9,
-          "word": "district",
-          "originalText": "district",
-          "lemma": "district",
-          "characterOffsetBegin": 53,
-          "characterOffsetEnd": 61,
+          "word": "time",
+          "originalText": "time",
+          "lemma": "time",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 52,
           "pos": "NN",
           "ner": "O",
           "before": " ",
@@ -113,11 +608,11 @@
         },
         {
           "index": 10,
-          "word": "where",
-          "originalText": "where",
-          "lemma": "where",
-          "characterOffsetBegin": 62,
-          "characterOffsetEnd": 67,
+          "word": "when",
+          "originalText": "when",
+          "lemma": "when",
+          "characterOffsetBegin": 53,
+          "characterOffsetEnd": 57,
           "pos": "WRB",
           "ner": "O",
           "before": " ",
@@ -125,47 +620,47 @@
         },
         {
           "index": 11,
-          "word": "Serers",
-          "originalText": "Serers",
-          "lemma": "Serers",
-          "characterOffsetBegin": 68,
-          "characterOffsetEnd": 74,
-          "pos": "NNP",
+          "word": "innocent",
+          "originalText": "innocent",
+          "lemma": "innocent",
+          "characterOffsetBegin": 58,
+          "characterOffsetEnd": 66,
+          "pos": "JJ",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 12,
-          "word": "and",
-          "originalText": "and",
-          "lemma": "and",
-          "characterOffsetBegin": 75,
-          "characterOffsetEnd": 78,
-          "pos": "CC",
-          "ner": "O",
+          "word": "Jewish",
+          "originalText": "Jewish",
+          "lemma": "jewish",
+          "characterOffsetBegin": 67,
+          "characterOffsetEnd": 73,
+          "pos": "JJ",
+          "ner": "RELIGION",
           "before": " ",
           "after": " "
         },
         {
           "index": 13,
-          "word": "Joolas",
-          "originalText": "Joolas",
-          "lemma": "Joolas",
-          "characterOffsetBegin": 79,
-          "characterOffsetEnd": 85,
-          "pos": "NNP",
-          "ner": "PERSON",
+          "word": "children",
+          "originalText": "children",
+          "lemma": "child",
+          "characterOffsetBegin": 74,
+          "characterOffsetEnd": 82,
+          "pos": "NNS",
+          "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 14,
-          "word": "interacted",
-          "originalText": "interacted",
-          "lemma": "interact",
-          "characterOffsetBegin": 86,
-          "characterOffsetEnd": 96,
+          "word": "were",
+          "originalText": "were",
+          "lemma": "be",
+          "characterOffsetBegin": 83,
+          "characterOffsetEnd": 87,
           "pos": "VBD",
           "ner": "O",
           "before": " ",
@@ -173,332 +668,242 @@
         },
         {
           "index": 15,
-          "word": "with",
-          "originalText": "with",
-          "lemma": "with",
-          "characterOffsetBegin": 97,
-          "characterOffsetEnd": 101,
-          "pos": "IN",
+          "word": "abducted",
+          "originalText": "abducted",
+          "lemma": "abducted",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 96,
+          "pos": "NN",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 16,
-          "word": "native",
-          "originalText": "native",
-          "lemma": "native",
-          "characterOffsetBegin": 102,
-          "characterOffsetEnd": 108,
-          "pos": "JJ",
+          "word": "by",
+          "originalText": "by",
+          "lemma": "by",
+          "characterOffsetBegin": 97,
+          "characterOffsetEnd": 99,
+          "pos": "IN",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
           "index": 17,
-          "word": "French",
-          "originalText": "French",
-          "lemma": "french",
-          "characterOffsetBegin": 109,
-          "characterOffsetEnd": 115,
-          "pos": "JJ",
-          "ner": "NATIONALITY",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 18,
-          "word": "subjects",
-          "originalText": "subjects",
-          "lemma": "subject",
-          "characterOffsetBegin": 116,
-          "characterOffsetEnd": 124,
-          "pos": "NNS",
-          "ner": "O",
-          "before": " ",
-          "after": ""
-        },
-        {
-          "index": 19,
-          "word": ",",
-          "originalText": ",",
-          "lemma": ",",
-          "characterOffsetBegin": 124,
-          "characterOffsetEnd": 125,
-          "pos": ",",
-          "ner": "O",
-          "before": "",
-          "after": " "
-        },
-        {
-          "index": 20,
-          "word": "they",
-          "originalText": "they",
-          "lemma": "they",
-          "characterOffsetBegin": 126,
-          "characterOffsetEnd": 130,
-          "pos": "PRP",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 21,
-          "word": "once",
-          "originalText": "once",
-          "lemma": "once",
-          "characterOffsetBegin": 131,
-          "characterOffsetEnd": 135,
-          "pos": "RB",
-          "ner": "DATE",
-          "normalizedNER": "PAST_REF",
-          "before": " ",
-          "after": " ",
-          "timex": {
-            "tid": "t1",
-            "type": "DATE",
-            "value": "PAST_REF"
-          }
-        },
-        {
-          "index": 22,
-          "word": "again",
-          "originalText": "again",
-          "lemma": "again",
-          "characterOffsetBegin": 136,
-          "characterOffsetEnd": 141,
-          "pos": "RB",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 23,
-          "word": "found",
-          "originalText": "found",
-          "lemma": "find",
-          "characterOffsetBegin": 142,
-          "characterOffsetEnd": 147,
+          "word": "masked",
+          "originalText": "masked",
+          "lemma": "mask",
+          "characterOffsetBegin": 100,
+          "characterOffsetEnd": 106,
           "pos": "VBN",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
+          "index": 18,
+          "word": "monks",
+          "originalText": "monks",
+          "lemma": "monk",
+          "characterOffsetBegin": 107,
+          "characterOffsetEnd": 112,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 116,
+          "pos": "CC",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "imprisoned",
+          "originalText": "imprisoned",
+          "lemma": "imprison",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 127,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 128,
+          "characterOffsetEnd": 130,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "monasteries",
+          "originalText": "monasteries",
+          "lemma": "monastery",
+          "characterOffsetBegin": 131,
+          "characterOffsetEnd": 142,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 143,
+          "characterOffsetEnd": 145,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
           "index": 24,
-          "word": "that",
-          "originalText": "that",
-          "lemma": "that",
-          "characterOffsetBegin": 148,
-          "characterOffsetEnd": 152,
-          "pos": "IN",
+          "word": "``",
+          "originalText": "\"",
+          "lemma": "``",
+          "characterOffsetBegin": 146,
+          "characterOffsetEnd": 147,
+          "pos": "``",
           "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 25,
-          "word": "the",
-          "originalText": "the",
-          "lemma": "the",
-          "characterOffsetBegin": 153,
-          "characterOffsetEnd": 156,
-          "pos": "DT",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 26,
-          "word": "French",
-          "originalText": "French",
-          "lemma": "french",
-          "characterOffsetBegin": 157,
-          "characterOffsetEnd": 163,
-          "pos": "JJ",
-          "ner": "NATIONALITY",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 27,
-          "word": "exhibit",
-          "originalText": "exhibit",
-          "lemma": "exhibit",
-          "characterOffsetBegin": 164,
-          "characterOffsetEnd": 171,
-          "pos": "NN",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 28,
-          "word": "a",
-          "originalText": "a",
-          "lemma": "a",
-          "characterOffsetBegin": 172,
-          "characterOffsetEnd": 173,
-          "pos": "DT",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 29,
-          "word": "gratuitous",
-          "originalText": "gratuitous",
-          "lemma": "gratuitous",
-          "characterOffsetBegin": 174,
-          "characterOffsetEnd": 184,
-          "pos": "JJ",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 30,
-          "word": "distaste",
-          "originalText": "distaste",
-          "lemma": "distaste",
-          "characterOffsetBegin": 185,
-          "characterOffsetEnd": 193,
-          "pos": "NN",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 31,
-          "word": "for",
-          "originalText": "for",
-          "lemma": "for",
-          "characterOffsetBegin": 194,
-          "characterOffsetEnd": 197,
-          "pos": "IN",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 32,
-          "word": "Muslims",
-          "originalText": "Muslims",
-          "lemma": "Muslims",
-          "characterOffsetBegin": 198,
-          "characterOffsetEnd": 205,
-          "pos": "NNPS",
-          "ner": "MISC",
           "before": " ",
           "after": ""
         },
         {
-          "index": 33,
-          "word": ",",
-          "originalText": ",",
-          "lemma": ",",
-          "characterOffsetBegin": 205,
-          "characterOffsetEnd": 206,
-          "pos": ",",
+          "index": 25,
+          "word": "Save",
+          "originalText": "Save",
+          "lemma": "save",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 151,
+          "pos": "VB",
+          "ner": "O",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 26,
+          "word": "''",
+          "originalText": "\"",
+          "lemma": "''",
+          "characterOffsetBegin": 151,
+          "characterOffsetEnd": 152,
+          "pos": "''",
           "ner": "O",
           "before": "",
           "after": " "
         },
         {
-          "index": 34,
-          "word": "more",
-          "originalText": "more",
-          "lemma": "more",
-          "characterOffsetBegin": 207,
-          "characterOffsetEnd": 211,
-          "pos": "RBR",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 35,
-          "word": "so",
-          "originalText": "so",
-          "lemma": "so",
-          "characterOffsetBegin": 212,
-          "characterOffsetEnd": 214,
-          "pos": "RB",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 36,
-          "word": "than",
-          "originalText": "than",
-          "lemma": "than",
-          "characterOffsetBegin": 215,
-          "characterOffsetEnd": 219,
-          "pos": "IN",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 37,
-          "word": "they",
-          "originalText": "they",
+          "index": 27,
+          "word": "them",
+          "originalText": "them",
           "lemma": "they",
-          "characterOffsetBegin": 220,
-          "characterOffsetEnd": 224,
+          "characterOffsetBegin": 153,
+          "characterOffsetEnd": 157,
           "pos": "PRP",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
-          "index": 38,
-          "word": "do",
-          "originalText": "do",
-          "lemma": "do",
-          "characterOffsetBegin": 225,
-          "characterOffsetEnd": 227,
-          "pos": "VBP",
-          "ner": "O",
-          "before": " ",
-          "after": " "
-        },
-        {
-          "index": 39,
-          "word": "for",
-          "originalText": "for",
-          "lemma": "for",
-          "characterOffsetBegin": 228,
-          "characterOffsetEnd": 231,
+          "index": 28,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 162,
           "pos": "IN",
           "ner": "O",
           "before": " ",
           "after": " "
         },
         {
-          "index": 40,
-          "word": "Senegalese",
-          "originalText": "Senegalese",
-          "lemma": "Senegalese",
-          "characterOffsetBegin": 232,
-          "characterOffsetEnd": 242,
-          "pos": "NNP",
-          "ner": "NATIONALITY",
+          "index": 29,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 166,
+          "pos": "DT",
+          "ner": "O",
           "before": " ",
           "after": " "
         },
         {
-          "index": 41,
-          "word": "Christians",
-          "originalText": "Christians",
-          "lemma": "christian",
-          "characterOffsetBegin": 243,
-          "characterOffsetEnd": 253,
-          "pos": "NNS",
-          "ner": "MISC",
+          "index": 30,
+          "word": "eternal",
+          "originalText": "eternal",
+          "lemma": "eternal",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 174,
+          "pos": "JJ",
+          "ner": "O",
           "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "fire",
+          "originalText": "fire",
+          "lemma": "fire",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 179,
+          "pos": "NN",
+          "ner": "CAUSE_OF_DEATH",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 182,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 33,
+          "word": "hell",
+          "originalText": "hell",
+          "lemma": "hell",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 187,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 34,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 188,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
           "after": ""
         }
       ]

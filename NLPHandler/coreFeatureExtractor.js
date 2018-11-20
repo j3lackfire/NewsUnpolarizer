@@ -68,32 +68,31 @@ function extractNerAndOpenieFromParagraph(paragraph, callback) {
 }
 
 function _getContainingEntities(triplet, entitiesArray) {
-    let returnVal = []
+    let returnEntitiesList = []
     for (let i = 0; i < entitiesArray.length; i ++) {
         let entity = entitiesArray[i]
-        if (_isArrayWithinRange(entity.span, triplet.subjectSpan)
-        && triplet.subject.includes(entity.text)) {
+        if (triplet.subject.includes(entity.text) || triplet.object.includes(entity.text)) {
             let returnEntity = {}
             returnEntity.text = entity.text
             returnEntity.ner = entity.ner
-            returnEntity.positionText = "subject"
-            returnVal.push(returnEntity)
-        } else {
-            if(_isArrayWithinRange(entity.span, triplet.objectSpan)
-            && triplet.object.includes(entity.text)) {
-                let returnEntity = {}
-                returnEntity.text = entity.text
-                returnEntity.ner = entity.ner
-                returnEntity.positionText = "object"
-                returnVal.push(returnEntity)
+            returnEntity.positionText = triplet.subject.includes(entity.text) ? "subject" : "object"
+            if (!_isEntityAlreadySaved(returnEntity, returnEntitiesList)) {
+                returnEntitiesList.push(returnEntity)
             }
         }
     }
-    return returnVal
+    return returnEntitiesList
 }
 
-function _isArrayWithinRange(smallerArray, biggerArray) {
-    return (smallerArray[0] >= biggerArray[0]) && (smallerArray[1] <= biggerArray[1])
+function _isEntityAlreadySaved(entity, entityList) {
+    for (let i = 0; i < entityList.length; i ++) {
+        if (entityList[i].text == entity.text
+            && entityList[i].ner == entity.ner
+            && entityList[i].positionText == entity.positionText) {
+            return true
+        }
+    }
+    return false
 }
 
 module.exports.extractCoreFeatures = extractCoreFeatures
