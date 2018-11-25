@@ -18,37 +18,32 @@ let paragraph = "LONDON - What has become of Europe? New laws targeting Muslims 
 //         console.error(err)
 //     } else {
 //         console.log(p)
-//         coreFeatureExtractor.extractCoreFeatures(p, (err, result) => {
+//         coreFeatureExtractor.extractCoreFeaturesFromParagraph(p, (err, result) => {
 //             utils.logFullObject(result)
 //         })
 //     }
 // })
 
-coreFeatureExtractor.extractCoreFeatures(paragraph, (err, result) => {
+coreFeatureExtractor.extractCoreFeaturesAndMetaFromUrl(url, (err, result) => {
     utils.logFullObject(result)
 })
 
-// openieProcessor.extractRawOpenIeFromParagraph(paragraph, (err, result) => {
-//     utils.logFullObject(result)
-// })
+/*
+let testPromise = (myParam) => {
+    return new Promise((resolve, reject) => {
+        console.log("this is the function - " + myParam)
+        if (true) {
+            resolve("Stuff worked!");
+        }
+        else {
+            reject(Error("It broke"));
+        }
+    });
+}
 
-
-// let testPromise = (myParam) => {
-//     return new Promise((resolve, reject) => {
-//         console.log("this is the function - " + myParam)
-//         if (true) {
-//             resolve("Stuff worked!");
-//         }
-//         else {
-//             reject(Error("It broke"));
-//         }
-//     });
-// }
-//
-// testPromise("hello world").then((result) => {
-//     console.log(result); // "Stuff worked!"
-// }).catch((err) => {
-//     console.log(err); // Error: "It broke"
-// });
-
-
+testPromise("hello world").then((result) => {
+    console.log(result); // "Stuff worked!"
+}).catch((err) => {
+    console.log(err); // Error: "It broke"
+});
+*/

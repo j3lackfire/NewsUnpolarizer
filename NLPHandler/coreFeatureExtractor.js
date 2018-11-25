@@ -4,10 +4,37 @@
 const utils = require('./../utils')
 const nlpAnnotator = require('./nlpAnnotator')
 const openieProcessor = require('./openieProcessor')
+const summarizer = require('./../NewsGatherer/summarizer')
 const tripletProcessor = require('./tripletMeaningfulProcessor')
 const nerProcessor = require('./nerProcessor')
 
-function extractCoreFeatures(paragraph, callback) {
+function extractCoreFeaturesAndMetaFromUrl(url, callback) {
+    summarizer.summaryUrl(url, (err, summaryResponse) => {
+        if (err) {
+            console.error(err)
+            console.error("error while trying to get paragraph from summarizer")
+            callback(err, null)
+        } else {
+            let savedData = {}
+            savedData.meta = {}
+            savedData.meta.url = url
+            savedData.meta.title = summaryResponse.sm_api_title
+            console.log(summaryResponse.sm_api_content)
+            extractCoreFeaturesFromParagraph(summaryResponse.sm_api_content, (err_2, res_2) => {
+                if (err_2) {
+                    console.error(err_2)
+                    console.error("Error annotating the article")
+                    callback(err, null)
+                } else {
+                    savedData.data = res_2
+                    callback(null, savedData)
+                }
+            })
+        }
+    })
+}
+
+function extractCoreFeaturesFromParagraph(paragraph, callback) {
     extractNerAndOpenieFromParagraph(paragraph, (err, ner, openie) => {
         if (err) {
             callback(err, null)
@@ -95,4 +122,6 @@ function _isEntityAlreadySaved(entity, entityList) {
     return false
 }
 
-module.exports.extractCoreFeatures = extractCoreFeatures
+module.exports.extractCoreFeaturesFromParagraph = extractCoreFeaturesFromParagraph
+module.exports.extractCoreFeaturesAndMetaFromUrl = extractCoreFeaturesAndMetaFromUrl
+

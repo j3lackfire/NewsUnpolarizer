@@ -18,7 +18,7 @@ function generateDbEntry(url, callback) {
             savedData.meta.url = url
             savedData.meta.title = summaryResponse.sm_api_title
             console.log(summaryResponse.sm_api_content)
-            coreFeatureExtractor.extractCoreFeatures(summaryResponse.sm_api_content, (err, result) => {
+            coreFeatureExtractor.extractCoreFeaturesFromParagraph(summaryResponse.sm_api_content, (err, result) => {
                 savedData.data = result
                 dbWriter.checkAndWriteToDb(savedData, (err) => {
                     if (err) {
