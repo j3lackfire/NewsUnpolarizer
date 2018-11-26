@@ -29,10 +29,21 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
     } else {
         //some weird comparision function here, including ner in subject/object
         let returnMeta = {}
-        returnMeta.sourceUrl = sourceArticle.meta.url
-        returnMeta.sourceTitle = sourceArticle.meta.title
-        returnMeta.targetUrl = targetArticle.meta.url
-        returnMeta.targetTitle = targetArticle.meta.title
+        returnMeta.header = {}
+        returnMeta.header.sourceUrl = sourceArticle.meta.url
+        returnMeta.header.sourceTitle = sourceArticle.meta.title
+        returnMeta.header.targetUrl = targetArticle.meta.url
+        returnMeta.header.targetTitle = targetArticle.meta.title
+        returnMeta.entities = []
+        for (let i = 0; i < sourceArticle.entities.length; i ++) {
+            for (let j = 0; j < targetArticle.entities.length; j ++) {
+                //TODO extra work with the adding because there's a lot of duplicated result
+                if (utils.isEntitySimilar(sourceArticle.entities[i], targetArticle.entities[j])) {
+                    returnMeta.entities.push(sourceArticle.entities[i])
+                    utils.logFullObject(targetArticle.entities[j])
+                }
+            }
+        }
         callback(returnMeta)
     }
 }

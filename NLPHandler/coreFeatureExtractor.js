@@ -20,14 +20,17 @@ function extractCoreFeaturesAndMetaFromUrl(url, callback) {
             savedData.meta.url = url
             savedData.meta.title = summaryResponse.sm_api_title
             console.log(summaryResponse.sm_api_content)
-            extractCoreFeaturesFromParagraph(summaryResponse.sm_api_content, (err_2, res_2) => {
+            extractCoreFeaturesFromParagraph(summaryResponse.sm_api_content, (err_2, coreFeatures) => {
                 if (err_2) {
                     console.error(err_2)
                     console.error("Error annotating the article")
                     callback(err, null)
                 } else {
-                    savedData.data = res_2
-                    callback(null, savedData)
+                    savedData.data = coreFeatures
+                    generateEntitiesDataFromCoreFeature(coreFeatures, (entityData) => {
+                        savedData.entities = entityData
+                        callback(null, savedData)
+                    })
                 }
             })
         }
@@ -122,6 +125,38 @@ function _isEntityAlreadySaved(entity, entityList) {
     return false
 }
 
+function generateEntitiesDataFromCoreFeature(coreFeature, callback) {
+    let returnVal = []
+    for (let i = 0; i < coreFeature.length; i ++) {
+        for (let j = 0; j < coreFeature[i].triplets.length; j ++) {
+            for (let k = 0; k < coreFeature[i].triplets[j].entities.length; k ++) {
+                let curretnEntity = coreFeature[i].triplets[j].entities[k]
+                let entityToAdd = {}
+                entityToAdd.text = curretnEntity.text
+                entityToAdd.ner = curretnEntity.ner
+                entityToAdd.positionText = curretnEntity.positionText
+                entityToAdd.sentenceIndex = i
+                entityToAdd.tripletIndex = j
+                if (!_isEntityAddedToList(entityToAdd, returnVal)) {
+                    returnVal.push(entityToAdd)
+                }
+            }
+        }
+    }
+    callback(returnVal)
+}
+
+function _isEntityAddedToList(entity, entityList) {
+    for (let i = 0; i < entityList.length; i ++) {
+        if (utils.isEntitySimilar(entityList[i], entity) &&
+            entityList[i].sentenceIndex == entity.sentenceIndex &&
+            entityList[i].tripletIndex == entity.tripletIndex) {
+            return true
+        }
+    }
+    return false
+}
+
 module.exports.extractCoreFeaturesFromParagraph = extractCoreFeaturesFromParagraph
 module.exports.extractCoreFeaturesAndMetaFromUrl = extractCoreFeaturesAndMetaFromUrl
-
+module.exports.generateEntitiesDataFromCoreFeature = generateEntitiesDataFromCoreFeature

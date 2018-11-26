@@ -6,7 +6,7 @@
     },
     "data": [
       {
-        "text": "'' Over the past few years , unprecedented numbers of immigrants have left Muslim-majority countries to come to Europe , fleeing the carnage in Syria and the turmoil across North Africa . ",
+        "text": "Over the past few years , unprecedented numbers of immigrants have left Muslim-majority countries to come to Europe , fleeing the carnage in Syria and the turmoil across North Africa . ",
         "triplets": [
           {
             "subject": "Muslim-majority countries",
@@ -246,12 +246,41 @@
                 "positionText": "subject"
               }
             ]
+          },
+          {
+            "subject": "Europe",
+            "relation": "is creating class As",
+            "object": "result",
+            "relationVerb": "create",
+            "full": "Europe is creating class As result",
+            "entities": [
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              }
+            ]
           }
         ]
       },
       {
         "text": "The researchers sent similar resumés of three applicants to French firms . ",
-        "triplets": []
+        "triplets": [
+          {
+            "subject": "researchers",
+            "relation": "sent resumés to",
+            "object": "French firms",
+            "relationVerb": "send",
+            "full": "researchers sent resumés to French firms",
+            "entities": [
+              {
+                "text": "French",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
       },
       {
         "text": "All three were French citizens with secondary school degrees and several years of experience in middle-class jobs . ",
@@ -378,6 +407,25 @@
             ]
           },
           {
+            "subject": "researchers",
+            "relation": "found In",
+            "object": "survey of 511 Muslim Serers in France",
+            "relationVerb": "find",
+            "full": "researchers found In survey of 511 Muslim Serers in France",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              },
+              {
+                "text": "France",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
             "subject": "Joola families",
             "relation": "earned",
             "object": "about 15 percent of income",
@@ -450,6 +498,25 @@
                 "positionText": "object"
               }
             ]
+          },
+          {
+            "subject": "study 's Muslim respondents",
+            "relation": "view institutions with",
+            "object": "much greater distrust than their Christian counterparts",
+            "relationVerb": "view",
+            "full": "study 's Muslim respondents view institutions with much greater distrust than their Christian counterparts",
+            "entities": [
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Christian",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
           }
         ]
       },
@@ -458,10 +525,10 @@
         "triplets": [
           {
             "subject": "Muslim respondents",
-            "relation": "send",
+            "relation": "send back",
             "object": "remittances",
             "relationVerb": "send",
-            "full": "Muslim respondents send remittances",
+            "full": "Muslim respondents send back remittances",
             "entities": [
               {
                 "text": "Muslim",
@@ -562,6 +629,11 @@
                 "text": "Muslims",
                 "ner": "MISC",
                 "positionText": "object"
+              },
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
               }
             ]
           },
@@ -609,8 +681,346 @@
         "triplets": []
       },
       {
-        "text": "A fellow Muslim . '' ",
+        "text": "A fellow Muslim . ",
         "triplets": []
+      }
+    ],
+    "entities": [
+      {
+        "text": "Muslim-majority",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Syria",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 0,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim-majority",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 0,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim-majority",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 2
+      },
+      {
+        "text": "North Africa",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 0,
+        "tripletIndex": 2
+      },
+      {
+        "text": "muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 2,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 2,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Marie-Anne Valfort",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 2,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Senegalese",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 4,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Christian",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 4,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 3
+      },
+      {
+        "text": "host",
+        "ner": "TITLE",
+        "positionText": "object",
+        "sentenceIndex": 4,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 7,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 7,
+        "tripletIndex": 1
+      },
+      {
+        "text": "French",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 8,
+        "tripletIndex": 0
+      },
+      {
+        "text": "French",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 13,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Joolas",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 13,
+        "tripletIndex": 1
+      },
+      {
+        "text": "French",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 13,
+        "tripletIndex": 1
+      },
+      {
+        "text": "French",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 14,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Senegalese",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 14,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 14,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Christian",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Joola",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Christian",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 2
+      },
+      {
+        "text": "France",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Joola",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 18,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 18,
+        "tripletIndex": 1
+      },
+      {
+        "text": "French",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 18,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 18,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Christian",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 18,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 19,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 1
+      },
+      {
+        "text": "host",
+        "ner": "TITLE",
+        "positionText": "object",
+        "sentenceIndex": 22,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 1
+      },
+      {
+        "text": "French",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 29,
+        "tripletIndex": 0
       }
     ]
   },
@@ -621,7 +1031,7 @@
     },
     "data": [
       {
-        "text": "'' Muslim migrants in Europe have been largely successful in learning the language of their adoptive countries and finding jobs despite a fifth of the local population being opposed to their presence , according to a study published Thursday . ",
+        "text": "Muslim migrants in Europe have been largely successful in learning the language of their adoptive countries and finding jobs despite a fifth of the local population being opposed to their presence , according to a study published Thursday . ",
         "triplets": [
           {
             "subject": "Muslim migrants",
@@ -701,7 +1111,7 @@
         ]
       },
       {
-        "text": "The study cited France 's \\ `` Tight labor market \\ '' as why the unemployment rate for Muslims is at 14 percent , far higher than the 8 percent average for non-Muslims . ",
+        "text": "The study cited France 's Tight labor market as why the unemployment rate for Muslims is at 14 percent , far higher than the 8 percent average for non-Muslims . ",
         "triplets": [
           {
             "subject": "study",
@@ -728,8 +1138,52 @@
         "triplets": []
       },
       {
-        "text": "\\ `` So far , no country in Western Europe has found a convincing strategy that addresses both equal opportunity as well as respect for religious diversity , \\ '' said Yasemin El-Menouar , Islam expert at the Bertelsmann Foundation . '' ",
+        "text": "So far , no country in Western Europe has found a convincing strategy that addresses both equal opportunity as well as respect for religious diversity , said Yasemin El-Menouar , Islam expert at the Bertelsmann Foundation . ",
         "triplets": []
+      }
+    ],
+    "entities": [
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Bertelsmann Foundation",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Germany",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 0
+      },
+      {
+        "text": "France",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 4,
+        "tripletIndex": 0
       }
     ]
   },
@@ -740,12 +1194,37 @@
     },
     "data": [
       {
-        "text": "'' The vast majority of these Muslims came seeking work and they were needed as they worked in sectors usually referred to as \\ `` Difficult , dirty and dangerous \\ '' . ",
+        "text": "The vast majority of these Muslims came seeking work and they were needed as they worked in sectors usually referred to as Difficult , dirty and dangerous . ",
         "triplets": []
       },
       {
         "text": "How could Europe encourage Muslim integration into secular states ? ",
-        "triplets": []
+        "triplets": [
+          {
+            "subject": "Europe",
+            "relation": "could encourage",
+            "object": "Muslim integration into secular states",
+            "relationVerb": "encourage",
+            "full": "Europe could encourage Muslim integration into secular states",
+            "entities": [
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              },
+              {
+                "text": "secular",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
       },
       {
         "text": "Are radicalisation and extremism linked to economic marginalisation ? ",
@@ -829,6 +1308,11 @@
                 "text": "Europe",
                 "ner": "LOCATION",
                 "positionText": "object"
+              },
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "subject"
               }
             ]
           }
@@ -847,7 +1331,7 @@
         "triplets": []
       },
       {
-        "text": "First , Muslim migrants in Europe are , at most , a two to four hour flight from their home countries , while the distance between the USA and their home countries gives little choice but to integrate into the American \\ `` Melting pot \\ '' . ",
+        "text": "First , Muslim migrants in Europe are , at most , a two to four hour flight from their home countries , while the distance between the USA and their home countries gives little choice but to integrate into the American Melting pot . ",
         "triplets": [
           {
             "subject": "distance",
@@ -866,7 +1350,7 @@
         ]
       },
       {
-        "text": "Secondly , as Robert Leiken argues , \\ `` Unlike the American Muslims who are geographically diffuse , ethnically fragmented and generally well-off , Europe 's Muslims gather in bleak enclaves with their compatriots \\ '' . ",
+        "text": "Secondly , as Robert Leiken argues , Unlike the American Muslims who are geographically diffuse , ethnically fragmented and generally well-off , Europe 's Muslims gather in bleak enclaves with their compatriots . ",
         "triplets": [
           {
             "subject": "Europe 's Muslims",
@@ -876,13 +1360,32 @@
             "full": "Europe 's Muslims gather in bleak enclaves",
             "entities": [
               {
-                "text": "Europe",
-                "ner": "LOCATION",
+                "text": "Muslims",
+                "ner": "MISC",
                 "positionText": "subject"
               },
               {
+                "text": "Europe",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Europe 's Muslims",
+            "relation": "gather with",
+            "object": "their compatriots",
+            "relationVerb": "gather",
+            "full": "Europe 's Muslims gather with their compatriots",
+            "entities": [
+              {
                 "text": "Muslims",
                 "ner": "MISC",
+                "positionText": "subject"
+              },
+              {
+                "text": "Europe",
+                "ner": "LOCATION",
                 "positionText": "subject"
               }
             ]
@@ -941,7 +1444,7 @@
         "triplets": []
       },
       {
-        "text": "Yet there is a widespread sentiment that Europe is being invaded by a growing Muslim population that can not or will not be assimilated and that dreams , as blogger Agnon de Albatros argues , of \\ `` Implementing Shari'a law in Europe and making this infidel continent part of the domain of Islam \\ '' . ",
+        "text": "Yet there is a widespread sentiment that Europe is being invaded by a growing Muslim population that can not or will not be assimilated and that dreams , as blogger Agnon de Albatros argues , of Implementing Shari'a law in Europe and making this infidel continent part of the domain of Islam . ",
         "triplets": [
           {
             "subject": "Europe",
@@ -992,6 +1495,34 @@
                 "positionText": "subject"
               }
             ]
+          },
+          {
+            "subject": "Germans",
+            "relation": "gave percentage at",
+            "object": "19 %",
+            "relationVerb": "give",
+            "full": "Germans gave percentage at 19 %",
+            "entities": [
+              {
+                "text": "Germans",
+                "ner": "MISC",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Germans",
+            "relation": "gave percentage in spite of",
+            "object": "actual 4 %",
+            "relationVerb": "give",
+            "full": "Germans gave percentage in spite of actual 4 %",
+            "entities": [
+              {
+                "text": "Germans",
+                "ner": "MISC",
+                "positionText": "subject"
+              }
+            ]
           }
         ]
       },
@@ -1000,11 +1531,11 @@
         "triplets": []
       },
       {
-        "text": "In other words , as Sami Zemni , from the University of Gent , argues very aptly , \\ `` It is not Muslims who produce history , but Islam that conditions the behaviour and identity of Muslims . ",
+        "text": "In other words , as Sami Zemni , from the University of Gent , argues very aptly , It is not Muslims who produce history , but Islam that conditions the behaviour and identity of Muslims . ",
         "triplets": []
       },
       {
-        "text": "-LSB- -RSB- In the end a Muslim is an automatom , endlessly perpetuating the religious prescriptions of Islam \\ '' . ",
+        "text": "-LSB- -RSB- In the end a Muslim is an automatom , endlessly perpetuating the religious prescriptions of Islam . ",
         "triplets": [
           {
             "subject": "automatom",
@@ -1031,10 +1562,10 @@
         "triplets": [
           {
             "subject": "many Muslims",
-            "relation": "are fighting",
+            "relation": "Happily enough are fighting",
             "object": "their way",
             "relationVerb": "fight",
-            "full": "many Muslims are fighting their way",
+            "full": "many Muslims Happily enough are fighting their way",
             "entities": [
               {
                 "text": "Muslims",
@@ -1072,7 +1603,7 @@
         "triplets": []
       },
       {
-        "text": "Muslim youth of Europe , radicalisation and violence European states recognise that the vast majority of Muslims in Europe do not engage in violence or terrorist activities at the same time , they admit the existence of small cells or \\ `` Lone wolves \\ '' , which are considered to be radical Islamists , prone to violence and with links to Al-Qaeda or ISIS . ",
+        "text": "Muslim youth of Europe , radicalisation and violence European states recognise that the vast majority of Muslims in Europe do not engage in violence or terrorist activities at the same time , they admit the existence of small cells or Lone wolves , which are considered to be radical Islamists , prone to violence and with links to Al-Qaeda or ISIS . ",
         "triplets": []
       },
       {
@@ -1121,10 +1652,10 @@
         "triplets": [
           {
             "subject": "Buddhist monks",
-            "relation": "organise",
+            "relation": "Nowadays organise",
             "object": "mass killings",
             "relationVerb": "organise",
-            "full": "Buddhist monks organise mass killings",
+            "full": "Buddhist monks Nowadays organise mass killings",
             "entities": [
               {
                 "text": "Buddhist",
@@ -1135,10 +1666,10 @@
           },
           {
             "subject": "Buddhist monks",
-            "relation": "organise",
+            "relation": "Nowadays organise",
             "object": "deportations of Muslims in Myanmar",
             "relationVerb": "organise",
-            "full": "Buddhist monks organise deportations of Muslims in Myanmar",
+            "full": "Buddhist monks Nowadays organise deportations of Muslims in Myanmar",
             "entities": [
               {
                 "text": "Buddhist",
@@ -1185,6 +1716,20 @@
                 "positionText": "object"
               }
             ]
+          },
+          {
+            "subject": "Jewish extremists",
+            "relation": "colonise Palestine Jews in",
+            "object": "name of God",
+            "relationVerb": "colonise",
+            "full": "Jewish extremists colonise Palestine Jews in name of God",
+            "entities": [
+              {
+                "text": "Jewish",
+                "ner": "RELIGION",
+                "positionText": "subject"
+              }
+            ]
           }
         ]
       },
@@ -1193,7 +1738,7 @@
         "triplets": []
       },
       {
-        "text": "The Islamophobic construction of the Muslim \\ `` Problem \\ '' Let us reiterate an undeniable fact : since 711 , Islam and Muslims have obsessed and captured the European imagination , first as conquerors , then as a competing religion and finally as the internal \\ `` Other \\ '' with the new waves of migration . ",
+        "text": "The Islamophobic construction of the Muslim Problem Let us reiterate an undeniable fact : since 711 , Islam and Muslims have obsessed and captured the European imagination , first as conquerors , then as a competing religion and finally as the internal Other with the new waves of migration . ",
         "triplets": []
       },
       {
@@ -1201,7 +1746,7 @@
         "triplets": []
       },
       {
-        "text": "The permanent settlement of Muslim migrants , or Muslims of migrant origin , in Europe has brought the \\ `` Outside inside \\ '' and has transformed Islam and Muslims into a domestic issue and an internal threat . ",
+        "text": "The permanent settlement of Muslim migrants , or Muslims of migrant origin , in Europe has brought the Outside inside and has transformed Islam and Muslims into a domestic issue and an internal threat . ",
         "triplets": []
       },
       {
@@ -1256,6 +1801,20 @@
           {
             "subject": "European states",
             "relation": "are caught by",
+            "object": "magnitude of phenomenon",
+            "relationVerb": "catch",
+            "full": "European states are caught by magnitude of phenomenon",
+            "entities": [
+              {
+                "text": "European",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "European states",
+            "relation": "are caught by",
             "object": "surprise",
             "relationVerb": "catch",
             "full": "European states are caught by surprise",
@@ -1284,7 +1843,7 @@
         ]
       },
       {
-        "text": "The article examined the various stages of migration flows , from temporary labour migration to permanent settlements , and showed the gradual construction of the Muslim problem in Europe and the emergence of far-right anti-Muslim parties . '' ",
+        "text": "The article examined the various stages of migration flows , from temporary labour migration to permanent settlements , and showed the gradual construction of the Muslim problem in Europe and the emergence of far-right anti-Muslim parties . ",
         "triplets": [
           {
             "subject": "article",
@@ -1313,6 +1872,11 @@
             "full": "article showed emergence of far-right anti-Muslim parties",
             "entities": [
               {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              },
+              {
                 "text": "far-right",
                 "ner": "IDEOLOGY",
                 "positionText": "object"
@@ -1320,6 +1884,316 @@
             ]
           }
         ]
+      }
+    ],
+    "entities": [
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "secular",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "European",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 6,
+        "tripletIndex": 0
+      },
+      {
+        "text": "European",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 6,
+        "tripletIndex": 1
+      },
+      {
+        "text": "European",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 6,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslims",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 7,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 7,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 7,
+        "tripletIndex": 0
+      },
+      {
+        "text": "American",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 11,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 12,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 12,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 12,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 12,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 13,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 22,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Germans",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 26,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Germans",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 26,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Germans",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 26,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Islam",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 29,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 31,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 31,
+        "tripletIndex": 1
+      },
+      {
+        "text": "British",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 37,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 37,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Pakistan",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 37,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Buddhist",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 40,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Buddhist",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 40,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 40,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Myanmar",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 40,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Jewish",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 40,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Palestine",
+        "ner": "CITY",
+        "positionText": "object",
+        "sentenceIndex": 40,
+        "tripletIndex": 2
+      },
+      {
+        "text": "secular",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 40,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Jews",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 40,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Jewish",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 40,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 45,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 47,
+        "tripletIndex": 0
+      },
+      {
+        "text": "European",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 49,
+        "tripletIndex": 0
+      },
+      {
+        "text": "European",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 49,
+        "tripletIndex": 1
+      },
+      {
+        "text": "European",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 49,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 50,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 50,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 50,
+        "tripletIndex": 1
+      },
+      {
+        "text": "far-right",
+        "ner": "IDEOLOGY",
+        "positionText": "object",
+        "sentenceIndex": 50,
+        "tripletIndex": 1
       }
     ]
   }

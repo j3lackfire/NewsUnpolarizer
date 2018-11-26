@@ -66,8 +66,4 @@ function findMostRelevanceByUrl(url, callback) {
     })
 }
 
-let url = "https://www.politico.eu/article/with-anti-muslim-laws-france-denmark-europe-enters-new-dark-age/"
-findMostRelevanceByUrl(url, (err, res) => {
-    console.log("Most relevance article is")
-    utils.logFullObject(res)
-})
+module.exports.findMostRelevanceByUrl = findMostRelevanceByUrl
