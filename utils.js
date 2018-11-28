@@ -17,6 +17,26 @@ function isEntitySimilar(sourceEntity, targetEntity) {
         sourceEntity.positionText == targetEntity.positionText)
 }
 
+function isEntityInList(entity, entitiesList) {
+    for (let i = 0; i < entitiesList.length; i ++) {
+        if (isEntitySimilar(entity, entitiesList[i])) {
+            return true
+        }
+    }
+    return false
+}
+
+function getEntityIndexInList(entity, entitiesList) {
+    for (let i = 0; i < entitiesList.length; i ++) {
+        if (isEntitySimilar(entity, entitiesList[i])) {
+            return i
+        }
+    }
+    return -1
+}
+
 module.exports.isNullOrUndefined = isNullOrUndefined
 module.exports.logFullObject = logFullObject
 module.exports.isEntitySimilar = isEntitySimilar
+module.exports.isEntityInList = isEntityInList
+module.exports.getEntityIndexInList = getEntityIndexInList
