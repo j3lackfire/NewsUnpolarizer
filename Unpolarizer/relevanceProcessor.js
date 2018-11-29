@@ -6,7 +6,12 @@ const utils = require('./../utils')
 function generateRelevantScoreList(sourceArticle, articleList, callback) {
     _recursiveGetRelevantScore(0, sourceArticle, articleList, [], (relevantMetaList) => {
         relevantMetaList.sort((a, b) => {
-            return b.meta.entityPairCount - a.meta.entityPairCount
+            return b.meta.commonEntityCount - a.meta.commonStatementCount
+            // if (b.meta.commonEntityCount == a.meta.commonStatementCount) {
+            //     return b.meta.commonStatementCount - a.meta.commonStatementCount
+            // } else {
+            //     return b.meta.commonEntityCount - a.meta.commonStatementCount
+            // }
         })
         callback(relevantMetaList)
     })
@@ -38,7 +43,8 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
         returnObject.meta.targetUrl = targetArticle.meta.url
         returnObject.meta.targetTitle = targetArticle.meta.title
         returnObject.meta.tripletPairCount = 0
-        returnObject.meta.entityPairCount = 0
+        returnObject.meta.commonEntityCount = 0
+        returnObject.meta.commonStatementCount = 0
         returnObject.entities = []
         for (let i = 0; i < sourceArticle.entities.length; i ++) {
             for (let j = 0; j < targetArticle.entities.length; j ++) {
@@ -86,6 +92,7 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
             }
         }
         for (let i = 0; i < returnObject.entities.length; i ++) {
+            returnObject.meta.commonStatementCount += returnObject.entities[i].sourceSentenceIndex.length + returnObject.entities[i].targetSentenceIndex.length
             let uniqueSourceSentencesIndex = _getUniqueNumberInList(returnObject.entities[i].sourceSentenceIndex)
             let uniqueTargetSentencesIndex = _getUniqueNumberInList(returnObject.entities[i].targetSentenceIndex)
             for (let j = 0; j < uniqueSourceSentencesIndex.length; j ++) {
@@ -95,7 +102,7 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
                 returnObject.entities[i].targetSentences.push(targetArticle.data[uniqueTargetSentencesIndex[j]].text)
             }
         }
-        returnObject.meta.entityPairCount = returnObject.entities.length
+        returnObject.meta.commonEntityCount = returnObject.entities.length
         callback(returnObject)
     }
 }

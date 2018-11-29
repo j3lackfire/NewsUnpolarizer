@@ -66,4 +66,30 @@ function findMostRelevanceByUrl(url, callback) {
     })
 }
 
+function findMostRelevancePairInDb(callback) {
+    utils.getAllUrlsInDb((dbUrls) => {
+        if (dbUrls == null) {
+            console.error("Error with the db")
+            callback(null)
+        } else {
+            _recursiveFindRelevancePairInDb(dbUrls, 0, [], (result) => {
+                callback(result)
+            })
+        }
+    })
+}
+
+function _recursiveFindRelevancePairInDb(urls, index, returnObject, callback) {
+    findMostRelevanceByUrl(urls[index], (err, sortedRelevanceMeta) => {
+        returnObject.push(sortedRelevanceMeta[0])
+        index ++
+        if (index >= urls.length) {
+            callback(returnObject)
+        } else {
+            _recursiveFindRelevancePairInDb(urls, index, returnObject, callback)
+        }
+    })
+}
+
 module.exports.findMostRelevanceByUrl = findMostRelevanceByUrl
+module.exports.findMostRelevancePairInDb = findMostRelevancePairInDb

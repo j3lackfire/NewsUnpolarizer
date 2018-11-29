@@ -2,6 +2,7 @@
  * Created by Le Pham Minh Duc on 09-Oct-18.
  */
 const util = require('util')
+const dbReader = require('./LocalDB/dbReader')
 
 function isNullOrUndefined(val) {
     return (typeof(val) == "undefined" || val == null || val == "")
@@ -35,8 +36,25 @@ function getEntityIndexInList(entity, entitiesList) {
     return -1
 }
 
+function getAllUrlsInDb(callback) {
+    dbReader.readDbAsJson((err, annotatedArticles) => {
+        if (err) {
+            console.error("Can't read db")
+            callback(null)
+        } else {
+            let dbUrls = []
+
+            for (let i = 0; i < annotatedArticles.length; i ++) {
+                dbUrls.push(annotatedArticles[i].meta.url)
+            }
+            callback(dbUrls)
+        }
+    })
+}
+
 module.exports.isNullOrUndefined = isNullOrUndefined
 module.exports.logFullObject = logFullObject
 module.exports.isEntitySimilar = isEntitySimilar
 module.exports.isEntityInList = isEntityInList
 module.exports.getEntityIndexInList = getEntityIndexInList
+module.exports.getAllUrlsInDb = getAllUrlsInDb
