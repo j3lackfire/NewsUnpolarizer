@@ -52,9 +52,30 @@ function getAllUrlsInDb(callback) {
     })
 }
 
+function logShortenRelevanceProcessorResult(result) {
+    let returnVal = []
+    for (let i = 0; i < result.length; i ++) {
+        let newVal = {}
+        newVal.meta = result[i].meta
+        newVal.entities = []
+        for (let j = 0; j <  result[i].entities.length; j ++) {
+            let entityToAdd = {}
+            entityToAdd.text = result[i].entities[j].text
+            entityToAdd.ner = result[i].entities[j].ner
+            entityToAdd.positionText = result[i].entities[j].positionText
+            entityToAdd.timesAppear = result[i].entities[j].sourceSentenceIndex.length + result[i].entities[j].targetSentenceIndex.length
+            newVal.entities.push(entityToAdd)
+        }
+        returnVal.push(newVal)
+    }
+    logFullObject(returnVal)
+    return returnVal
+}
+
 module.exports.isNullOrUndefined = isNullOrUndefined
 module.exports.logFullObject = logFullObject
 module.exports.isEntitySimilar = isEntitySimilar
 module.exports.isEntityInList = isEntityInList
 module.exports.getEntityIndexInList = getEntityIndexInList
 module.exports.getAllUrlsInDb = getAllUrlsInDb
+module.exports.logShortenRelevanceProcessorResult = logShortenRelevanceProcessorResult

@@ -5,15 +5,7 @@ const utils = require('./../utils')
 
 function generateRelevantScoreList(sourceArticle, articleList, callback) {
     _recursiveGetRelevantScore(0, sourceArticle, articleList, [], (relevantMetaList) => {
-        relevantMetaList.sort((a, b) => {
-            return b.meta.commonEntityCount - a.meta.commonStatementCount
-            // if (b.meta.commonEntityCount == a.meta.commonStatementCount) {
-            //     return b.meta.commonStatementCount - a.meta.commonStatementCount
-            // } else {
-            //     return b.meta.commonEntityCount - a.meta.commonStatementCount
-            // }
-        })
-        callback(relevantMetaList)
+        callback(getSortedRelevanceList(relevantMetaList))
     })
 }
 
@@ -103,6 +95,7 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
             }
         }
         returnObject.meta.commonEntityCount = returnObject.entities.length
+        //TODO: triplet pair in here!
         callback(returnObject)
     }
 }
@@ -117,4 +110,13 @@ function _getUniqueNumberInList(numberList) {
     return returnVal
 }
 
+function getSortedRelevanceList(relevantMetaList) {
+    return relevantMetaList.sort((a, b) => {
+        let aScore = a.meta.tripletPairCount * 1000 + a.meta.commonEntityCount * 100 + a.meta.commonStatementCount
+        let bScore = b.meta.tripletPairCount * 1000 + b.meta.commonEntityCount * 100 + b.meta.commonStatementCount
+        return bScore - aScore
+    })
+}
+
 module.exports.generateRelevantScoreList = generateRelevantScoreList
+module.exports.getSortedRelevanceList = getSortedRelevanceList

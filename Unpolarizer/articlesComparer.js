@@ -73,7 +73,7 @@ function findMostRelevancePairInDb(callback) {
             callback(null)
         } else {
             _recursiveFindRelevancePairInDb(dbUrls, 0, [], (result) => {
-                callback(result)
+                callback(relevanceProcessor.getSortedRelevanceList(result))
             })
         }
     })
