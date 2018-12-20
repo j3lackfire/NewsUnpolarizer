@@ -37,7 +37,7 @@ function _getAnnotatedArticleByUrl(url, callback) {
         }
         // The url is not yet annotated and stored in our db
         console.log("The url is not yet annotated - annotating ...")
-        coreFeatureExtractor.extractCoreFeaturesAndMetaFromUrl(url, (extractError, annotatedArticle) => {
+        coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, (extractError, annotatedArticle) => {
             if (extractError) {
                 console.error("Error getting the core features")
                 callback(extractError, null)

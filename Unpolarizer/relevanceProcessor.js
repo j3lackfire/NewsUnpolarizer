@@ -85,6 +85,7 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
         }
         for (let i = 0; i < returnObject.entities.length; i ++) {
             returnObject.meta.commonStatementCount += returnObject.entities[i].sourceSentenceIndex.length + returnObject.entities[i].targetSentenceIndex.length
+            //To display the sentences for the user, we would want to display a sentence once even if it appear many times.
             let uniqueSourceSentencesIndex = _getUniqueNumberInList(returnObject.entities[i].sourceSentenceIndex)
             let uniqueTargetSentencesIndex = _getUniqueNumberInList(returnObject.entities[i].targetSentenceIndex)
             for (let j = 0; j < uniqueSourceSentencesIndex.length; j ++) {
@@ -98,6 +99,35 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
         //TODO: triplet pair in here!
         callback(returnObject)
     }
+}
+
+function _getTripletPairsList(returnObject) {
+    if (returnObject.entities.length <= 1) {
+        return []
+    }
+    let sourceTripletPairs = []
+    let targetTripletPairs = []
+    for (let i = 0; i < returnObject.entities.length - 1; i ++) {
+        for (let j = i + 1; j < returnObject.entities.length ; j ++) {
+
+        }
+    }
+}
+
+function _getCrossoverList(firstSentenceIndex, firstTripletIndex, secondSentenceIndex, secondTripletIndex) {
+    let returnList = []
+    for (let i = 0; i < firstSentenceIndex.length; i ++) {
+        for (let j = 0; j < secondSentenceIndex.length; j ++) {
+            if (firstSentenceIndex[i] == secondSentenceIndex[j]
+            && firstTripletIndex[i] == secondTripletIndex[j]) {
+                let myObject = {}
+                myObject.sentenceIndex = firstSentenceIndex[i]
+                myObject.tripletIndex = firstTripletIndex[i]
+                returnList.push(myObject)
+            }
+        }
+    }
+    return returnList
 }
 
 function _getUniqueNumberInList(numberList) {

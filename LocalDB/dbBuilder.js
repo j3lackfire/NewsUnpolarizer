@@ -9,7 +9,7 @@ const dbReader = require('./dbReader')
 
 //A db entry would contain meta data of the article and the annotated article
 function generateDbEntry(url, callback) {
-    coreFeatureExtractor.extractCoreFeaturesAndMetaFromUrl(url, (err, res) => {
+    coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, (err, res) => {
         if (err) {
             console.error("Error summarizing the url!!! " + err)
             callback(err, null)

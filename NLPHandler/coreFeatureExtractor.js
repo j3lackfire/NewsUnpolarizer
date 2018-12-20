@@ -8,7 +8,7 @@ const summarizer = require('./../NewsGatherer/summarizer')
 const tripletProcessor = require('./tripletMeaningfulProcessor')
 const nerProcessor = require('./nerProcessor')
 
-function extractCoreFeaturesAndMetaFromUrl(url, callback) {
+function extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, callback) {
     summarizer.summaryUrl(url, (err, summaryResponse) => {
         if (err) {
             console.error(err)
@@ -130,6 +130,7 @@ function generateEntitiesDataFromCoreFeature(coreFeature, callback) {
     for (let i = 0; i < coreFeature.length; i ++) {
         for (let j = 0; j < coreFeature[i].triplets.length; j ++) {
             for (let k = 0; k < coreFeature[i].triplets[j].entities.length; k ++) {
+                //TODO: rework this so it doesn't return sooo much crap
                 let curretnEntity = coreFeature[i].triplets[j].entities[k]
                 let entityToAdd = {}
                 entityToAdd.text = curretnEntity.text
@@ -146,6 +147,15 @@ function generateEntitiesDataFromCoreFeature(coreFeature, callback) {
     callback(returnVal)
 }
 
+function _isEntityExistInList(entity, entityList) {
+    for (let i = 0; i < entityList.length; i ++) {
+        if (utils.isEntitySimilar(entityList[i], entity)) {
+            return true
+        }
+    }
+    return false
+}
+
 function _isEntityAddedToList(entity, entityList) {
     for (let i = 0; i < entityList.length; i ++) {
         if (utils.isEntitySimilar(entityList[i], entity) &&
@@ -158,5 +168,5 @@ function _isEntityAddedToList(entity, entityList) {
 }
 
 module.exports.extractCoreFeaturesFromParagraph = extractCoreFeaturesFromParagraph
-module.exports.extractCoreFeaturesAndMetaFromUrl = extractCoreFeaturesAndMetaFromUrl
+module.exports.extractCoreFeaturesAndEntitiesAndMetaFromUrl = extractCoreFeaturesAndEntitiesAndMetaFromUrl
 module.exports.generateEntitiesDataFromCoreFeature = generateEntitiesDataFromCoreFeature
