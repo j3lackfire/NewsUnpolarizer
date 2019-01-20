@@ -131,6 +131,11 @@ function generateEntitiesDataFromCoreFeature(coreFeature, callback) {
         for (let j = 0; j < coreFeature[i].triplets.length; j ++) {
             for (let k = 0; k < coreFeature[i].triplets[j].entities.length; k ++) {
                 //TODO: rework this so it doesn't return sooo much crap
+                /*
+                    Maybe not, this will change a lot of things, which is not really necessary
+                    I mean, refactoring is nice, but you just can't do refactoring everyday and hope for
+                    a complete project
+                */
                 let curretnEntity = coreFeature[i].triplets[j].entities[k]
                 let entityToAdd = {}
                 entityToAdd.text = curretnEntity.text

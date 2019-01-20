@@ -5,7 +5,7 @@ const util = require('util')
 const dbReader = require('./LocalDB/dbReader')
 
 function isNullOrUndefined(val) {
-    return (typeof(val) == "undefined" || val == null || val == "")
+    return (typeof(val) == "undefined" || val == null || val == "" || val.length == 0)
 }
 
 function logFullObject(obj) {
@@ -72,6 +72,14 @@ function logShortenRelevanceProcessorResult(result) {
     return returnVal
 }
 
+function copyEntity(entity) {
+    let returnObject = {}
+    returnObject.text = entity.text
+    returnObject.ner = entity.ner
+    returnObject.positionText = entity.positionText
+    return returnObject
+}
+
 module.exports.isNullOrUndefined = isNullOrUndefined
 module.exports.logFullObject = logFullObject
 module.exports.isEntitySimilar = isEntitySimilar
@@ -79,3 +87,4 @@ module.exports.isEntityInList = isEntityInList
 module.exports.getEntityIndexInList = getEntityIndexInList
 module.exports.getAllUrlsInDb = getAllUrlsInDb
 module.exports.logShortenRelevanceProcessorResult = logShortenRelevanceProcessorResult
+module.exports.copyEntity = copyEntity

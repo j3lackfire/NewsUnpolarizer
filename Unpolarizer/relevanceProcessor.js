@@ -2,13 +2,16 @@
  * Created by Le Pham Minh Duc on 25-Nov-18.
  */
 const utils = require('./../utils')
+const entityPairProcessor = require('./entityPairsProcessor')
 
+//Generate the list of relevant score between one article and all the one in the db
 function generateRelevantScoreList(sourceArticle, articleList, callback) {
     _recursiveGetRelevantScore(0, sourceArticle, articleList, [], (relevantMetaList) => {
         callback(getSortedRelevanceList(relevantMetaList))
     })
 }
 
+//Recursively call the function below to generate a list of all articles and its score
 function _recursiveGetRelevantScore(index, sourceArticle, articleList, metaList, callback) {
     let returnMetaList = metaList
     _getRelevantScore(sourceArticle, articleList[index], (relevanceMeta) => {
@@ -23,6 +26,7 @@ function _recursiveGetRelevantScore(index, sourceArticle, articleList, metaList,
     })
 }
 
+//Get the relevant score between two articles
 function _getRelevantScore(sourceArticle, targetArticle, callback) {
     if (sourceArticle.meta.url === targetArticle.meta.url) {
         callback(null)
@@ -34,9 +38,10 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
         returnObject.meta.sourceTitle = sourceArticle.meta.title
         returnObject.meta.targetUrl = targetArticle.meta.url
         returnObject.meta.targetTitle = targetArticle.meta.title
-        returnObject.meta.tripletPairCount = 0
+        returnObject.meta.entityPairCount = 0
         returnObject.meta.commonEntityCount = 0
         returnObject.meta.commonStatementCount = 0
+        returnObject.entitiesPair = []
         returnObject.entities = []
         for (let i = 0; i < sourceArticle.entities.length; i ++) {
             for (let j = 0; j < targetArticle.entities.length; j ++) {
@@ -96,21 +101,17 @@ function _getRelevantScore(sourceArticle, targetArticle, callback) {
             }
         }
         returnObject.meta.commonEntityCount = returnObject.entities.length
-        //TODO: triplet pair in here!
-        callback(returnObject)
-    }
-}
-
-function _getTripletPairsList(returnObject) {
-    if (returnObject.entities.length <= 1) {
-        return []
-    }
-    let sourceTripletPairs = []
-    let targetTripletPairs = []
-    for (let i = 0; i < returnObject.entities.length - 1; i ++) {
-        for (let j = i + 1; j < returnObject.entities.length ; j ++) {
-
+        // The entity Pair is process in here!
+        returnObject.entitiesPair = entityPairProcessor.getCommonEntityPair(returnObject)
+        if (!utils.isNullOrUndefined(returnObject.entitiesPair)) {
+            returnObject.meta.entityPairCount = returnObject.entitiesPair.length
+            for (let i = 0; i < returnObject.entitiesPair.length; i ++) {
+                let cacheObject = returnObject.entitiesPair[i]
+                cacheObject.sourceStatement = sourceArticle.data[cacheObject.sourceSentenceIndex].triplets[cacheObject.sourceTripletIndex].full
+                cacheObject.targetStatement = targetArticle.data[cacheObject.targetSentenceIndex].triplets[cacheObject.targetTripletIndex].full
+            }
         }
+        callback(returnObject)
     }
 }
 
@@ -142,8 +143,8 @@ function _getUniqueNumberInList(numberList) {
 
 function getSortedRelevanceList(relevantMetaList) {
     return relevantMetaList.sort((a, b) => {
-        let aScore = a.meta.tripletPairCount * 1000 + a.meta.commonEntityCount * 100 + a.meta.commonStatementCount
-        let bScore = b.meta.tripletPairCount * 1000 + b.meta.commonEntityCount * 100 + b.meta.commonStatementCount
+        let aScore = a.meta.entityPairCount * 100 + a.meta.commonEntityCount * 100 + a.meta.commonStatementCount
+        let bScore = b.meta.entityPairCount * 100 + b.meta.commonEntityCount * 100 + b.meta.commonStatementCount
         return bScore - aScore
     })
 }
