@@ -19,15 +19,15 @@ let paragraph = "LONDON - What has become of Europe? New laws targeting Muslims 
 //     utils.logFullObject(res)
 // })
 
-// articlesComparer.findMostRelevanceByUrl(url, (err, res) => {
-//     console.log("Most relevance article is")
-//     utils.logShortenRelevanceProcessorResult(res)
-//     // utils.logFullObject(res)
-// })
-
-coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, (err, res) => {
-    utils.logFullObject(res)
+articlesComparer.findMostRelevanceByUrl(url, (err, res) => {
+    console.log("Most relevance article is")
+    utils.logShortenRelevanceProcessorResult(res)
+    // utils.logFullObject(res)
 })
+
+// coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, (err, res) => {
+//     utils.logFullObject(res)
+// })
 
 /*
 let testPromise = (myParam) => {
