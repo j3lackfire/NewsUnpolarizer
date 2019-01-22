@@ -85,7 +85,9 @@ function _findEntityPairAppearance(entity_1, entity_2) {
     let returnList = []
     for (let i = 0; i < entity_1.sentenceIndex.length; i ++) {
         for (let j = 0; j < entity_2.sentenceIndex.length; j ++) {
-            if ((entity_1.sentenceIndex[i] == entity_2.sentenceIndex[j]) && (entity_1.tripletIndex[i] == entity_2.tripletIndex[j])) {
+            if ((entity_1.sentenceIndex[i] == entity_2.sentenceIndex[j])
+                && (entity_1.tripletIndex[i] == entity_2.tripletIndex[j])
+                &&(entity_1.positionText != entity_2.positionText)) {
                 let returnObject = {}
                 returnObject.entity_1 = utils.copyEntity(entity_1)
                 returnObject.entity_2 = utils.copyEntity(entity_2)

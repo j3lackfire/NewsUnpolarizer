@@ -143,8 +143,8 @@ function _getUniqueNumberInList(numberList) {
 
 function getSortedRelevanceList(relevantMetaList) {
     return relevantMetaList.sort((a, b) => {
-        let aScore = a.meta.entityPairCount * 100 + a.meta.commonEntityCount * 100 + a.meta.commonStatementCount
-        let bScore = b.meta.entityPairCount * 100 + b.meta.commonEntityCount * 100 + b.meta.commonStatementCount
+        let aScore = a.meta.entityPairCount * 500 + a.meta.commonEntityCount * 100 + a.meta.commonStatementCount
+        let bScore = b.meta.entityPairCount * 500 + b.meta.commonEntityCount * 100 + b.meta.commonStatementCount
         return bScore - aScore
     })
 }

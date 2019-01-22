@@ -14,21 +14,14 @@ function generateDbEntry(url, callback) {
             console.error("Error summarizing the url!!! " + err)
             callback(err, null)
         } else{
-            dbReader.isUrlAlreadyAnnotated(url, (err_2, urlExist) => {
-                if (err_2 || urlExist) {
-                    console.error("Url already exist in the db - " + url)
-                    callback(urlExist)
+            dbWriter.checkAndWriteToDb(res, (err_3) => {
+                if (err_3) {
+                    console.error("eh ?")
+                    callback(err_3)
                 } else {
-                    dbWriter.checkAndWriteToDb(res, (err_3) => {
-                        if (err_3) {
-                            console.error("eh ?")
-                            callback(err_3)
-                        } else {
-                            console.log("Successfully write the core feature to the database!")
-                            console.log(url)
-                            callback(null)
-                        }
-                    })
+                    console.log("Successfully write the core feature to the database!")
+                    console.log(url)
+                    callback(null)
                 }
             })
         }
@@ -68,20 +61,32 @@ function _getUrlsNotInDb(urls, callback) {
 }
 
 let urls = [
-    "http://www.pewforum.org/2018/05/29/being-christian-in-western-europe/",
-    "http://www.pewforum.org/2011/01/27/the-future-of-the-global-muslim-population/",
-    "https://www.theatlantic.com/international/archive/2018/05/akbar-ahmed-islam-europe/559391/",
-    "http://www.pewresearch.org/fact-tank/2017/11/29/5-facts-about-the-muslim-population-in-europe/",
-    "https://www.haaretz.com/world-news/europe/no-europe-isn-t-returning-to-the-bosom-of-islam-1.6572926",
-    "https://www.thenational.ae/world/europe/attacks-against-uk-muslims-increase-in-violence-1.797179",
-    "https://www.alaraby.co.uk/english/society/2018/11/28/ambassador-of-islam-professor-akbar-ahmed",
-    "https://www.dw.com/en/seehofer-tells-islam-conference-muslims-are-a-part-of-germany/a-46489983",
-    "https://www.theguardian.com/world/2017/nov/29/muslim-population-in-europe-could-more-than-double",
-    "https://www.aljazeera.com/programmes/specialseries/2018/08/victim-attacks-affected-muslims-europe-180801145915309.html",
-    "https://www.politico.eu/article/with-anti-muslim-laws-france-denmark-europe-enters-new-dark-age/",
-    "http://www.pewforum.org/2017/11/29/europes-growing-muslim-population/",
-    "https://www.politico.eu/article/muslims-integrate-in-europe-despite-discrimination-study/",
-    "https://immigrationlab.org/project/the-struggle-to-integrate-muslims-in-europe/"
+    "http://www.pewforum.org/2018/10/29/eastern-and-western-europeans-differ-on-importance-of-religion-views-of-minorities-and-key-social-issues/",
+    "https://www.theatlantic.com/international/archive/2019/01/bosnia-offers-model-liberal-european-islam/579529/",
+    "https://dctheatrescene.com/2019/01/21/review-submission-a-dystopian-view-of-muslim-brotherhoods-takeover-of-europe/",
+    "http://europa.eu/rapid/press-release_MEMO-19-542_en.htm",
+    "https://eu.usatoday.com/story/money/2018/12/24/toblerone-halal-controversy-chocolate-bar-boycotted-far-right/2405914002/",
+    "https://www.thetrumpet.com/18331-denmark-handshake-enforces-european-values-on-muslims",
+    "https://www.thenational.ae/world/europe/british-muslim-loses-cemetery-court-battle-1.816633",
+    "https://www.gatestoneinstitute.org/13490/islamic-university-europe-netherlands",
+    "https://www.wsj.com/articles/europes-right-wing-woos-a-new-audience-jewish-voters-11546257601",
+    "https://www.straitstimes.com/forum/letters-in-print/vital-to-stand-with-malay-muslim-community",
+    "https://theconversation.com/why-do-muslim-women-wear-a-hijab-109717",
+    "https://www.theamericanconservative.com/articles/the-immigrants-challenging-europes-code-of-silence-on-islam/",
+    "https://blogs.timesofisrael.com/why-as-a-muslim-i-feel-holocaust-memorial-day-is-as-essential-as-ever/",
+    "https://www.snopes.com/fact-check/delegation-afghanistan-familes/",
+    "https://foreignpolicy.com/2019/01/05/michel-houellebecq-hated-europe-before-you-did/",
+    "https://www.iol.co.za/travel/travel-news/halaal-tourism-is-on-the-rise-18891396",
+    "https://www.yenisafak.com/en/world/philippines-milf-seeks-more-turkish-support-after-muslim-region-votes-3472368",
+    "https://www.gatestoneinstitute.org/13543/strasbourg-capital-europe",
+    "https://www.theguardian.com/cities/2019/jan/02/turkey-is-kosovo-controversy-over-balkan-states-new-central-mosque",
+    "https://www.aljazeera.com/indepth/opinion/chinese-islamophobia-west-190121131831245.html",
+    "https://clarionproject.org/fatality-of-western-embrace-of-political-islam/",
+    "https://www.bbc.com/news/world-europe-46933236",
+    "https://www.nytimes.com/2019/01/18/opinion/donald-trump-russia-putin.html",
+    "https://www.nytimes.com/2019/01/21/opinion/ilhan-omar-israel-jews.html",
+    "https://metro.co.uk/2019/01/22/rahaf-al-qunun-has-raised-a-major-taboo-that-some-muslims-reject-their-faith-8363479/",
+    "http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/"
 ]
 
 _getUrlsNotInDb(urls, (uniqueUrls) => {

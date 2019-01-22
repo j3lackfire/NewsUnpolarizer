@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 const annotator = require('./../NLPHandler/nlpAnnotator');
 const webReader = require('./../NewsGatherer/legacy/webContentReader')
 const similarityModule = require('./../NLPHandler/legacy/similarityModule')
-const relevanceProcessor = require('./../Unpolarizer/relevanceProcessor')
+const articlesComparer = require('./../Unpolarizer/articlesComparer')
 const truthExplorer = require('./../NLPHandler/legacy/old_truthExplorer')
 
 
@@ -130,7 +130,7 @@ router.post('/mostSimilarArticle', function(req, res, next) {
 router.post('/mostRelevantArticleByUrl', (req, res, next) => {
     console.log('Most relevant article by url')
     console.log(req.body)
-    relevanceProcessor.findMostRelevanceByUrl(req.body.data, function(error, response) {
+    articlesComparer.findMostRelevanceByUrl(req.body.data, function(error, response) {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)

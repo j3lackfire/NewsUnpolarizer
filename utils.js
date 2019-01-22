@@ -57,6 +57,7 @@ function logShortenRelevanceProcessorResult(result) {
     for (let i = 0; i < result.length; i ++) {
         let newVal = {}
         newVal.meta = result[i].meta
+        newVal.entitiesPair = result[i].entitiesPair
         newVal.entities = []
         for (let j = 0; j <  result[i].entities.length; j ++) {
             let entityToAdd = {}
