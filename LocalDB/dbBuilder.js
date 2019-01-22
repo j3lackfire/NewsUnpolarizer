@@ -14,14 +14,21 @@ function generateDbEntry(url, callback) {
             console.error("Error summarizing the url!!! " + err)
             callback(err, null)
         } else{
-            dbWriter.checkAndWriteToDb(res, (err_2) => {
-                if (err_2) {
-                    console.error("eh ?")
-                    callback(err_2)
+            dbReader.isUrlAlreadyAnnotated(url, (err_2, urlExist) => {
+                if (err_2 || urlExist) {
+                    console.error("Url already exist in the db - " + url)
+                    callback(urlExist)
                 } else {
-                    console.log("Successfully write the core feature to the database!")
-                    console.log(url)
-                    callback(null)
+                    dbWriter.checkAndWriteToDb(res, (err_3) => {
+                        if (err_3) {
+                            console.error("eh ?")
+                            callback(err_3)
+                        } else {
+                            console.log("Successfully write the core feature to the database!")
+                            console.log(url)
+                            callback(null)
+                        }
+                    })
                 }
             })
         }

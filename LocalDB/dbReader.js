@@ -33,6 +33,22 @@ function readDbAsJson(callback) {
     })
 }
 
+function isUrlAlreadyAnnotated(url, callback) {
+    readDbAsJson((err, annotatedArticles) => {
+        if (err) {
+            callback(err, null)
+        } else {
+            for (let i = 0; i < annotatedArticles.length; i ++) {
+                if (url === annotatedArticles[i].meta.url) {
+                    callback(null, true)
+                    return
+                }
+            }
+            callback(null, false)
+        }
+    })
+}
+
 function _readFile(_fileName, callback) {
     fs.readFile(baseFilePath + _fileName, 'utf8', (err, data) => {
         if (err) {
@@ -47,4 +63,5 @@ function _readFile(_fileName, callback) {
 module.exports.dbName = dbName
 module.exports.notExistError = notExistError
 
+module.exports.isUrlAlreadyAnnotated = isUrlAlreadyAnnotated
 module.exports.readDbAsJson = readDbAsJson
