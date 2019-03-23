@@ -1,0 +1,86 @@
+
+1st hypothesis: different sentiment whole article = different point of view 
+2nd hypothesis: same ner = same topics
+3rd hypothesis: same ner and diff ner = more relevance article 
+4th hypothesis: entities based sentiment is good way to see different in point of view 
+5th hypothesis: something with semantic triples
+
+------------------------
+
+Might need to change the template
+No department in the falcuty - change the footer, to falculty of IT only
+Need to do abstract ???
+
+Someone to proof read afterwards
+Language check, grammar mistake
+Step to step / step by step
+
+Intro:
+    + Need more existing solutions: 
+        - actual examples
+        - try to describes them
+        - why this is not what we are targetting, explicitly
+        - should be really clear to the reader why there is a problem and why our thesis exist.
+        - what is the main issue we are trying to tackle
+    
+    + Thesis question:
+
+    + Thesis structure:
+        Describe clearly
+    
+    + Hypothesis
+        - Writing thesis: research -> write thesis, don't write it in a chronological way, like document parallelly to the thesis
+        - It should not be paper describing what we do
+        - In the Hypothesis part, should be explain everything.
+
+The word relevance: we use it alot, but we haven't state what it is
+Relevant, meaning to what. It's not similar (by the topic/entities) should be different
+So relevant mean similar and different at the same time.
+Should clearly explicitly state what does relevant documents means.
+Why have to define this words, as some might understand relevant as similar.
+
+Also define how we are going to find the relevant/ could be extra question,
+Still questionable what are the feature of the documents should we consider, what features help us to know what is the topic from other point of view.
+First question, it use sentiment, of the whole text, doesn't make sense. If we narrow it down, calculate the sentiment for each entity, is the different enough to proove difference in point of view.
+For example: Trump in one article has positive sentiment, and other have negative sentiment, it could help showing different point of view. -> One hypothesis 
+Another hypothesis:
+Balance between the similarity and difference (relevance). Evenn the document might help seeing different point of view. Rewritten the formula because it is 
+1 - (sim/diff) -> so it maybe should be diff/sim or something, because this formula is not Balance, like there is something avlue to show from very different to very similar.
+
+A = 1 - Abs(sim/dif - 0.5)
+
+-> This is our hypothesis, to calculate the balance between the similarity and different.
+
+There are to ways, but there are some-more -> find out some other way to find out the relevant in point of view.
+
+Rethink the sentiment equation. No need for the lenght of the sentence in the equation.
+Simply calculate the sentiment without the length.
+Technologies stack: describe all the technologies in the thesis.
+
+In the first page, hypotheses chapter, don't say any conclusion. Only after everything, making the conclusion. It's not the right way.
+
+Could state two different hypothesis: ie the part with NER with Sentiment is different in point of view, and part with openie is like contradiction detection 
+
+
+Why stanford CoreNLP: mention all posisble solutions: mentions them with examples, have some screenshot of them as example: and show why they are good/bad and then, in the end, say why we make our decision the way it is. Make sub-chapter for each chapter, show that you are familiar with the technologies, make the reader familiar with the technology and show the reader why we make the decision the way we did. Show that we have analyzed before.
+
+For each of the technique, show how do you interact with these services.
+
+Entity based sentiment analysis.
+
+Clearly mean in the beginning what is a relevant article. 
+
+OpenIE case:
+We don't care about entities anymore, but rather, about the whole statement, if they have the same object and subject.
+Balance the similarity and the different, in which the subject/object is the similarity, and different in predicate (relation verb) are the different of the sentences.
+Even if the subject and predicate are similar, if object is different, then it's also worth noticing.
+Check all combination of 2 similar and 1 differnt. -> it's more meaningful to detect this.
+Even if we we don't implement this, should be written down to show the theory, leave it for future work, have it on theory and some equation, even if you practically don't code it.
+
+Revise the whole openIE part. don't have variables/coeficients come from thin air, make it auto adjustable by machine learning/systematic or something.
+
+Triples are the next hypothesis, we have to always keep in mind that what make a relevance information in our mind.
+
+Remove the negation part in the software limitation. It's not limitation, but just that it's complicated to get and not implemented.
+
+Big chapter to show the result evaluation, where we see what are the results of our hypothesis, which are the best.
