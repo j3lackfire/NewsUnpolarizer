@@ -9,18 +9,18 @@ const summarizer = require('./NewsGatherer/summarizer')
 const utils = require('./utils')
 const dbWriter = require('./LocalDB/dbWriter')
 
-let url = "https://www.theatlantic.com/international/archive/2018/05/akbar-ahmed-islam-europe/559391/"
+let url = "https://www.alaraby.co.uk/english/society/2018/11/28/ambassador-of-islam-professor-akbar-ahmed"
 
-// articlesComparer.findMostRelevancePairInDb((res) => {
-//     // utils.logShortenRelevanceProcessorResult(res)
-//     utils.logFullObject(res)
-// })
-
-articlesComparer.findMostRelevanceByUrl(url, (err, res) => {
-    console.log("Most relevance article is")
+articlesComparer.findMostRelevancePairInDb((res) => {
     utils.logShortenRelevanceProcessorResult(res)
     // utils.logFullObject(res)
 })
+
+// articlesComparer.findMostRelevanceByUrl(url, (err, res) => {
+//     console.log("Most relevance article is")
+//     // utils.logShortenRelevanceProcessorResult(res)
+//     utils.logFullObject(res)
+// })
 
 // coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, (err, res) => {
 //     utils.logFullObject(res)
