@@ -7,6 +7,7 @@ const openieProcessor = require('./openieProcessor')
 const summarizer = require('./../NewsGatherer/summarizer')
 const tripletProcessor = require('./tripletMeaningfulProcessor')
 const nerProcessor = require('./nerProcessor')
+const sentimentProcessor = require('./sentimentProcessor')
 
 function extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, callback) {
     summarizer.summaryUrl(url, (err, summaryResponse) => {
@@ -20,13 +21,14 @@ function extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, callback) {
             savedData.meta.url = url
             savedData.meta.title = summaryResponse.sm_api_title
             console.log(summaryResponse.sm_api_content)
-            extractCoreFeaturesFromParagraph(summaryResponse.sm_api_content, (err_2, coreFeatures) => {
+            extractCoreFeaturesFromParagraph(summaryResponse.sm_api_content, (err_2, coreFeatures, sentiment) => {
                 if (err_2) {
                     console.error(err_2)
                     console.error("Error annotating the article")
                     callback(err, null)
                 } else {
                     savedData.data = coreFeatures
+                    savedData.sentiment = sentiment
                     generateEntitiesDataFromCoreFeature(coreFeatures, (entityData) => {
                         savedData.entities = entityData
                         callback(null, savedData)
@@ -38,7 +40,7 @@ function extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, callback) {
 }
 
 function extractCoreFeaturesFromParagraph(paragraph, callback) {
-    extractNerAndOpenieFromParagraph(paragraph, (err, ner, openie) => {
+    extractNerAndOpenieFromParagraph(paragraph, (err, ner, openie, sentiment) => {
         if (err) {
             callback(err, null)
         } else {
@@ -66,7 +68,7 @@ function extractCoreFeaturesFromParagraph(paragraph, callback) {
                     }
                     returnVal.push(currentSentence)
                 }
-                callback(null, returnVal)
+                callback(null, returnVal, sentiment)
             }
         }
     })
@@ -78,17 +80,24 @@ function extractNerAndOpenieFromParagraph(paragraph, callback) {
             console.error("ERROR requesting nlp annotator");
             callback(error, null)
         } else {
-            nerProcessor.extractNerFromNLP(nlpAnnotation, (err_2, entities) => {
-                if (err_2) {
-                    console.error("Error trying to get NER from the paragraph")
-                    callback(err_2, null)
+            sentimentProcessor.extractSentimentsFromNLP(nlpAnnotation, (err_1, sentiments) => {
+                if (err_1) {
+                    console.error("Error trying to get SENTIMENT from the paragraph")
+                    callback(err_1, null)
                 } else {
-                    openieProcessor.extractFilteredOpenIeFromNLP(nlpAnnotation, (err_3, openie) => {
-                        if (err_3) {
-                            console.error("Error trying to get OPEN IE from the paragraph")
-                            callback(err_3, null)
-                        } else{
-                            callback(null, entities, openie)
+                    nerProcessor.extractNerFromNLP(nlpAnnotation, (err_2, entities) => {
+                        if (err_2) {
+                            console.error("Error trying to get NER from the paragraph")
+                            callback(err_2, null)
+                        } else {
+                            openieProcessor.extractFilteredOpenIeFromNLP(nlpAnnotation, (err_3, openie) => {
+                                if (err_3) {
+                                    console.error("Error trying to get OPEN IE from the paragraph")
+                                    callback(err_3, null)
+                                } else{
+                                    callback(null, entities, openie, sentiments)
+                                }
+                            })
                         }
                     })
                 }

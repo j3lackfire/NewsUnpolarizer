@@ -20,23 +20,28 @@ let logFileName = 'url.txt'
 // and save it again
 //Single entries
 function checkAndWriteToDbSingle(_coreFeatureJson, callback) {
-    dbReader.readDbAsJson((err, response) => {
-        if (err) {
-            if (err === dbReader.notExistError) {
-                console.log('Not thing in the file, create new')
-                myArray = []
-                myArray.push(_coreFeatureJson)
-                _writeToDb(myArray, callback)
-            } else{
-                console.error("ERROR WRITING TO LOCAL DB. WTF?")
-                console.error(err)
-                callback(err)
+    if (_coreFeatureJson == null) {
+        console.log("Annotated article is null, doesn't write anything!")
+        callback(null)
+    } else {
+        dbReader.readDbAsJson((err, response) => {
+            if (err) {
+                if (err === dbReader.notExistError) {
+                    console.log('Not thing in the file, create new')
+                    myArray = []
+                    myArray.push(_coreFeatureJson)
+                    _writeToDb(myArray, callback)
+                } else {
+                    console.error("ERROR WRITING TO LOCAL DB. WTF?")
+                    console.error(err)
+                    callback(err)
+                }
+            } else {
+                response.push(_coreFeatureJson)
+                _writeToDb(response, callback)
             }
-        } else {
-            response.push(_coreFeatureJson)
-            _writeToDb(response, callback)
-        }
-    })
+        })
+    }
 }
 
 
