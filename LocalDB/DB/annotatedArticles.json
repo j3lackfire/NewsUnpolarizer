@@ -2820,610 +2820,610 @@
       }
     ],
     "entities": [
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 0,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 0,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 0,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 0,
-        "tripletIndex": 3
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 0,
-        "tripletIndex": 4
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 1,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 1,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 1,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 1,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 1,
-        "tripletIndex": 3
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 1,
-        "tripletIndex": 4
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 3,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 3,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 3,
-        "tripletIndex": 2
-      },
-      {
-        "text": "non-Muslim",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 3,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 3,
-        "tripletIndex": 3
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 3,
-        "tripletIndex": 4
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 3,
-        "tripletIndex": 5
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 3,
-        "tripletIndex": 6
-      },
-      {
-        "text": "non-Muslim",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 3,
-        "tripletIndex": 6
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 4,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 4,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 4,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "object",
-        "sentenceIndex": 6,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Pakistan",
-        "ner": "COUNTRY",
-        "positionText": "subject",
-        "sentenceIndex": 7,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "object",
-        "sentenceIndex": 7,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Pakistan",
-        "ner": "COUNTRY",
-        "positionText": "subject",
-        "sentenceIndex": 7,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Indonesia",
-        "ner": "COUNTRY",
-        "positionText": "object",
-        "sentenceIndex": 7,
-        "tripletIndex": 1
-      },
-      {
-        "text": "United States",
-        "ner": "COUNTRY",
-        "positionText": "object",
-        "sentenceIndex": 8,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 8,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 9,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 9,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 9,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 9,
-        "tripletIndex": 2
-      },
-      {
-        "text": "United States",
-        "ner": "COUNTRY",
-        "positionText": "object",
-        "sentenceIndex": 9,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 9,
-        "tripletIndex": 3
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 10,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Europe",
-        "ner": "LOCATION",
-        "positionText": "object",
-        "sentenceIndex": 10,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 10,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 10,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 10,
-        "tripletIndex": 3
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 10,
-        "tripletIndex": 4
-      },
-      {
-        "text": "Europe",
-        "ner": "LOCATION",
-        "positionText": "subject",
-        "sentenceIndex": 11,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 11,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Europe",
-        "ner": "LOCATION",
-        "positionText": "subject",
-        "sentenceIndex": 11,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 11,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 14,
-        "tripletIndex": 0
-      },
-      {
-        "text": "non-Muslims",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 14,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 15,
-        "tripletIndex": 0
-      },
-      {
-        "text": "non-Muslim",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 15,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 18,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 18,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "PERSON",
-        "positionText": "subject",
-        "sentenceIndex": 21,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 22,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 23,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 23,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 23,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "object",
-        "sentenceIndex": 27,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 28,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 29,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Iraq",
-        "ner": "COUNTRY",
-        "positionText": "subject",
-        "sentenceIndex": 30,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Algeria",
-        "ner": "COUNTRY",
-        "positionText": "object",
-        "sentenceIndex": 30,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 31,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 31,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 31,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 2
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 3
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 3
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 4
-      },
-      {
-        "text": "Muslims",
-        "ner": "MISC",
-        "positionText": "subject",
-        "sentenceIndex": 32,
-        "tripletIndex": 4
-      },
-      {
-        "text": "Russia",
-        "ner": "COUNTRY",
-        "positionText": "subject",
-        "sentenceIndex": 33,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "object",
-        "sentenceIndex": 33,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Europe",
-        "ner": "LOCATION",
-        "positionText": "object",
-        "sentenceIndex": 33,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Russia",
-        "ner": "COUNTRY",
-        "positionText": "subject",
-        "sentenceIndex": 33,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "subject",
-        "sentenceIndex": 34,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Argentina",
-        "ner": "COUNTRY",
-        "positionText": "subject",
-        "sentenceIndex": 36,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "object",
-        "sentenceIndex": 36,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Americas",
-        "ner": "LOCATION",
-        "positionText": "object",
-        "sentenceIndex": 36,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Argentina",
-        "ner": "COUNTRY",
-        "positionText": "subject",
-        "sentenceIndex": 36,
-        "tripletIndex": 1
-      },
-      {
-        "text": "U.S.",
-        "ner": "COUNTRY",
-        "positionText": "object",
-        "sentenceIndex": 36,
-        "tripletIndex": 1
-      },
-      {
-        "text": "Pew Forum",
-        "ner": "MISC",
-        "positionText": "object",
-        "sentenceIndex": 39,
-        "tripletIndex": 0
-      },
-      {
-        "text": "Muslim",
-        "ner": "RELIGION",
-        "positionText": "object",
-        "sentenceIndex": 42,
-        "tripletIndex": 0
-      }
-    ]
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 0,
+    "tripletIndex": 0
   },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 0,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 0,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 0,
+    "tripletIndex": 3
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 0,
+    "tripletIndex": 4
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 1,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 1,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 1,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 1,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 1,
+    "tripletIndex": 3
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 1,
+    "tripletIndex": 4
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 3,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 3,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 3,
+    "tripletIndex": 2
+  },
+  {
+    "text": "non-Muslim",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 3,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 3,
+    "tripletIndex": 3
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 3,
+    "tripletIndex": 4
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 3,
+    "tripletIndex": 5
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 3,
+    "tripletIndex": 6
+  },
+  {
+    "text": "non-Muslim",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 3,
+    "tripletIndex": 6
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 4,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 4,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 4,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "object",
+    "sentenceIndex": 6,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Pakistan",
+    "ner": "COUNTRY",
+    "positionText": "subject",
+    "sentenceIndex": 7,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "object",
+    "sentenceIndex": 7,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Pakistan",
+    "ner": "COUNTRY",
+    "positionText": "subject",
+    "sentenceIndex": 7,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Indonesia",
+    "ner": "COUNTRY",
+    "positionText": "object",
+    "sentenceIndex": 7,
+    "tripletIndex": 1
+  },
+  {
+    "text": "United States",
+    "ner": "COUNTRY",
+    "positionText": "object",
+    "sentenceIndex": 8,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 8,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 9,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 9,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 9,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 9,
+    "tripletIndex": 2
+  },
+  {
+    "text": "United States",
+    "ner": "COUNTRY",
+    "positionText": "object",
+    "sentenceIndex": 9,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 9,
+    "tripletIndex": 3
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 10,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Europe",
+    "ner": "LOCATION",
+    "positionText": "object",
+    "sentenceIndex": 10,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 10,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 10,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 10,
+    "tripletIndex": 3
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 10,
+    "tripletIndex": 4
+  },
+  {
+    "text": "Europe",
+    "ner": "LOCATION",
+    "positionText": "subject",
+    "sentenceIndex": 11,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 11,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Europe",
+    "ner": "LOCATION",
+    "positionText": "subject",
+    "sentenceIndex": 11,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 11,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 14,
+    "tripletIndex": 0
+  },
+  {
+    "text": "non-Muslims",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 14,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 15,
+    "tripletIndex": 0
+  },
+  {
+    "text": "non-Muslim",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 15,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 18,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 18,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "PERSON",
+    "positionText": "subject",
+    "sentenceIndex": 21,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 22,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 23,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 23,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 23,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "object",
+    "sentenceIndex": 27,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 28,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 29,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Iraq",
+    "ner": "COUNTRY",
+    "positionText": "subject",
+    "sentenceIndex": 30,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Algeria",
+    "ner": "COUNTRY",
+    "positionText": "object",
+    "sentenceIndex": 30,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 31,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 31,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 31,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 2
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 3
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 3
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 4
+  },
+  {
+    "text": "Muslims",
+    "ner": "MISC",
+    "positionText": "subject",
+    "sentenceIndex": 32,
+    "tripletIndex": 4
+  },
+  {
+    "text": "Russia",
+    "ner": "COUNTRY",
+    "positionText": "subject",
+    "sentenceIndex": 33,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "object",
+    "sentenceIndex": 33,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Europe",
+    "ner": "LOCATION",
+    "positionText": "object",
+    "sentenceIndex": 33,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Russia",
+    "ner": "COUNTRY",
+    "positionText": "subject",
+    "sentenceIndex": 33,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "subject",
+    "sentenceIndex": 34,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Argentina",
+    "ner": "COUNTRY",
+    "positionText": "subject",
+    "sentenceIndex": 36,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "object",
+    "sentenceIndex": 36,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Americas",
+    "ner": "LOCATION",
+    "positionText": "object",
+    "sentenceIndex": 36,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Argentina",
+    "ner": "COUNTRY",
+    "positionText": "subject",
+    "sentenceIndex": 36,
+    "tripletIndex": 1
+  },
+  {
+    "text": "U.S.",
+    "ner": "COUNTRY",
+    "positionText": "object",
+    "sentenceIndex": 36,
+    "tripletIndex": 1
+  },
+  {
+    "text": "Pew Forum",
+    "ner": "MISC",
+    "positionText": "object",
+    "sentenceIndex": 39,
+    "tripletIndex": 0
+  },
+  {
+    "text": "Muslim",
+    "ner": "RELIGION",
+    "positionText": "object",
+    "sentenceIndex": 42,
+    "tripletIndex": 0
+  }
+]
+},
   {
     "meta": {
       "url": "https://www.theatlantic.com/international/archive/2018/05/akbar-ahmed-islam-europe/559391/",

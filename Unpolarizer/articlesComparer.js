@@ -8,7 +8,7 @@ const utils = require('./../utils')
 
 let cachedDb = null
 
-function _getCachedDb(callback) {
+function getCachedDb(callback) {
     if (cachedDb == null) {
         dbReader.readDbAsJson((err, annotatedArticles) => {
             if (err) {
@@ -23,8 +23,8 @@ function _getCachedDb(callback) {
     }
 }
 
-function _getAnnotatedArticleByUrl(url, callback) {
-    _getCachedDb((err, annotatedArticles) => {
+function getAnnotatedArticleByUrl(url, callback) {
+    getCachedDb((err, annotatedArticles) => {
         if (err) {
             callback(err, null)
             return
@@ -49,7 +49,7 @@ function _getAnnotatedArticleByUrl(url, callback) {
 }
 
 function _findMostRelevanceArticles(sourceAnnotatedArticle, callback) {
-    _getCachedDb((err, annotatedArticles) => {
+    getCachedDb((err, annotatedArticles) => {
         relevanceProcessor.generateRelevantScoreList(sourceAnnotatedArticle, annotatedArticles, (sortedRelevanceMeta) => {
             callback(null, sortedRelevanceMeta)
         })
@@ -57,7 +57,7 @@ function _findMostRelevanceArticles(sourceAnnotatedArticle, callback) {
 }
 
 function findMostRelevanceByUrl(url, callback) {
-    _getAnnotatedArticleByUrl(url, (err_1, annotatedArticle) => {
+    getAnnotatedArticleByUrl(url, (err_1, annotatedArticle) => {
         if (err_1) {
             callback(err_1, null)
         } else {
@@ -93,3 +93,5 @@ function _recursiveFindRelevancePairInDb(urls, index, returnObject, callback) {
 
 module.exports.findMostRelevanceByUrl = findMostRelevanceByUrl
 module.exports.findMostRelevancePairInDb = findMostRelevancePairInDb
+module.exports.getCachedDb = getCachedDb
+module.exports.getAnnotatedArticleByUrl = getAnnotatedArticleByUrl
