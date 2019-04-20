@@ -12,10 +12,14 @@ const utils = require('./utils')
 const dbWriter = require('./LocalDB/dbWriter')
 const dbReader = require('./LocalDB/dbReader')
 
-let url = "http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/"
+let url = "https://www.straitstimes.com/asia/se-asia/interracial-harmony-sarawak-church-wedding-with-muslim-bridesmaids"
 
 
-sentimentComparer.getTopRelevantArticle(url, (validList) => {
+// sentimentComparer.getTopUnpolarizeArticle(url, (validList) => {
+//     utils.logFullObject(validList)
+// })
+
+sentimentComparer.getTopUnpolarizeArticle(url, (validList) => {
     utils.logFullObject(validList)
 })
 
@@ -40,10 +44,3 @@ sentimentComparer.getTopRelevantArticle(url, (validList) => {
 //     utils.logFullObject(res)
 // })
 
-
-// dbReader.readDbAsJson((err, annotatedArticles) => {
-//     for (let i = 0; i < annotatedArticles.length; i ++) {
-//         console.log(utils.isNullOrUndefined(annotatedArticles[i].meta.title) ? annotatedArticles[i].meta.url : annotatedArticles[i].meta.title)
-//     }
-//     console.log("\nTotal: " + annotatedArticles.length)
-// })

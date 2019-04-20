@@ -2820,610 +2820,610 @@
       }
     ],
     "entities": [
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 0,
-    "tripletIndex": 0
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 0,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 2
+      },
+      {
+        "text": "non-Muslim",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 3,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 5
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 3,
+        "tripletIndex": 6
+      },
+      {
+        "text": "non-Muslim",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 3,
+        "tripletIndex": 6
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 6,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Pakistan",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 7,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 7,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Pakistan",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 7,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Indonesia",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 7,
+        "tripletIndex": 1
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 8,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 8,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 9,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 9,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 9,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 9,
+        "tripletIndex": 2
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 9,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 9,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 10,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 10,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 10,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 10,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 10,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 10,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 11,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 11,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 11,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 11,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 14,
+        "tripletIndex": 0
+      },
+      {
+        "text": "non-Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 14,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 0
+      },
+      {
+        "text": "non-Muslim",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 18,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 18,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 21,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 23,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 23,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 23,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 28,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 29,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Iraq",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 30,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Algeria",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 30,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 31,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 31,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 31,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "subject",
+        "sentenceIndex": 32,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Russia",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 33,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 33,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Europe",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 33,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Russia",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 33,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "subject",
+        "sentenceIndex": 34,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Argentina",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 36,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 36,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Americas",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 36,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Argentina",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 36,
+        "tripletIndex": 1
+      },
+      {
+        "text": "U.S.",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 36,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Pew Forum",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 39,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 42,
+        "tripletIndex": 0
+      }
+    ]
   },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 0,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 0,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 0,
-    "tripletIndex": 3
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 0,
-    "tripletIndex": 4
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 1,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 1,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 1,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 1,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 1,
-    "tripletIndex": 3
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 1,
-    "tripletIndex": 4
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 3,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 3,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 3,
-    "tripletIndex": 2
-  },
-  {
-    "text": "non-Muslim",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 3,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 3,
-    "tripletIndex": 3
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 3,
-    "tripletIndex": 4
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 3,
-    "tripletIndex": 5
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 3,
-    "tripletIndex": 6
-  },
-  {
-    "text": "non-Muslim",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 3,
-    "tripletIndex": 6
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 4,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 4,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 4,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "object",
-    "sentenceIndex": 6,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Pakistan",
-    "ner": "COUNTRY",
-    "positionText": "subject",
-    "sentenceIndex": 7,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "object",
-    "sentenceIndex": 7,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Pakistan",
-    "ner": "COUNTRY",
-    "positionText": "subject",
-    "sentenceIndex": 7,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Indonesia",
-    "ner": "COUNTRY",
-    "positionText": "object",
-    "sentenceIndex": 7,
-    "tripletIndex": 1
-  },
-  {
-    "text": "United States",
-    "ner": "COUNTRY",
-    "positionText": "object",
-    "sentenceIndex": 8,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 8,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 9,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 9,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 9,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 9,
-    "tripletIndex": 2
-  },
-  {
-    "text": "United States",
-    "ner": "COUNTRY",
-    "positionText": "object",
-    "sentenceIndex": 9,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 9,
-    "tripletIndex": 3
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 10,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Europe",
-    "ner": "LOCATION",
-    "positionText": "object",
-    "sentenceIndex": 10,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 10,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 10,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 10,
-    "tripletIndex": 3
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 10,
-    "tripletIndex": 4
-  },
-  {
-    "text": "Europe",
-    "ner": "LOCATION",
-    "positionText": "subject",
-    "sentenceIndex": 11,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 11,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Europe",
-    "ner": "LOCATION",
-    "positionText": "subject",
-    "sentenceIndex": 11,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 11,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 14,
-    "tripletIndex": 0
-  },
-  {
-    "text": "non-Muslims",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 14,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 15,
-    "tripletIndex": 0
-  },
-  {
-    "text": "non-Muslim",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 15,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 18,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 18,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "PERSON",
-    "positionText": "subject",
-    "sentenceIndex": 21,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 22,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 23,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 23,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 23,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "object",
-    "sentenceIndex": 27,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 28,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 29,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Iraq",
-    "ner": "COUNTRY",
-    "positionText": "subject",
-    "sentenceIndex": 30,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Algeria",
-    "ner": "COUNTRY",
-    "positionText": "object",
-    "sentenceIndex": 30,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 31,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 31,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 31,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 2
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 3
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 3
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 4
-  },
-  {
-    "text": "Muslims",
-    "ner": "MISC",
-    "positionText": "subject",
-    "sentenceIndex": 32,
-    "tripletIndex": 4
-  },
-  {
-    "text": "Russia",
-    "ner": "COUNTRY",
-    "positionText": "subject",
-    "sentenceIndex": 33,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "object",
-    "sentenceIndex": 33,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Europe",
-    "ner": "LOCATION",
-    "positionText": "object",
-    "sentenceIndex": 33,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Russia",
-    "ner": "COUNTRY",
-    "positionText": "subject",
-    "sentenceIndex": 33,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "subject",
-    "sentenceIndex": 34,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Argentina",
-    "ner": "COUNTRY",
-    "positionText": "subject",
-    "sentenceIndex": 36,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "object",
-    "sentenceIndex": 36,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Americas",
-    "ner": "LOCATION",
-    "positionText": "object",
-    "sentenceIndex": 36,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Argentina",
-    "ner": "COUNTRY",
-    "positionText": "subject",
-    "sentenceIndex": 36,
-    "tripletIndex": 1
-  },
-  {
-    "text": "U.S.",
-    "ner": "COUNTRY",
-    "positionText": "object",
-    "sentenceIndex": 36,
-    "tripletIndex": 1
-  },
-  {
-    "text": "Pew Forum",
-    "ner": "MISC",
-    "positionText": "object",
-    "sentenceIndex": 39,
-    "tripletIndex": 0
-  },
-  {
-    "text": "Muslim",
-    "ner": "RELIGION",
-    "positionText": "object",
-    "sentenceIndex": 42,
-    "tripletIndex": 0
-  }
-]
-},
   {
     "meta": {
       "url": "https://www.theatlantic.com/international/archive/2018/05/akbar-ahmed-islam-europe/559391/",
@@ -90524,6 +90524,2881 @@
         "positionText": "subject",
         "sentenceIndex": 43,
         "tripletIndex": 1
+      }
+    ]
+  },
+  {
+    "meta": {
+      "url": "https://religionnews.com/2018/12/04/chinas-repression-of-uighurs-wont-stop-until-the-international-community-intervenes/",
+      "title": "China's repression of Uighurs won't stop until the international community intervenes"
+    },
+    "data": [
+      {
+        "text": "WASHINGTON - Mihrigul Tursun is a 29-year-old woman of Uighur ethnicity with a story to tell the world . ",
+        "triplets": []
+      },
+      {
+        "text": "At age 12 , I was sent to a school in inner China to deny my culture , identity and religious belief , Turson told an audience at the National Press Club in Washington last week . ",
+        "triplets": [
+          {
+            "subject": "\\ Turson",
+            "relation": "told",
+            "object": "audience",
+            "relationVerb": "tell",
+            "full": "\\ Turson told audience",
+            "entities": [
+              {
+                "text": "Turson",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "\\ Turson",
+            "relation": "told audience at_time",
+            "object": "last week",
+            "relationVerb": "tell",
+            "full": "\\ Turson told audience at_time last week",
+            "entities": [
+              {
+                "text": "Turson",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "\\ Turson",
+            "relation": "told audience at",
+            "object": "National Press Club",
+            "relationVerb": "tell",
+            "full": "\\ Turson told audience at National Press Club",
+            "entities": [
+              {
+                "text": "Turson",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "National Press Club",
+                "ner": "ORGANIZATION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "\\ Turson",
+            "relation": "told audience in",
+            "object": "Washington",
+            "relationVerb": "tell",
+            "full": "\\ Turson told audience in Washington",
+            "entities": [
+              {
+                "text": "Turson",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "Washington",
+                "ner": "STATE_OR_PROVINCE",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Her testimony , in which she told of the loss of her 4-month-old child , was a dramatic highlight of an event organized by an international group of scholars to call attention to China 's mass internment and psychological torture of innocent civilians . ",
+        "triplets": []
+      },
+      {
+        "text": "In a statement , the Concerned Scholars on China 's Mass Detention of Turkic Minorities denounced the escalating atrocities facing Uighurs and called internment camps like the one Tursun was sent to a gross violation of human rights . ",
+        "triplets": [
+          {
+            "subject": "escalating atrocities",
+            "relation": "facing",
+            "object": "called like one Tursun",
+            "relationVerb": "face",
+            "full": "escalating atrocities facing called like one Tursun",
+            "entities": [
+              {
+                "text": "Tursun",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "escalating atrocities",
+            "relation": "facing",
+            "object": "Uighurs",
+            "relationVerb": "face",
+            "full": "escalating atrocities facing Uighurs",
+            "entities": [
+              {
+                "text": "Uighurs",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Tursun 's experience of family separation , threats , violence , re-education and torture at the hands of the Chinese government puts a human face on these abuses . ",
+        "triplets": [
+          {
+            "subject": "Tursun 's experience",
+            "relation": "puts face on",
+            "object": "abuses",
+            "relationVerb": "put",
+            "full": "Tursun 's experience puts face on abuses",
+            "entities": [
+              {
+                "text": "Tursun",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Tursun 's experience",
+            "relation": "puts",
+            "object": "human face",
+            "relationVerb": "put",
+            "full": "Tursun 's experience puts human face",
+            "entities": [
+              {
+                "text": "Tursun",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "More than that , it makes clear that the communist regime is not prepared for a woman like Turson . ",
+        "triplets": []
+      },
+      {
+        "text": "The repression , she said , Only made me more confident in my identity . ",
+        "triplets": []
+      },
+      {
+        "text": "Turson , who wore a headscarf tied at her neck , said she was forbidden in China from wearing the hijab . ",
+        "triplets": []
+      },
+      {
+        "text": "Most other forms of Muslim devotion are also proscribed . ",
+        "triplets": []
+      },
+      {
+        "text": "After praying for death rather than endure more brutality , she said , she was Blessed to have miraculously escaped from the camps and have an opportunity to speak out . ",
+        "triplets": []
+      },
+      {
+        "text": "The State Department brought her to the United States in hopes she will inspire Americans to combat faraway human-rights violations the international community has been trying to ignore . ",
+        "triplets": [
+          {
+            "subject": "State Department",
+            "relation": "brought",
+            "object": "her",
+            "relationVerb": "bring",
+            "full": "State Department brought her",
+            "entities": [
+              {
+                "text": "State Department",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "she",
+            "relation": "inspire",
+            "object": "Americans",
+            "relationVerb": "inspire",
+            "full": "she inspire Americans",
+            "entities": [
+              {
+                "text": "Americans",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It would be tempting to think of Turson as one of the lucky ones . ",
+        "triplets": [
+          {
+            "subject": "It",
+            "relation": "think of",
+            "object": "Turson",
+            "relationVerb": "think",
+            "full": "It think of Turson",
+            "entities": [
+              {
+                "text": "Turson",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Even in the relative safety of her new home in Virginia , Turson has suffered debilitating post-traumatic stress : nightmares , sudden bouts of anxiety that the Chinese police will knock on her door in the night and kill her . ",
+        "triplets": [
+          {
+            "subject": "Turson",
+            "relation": "debilitating",
+            "object": "post-traumatic stress",
+            "relationVerb": "debilitate",
+            "full": "Turson debilitating post-traumatic stress",
+            "entities": [
+              {
+                "text": "Turson",
+                "ner": "LOCATION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Chinese police",
+            "relation": "will knock on",
+            "object": "her door in night",
+            "relationVerb": "knock",
+            "full": "Chinese police will knock on her door in night",
+            "entities": [
+              {
+                "text": "Chinese",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Chinese police",
+            "relation": "kill",
+            "object": "her",
+            "relationVerb": "kill",
+            "full": "Chinese police kill her",
+            "entities": [
+              {
+                "text": "Chinese",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "She has scars on her body and pain from the chains and beatings . ",
+        "triplets": []
+      },
+      {
+        "text": "Her two surviving children have extreme physical and psychological health issues . ",
+        "triplets": []
+      },
+      {
+        "text": "Stories like Turson 's happen every day in China 's northwest Xinjiang Uighur Autonomous Region . ",
+        "triplets": [
+          {
+            "subject": "Turson",
+            "relation": "happen at_time",
+            "object": "day",
+            "relationVerb": "happen",
+            "full": "Turson happen at_time day",
+            "entities": [
+              {
+                "text": "Turson",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Home to Kazakhs and Kyrgyz people as well as Uighurs , together known as the Turkic Minorities , the region has seen detentions , religious repression , invasive surveillance and psychological stress - all of which the world has known about for years , thanks mostly to investigative journalists who have documented the abuses . ",
+        "triplets": []
+      },
+      {
+        "text": "So far China has been given a free pass , largely because developing and advanced economies alike want to engage in lucrative trade and commerce with an economy that is the world 's second largest and still rising in its influence . ",
+        "triplets": []
+      },
+      {
+        "text": "The U.K. , looking to establish trade agreements with China after exiting the European Union , has a particular incentive to turn a blind eye . ",
+        "triplets": []
+      },
+      {
+        "text": "The United States , though it prides itself on defending international religious freedom , is hampered in its response by its own recent coldness toward refugees and asylum-seekers - as well as its concern for a domestic constituency focused on the persecution of Christians abroad . ",
+        "triplets": [
+          {
+            "subject": "United States",
+            "relation": "is hampered",
+            "object": "in its response by its own recent coldness toward refugees focused on persecution of Christians abroad",
+            "relationVerb": "hamper",
+            "full": "United States is hampered in its response by its own recent coldness toward refugees focused on persecution of Christians abroad",
+            "entities": [
+              {
+                "text": "United States",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Christians",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "To regain its credibility on the Uighur crisis , and on religious freedom and human rights in general , the Trump administration should boldly condemn China for its repression of Muslim minorities . ",
+        "triplets": [
+          {
+            "subject": "Trump administration",
+            "relation": "regain",
+            "object": "its credibility on Uighur crisis",
+            "relationVerb": "regain",
+            "full": "Trump administration regain its credibility on Uighur crisis",
+            "entities": [
+              {
+                "text": "Uighur",
+                "ner": "MISC",
+                "positionText": "object"
+              },
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Trump administration",
+            "relation": "should boldly condemn China for",
+            "object": "its repression of Muslim minorities",
+            "relationVerb": "condemn",
+            "full": "Trump administration should boldly condemn China for its repression of Muslim minorities",
+            "entities": [
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "Muslim",
+                "ner": "RELIGION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Trump administration",
+            "relation": "should boldly condemn",
+            "object": "China",
+            "relationVerb": "condemn",
+            "full": "Trump administration should boldly condemn China",
+            "entities": [
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "China",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The world at large , too , needs to organize itself to address the crackdown . ",
+        "triplets": []
+      },
+      {
+        "text": "The scholar-advocates at last week 's news conference offered a list of policy proscriptions : States and institutions can demand that China 's dictator-president , Xi Jinping , and regional governor Chen Quanguo immediately abolish the Transformation through education detention system and release all minority detainees . ",
+        "triplets": [
+          {
+            "subject": "Xi Jinping",
+            "relation": "immediately abolish",
+            "object": "\\ Transformation",
+            "relationVerb": "abolish",
+            "full": "Xi Jinping immediately abolish \\ Transformation",
+            "entities": [
+              {
+                "text": "Xi Jinping",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "China 's dictator-president",
+            "relation": "immediately abolish",
+            "object": "\\ Transformation",
+            "relationVerb": "abolish",
+            "full": "China 's dictator-president immediately abolish \\ Transformation",
+            "entities": [
+              {
+                "text": "China",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "regional governor Chen Quanguo",
+            "relation": "immediately abolish",
+            "object": "\\ Transformation",
+            "relationVerb": "abolish",
+            "full": "regional governor Chen Quanguo immediately abolish \\ Transformation",
+            "entities": [
+              {
+                "text": "governor",
+                "ner": "TITLE",
+                "positionText": "subject"
+              },
+              {
+                "text": "Chen Quanguo",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Countries can go further and impose economic sanctions . ",
+        "triplets": []
+      },
+      {
+        "text": "Regulators and consumers can pressure technology companies backed by Western investors , whose concessions on internet surveillance in China implicate them in the repression taking place . ",
+        "triplets": []
+      },
+      {
+        "text": "Trump boasted of his successful meeting with Xi at the recent G-20 summit in Argentina . ",
+        "triplets": [
+          {
+            "subject": "Trump",
+            "relation": "boasted of",
+            "object": "his successful meeting with Xi at recent G-20 summit in Argentina",
+            "relationVerb": "boast",
+            "full": "Trump boasted of his successful meeting with Xi at recent G-20 summit in Argentina",
+            "entities": [
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "G-20",
+                "ner": "MISC",
+                "positionText": "object"
+              },
+              {
+                "text": "Argentina",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It will take great leaders to confront China on human rights . ",
+        "triplets": [
+          {
+            "subject": "It",
+            "relation": "confront",
+            "object": "China",
+            "relationVerb": "confront",
+            "full": "It confront China",
+            "entities": [
+              {
+                "text": "China",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The U.S. Congress could pass the bipartisan Uyghur Human Rights Act of 2018 , currently pending in both the House and the Senate , directing the executive branch to take action on behalf of China 's ethnic and religious minorities . ",
+        "triplets": [
+          {
+            "subject": "U.S. Congress",
+            "relation": "could pass",
+            "object": "bipartisan Uyghur Human Rights Act of 2018 pending in House",
+            "relationVerb": "pass",
+            "full": "U.S. Congress could pass bipartisan Uyghur Human Rights Act of 2018 pending in House",
+            "entities": [
+              {
+                "text": "U.S.",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Congress",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "House",
+                "ner": "ORGANIZATION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "bipartisan Uyghur Human Rights Act",
+            "relation": "directing",
+            "object": "executive branch",
+            "relationVerb": "direct",
+            "full": "bipartisan Uyghur Human Rights Act directing executive branch",
+            "entities": [
+              {
+                "text": "executive",
+                "ner": "TITLE",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "bipartisan Uyghur Human Rights Act",
+            "relation": "pending in",
+            "object": "House",
+            "relationVerb": "pend",
+            "full": "bipartisan Uyghur Human Rights Act pending in House",
+            "entities": [
+              {
+                "text": "House",
+                "ner": "ORGANIZATION",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The Uighurs ' dire situation may seem far off , but in today 's intertwined world , we must realize that all people of good faith and goodwill can affect lives around the globe . ",
+        "triplets": []
+      },
+      {
+        "text": "Mihrigul Tursun 's plea may sound impractical , but it reminds us how humanly possible making a difference can be . ",
+        "triplets": []
+      },
+      {
+        "text": "If you ever go to China , she said , Ask about my parents and family . ",
+        "triplets": []
+      },
+      {
+        "text": "I pray I see them alive again someday . ",
+        "triplets": []
+      },
+      {
+        "text": "",
+        "triplets": []
+      }
+    ],
+    "sentiment": [
+      {
+        "text": "WASHINGTON",
+        "ner": "STATE_OR_PROVINCE",
+        "sentimentValue": "3",
+        "timesAppear": 1,
+        "appearIn": [
+          0
+        ]
+      },
+      {
+        "text": "Mihrigul Tursun",
+        "ner": "PERSON",
+        "sentimentValue": 3,
+        "timesAppear": 2,
+        "appearIn": [
+          0,
+          29
+        ]
+      },
+      {
+        "text": "Uighur",
+        "ner": "MISC",
+        "sentimentValue": 2,
+        "timesAppear": 2,
+        "appearIn": [
+          0,
+          20
+        ]
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "sentimentValue": 1.3846153846153846,
+        "timesAppear": 13,
+        "appearIn": [
+          1,
+          2,
+          3,
+          7,
+          15,
+          17,
+          18,
+          20,
+          22,
+          24,
+          26,
+          27,
+          30
+        ]
+      },
+      {
+        "text": "Turson",
+        "ner": "PERSON",
+        "sentimentValue": 1.1666666666666667,
+        "timesAppear": 6,
+        "appearIn": [
+          1,
+          5,
+          7,
+          11,
+          12,
+          15
+        ]
+      },
+      {
+        "text": "National Press Club",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          1
+        ]
+      },
+      {
+        "text": "Washington",
+        "ner": "STATE_OR_PROVINCE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          1
+        ]
+      },
+      {
+        "text": "Mass",
+        "ner": "STATE_OR_PROVINCE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          3
+        ]
+      },
+      {
+        "text": "Uighurs",
+        "ner": "MISC",
+        "sentimentValue": 1.5,
+        "timesAppear": 2,
+        "appearIn": [
+          3,
+          28
+        ]
+      },
+      {
+        "text": "Tursun",
+        "ner": "LOCATION",
+        "sentimentValue": 1,
+        "timesAppear": 2,
+        "appearIn": [
+          3,
+          4
+        ]
+      },
+      {
+        "text": "violence",
+        "ner": "CAUSE_OF_DEATH",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          4
+        ]
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "sentimentValue": 1,
+        "timesAppear": 2,
+        "appearIn": [
+          4,
+          12
+        ]
+      },
+      {
+        "text": "communist",
+        "ner": "IDEOLOGY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          5
+        ]
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "sentimentValue": 1.5,
+        "timesAppear": 2,
+        "appearIn": [
+          8,
+          20
+        ]
+      },
+      {
+        "text": "State Department",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          10
+        ]
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "sentimentValue": 1,
+        "timesAppear": 2,
+        "appearIn": [
+          10,
+          19
+        ]
+      },
+      {
+        "text": "Americans",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          10
+        ]
+      },
+      {
+        "text": "Virginia",
+        "ner": "STATE_OR_PROVINCE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          12
+        ]
+      },
+      {
+        "text": "Xinjiang",
+        "ner": "STATE_OR_PROVINCE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          15
+        ]
+      },
+      {
+        "text": "Uighur Autonomous Region",
+        "ner": "LOCATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          15
+        ]
+      },
+      {
+        "text": "Kazakhs",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          16
+        ]
+      },
+      {
+        "text": "Kyrgyz",
+        "ner": "NATIONALITY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          16
+        ]
+      },
+      {
+        "text": "Turkic Minorities",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          16
+        ]
+      },
+      {
+        "text": "U.K.",
+        "ner": "LOCATION",
+        "sentimentValue": "3",
+        "timesAppear": 1,
+        "appearIn": [
+          18
+        ]
+      },
+      {
+        "text": "European Union",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "3",
+        "timesAppear": 1,
+        "appearIn": [
+          18
+        ]
+      },
+      {
+        "text": "Christians",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          19
+        ]
+      },
+      {
+        "text": "general",
+        "ner": "TITLE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          20
+        ]
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "sentimentValue": 2,
+        "timesAppear": 2,
+        "appearIn": [
+          20,
+          25
+        ]
+      },
+      {
+        "text": "Xi Jinping",
+        "ner": "PERSON",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          22
+        ]
+      },
+      {
+        "text": "governor",
+        "ner": "TITLE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          22
+        ]
+      },
+      {
+        "text": "Chen Quanguo",
+        "ner": "PERSON",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          22
+        ]
+      },
+      {
+        "text": "Western",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          24
+        ]
+      },
+      {
+        "text": "G-20",
+        "ner": "MISC",
+        "sentimentValue": "3",
+        "timesAppear": 1,
+        "appearIn": [
+          25
+        ]
+      },
+      {
+        "text": "Argentina",
+        "ner": "COUNTRY",
+        "sentimentValue": "3",
+        "timesAppear": 1,
+        "appearIn": [
+          25
+        ]
+      },
+      {
+        "text": "U.S.",
+        "ner": "COUNTRY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          27
+        ]
+      },
+      {
+        "text": "Congress",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          27
+        ]
+      },
+      {
+        "text": "House",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          27
+        ]
+      },
+      {
+        "text": "Senate",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          27
+        ]
+      },
+      {
+        "text": "executive",
+        "ner": "TITLE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          27
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "text": "Turson",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Turson",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Turson",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 2
+      },
+      {
+        "text": "National Press Club",
+        "ner": "ORGANIZATION",
+        "positionText": "object",
+        "sentenceIndex": 1,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Turson",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 1,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Washington",
+        "ner": "STATE_OR_PROVINCE",
+        "positionText": "object",
+        "sentenceIndex": 1,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Tursun",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 3,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Uighurs",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 3,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Tursun",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Tursun",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 4,
+        "tripletIndex": 1
+      },
+      {
+        "text": "State Department",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 10,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Americans",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 10,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Turson",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 11,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Turson",
+        "ner": "LOCATION",
+        "positionText": "subject",
+        "sentenceIndex": 12,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 12,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 12,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Turson",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 0
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 19,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Christians",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 19,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Uighur",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 20,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 20,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 20,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "positionText": "object",
+        "sentenceIndex": 20,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 20,
+        "tripletIndex": 2
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 20,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Xi Jinping",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 0
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 1
+      },
+      {
+        "text": "governor",
+        "ner": "TITLE",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Chen Quanguo",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 22,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 25,
+        "tripletIndex": 0
+      },
+      {
+        "text": "G-20",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 25,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Argentina",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 25,
+        "tripletIndex": 0
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 26,
+        "tripletIndex": 0
+      },
+      {
+        "text": "U.S.",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Congress",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "House",
+        "ner": "ORGANIZATION",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "executive",
+        "ner": "TITLE",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 1
+      },
+      {
+        "text": "House",
+        "ner": "ORGANIZATION",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 2
+      }
+    ]
+  },
+  {
+    "meta": {
+      "url": "https://foreignpolicy.com/2018/11/28/china-is-violating-uighurs-human-rights-the-united-states-must-act/",
+      "title": "China Is Violating Uighurs' Human Rights. The United States Must Act. – Foreign Policy"
+    },
+    "data": [
+      {
+        "text": "The Chinese Communist Party is carrying out a methodical campaign of oppression in an apparent attempt to extinguish the religion and ethnicity of the Uighur people . ",
+        "triplets": []
+      },
+      {
+        "text": "Residing mostly in what the Chinese state calls its Xinjiang Uighur Autonomous Region , Uighurs today are not free in the most fundamental sense of the word-not to travel , not to practice their faith , not to speak with their relatives , not to name their children . ",
+        "triplets": []
+      },
+      {
+        "text": "While the United States may not be able to achieve everything it might want when it comes to China , it must call the world 's attention to Xinjiang , pressure Beijing , attempt to ease the plight of imprisoned Uighurs and other minority groups , and deter other countries that might seek to emulate Beijing 's campaign of oppression . ",
+        "triplets": [
+          {
+            "subject": "world 's attention",
+            "relation": "ease",
+            "object": "plight of imprisoned Uighurs",
+            "relationVerb": "ease",
+            "full": "world 's attention ease plight of imprisoned Uighurs",
+            "entities": [
+              {
+                "text": "Uighurs",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The human engineering experiment the Chinese government is undertaking resembles the policies of the most repressive colonial regimes and is as Orwellian as China 's Cultural Revolution . ",
+        "triplets": []
+      },
+      {
+        "text": "Detailed reports monitoring Chinese government contracts and satellite images of Xinjiang camp construction , in addition to more than 1,000 testimonies from family members of interned Uighurs and Kazakhs , reveal a terrifying picture . ",
+        "triplets": []
+      },
+      {
+        "text": "Many Uighurs who remain in their homes live under the surveillance of government-assigned Han Chinese Relatives in forced homestays . ",
+        "triplets": []
+      },
+      {
+        "text": "The government has mobilized more than 1 million uninvited guests To aid the military and police in their campaign by occupying the homes of the region 's Uighurs and other Muslim minorities , and undertaking programs of indoctrination and surveillance . ",
+        "triplets": []
+      },
+      {
+        "text": "It is well-known that the Chinese government violates its people 's human rights . ",
+        "triplets": [
+          {
+            "subject": "Chinese government",
+            "relation": "violates",
+            "object": "its people 's human rights",
+            "relationVerb": "violate",
+            "full": "Chinese government violates its people 's human rights",
+            "entities": [
+              {
+                "text": "Chinese",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "What is happening in Xinjiang-and also in Tibet , where some of the tactics used in Xinjiang were first employed-is even more dire . ",
+        "triplets": []
+      },
+      {
+        "text": "The Communist Party views the very existence of ethnic and religious minority groups inside China as a threat to be extinguished with a pseudoscientific policy of psychological and physical aggression . ",
+        "triplets": [
+          {
+            "subject": "Communist Party",
+            "relation": "views",
+            "object": "very existence of ethnic minority groups inside China",
+            "relationVerb": "view",
+            "full": "Communist Party views very existence of ethnic minority groups inside China",
+            "entities": [
+              {
+                "text": "Communist Party",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "China",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It 's about how the United States and others respond to a growing trend of authoritarian impunity that is gaining ground worldwide . ",
+        "triplets": []
+      },
+      {
+        "text": "Advocating for human rights inside a state as resistant to outside pressure and geopolitically important as China can feel futile . ",
+        "triplets": []
+      },
+      {
+        "text": "For reasons simultaneously moral and strategic , the United States and the world can and should do something . ",
+        "triplets": []
+      },
+      {
+        "text": "Despite the United States ' terrible past treatment of Native Americans and other minorities , respecting human rights should be part of what sets America apart from autocracies such as China . ",
+        "triplets": []
+      },
+      {
+        "text": "True to form , the Trump White House has largely ignored the crisis in Xinjiang . ",
+        "triplets": [
+          {
+            "subject": "Trump White House",
+            "relation": "has largely ignored",
+            "object": "crisis in Xinjiang",
+            "relationVerb": "have",
+            "full": "Trump White House has largely ignored crisis in Xinjiang",
+            "entities": [
+              {
+                "text": "Trump White House",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Xinjiang",
+                "ner": "STATE_OR_PROVINCE",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Trump has likewise used the rationale of counterterrorism to justify persecution of a large group of people as inherently dangerous based on their identity : He proposed banning all Muslims from entering the United States during the 2016 campaign and raised the specter of gang violence to foment fear of Mexicans and stir up opposition to asylum-seekers from Central America . ",
+        "triplets": [
+          {
+            "subject": "fear",
+            "relation": "stir up",
+            "object": "opposition to asylum-seekers from Central America",
+            "relationVerb": "stir",
+            "full": "fear stir up opposition to asylum-seekers from Central America",
+            "entities": [
+              {
+                "text": "Central",
+                "ner": "LOCATION",
+                "positionText": "object"
+              },
+              {
+                "text": "America",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Trump",
+            "relation": "justify persecution as",
+            "object": "inherently dangerous",
+            "relationVerb": "justify",
+            "full": "Trump justify persecution as inherently dangerous",
+            "entities": [
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "He",
+            "relation": "banning",
+            "object": "Muslims",
+            "relationVerb": "ban",
+            "full": "He banning Muslims",
+            "entities": [
+              {
+                "text": "Muslims",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Trump",
+            "relation": "justify",
+            "object": "persecution of large group of people",
+            "relationVerb": "justify",
+            "full": "Trump justify persecution of large group of people",
+            "entities": [
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "He",
+            "relation": "raised",
+            "object": "specter of gang violence",
+            "relationVerb": "raise",
+            "full": "He raised specter of gang violence",
+            "entities": [
+              {
+                "text": "violence",
+                "ner": "CAUSE_OF_DEATH",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The atrocities in the camps may occur far away , but what happens in China is not staying in China . ",
+        "triplets": []
+      },
+      {
+        "text": "The Chinese government has sought out Uighurs around the world for extradition , intimidated and collectively punished Xinjiang-based families as a method of threatening overseas Uighurs , including extorting them to come back to China and submit to internment . ",
+        "triplets": [
+          {
+            "subject": "Chinese government",
+            "relation": "has sought out",
+            "object": "Uighurs",
+            "relationVerb": "have",
+            "full": "Chinese government has sought out Uighurs",
+            "entities": [
+              {
+                "text": "Chinese",
+                "ner": "NATIONALITY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Uighurs",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "them",
+            "relation": "come back to",
+            "object": "China",
+            "relationVerb": "come",
+            "full": "them come back to China",
+            "entities": [
+              {
+                "text": "China",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "China 's repression of Uighurs beyond its borders demonstrates how brazen authoritarian countries have become in attacking would-be critics overseas and how dismissive they are of other countries ' sovereign rights to protect their populations in their own territory . ",
+        "triplets": []
+      },
+      {
+        "text": "The world can not afford for a Xinjiang model to become normalized . ",
+        "triplets": []
+      },
+      {
+        "text": "If countries come to see Chinese state oppression in Xinjiang as a success , it raises the question of how many other strongmen worldwide with restive border regions and ostracized minority groups will brutally follow suit . ",
+        "triplets": [
+          {
+            "subject": "countries",
+            "relation": "see",
+            "object": "Chinese state oppression in Xinjiang",
+            "relationVerb": "see",
+            "full": "countries see Chinese state oppression in Xinjiang",
+            "entities": [
+              {
+                "text": "Chinese",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              },
+              {
+                "text": "Xinjiang",
+                "ner": "STATE_OR_PROVINCE",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Washington 's ability to influence Beijing 's actions within China is limited . ",
+        "triplets": []
+      },
+      {
+        "text": "There is still much the United States and the world can do . ",
+        "triplets": []
+      },
+      {
+        "text": "The first thing the United States should do is to protect Uighurs living on U.S. soil . ",
+        "triplets": []
+      },
+      {
+        "text": "Sweden and Germany have reportedly halted any extraditions of Uighur asylees back to China , and the U.S. government should follow suit . ",
+        "triplets": [
+          {
+            "subject": "Germany",
+            "relation": "have reportedly halted back",
+            "object": "extraditions of Uighur asylees",
+            "relationVerb": "have",
+            "full": "Germany have reportedly halted back extraditions of Uighur asylees",
+            "entities": [
+              {
+                "text": "Germany",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Uighur",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Sweden",
+            "relation": "have reportedly halted back",
+            "object": "extraditions of Uighur asylees",
+            "relationVerb": "have",
+            "full": "Sweden have reportedly halted back extraditions of Uighur asylees",
+            "entities": [
+              {
+                "text": "Sweden",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Uighur",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "U.S. government",
+            "relation": "should follow",
+            "object": "suit",
+            "relationVerb": "follow",
+            "full": "U.S. government should follow suit",
+            "entities": [
+              {
+                "text": "U.S.",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The United States should offer temporary protected status to endangered Uighurs in America and encourage other countries to do the same . ",
+        "triplets": [
+          {
+            "subject": "United States",
+            "relation": "should offer",
+            "object": "temporary protected status",
+            "relationVerb": "offer",
+            "full": "United States should offer temporary protected status",
+            "entities": [
+              {
+                "text": "United States",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "United States",
+            "relation": "should offer status to",
+            "object": "endangered Uighurs in America",
+            "relationVerb": "offer",
+            "full": "United States should offer status to endangered Uighurs in America",
+            "entities": [
+              {
+                "text": "United States",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              },
+              {
+                "text": "Uighurs",
+                "ner": "MISC",
+                "positionText": "object"
+              },
+              {
+                "text": "America",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "United States",
+            "relation": "encourage",
+            "object": "other countries",
+            "relationVerb": "encourage",
+            "full": "United States encourage other countries",
+            "entities": [
+              {
+                "text": "United States",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "As called for in the Uyghur Human Rights Policy Act , the FBI and other law enforcement agencies must be empowered to hold accountable Chinese officials who intimidate overseas Uighurs , particularly inside the United States . ",
+        "triplets": [
+          {
+            "subject": "FBI",
+            "relation": "called for",
+            "object": "for Uyghur Human Rights Policy Act",
+            "relationVerb": "call",
+            "full": "FBI called for for Uyghur Human Rights Policy Act",
+            "entities": [
+              {
+                "text": "FBI",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Congress should push the Trump administration to use the Global Magnitsky Act to sanction individual officials responsible for developing and implementing China 's cyber-authoritarian toolkit in Tibet and Xinjiang . ",
+        "triplets": [
+          {
+            "subject": "Congress",
+            "relation": "should push",
+            "object": "Trump administration",
+            "relationVerb": "push",
+            "full": "Congress should push Trump administration",
+            "entities": [
+              {
+                "text": "Congress",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Trump administration",
+            "relation": "use",
+            "object": "Global Magnitsky Act",
+            "relationVerb": "use",
+            "full": "Trump administration use Global Magnitsky Act",
+            "entities": [
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              },
+              {
+                "text": "Global Magnitsky Act",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Trump administration",
+            "relation": "use Global Magnitsky Act to",
+            "object": "sanction individual officials responsible",
+            "relationVerb": "use",
+            "full": "Trump administration use Global Magnitsky Act to sanction individual officials responsible",
+            "entities": [
+              {
+                "text": "Trump",
+                "ner": "PERSON",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "This will show China that the United States will hold high-level officials responsible for these human rights violations . ",
+        "triplets": [
+          {
+            "subject": "United States",
+            "relation": "hold",
+            "object": "high-level officials responsible for human rights violations",
+            "relationVerb": "hold",
+            "full": "United States hold high-level officials responsible for human rights violations",
+            "entities": [
+              {
+                "text": "United States",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "U.S. diplomats can ensure that this kind of information is disseminated widely-especially in Muslim-majority countries in Asia , where it would contribute to public pressure on governments in Pakistan , Malaysia , and Indonesia to at least broach the issue with China , raising the diplomatic price of repression . ",
+        "triplets": [
+          {
+            "subject": "Indonesia",
+            "relation": "broach issue with",
+            "object": "China",
+            "relationVerb": "broach",
+            "full": "Indonesia broach issue with China",
+            "entities": [
+              {
+                "text": "Indonesia",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              },
+              {
+                "text": "China",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Indonesia",
+            "relation": "broach",
+            "object": "issue",
+            "relationVerb": "broach",
+            "full": "Indonesia broach issue",
+            "entities": [
+              {
+                "text": "Indonesia",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "kind",
+            "relation": "is disseminated widely-especially in",
+            "object": "Muslim-majority countries",
+            "relationVerb": "disseminate",
+            "full": "kind is disseminated widely-especially in Muslim-majority countries",
+            "entities": [
+              {
+                "text": "Muslim-majority",
+                "ner": "LOCATION",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "it",
+            "relation": "would contribute to",
+            "object": "public pressure on governments in Pakistan",
+            "relationVerb": "contribute",
+            "full": "it would contribute to public pressure on governments in Pakistan",
+            "entities": [
+              {
+                "text": "Pakistan",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "While these countries may see the costs of criticizing China as too great , public pressure could change their calculus . ",
+        "triplets": []
+      },
+      {
+        "text": "The more that countries which are n't normally critical of China raise the issue , the more Beijing may register this as a genuine problem . ",
+        "triplets": [
+          {
+            "subject": "Beijing",
+            "relation": "may register as",
+            "object": "genuine problem",
+            "relationVerb": "register",
+            "full": "Beijing may register as genuine problem",
+            "entities": [
+              {
+                "text": "Beijing",
+                "ner": "CITY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Members of Congress should openly call for international inspectors and U.N. officials to be admitted to the prison facilities in Xinjiang . ",
+        "triplets": [
+          {
+            "subject": "Members",
+            "relation": "be admitted to",
+            "object": "prison facilities in Xinjiang",
+            "relationVerb": "admit",
+            "full": "Members be admitted to prison facilities in Xinjiang",
+            "entities": [
+              {
+                "text": "Xinjiang",
+                "ner": "STATE_OR_PROVINCE",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Members",
+            "relation": "should openly call",
+            "object": "admitted to prison facilities in Xinjiang",
+            "relationVerb": "call",
+            "full": "Members should openly call admitted to prison facilities in Xinjiang",
+            "entities": [
+              {
+                "text": "Xinjiang",
+                "ner": "STATE_OR_PROVINCE",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Since Beijing denies the reports of abuses in the Xinjiang camps-a recent pivot from denying their existence outright-a call for inspectors would place the onus on Beijing to explain to the world what it is doing . ",
+        "triplets": [
+          {
+            "subject": "reports",
+            "relation": "place",
+            "object": "onus on Beijing",
+            "relationVerb": "place",
+            "full": "reports place onus on Beijing",
+            "entities": [
+              {
+                "text": "Beijing",
+                "ner": "CITY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The United States should also sign on to efforts such as the request of 15 Western ambassadors for a meeting with Xinjiang region Communist Party Secretary Chen Quanguo , which the Trump administration did not join . ",
+        "triplets": [
+          {
+            "subject": "United States",
+            "relation": "should also sign on to",
+            "object": "efforts",
+            "relationVerb": "sign",
+            "full": "United States should also sign on to efforts",
+            "entities": [
+              {
+                "text": "United States",
+                "ner": "COUNTRY",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Congress could also apply the Magnitsky Act to the Chinese companies-such as Hikvision , Dahua Technology , China Electronics Technology Group Corporation , and Huawei-that supply the Chinese government with tools of high-tech oppression . ",
+        "triplets": [
+          {
+            "subject": "Congress",
+            "relation": "could also apply Magnitsky Act as",
+            "object": "Hikvision",
+            "relationVerb": "apply",
+            "full": "Congress could also apply Magnitsky Act as Hikvision",
+            "entities": [
+              {
+                "text": "Congress",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              }
+            ]
+          },
+          {
+            "subject": "Congress",
+            "relation": "could also apply",
+            "object": "Magnitsky Act",
+            "relationVerb": "apply",
+            "full": "Congress could also apply Magnitsky Act",
+            "entities": [
+              {
+                "text": "Congress",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Magnitsky Act",
+                "ner": "MISC",
+                "positionText": "object"
+              }
+            ]
+          },
+          {
+            "subject": "Congress",
+            "relation": "could also apply Magnitsky Act to",
+            "object": "Chinese companies-such",
+            "relationVerb": "apply",
+            "full": "Congress could also apply Magnitsky Act to Chinese companies-such",
+            "entities": [
+              {
+                "text": "Congress",
+                "ner": "ORGANIZATION",
+                "positionText": "subject"
+              },
+              {
+                "text": "Chinese",
+                "ner": "NATIONALITY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Through hearings , Congress can pressure U.S. businesses , such as Intel and Nvidia , that have enabled Chinese repression in Xinjiang by investing in or providing technology to these Chinese companies . ",
+        "triplets": []
+      },
+      {
+        "text": "Companies that have exported the tools of mass surveillance to China , or those that do business in Xinjiang should be asked to appear before Congress and explain why they continue to sell such technology to China . ",
+        "triplets": [
+          {
+            "subject": "they",
+            "relation": "sell technology to",
+            "object": "China",
+            "relationVerb": "sell",
+            "full": "they sell technology to China",
+            "entities": [
+              {
+                "text": "China",
+                "ner": "COUNTRY",
+                "positionText": "object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The way Washington responds to the most difficult challenges says a lot about the United States as a country . ",
+        "triplets": [
+          {
+            "subject": "Washington",
+            "relation": "responds to",
+            "object": "most difficult challenges",
+            "relationVerb": "respond",
+            "full": "Washington responds to most difficult challenges",
+            "entities": [
+              {
+                "text": "Washington",
+                "ner": "STATE_OR_PROVINCE",
+                "positionText": "subject"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "America can not ignore what China is doing in Xinjiang . ",
+        "triplets": []
+      }
+    ],
+    "sentiment": [
+      {
+        "text": "Chinese Communist Party",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          0
+        ]
+      },
+      {
+        "text": "Uighur",
+        "ner": "MISC",
+        "sentimentValue": 1,
+        "timesAppear": 2,
+        "appearIn": [
+          0,
+          24
+        ]
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "sentimentValue": 1.1666666666666667,
+        "timesAppear": 12,
+        "appearIn": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          17,
+          20,
+          26,
+          35,
+          35,
+          36,
+          36
+        ]
+      },
+      {
+        "text": "Xinjiang",
+        "ner": "STATE_OR_PROVINCE",
+        "sentimentValue": 1.0714285714285714,
+        "timesAppear": 14,
+        "appearIn": [
+          1,
+          2,
+          4,
+          8,
+          14,
+          19,
+          20,
+          27,
+          32,
+          33,
+          34,
+          36,
+          37,
+          39
+        ]
+      },
+      {
+        "text": "Uighur Autonomous Region",
+        "ner": "LOCATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          1
+        ]
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "sentimentValue": 1.6666666666666667,
+        "timesAppear": 12,
+        "appearIn": [
+          2,
+          10,
+          12,
+          13,
+          15,
+          22,
+          23,
+          25,
+          26,
+          28,
+          34,
+          38
+        ]
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "sentimentValue": 1.105263157894737,
+        "timesAppear": 19,
+        "appearIn": [
+          2,
+          3,
+          9,
+          11,
+          13,
+          16,
+          16,
+          17,
+          18,
+          21,
+          24,
+          27,
+          28,
+          29,
+          30,
+          31,
+          37,
+          37,
+          39
+        ]
+      },
+      {
+        "text": "Beijing",
+        "ner": "CITY",
+        "sentimentValue": 1,
+        "timesAppear": 6,
+        "appearIn": [
+          2,
+          2,
+          21,
+          31,
+          33,
+          33
+        ]
+      },
+      {
+        "text": "Uighurs",
+        "ner": "MISC",
+        "sentimentValue": 1.3,
+        "timesAppear": 10,
+        "appearIn": [
+          2,
+          4,
+          5,
+          6,
+          17,
+          17,
+          18,
+          23,
+          25,
+          26
+        ]
+      },
+      {
+        "text": "Kazakhs",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          4
+        ]
+      },
+      {
+        "text": "Han",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          5
+        ]
+      },
+      {
+        "text": "Muslim",
+        "ner": "RELIGION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          6
+        ]
+      },
+      {
+        "text": "Xinjiang-and",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          8
+        ]
+      },
+      {
+        "text": "Tibet",
+        "ner": "RELIGION",
+        "sentimentValue": 1,
+        "timesAppear": 2,
+        "appearIn": [
+          8,
+          27
+        ]
+      },
+      {
+        "text": "Communist Party",
+        "ner": "ORGANIZATION",
+        "sentimentValue": 1,
+        "timesAppear": 2,
+        "appearIn": [
+          9,
+          34
+        ]
+      },
+      {
+        "text": "Native Americans",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          13
+        ]
+      },
+      {
+        "text": "America",
+        "ner": "COUNTRY",
+        "sentimentValue": 1.5,
+        "timesAppear": 4,
+        "appearIn": [
+          13,
+          15,
+          25,
+          39
+        ]
+      },
+      {
+        "text": "Trump White House",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          14
+        ]
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "sentimentValue": 0.6666666666666666,
+        "timesAppear": 3,
+        "appearIn": [
+          15,
+          27,
+          34
+        ]
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "sentimentValue": "0",
+        "timesAppear": 1,
+        "appearIn": [
+          15
+        ]
+      },
+      {
+        "text": "violence",
+        "ner": "CAUSE_OF_DEATH",
+        "sentimentValue": "0",
+        "timesAppear": 1,
+        "appearIn": [
+          15
+        ]
+      },
+      {
+        "text": "Mexicans",
+        "ner": "MISC",
+        "sentimentValue": "0",
+        "timesAppear": 1,
+        "appearIn": [
+          15
+        ]
+      },
+      {
+        "text": "Central",
+        "ner": "LOCATION",
+        "sentimentValue": "0",
+        "timesAppear": 1,
+        "appearIn": [
+          15
+        ]
+      },
+      {
+        "text": "Xinjiang-based",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          17
+        ]
+      },
+      {
+        "text": "model",
+        "ner": "TITLE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          19
+        ]
+      },
+      {
+        "text": "Washington",
+        "ner": "STATE_OR_PROVINCE",
+        "sentimentValue": 1,
+        "timesAppear": 2,
+        "appearIn": [
+          21,
+          38
+        ]
+      },
+      {
+        "text": "U.S.",
+        "ner": "COUNTRY",
+        "sentimentValue": 1.25,
+        "timesAppear": 4,
+        "appearIn": [
+          23,
+          24,
+          29,
+          36
+        ]
+      },
+      {
+        "text": "Sweden",
+        "ner": "COUNTRY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          24
+        ]
+      },
+      {
+        "text": "Germany",
+        "ner": "COUNTRY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          24
+        ]
+      },
+      {
+        "text": "FBI",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          26
+        ]
+      },
+      {
+        "text": "Congress",
+        "ner": "ORGANIZATION",
+        "sentimentValue": 1,
+        "timesAppear": 5,
+        "appearIn": [
+          27,
+          32,
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "text": "Global Magnitsky Act",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          27
+        ]
+      },
+      {
+        "text": "Muslim-majority",
+        "ner": "LOCATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          29
+        ]
+      },
+      {
+        "text": "Asia",
+        "ner": "CITY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          29
+        ]
+      },
+      {
+        "text": "Pakistan",
+        "ner": "COUNTRY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          29
+        ]
+      },
+      {
+        "text": "Malaysia",
+        "ner": "COUNTRY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          29
+        ]
+      },
+      {
+        "text": "Indonesia",
+        "ner": "COUNTRY",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          29
+        ]
+      },
+      {
+        "text": "U.N.",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          32
+        ]
+      },
+      {
+        "text": "Western",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          34
+        ]
+      },
+      {
+        "text": "Secretary",
+        "ner": "TITLE",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          34
+        ]
+      },
+      {
+        "text": "Chen Quanguo",
+        "ner": "PERSON",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          34
+        ]
+      },
+      {
+        "text": "Magnitsky Act",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          35
+        ]
+      },
+      {
+        "text": "Dahua Technology",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          35
+        ]
+      },
+      {
+        "text": "China Electronics Technology Group Corporation",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          35
+        ]
+      },
+      {
+        "text": "Huawei-that",
+        "ner": "MISC",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          35
+        ]
+      },
+      {
+        "text": "Intel",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          36
+        ]
+      },
+      {
+        "text": "Nvidia",
+        "ner": "ORGANIZATION",
+        "sentimentValue": "1",
+        "timesAppear": 1,
+        "appearIn": [
+          36
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "text": "Uighurs",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 2,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 7,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Communist Party",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 9,
+        "tripletIndex": 0
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 9,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Trump White House",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 14,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Xinjiang",
+        "ner": "STATE_OR_PROVINCE",
+        "positionText": "object",
+        "sentenceIndex": 14,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Central",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 0
+      },
+      {
+        "text": "America",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslims",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 15,
+        "tripletIndex": 3
+      },
+      {
+        "text": "violence",
+        "ner": "CAUSE_OF_DEATH",
+        "positionText": "object",
+        "sentenceIndex": 15,
+        "tripletIndex": 4
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "positionText": "subject",
+        "sentenceIndex": 17,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Uighurs",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 17,
+        "tripletIndex": 0
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 17,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 20,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Xinjiang",
+        "ner": "STATE_OR_PROVINCE",
+        "positionText": "object",
+        "sentenceIndex": 20,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Germany",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 24,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Uighur",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 24,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Sweden",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 24,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Uighur",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 24,
+        "tripletIndex": 1
+      },
+      {
+        "text": "U.S.",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 24,
+        "tripletIndex": 2
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 25,
+        "tripletIndex": 0
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 25,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Uighurs",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 25,
+        "tripletIndex": 1
+      },
+      {
+        "text": "America",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 25,
+        "tripletIndex": 1
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 25,
+        "tripletIndex": 2
+      },
+      {
+        "text": "FBI",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 26,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Congress",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 27,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Global Magnitsky Act",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 27,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Trump",
+        "ner": "PERSON",
+        "positionText": "subject",
+        "sentenceIndex": 27,
+        "tripletIndex": 2
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 28,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Indonesia",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 29,
+        "tripletIndex": 0
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 29,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Indonesia",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 29,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Muslim-majority",
+        "ner": "LOCATION",
+        "positionText": "object",
+        "sentenceIndex": 29,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Pakistan",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 29,
+        "tripletIndex": 3
+      },
+      {
+        "text": "Beijing",
+        "ner": "CITY",
+        "positionText": "subject",
+        "sentenceIndex": 31,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Xinjiang",
+        "ner": "STATE_OR_PROVINCE",
+        "positionText": "object",
+        "sentenceIndex": 32,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Xinjiang",
+        "ner": "STATE_OR_PROVINCE",
+        "positionText": "object",
+        "sentenceIndex": 32,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Beijing",
+        "ner": "CITY",
+        "positionText": "object",
+        "sentenceIndex": 33,
+        "tripletIndex": 0
+      },
+      {
+        "text": "United States",
+        "ner": "COUNTRY",
+        "positionText": "subject",
+        "sentenceIndex": 34,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Congress",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 35,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Congress",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 35,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Magnitsky Act",
+        "ner": "MISC",
+        "positionText": "object",
+        "sentenceIndex": 35,
+        "tripletIndex": 1
+      },
+      {
+        "text": "Congress",
+        "ner": "ORGANIZATION",
+        "positionText": "subject",
+        "sentenceIndex": 35,
+        "tripletIndex": 2
+      },
+      {
+        "text": "Chinese",
+        "ner": "NATIONALITY",
+        "positionText": "object",
+        "sentenceIndex": 35,
+        "tripletIndex": 2
+      },
+      {
+        "text": "China",
+        "ner": "COUNTRY",
+        "positionText": "object",
+        "sentenceIndex": 37,
+        "tripletIndex": 0
+      },
+      {
+        "text": "Washington",
+        "ner": "STATE_OR_PROVINCE",
+        "positionText": "subject",
+        "sentenceIndex": 38,
+        "tripletIndex": 0
       }
     ]
   }

@@ -3,9 +3,21 @@
  */
 const articlesComparer = require('./articlesComparer')
 const utils = require('./../utils')
+const dbReader = require('./../LocalDB/dbReader')
+
+function getTopMostSimilarArticle(callback) {
+    dbReader.readDbAsJson((err, annotatedArticles) => {
+        for (let i = 0; i < annotatedArticles.length; i ++) {
+            _generateSentimentEntityScoreList(annotatedArticles[i].meta.url, (results) => {
+                results.sort((a, b) => b.similarityScore - a.similarityScore)
+                console.log(results[0])
+            })
+        }
+    })
+}
 
 function getTopUnpolarizeArticle(url, callback) {
-    generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
+    _generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
         let validList = []
         for (let i = 0; i < sentimentEntityScoreList.length; i ++) {
             if (sentimentEntityScoreList[i].similarityScore > 0.05) {
@@ -18,14 +30,14 @@ function getTopUnpolarizeArticle(url, callback) {
 }
 
 function getTopRelevantArticle(url, callback) {
-    generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
+    _generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
         let returnList = sentimentEntityScoreList
         returnList.sort((a, b) => b.relevantScore - a.relevantScore)
         callback(returnList.slice(0, 5))
     })
 }
 
-function generateSentimentEntityScoreList(url, callback) {
+function _generateSentimentEntityScoreList(url, callback) {
     articlesComparer.getCachedDb((err_0, allArticles) => {
         articlesComparer.getAnnotatedArticleByUrl(url, (err_1, annotatedArticle) => {
             _recursiveCompareAllArticles(annotatedArticle, allArticles, 0, [], callback)
@@ -81,7 +93,7 @@ function _compareArticle(sourceArticle, targetArticle, callback) {
     returnValue.viewpointDifferent = totalViewPointDiff / similarSentimentList.length
     returnValue.unpolarizeScore = (returnValue.similarityScore * returnValue.viewpointDifferent) / 4
     returnValue.relevantScore = 2 * returnValue.similarEntityNumber <= returnValue.differentEntityNumber ?
-        2 * returnValue.similarEntityNumber / returnValue.differentEntityNumber : returnValue.differentEntityNumber / 2 * returnValue.similarEntityNumber
+        (2 * returnValue.similarEntityNumber) / returnValue.differentEntityNumber : returnValue.differentEntityNumber / (2 * returnValue.similarEntityNumber)
 
     callback(returnValue)
 }
@@ -100,5 +112,6 @@ function _isSentimentEntityAdded(similarSentimentList, sentimentEntity) {
     return false
 }
 
+module.exports.getTopMostSimilarArticle = getTopMostSimilarArticle
 module.exports.getTopRelevantArticle = getTopRelevantArticle
 module.exports.getTopUnpolarizeArticle = getTopUnpolarizeArticle
