@@ -6,23 +6,26 @@ const coreFeatureExtractor = require('./NLPHandler/coreFeatureExtractor')
 const nlpAnnotator = require('./NLPHandler/nlpAnnotator')
 const openieProcessor = require('./NLPHandler/openieProcessor')
 const sentimentProcessor = require('./NLPHandler/sentimentProcessor')
+const sentimentComparer = require('./Unpolarizer/sentimentComparer')
 const summarizer = require('./NewsGatherer/summarizer')
 const utils = require('./utils')
 const dbWriter = require('./LocalDB/dbWriter')
+const dbReader = require('./LocalDB/dbReader')
 
-let url = "https://www.bbc.com/news/world-europe-47763176" //ukraine news
+let url = "http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/"
 
-let p = "The devastating war in Yemen has gotten more attention recently as outrage over the killing of a Saudi dissident in Istanbul has turned a spotlight on Saudi actions elsewhere. Eight million Yemenis already depend on emergency food aid to survive, he said, a figure that could soon rise to 14 million, or half Yemen's population. The embassy of Saudi Arabia in Washington did not respond to questions about the country's policies in Yemen. The Saudis point out that they, along with the United Arab Emirates, are among the most generous donors to Yemen's humanitarian relief effort. In January, Saudi Arabia deposited $2 billion in Yemen's central bank to prop up its currency. Saudi Arabia's tight control over all air and sea movements into northern Yemen has effectively made the area a prison for those who live there."
 
-// nlpAnnotator.requestNlpAnnotation(p, (err, nlpAnnotation) => {
-//     // utils.logFullObject(nlpAnnotation)
-//     sentimentProcessor.extractSentimentsFromNLP(nlpAnnotation, (err_2, result) => {
-//         utils.logFullObject(result)
-//     })
-// })
+sentimentComparer.getTopRelevantArticle(url, (validList) => {
+    utils.logFullObject(validList)
+})
+
 
 // coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, (err, coreFeature) => {
-//     utils.logFullObject(coreFeature)
+//     for (let i = 0; i < coreFeature.sentiment.length; i ++) {
+//         console.log(coreFeature.sentiment[i].text)
+//     }
+//     console.log("\nSentiment count: " + coreFeature.sentiment.length)
+//     console.log("\nSentence count" + coreFeature.data.length)
 // })
 
 
@@ -37,27 +40,10 @@ let p = "The devastating war in Yemen has gotten more attention recently as outr
 //     utils.logFullObject(res)
 // })
 
-// coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(url, (err, res) => {
-//     utils.logFullObject(res)
+
+// dbReader.readDbAsJson((err, annotatedArticles) => {
+//     for (let i = 0; i < annotatedArticles.length; i ++) {
+//         console.log(utils.isNullOrUndefined(annotatedArticles[i].meta.title) ? annotatedArticles[i].meta.url : annotatedArticles[i].meta.title)
+//     }
+//     console.log("\nTotal: " + annotatedArticles.length)
 // })
-
-/*
-let testPromise = (myParam) => {
-    return new Promise((resolve, reject) => {
-        console.log("this is the function - " + myParam)
-        if (true) {
-            resolve("Stuff worked!");
-        }
-        else {
-            reject(Error("It broke"));
-        }
-    });
-}
-
-testPromise("hello world").then((result) => {
-    console.log(result); // "Stuff worked!"
-}).catch((err) => {
-    console.log(err); // Error: "It broke"
-});
-*/
-

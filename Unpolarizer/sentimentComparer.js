@@ -8,7 +8,7 @@ function getTopUnpolarizeArticle(url, callback) {
     generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
         let validList = []
         for (let i = 0; i < sentimentEntityScoreList.length; i ++) {
-            if (sentimentEntityScoreList[i].similarityScore > 0.1) {
+            if (sentimentEntityScoreList[i].similarityScore > 0.05) {
                 validList.push(sentimentEntityScoreList[i])
             }
         }
@@ -66,6 +66,8 @@ function _compareArticle(sourceArticle, targetArticle, callback) {
         }
     }
     let returnValue = {}
+    returnValue.sourceUrl = sourceArticle.meta.url
+    returnValue.sourceTitle = sourceArticle.meta.title
     returnValue.url = targetArticle.meta.url
     returnValue.title = targetArticle.meta.title
     returnValue.similarEntityNumber = similarSentimentList.length
@@ -97,8 +99,6 @@ function _isSentimentEntityAdded(similarSentimentList, sentimentEntity) {
     }
     return false
 }
-
-url = "http://www.pewforum.org/2018/05/29/being-christian-in-western-europe/"
 
 module.exports.getTopRelevantArticle = getTopRelevantArticle
 module.exports.getTopUnpolarizeArticle = getTopUnpolarizeArticle
