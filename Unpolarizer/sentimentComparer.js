@@ -7,17 +7,6 @@ const dbReader = require('./../LocalDB/dbReader')
 
 MIN_SIMILARITY = 0.06
 
-function getTopMostSimilarArticle(callback) {
-    dbReader.readDbAsJson((err, annotatedArticles) => {
-        for (let i = 0; i < annotatedArticles.length; i ++) {
-            _generateSentimentEntityScoreList(annotatedArticles[i].meta.url, (results) => {
-                results.sort((a, b) => b.similarityScore - a.similarityScore)
-                console.log(results[0])
-            })
-        }
-    })
-}
-
 function getTopUnpolarizeArticle(url, callback) {
     _generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
         let validList = []

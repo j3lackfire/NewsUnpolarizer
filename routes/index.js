@@ -10,8 +10,10 @@ app.use(bodyParser.urlencoded({extended: false}))
 const annotator = require('./../NLPHandler/nlpAnnotator');
 const webReader = require('./../NewsGatherer/legacy/webContentReader')
 const similarityModule = require('./../NLPHandler/legacy/similarityModule')
-const articlesComparer = require('./../Unpolarizer/articlesComparer')
-const truthExplorer = require('./../NLPHandler/legacy/old_truthExplorer')
+
+const sentimentComparer = require('./Unpolarizer/sentimentComparer')
+const coreFeatureExtractor = require('./NLPHandler/coreFeatureExtractor')
+const articlesComparer = require('./Unpolarizer/articlesComparer')
 
 
 /* GET home page. */
@@ -37,10 +39,10 @@ router.post('/annotateParagraph', function(req, res, next) {
     })
 });
 
-router.post('/getCoreFeature', function(req, res, next) {
+router.post('/extractCoreFeature', function(req, res, next) {
     console.log('Post - Get core feature function!!!')
     console.log(req.body)
-    annotator.getCoreFeature(req.body.data, function(error, response) {
+    coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(req.body.data, function(error, response) {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
@@ -50,11 +52,10 @@ router.post('/getCoreFeature', function(req, res, next) {
     })
 });
 
-//send an url to the service and the out put is the content of the article.
-router.post('/getUrlContent', function(req, res, next) {
-    console.log('Get Url content')
+router.post('/sentimentTopSimilar', function(req, res, next) {
+    console.log('Post - Get core feature function!!!')
     console.log(req.body)
-    webReader.extractWebContent(req.body.data, function(error, response) {
+    sentimentComparer.getTopUnpolarizeArticle(req.body.data, function(error, response) {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
@@ -64,11 +65,11 @@ router.post('/getUrlContent', function(req, res, next) {
     })
 });
 
-//analyze url but NOT add it to the db
-router.post('/analyzeUrlNoAdded', function(req, res, next) {
-    console.log('Analyze Url No add')
+
+router.post('/sentimentTopRelevant', function(req, res, next) {
+    console.log('Post - Get core feature function!!!')
     console.log(req.body)
-    annotator.analyzeUrl(req.body.data, function(error, response) {
+    sentimentComparer.getTopRelevantArticle(req.body.data, function(error, response) {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
@@ -78,57 +79,8 @@ router.post('/analyzeUrlNoAdded', function(req, res, next) {
     })
 });
 
-router.post('/analyzeUrl', function(req, res, next) {
-    console.log('Analyze Url')
-    console.log(req.body)
-    annotator.analyzeUrlAndAddToDb(req.body.data, function(error, response) {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            res.json(response)
-        }
-    })
-});
-
-router.post('/suggestSimilarArticles', (req, res, next) => {
-    console.log('Suggest Similar Article')
-    console.log(req.body)
-    similarityModule.findSimilarArticles(req.body.data, (error, response) => {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            //this only return the first 3 value, but is that really neccessary???
-            // let returnValue = []
-            // let numberOfSuggestion = (typeof (req.body.numberOfSuggestion) == 'undefined') ? 3 : parseInt(req.body.numberOfSuggestion)
-            // if (numberOfSuggestion >= response.length) {
-            //     numberOfSuggestion = response.length - 1
-            // }
-            // for (let i = 0; i < numberOfSuggestion; i ++) {
-            //     returnValue.push(response[i])
-            // }
-            // res.json(returnValue)
-            res.json(response)
-        }
-    })
-});
-
-router.post('/mostSimilarArticle', function(req, res, next) {
-    console.log('Most similar article')
-    console.log(req.body)
-    truthExplorer.getGetMostSimilarArticleWithInsight(req.body.data, function(error, response) {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            res.json(response)
-        }
-    })
-});
-
-router.post('/mostRelevantArticleByUrl', (req, res, next) => {
-    console.log('Most relevant article by url')
+router.post('/oieTopRelevant', function(req, res, next) {
+    console.log('Post - Get core feature function!!!')
     console.log(req.body)
     articlesComparer.findMostRelevanceByUrl(req.body.data, function(error, response) {
         if (error) {
@@ -140,34 +92,6 @@ router.post('/mostRelevantArticleByUrl', (req, res, next) => {
     })
 });
 
-//----------------- TEST --------------------------
-
-
-router.post('/getUrlContentNoCleanup', function(req, res, next) {
-    console.log('getContentWithoutURL')
-    console.log(req.body)
-    webReader.getContentNoCleanUp(req.body.data, function(error, response) {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            res.json(response)
-        }
-    })
-});
-
-router.post('/getContentWithHtml', function(req, res, next) {
-    console.log('getContentWithHtml')
-    console.log(req.body)
-    webReader.getContentWithHtml(req.body.data, function(error, response) {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            res.json(response)
-        }
-    })
-});
 
 
 module.exports = router;
