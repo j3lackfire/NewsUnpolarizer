@@ -11,9 +11,9 @@ const annotator = require('./../NLPHandler/nlpAnnotator');
 const webReader = require('./../NewsGatherer/legacy/webContentReader')
 const similarityModule = require('./../NLPHandler/legacy/similarityModule')
 
-const sentimentComparer = require('./Unpolarizer/sentimentComparer')
-const coreFeatureExtractor = require('./NLPHandler/coreFeatureExtractor')
-const articlesComparer = require('./Unpolarizer/articlesComparer')
+const sentimentComparer = require('./../Unpolarizer/sentimentComparer')
+const articlesComparer = require('./../Unpolarizer/articlesComparer')
+const coreFeatureExtractor = require('./../NLPHandler/coreFeatureExtractor')
 
 
 /* GET home page. */
@@ -25,11 +25,10 @@ router.get('/helloWorld', function(req, res, next) {
     res.json('Hello world!');
 });
 
-//Note that the body of the sending data must be x-www-form-urlencoded
-router.post('/annotateParagraph', function(req, res, next) {
-    console.log('Post - annotate function called !!!')
-    console.log(req.body)
-    annotator.annotateParagraph(req.body.data, function(error, response) {
+router.get('/extractCoreFeatureFromUrl', function(req, res, next) {
+    console.log('GET - extractCoreFeatureFromUrl!!!')
+    console.log(req.headers.data)
+    coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(req.headers.data, function(error, response) {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
@@ -39,10 +38,37 @@ router.post('/annotateParagraph', function(req, res, next) {
     })
 });
 
-router.post('/extractCoreFeature', function(req, res, next) {
+router.get('/topSimilar', function(req, res, next) {
+    console.log('Get - topSimilar!!!')
+    console.log(req.headers.data)
+    sentimentComparer.getTopUnpolarizeArticle(req.headers.data, function(error, response) {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
+            res.json(error)
+        } else {
+            res.json(response)
+        }
+    })
+});
+
+
+router.get('/topRelevant', function(req, res, next) {
+    console.log('get - topRelevant!!!')
+    console.log(req.headers.data)
+    sentimentComparer.getTopRelevantArticle(req.headers.data, function(error, response) {
+        if (error) {
+            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
+            res.json(error)
+        } else {
+            res.json(response)
+        }
+    })
+});
+
+router.get('/topRelevantOIE', function(req, res, next) {
     console.log('Post - Get core feature function!!!')
-    console.log(req.body)
-    coreFeatureExtractor.extractCoreFeaturesAndEntitiesAndMetaFromUrl(req.body.data, function(error, response) {
+    console.log(req.headers.data)
+    articlesComparer.findMostRelevanceByUrl(req.headers.data, function(error, response) {
         if (error) {
             error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
             res.json(error)
@@ -51,47 +77,5 @@ router.post('/extractCoreFeature', function(req, res, next) {
         }
     })
 });
-
-router.post('/sentimentTopSimilar', function(req, res, next) {
-    console.log('Post - Get core feature function!!!')
-    console.log(req.body)
-    sentimentComparer.getTopUnpolarizeArticle(req.body.data, function(error, response) {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            res.json(response)
-        }
-    })
-});
-
-
-router.post('/sentimentTopRelevant', function(req, res, next) {
-    console.log('Post - Get core feature function!!!')
-    console.log(req.body)
-    sentimentComparer.getTopRelevantArticle(req.body.data, function(error, response) {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            res.json(response)
-        }
-    })
-});
-
-router.post('/oieTopRelevant', function(req, res, next) {
-    console.log('Post - Get core feature function!!!')
-    console.log(req.body)
-    articlesComparer.findMostRelevanceByUrl(req.body.data, function(error, response) {
-        if (error) {
-            error.note = 'There is an ERROR, please check if you have started the Stanford CORE NLP server!';
-            res.json(error)
-        } else {
-            res.json(response)
-        }
-    })
-});
-
-
 
 module.exports = router;

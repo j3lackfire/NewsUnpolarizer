@@ -60,18 +60,25 @@ function _getUrlsNotInDb(urls, callback) {
     })
 }
 
-let urls = [
-    "https://religionnews.com/2018/12/04/chinas-repression-of-uighurs-wont-stop-until-the-international-community-intervenes/",
-    "https://foreignpolicy.com/2018/11/28/china-is-violating-uighurs-human-rights-the-united-states-must-act/"
-]
+const lineReader = require('line-reader');
 
-_getUrlsNotInDb(urls, (uniqueUrls) => {
-    populateDatabase(0, uniqueUrls, (err) => {
-        if (err) {
+console.log("HELLO WORLD")
+let urls = []
+lineReader.eachLine('urls.txt', function(line, last) {
+    urls.push(line)
+    // do whatever you want with line...
+    if(last){
+        urls.push(line)
+        _getUrlsNotInDb(urls, (uniqueUrls) => {
+            populateDatabase(0, uniqueUrls, (err) => {
+                if (err) {
 
-        } else {
-            console.log("DONE populate the database!")
-        }
-    })
+                } else {
+                    console.log("DONE populate the database!")
+                }
+            })
+        })
+    }
 })
+
 

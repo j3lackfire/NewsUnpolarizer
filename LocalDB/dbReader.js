@@ -14,7 +14,12 @@ let dbName = 'annotatedArticles.json'
 function readDbAsJson(callback) {
     _readFile(dbName, (err, response) => {
         if (err) {
-            callback(err, null)
+            fs.writeFile(baseFilePath + dbName, '[]', function (err) {
+                if (err) throw err;
+                console.log('DB not exist, create new!');
+                callback(null, [])
+            });
+
         } else {
             let jsonObject = null
             try {

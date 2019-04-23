@@ -103,6 +103,5 @@ function _isSentimentEntityAdded(similarSentimentList, sentimentEntity) {
     return false
 }
 
-module.exports.getTopMostSimilarArticle = getTopMostSimilarArticle
 module.exports.getTopRelevantArticle = getTopRelevantArticle
 module.exports.getTopUnpolarizeArticle = getTopUnpolarizeArticle

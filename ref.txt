@@ -1,0 +1,35 @@
+Loftus, E. F. (1979). Reactions to blatantly contradictory information. Memory & Cogni-tion, 7(5), 368-374.
+Braun, K. A., & Loftus, E. F. (1998). Advertising's misinformation effect. Applied Cogni-tive Psychology: The Official Journal of the Society for Applied Research in Memory and Cognition, 12(6), 569-591.
+Chen, X., Sin, S. C. J., Theng, Y. L., & Lee, C. S. (2015). Why students share misinfor-mation on social media: Motivation, gender, and study-level differences. The Journal of Academic Librarianship, 41(5), 583-592.
+Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Sci-ence, 359(6380), 1146-1151.
+Adamic, L. A., & Glance, N. (2005, August). The political blogosphere and the 2004 US election: divided they blog. In Proceedings of the 3rd international workshop on Link dis-covery (pp. 36-43). ACM.
+Bakshy, E., Messing, S., & Adamic, L. A. (2015). Exposure to ideologically diverse news and opinion on Facebook. Science, 348(6239), 1130-1132.
+Barberá, P., Jost, J. T., Nagler, J., Tucker, J. A., & Bonneau, R. (2015). Tweeting from left to right: Is online political communication more than an echo chamber?. Psychological sci-ence, 26(10), 1531-1542.
+Du, S., & Gregory, S. (2016, November). The Echo Chamber Effect in Twitter: does com-munity polarization increase?. In International Workshop on Complex Networks and their Applications (pp. 373-378). Springer, Cham.
+Gampa, A., Wojcik, S., Motyl, M., Nosek, B., & Ditto, P. H. (2016). Logical reasoning: Ideology impairs sound reasoning. Unpublished manuscript.
+Lazer, D. (2015). The rise of the social algorithm. Science, 348(6239), 1090-1091.
+Budak, C., Agrawal, D., & El Abbadi, A. (2011, March). Limiting the spread of misinfor-mation in social networks. In Proceedings of the 20th international conference on World wide web (pp. 665-674). ACM.
+Dubois, E., & Blank, G. (2018). The echo chamber is overstated: the moderating effect of political interest and diverse media. Information, Communication & Society, 21(5), 729-745.
+Grishman, R., & Sundheim, B. (1996). Message understanding conference-6: A brief histo-ry. In COLING 1996 Volume 1: The 16th International Conference on Computational Linguistics (Vol. 1).
+Maksym Gabielkov, Arthi Ramachandran, Augustin Chaintreau, Arnaud Legout. Social Clicks: What and Who Gets Read on Twitter?. ACM SIGMETRICS / IFIP Performance 2016, Jun 2016, Antibes Juan-les-Pins, France. 2016
+Liddy, E. D. (2001). Natural language processing.
+Marrero, M., Urbano, J., Sánchez-Cuadrado, S., Morato, J., & Gómez-Berbís, J. M. (2013). Named entity recognition: fallacies, challenges and opportunities. Computer Standards & Interfaces, 35(5), 482-489.
+Marsh, E., & Perzanowski, D. (1998). MUC-7 evaluation of IE technology: Overview of results. In Seventh Message Understanding Conference (MUC-7): Proceedings of a Con-ference Held in Fairfax, Virginia, April 29-May 1, 1998.
+Nasukawa, T., & Yi, J. (2003, October). Sentiment analysis: Capturing favorability using natural language processing. In Proceedings of the 2nd international conference on Knowledge capture (pp. 70-77). ACM.
+Banko, Michele; Cafarella, Michael; Soderland, Stephen; Broadhead, Matt; Etzioni, Oren (2007). "Open Information Extraction from the Web" (PDF). Conference on Artificial In-telligence.
+Stone, P. J., & Hunt, E. B. (1963, May). A computer approach to content analysis: studies using the general inquirer system. In Proceedings of the May 21-23, 1963, spring joint computer conference (pp. 241-256). ACM.
+Stone, P. J., Bales, R. F., Namenwirth, J. Z., & Ogilvie, D. M. (1962). The general inquirer: A computer system for content analysis and retrieval based on the sentence as a unit of information. Behavioral Science, 7(4), 484-498.
+Terry Winograd, Procedures as a Representation for Data in a Computer Program for Un-derstanding Natural Language. MIT AI Technical Report 235, February 1971
+Manning, Christopher D., Mihai Surdeanu, John Bauer, Jenny Finkel, Steven J. Bethard, and David McClosky. 2014. The Stanford CoreNLP Natural Language Processing Toolkit In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguis-tics: System Demonstrations, pp. 55-60.
+Jenny Rose Finkel, Trond Grenager, and Christopher Manning. 2005. Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling. Proceedings of the 43nd Annual Meeting of the Association for Computational Linguistics (ACL 2005), pp. 363-370
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. Conference on Empirical Methods in Natural Language Processing (EMNLP 2013)
+Gabor Angeli, Melvin Johnson Premkumar, and Christopher D. Manning. Leveraging Lin-guistic Structure For Open Domain Information Extraction. In Proceedings of the Associa-tion of Computational Linguistics (ACL), 2015.
+S. Tilkov and S. Vinoski, "Node.js: Using JavaScript to Build High-Performance Network Programs," in IEEE Internet Computing, vol. 14, no. 6, pp. 80-83, Nov.-Dec. 2010.
+K. Lei, Y. Ma and Z. Tan, "Performance Comparison and Evaluation of Web Development Technologies in PHP, Python, and Node.js," 2014 IEEE 17th International Conference on Computational Science and Engineering, Chengdu, 2014, pp. 661-668.
+D. Spinellis, "Version control systems," in IEEE Software, vol. 22, no. 5, pp. 108-109, Sept.-Oct. 2005,
+Loeliger, Jon, and Matthew McCullough. Version Control with Git: Powerful tools and techniques for collaborative software development. " O'Reilly Media, Inc.", 2012.
+Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human-like biases. Science, 356(6334), 183-186.
+Cowie, J., & Wilks, Y. (2000). Information extraction. Handbook of Natural Language Processing, 56, 57.
+Litkowski, K. C. (1999). Question-answering using semantic relation triples. In TREC.
+Ribeiro, F. N., Araújo, M., Gonçalves, P., Gonçalves, M. A., & Benevenuto, F. (2016). Sentibench-a benchmark comparison of state-of-the-practice sentiment analysis methods. EPJ Data Science, 5(1), 1-29.
+Rizzo, G., van Erp, M., & Troncy, R. (2014, May). Benchmarking the Extraction and Dis-ambiguation of Named Entities on the Semantic Web. In LREC (pp. 4593-4600).
