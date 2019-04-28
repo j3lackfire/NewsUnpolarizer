@@ -1,340 +1,1183 @@
-[ { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.scmp.com/week-asia/opinion/article/2179716/asia-2019-watch-out-elections-india-and-indonesia-us-china',
-  title: 'Asia in 2019: from elections in India and Indonesia to US-China tensions, Xinjiang and extreme weather',
-  similarEntityNumber: 13,
-  differentEntityNumber: 97,
-  similarityScore: 0.11818181818181818,
-  viewpointDifferent: 0.5681041181041182,
-  unpolarizeScore: 0.016784894398530766,
-  relevantScore: 0.26804123711340205 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://dctheatrescene.com/2019/01/21/review-submission-a-dystopian-view-of-muslim-brotherhoods-takeover-of-europe/',
-    title: 'Review: Submission, a dystopian view of Muslim Brotherhood\'s takeover of Europe',
-    similarEntityNumber: 6,
-    differentEntityNumber: 110,
-    similarityScore: 0.05172413793103448,
-    viewpointDifferent: 1,
-    unpolarizeScore: 0.01293103448275862,
-    relevantScore: 0.10909090909090909 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://www.nybooks.com/articles/2019/02/07/reeducating-xinjiangs-muslims/',
-    title: '\'Reeducating\' Xinjiang\'s Muslims',
-    similarEntityNumber: 13,
-    differentEntityNumber: 104,
-    similarityScore: 0.1111111111111111,
-    viewpointDifferent: 0.37752386502386504,
-    unpolarizeScore: 0.010486774028440695,
-    relevantScore: 0.25 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'http://www.pewforum.org/2018/10/29/eastern-and-western-europeans-differ-on-importance-of-religion-views-of-minorities-and-key-social-issues/',
-    title: 'Eastern and Western Europeans Differ on Importance of Religion, Views of Minorities, and Key Social Issues',
-    similarEntityNumber: 6,
-    differentEntityNumber: 103,
-    similarityScore: 0.05504587155963303,
-    viewpointDifferent: 0.7296296296296297,
-    unpolarizeScore: 0.010040774719673804,
-    relevantScore: 0.11650485436893204 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://www.nytimes.com/2019/01/18/opinion/donald-trump-russia-putin.html',
-    title: '',
-    similarEntityNumber: 8,
-    differentEntityNumber: 110,
-    similarityScore: 0.06779661016949153,
-    viewpointDifferent: 0.5625,
-    unpolarizeScore: 0.009533898305084746,
-    relevantScore: 0.14545454545454545 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://blogs.timesofisrael.com/why-as-a-muslim-i-feel-holocaust-memorial-day-is-as-essential-as-ever/',
-    title: 'Why as a Muslim, I feel Holocaust Memorial Day is as essential as ever',
-    similarEntityNumber: 5,
-    differentEntityNumber: 75,
-    similarityScore: 0.0625,
-    viewpointDifferent: 0.6,
-    unpolarizeScore: 0.009375,
-    relevantScore: 0.13333333333333333 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://www.straitstimes.com/opinion/asias-history-lessons-for-the-worlds-future',
-    title: 'Asia\'s history lessons for the world\'s future, Opinion News & Top Stories',
-    similarEntityNumber: 10,
-    differentEntityNumber: 95,
-    similarityScore: 0.09523809523809523,
-    viewpointDifferent: 0.36853535353535355,
-    unpolarizeScore: 0.008774651274651275,
-    relevantScore: 0.21052631578947367 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://eu.usatoday.com/story/money/2018/12/24/toblerone-halal-controversy-chocolate-bar-boycotted-far-right/2405914002/',
-    title: 'Toblerone halal controversy: Chocolate boycotted by Europe\'s far-right',
-    similarEntityNumber: 6,
-    differentEntityNumber: 75,
-    similarityScore: 0.07407407407407407,
-    viewpointDifferent: 0.4444444444444445,
-    unpolarizeScore: 0.00823045267489712,
-    relevantScore: 0.16 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'http://europa.eu/rapid/press-release_MEMO-19-542_en.htm',
-    title: 'Eurobarometer survey on Antisemitism in Europe',
-    similarEntityNumber: 7,
-    differentEntityNumber: 91,
-    similarityScore: 0.07142857142857142,
-    viewpointDifferent: 0.4608843537414966,
-    unpolarizeScore: 0.008230077745383868,
-    relevantScore: 0.15384615384615385 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://www.wsj.com/articles/europes-right-wing-woos-a-new-audience-jewish-voters-11546257601',
-    title: 'Europe\'s Right Wing Woos a New Audience: Jewish Voters',
-    similarEntityNumber: 10,
-    differentEntityNumber: 130,
-    similarityScore: 0.07142857142857142,
-    viewpointDifferent: 0.4225,
-    unpolarizeScore: 0.0075446428571428565,
-    relevantScore: 0.15384615384615385 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://foreignpolicy.com/2019/01/05/michel-houellebecq-hated-europe-before-you-did/',
-    title: 'Michel Houellebecq Hated Europe Before You Did – Foreign Policy',
-    similarEntityNumber: 8,
-    differentEntityNumber: 111,
-    similarityScore: 0.06722689075630252,
-    viewpointDifferent: 0.44791666666666663,
-    unpolarizeScore: 0.007528011204481792,
-    relevantScore: 0.14414414414414414 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-    url: 'https://www.thetrumpet.com/18331-denmark-handshake-enforces-european-values-on-muslims',
-    title: 'Denmark Handshake Enforces European Values on Muslims',
-    similarEntityNumber: 6,
-    differentEntityNumber: 87,
-    similarityScore: 0.06451612903225806,
-    viewpointDifferent: 0.4583333333333333,
-    unpolarizeScore: 0.007392473118279569,
-    relevantScore: 0.13793103448275862 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-    sourceTitle:     sourceTitle: [32m'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.aljazeera.com/programmes/specialseries/2018/08/victim-attacks-affected-muslims-europe-180801145915309.html',
-  title: 'Twice a Victim: How Have Attacks Affected Muslims in Europe?',
-  similarEntityNumber: 5,
-  differentEntityNumber: 80,
-  similarityScore: 0.058823529411764705,
-  viewpointDifferent: 0.5,
-  unpolarizeScore: 0.007352941176470588,
-  relevantScore: 0.125 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.aljazeera.com/indepth/opinion/chinese-islamophobia-west-190121131831245.html',
-  title: 'Chinese Islamophobia was made in the West',
-  similarEntityNumber: 12,
-  differentEntityNumber: 81,
-  similarityScore: 0.12903225806451613,
-  viewpointDifferent: 0.21458633958633958,
-  unpolarizeScore: 0.006922139986656115,
-  relevantScore: 0.2962962962962963 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://metro.co.uk/2019/01/22/rahaf-al-qunun-has-raised-a-major-taboo-that-some-muslims-reject-their-faith-8363479/',
-  title: 'Rahaf al-Qunun has raised a major taboo: that some Muslims reject their faith',
-  similarEntityNumber: 4,
-  differentEntityNumber: 70,
-  similarityScore: 0.05405405405405406,
-  viewpointDifferent: 0.5,
-  unpolarizeScore: 0.006756756756756757,
-  relevantScore: 0.11428571428571428 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.theguardian.com/cities/2019/jan/02/turkey-is-kosovo-controversy-over-balkan-states-new-central-mosque',
-  title: 'Turkey\'s gift of a mosque sparks fears of \'neo-Ottomanism\' in Kosovo',
-  similarEntityNumber: 9,
-  differentEntityNumber: 102,
-  similarityScore: 0.08108108108108109,
-  viewpointDifferent: 0.3012820512820513,
-  unpolarizeScore: 0.006107068607068608,
-  relevantScore: 0.17647058823529413 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://clarionproject.org/fatality-of-western-embrace-of-political-islam/',
-  title: 'Fatality of Western Embrace of Political Islam',
-  similarEntityNumber: 8,
-  differentEntityNumber: 83,
-  similarityScore: 0.08791208791208792,
-  viewpointDifferent: 0.25,
-  unpolarizeScore: 0.005494505494505495,
-  relevantScore: 0.1927710843373494 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'http://www.pewforum.org/2017/11/29/europes-growing-muslim-population/',
-  title: 'Muslim Population Growth in Europe',
-  similarEntityNumber: 6,
-  differentEntityNumber: 81,
-  similarityScore: 0.06896551724137931,
-  viewpointDifferent: 0.31103801169590645,
-  unpolarizeScore: 0.005362724339584594,
-  relevantScore: 0.14814814814814814 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'http://muslimnews.co.uk/newspaper/world-news/34570-2/',
-  title: 'Three Hui mosques raided in China\'s Yunnan province',
-  similarEntityNumber: 11,
-  differentEntityNumber: 81,
-  similarityScore: 0.11956521739130435,
-  viewpointDifferent: 0.17464908828545192,
-  unpolarizeScore: 0.0052204890520107915,
-  relevantScore: 0.2716049382716049 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.politico.eu/article/with-anti-muslim-laws-france-denmark-europe-enters-new-dark-age/',
-  title: 'With anti-Muslim laws, Europe enters new dark age – POLITICO',
-  similarEntityNumber: 6,
-  differentEntityNumber: 108,
-  similarityScore: 0.05263157894736842,
-  viewpointDifferent: 0.39393939393939387,
-  unpolarizeScore: 0.005183413078149919,
-  relevantScore: 0.1111111111111111 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'http://www.pewforum.org/2011/01/27/the-future-of-the-global-muslim-population/',
-  title: 'The Future of the Global Muslim Population',
-  similarEntityNumber: 6,
-  differentEntityNumber: 88,
-  similarityScore: 0.06382978723404255,
-  viewpointDifferent: 0.3101851851851852,
-  unpolarizeScore: 0.004949763593380614,
-  relevantScore: 0.13636363636363635 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.theatlantic.com/international/archive/2018/05/akbar-ahmed-islam-europe/559391/',
-  title: 'How Muslim Migration Is Reshaping Europe',
-  similarEntityNumber: 8,
-  differentEntityNumber: 85,
-  similarityScore: 0.08602150537634409,
-  viewpointDifferent: 0.22916666666666666,
-  unpolarizeScore: 0.0049283154121863805,
-  relevantScore: 0.18823529411764706 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.alaraby.co.uk/english/society/2018/11/28/ambassador-of-islam-professor-akbar-ahmed',
-  title: '\'Ambassador of Islam\': Talking religion, immigration and identity',
-  similarEntityNumber: 8,
-  differentEntityNumber: 104,
-  similarityScore: 0.07142857142857142,
-  viewpointDifferent: 0.2623015873015873,
-  unpolarizeScore: 0.004683956916099773,
-  relevantScore: 0.15384615384615385 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'http://www.pewresearch.org/fact-tank/2017/11/29/5-facts-about-the-muslim-population-in-europe/',
-  title: '5 facts about the Muslim population in Europe',
-  similarEntityNumber: 5,
-  differentEntityNumber: 74,
-  similarityScore: 0.06329113924050633,
-  viewpointDifferent: 0.28076923076923077,
-  unpolarizeScore: 0.00444255111976631,
-  relevantScore: 0.13513513513513514 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.gatestoneinstitute.org/13543/strasbourg-capital-europe',
-  title: 'Strasbourg: Capital of the EU and "The Future of Europe"',
-  similarEntityNumber: 7,
-  differentEntityNumber: 123,
-  similarityScore: 0.05384615384615385,
-  viewpointDifferent: 0.30476190476190473,
-  unpolarizeScore: 0.0041025641025641026,
-  relevantScore: 0.11382113821138211 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.politico.eu/article/muslims-integrate-in-europe-despite-discrimination-study/',
-  title: 'Muslims integrate in Europe despite discrimination: study – POLITICO',
-  similarEntityNumber: 5,
-  differentEntityNumber: 67,
-  similarityScore: 0.06944444444444445,
-  viewpointDifferent: 0.2,
-  unpolarizeScore: 0.0034722222222222225,
-  relevantScore: 0.14925373134328357 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.reuters.com/article/us-autos-batteries-europe-insight/europe-up-against-asian-juggernaut-in-electric-car-battery-drive-idUSKCN1J10MF',
-  title: 'Europe up against Asian juggernaut in electric car battery drive',
-  similarEntityNumber: 10,
-  differentEntityNumber: 119,
-  similarityScore: 0.07751937984496124,
-  viewpointDifferent: 0.1704156954156954,
-  unpolarizeScore: 0.003302629756118128,
-  relevantScore: 0.16806722689075632 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.theguardian.com/world/2017/nov/29/muslim-population-in-europe-could-more-than-double',
-  title: 'Muslim population in some EU countries could triple, says report',
-  similarEntityNumber: 6,
-  differentEntityNumber: 76,
-  similarityScore: 0.07317073170731707,
-  viewpointDifferent: 0.16666666666666666,
-  unpolarizeScore: 0.0030487804878048777,
-  relevantScore: 0.15789473684210525 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.straitstimes.com/asia/east-asia/singapore-china-to-set-up-mediators-panel-for-belt-and-road-projects',
-  title: 'Singapore, China to set up mediators\' panel for Belt and Road projects, East Asia News & Top Stories',
-  similarEntityNumber: 5,
-  differentEntityNumber: 70,
-  similarityScore: 0.06666666666666667,
-  viewpointDifferent: 0.17373737373737372,
-  unpolarizeScore: 0.0028956228956228953,
-  relevantScore: 0.14285714285714285 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://theconversation.com/why-do-muslim-women-wear-a-hijab-109717',
-  title: 'Why do Muslim women wear a hijab?',
-  similarEntityNumber: 6,
-  differentEntityNumber: 91,
-  similarityScore: 0.061855670103092786,
-  viewpointDifferent: 0.16666666666666666,
-  unpolarizeScore: 0.002577319587628866,
-  relevantScore: 0.13186813186813187 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://asia.nikkei.com/Economy/Indonesia-doubles-trade-missions-to-Muslim-markets-in-export-push',
-  title: 'Indonesia doubles trade missions to Muslim markets in export push',
-  similarEntityNumber: 11,
-  differentEntityNumber: 108,
-  similarityScore: 0.09243697478991597,
-  viewpointDifferent: 0.11042240587695132,
-  unpolarizeScore: 0.0025517782870724047,
-  relevantScore: 0.2037037037037037 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.haaretz.com/world-news/europe/no-europe-isn-t-returning-to-the-bosom-of-islam-1.6572926',
-  title: 'No, Europe isn\'t returning to the bosom of Islam',
-  similarEntityNumber: 10,
-  differentEntityNumber: 101,
-  similarityScore: 0.09009009009009009,
-  viewpointDifferent: 0.10428571428571427,
-  unpolarizeScore: 0.0023487773487773484,
-  relevantScore: 0.19801980198019803 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.straitstimes.com/asia/south-asia/angry-muslim-american-lawmaker-rashida-tlaib-shatters-stereotype-dawn-columnist',
-  title: 'Angry, Muslim-American lawmaker Rashida Tlaib shatters stereotype: Dawn columnist, South Asia News & Top Stories',
-  similarEntityNumber: 6,
-  differentEntityNumber: 95,
-  similarityScore: 0.0594059405940594,
-  viewpointDifferent: 0.08333333333333333,
-  unpolarizeScore: 0.0012376237623762374,
-  relevantScore: 0.12631578947368421 },
-  { sourceUrl: 'http://www.atimes.com/article/why-the-west-wont-act-on-chinas-uighur-crisis/',
-  sourceTitle: 'Why the West won\'t act on China\'s Uighur crisis',
-  url: 'https://www.straitstimes.com/asia/a-retreat-in-the-face-of-danger-the-nation',
-  title: 'A retreat in the face of danger: The Nation, Asia News & Top Stories',
-  similarEntityNumber: 4,
-  differentEntityNumber: 73,
-  similarityScore: 0.05194805194805195,
-  viewpointDifferent: 0.09375,
-  unpolarizeScore: 0.0012175324675324675,
-  relevantScore: 0.1095890410958904 } ]
+{
+  "meta": {
+    "url": "http://www.pewforum.org/2018/05/29/being-christian-in-western-europe/",
+    "title": "Attitudes of Christians in Western Europe"
+  },
+  "data": [
+    {
+      "text": "May 29 , 2018 . ",
+      "triplets": []
+    },
+    {
+      "text": "The majority of Europe 's Christians are non-practicing , but they differ from religiously unaffiliated people in their views on God , attitudes toward Muslims and immigrants , and opinions about religion 's role in society . ",
+      "triplets": []
+    },
+    {
+      "text": "In the United Kingdom , for example , there are roughly three times as many non-practicing Christians as there are church-attending Christians defined this way . ",
+      "triplets": [
+        {
+          "subject": "church-attending Christians",
+          "relation": "defined",
+          "object": "way",
+          "relationVerb": "define",
+          "full": "church-attending Christians defined way",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Even after a recent surge in immigration from the Middle East and North Africa , there are many more non-practicing Christians in Western Europe than people of all other religions combined . ",
+      "triplets": []
+    },
+    {
+      "text": "These figures raise some obvious questions : What is the meaning of Christian identity in Western Europe today ? ",
+      "triplets": []
+    },
+    {
+      "text": "And how different are non-practicing Christians from religiously unaffiliated Europeans - many of whom also come from Christian backgrounds ? ",
+      "triplets": [
+        {
+          "subject": "many",
+          "relation": "also come from",
+          "object": "Christian backgrounds",
+          "relationVerb": "come",
+          "full": "many also come from Christian backgrounds",
+          "entities": [
+            {
+              "text": "Christian",
+              "ner": "RELIGION",
+              "positionText": "object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Pew Research Center study - which involved more than 24,000 telephone interviews with randomly selected adults , including nearly 12,000 non-practicing Christians - finds that Christian identity remains a meaningful marker in Western Europe , even among those who seldom go to church . ",
+      "triplets": [
+        {
+          "subject": "Christian identity",
+          "relation": "remains",
+          "object": "meaningful marker in Western Europe",
+          "relationVerb": "remain",
+          "full": "Christian identity remains meaningful marker in Western Europe",
+          "entities": [
+            {
+              "text": "Christian",
+              "ner": "RELIGION",
+              "positionText": "subject"
+            },
+            {
+              "text": "marker",
+              "ner": "TITLE",
+              "positionText": "object"
+            },
+            {
+              "text": "Western Europe",
+              "ner": "LOCATION",
+              "positionText": "object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On the contrary , the religious , political and cultural views of non-practicing Christians often differ from those of church-attending Christians and religiously unaffiliated adults . ",
+      "triplets": [
+        {
+          "subject": "religious views",
+          "relation": "differ from",
+          "object": "those of church-attending Christians",
+          "relationVerb": "differ",
+          "full": "religious views differ from those of church-attending Christians",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Christian identity in Western Europe is associated with higher levels of negative sentiment toward immigrants and religious minorities . ",
+      "triplets": [
+        {
+          "subject": "Christian identity",
+          "relation": "is associated with",
+          "object": "higher levels of negative sentiment toward immigrants",
+          "relationVerb": "associate",
+          "full": "Christian identity is associated with higher levels of negative sentiment toward immigrants",
+          "entities": [
+            {
+              "text": "Christian",
+              "ner": "RELIGION",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Non-practicing Christians are less likely than church-attending Christians to express nationalist views . ",
+      "triplets": [
+        {
+          "subject": "Non-practicing Christians",
+          "relation": "express",
+          "object": "nationalist views",
+          "relationVerb": "express",
+          "full": "Non-practicing Christians express nationalist views",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            },
+            {
+              "text": "nationalist",
+              "ner": "IDEOLOGY",
+              "positionText": "object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Church-attending Christians are more conservative on these issues , though even among churchgoing Christians , there is substantial support - and in several countries , majority support - for legal abortion and same-sex marriage . ",
+      "triplets": []
+    },
+    {
+      "text": "Nearly all churchgoing Christians who are parents or guardians of minor children say they are raising those children in the Christian faith . ",
+      "triplets": []
+    },
+    {
+      "text": "Even after statistical techniques are used to control for differences in education , age , gender and political ideology , the survey shows that churchgoing Christians , non-practicing Christians and unaffiliated Europeans express different religious , cultural and social attitudes . ",
+      "triplets": [
+        {
+          "subject": "churchgoing Christians",
+          "relation": "express",
+          "object": "different religious attitudes",
+          "relationVerb": "express",
+          "full": "churchgoing Christians express different religious attitudes",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        },
+        {
+          "subject": "unaffiliated Europeans",
+          "relation": "express",
+          "object": "different religious attitudes",
+          "relationVerb": "express",
+          "full": "unaffiliated Europeans express different religious attitudes",
+          "entities": [
+            {
+              "text": "unaffiliated",
+              "ner": "IDEOLOGY",
+              "positionText": "subject"
+            },
+            {
+              "text": "Europeans",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        },
+        {
+          "subject": "non-practicing Christians",
+          "relation": "express",
+          "object": "different religious attitudes",
+          "relationVerb": "express",
+          "full": "non-practicing Christians express different religious attitudes",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Most non-practicing Christians in Europe believe in God . ",
+      "triplets": [
+        {
+          "subject": "Most non-practicing Christians",
+          "relation": "believe in",
+          "object": "God",
+          "relationVerb": "believe",
+          "full": "Most non-practicing Christians believe in God",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "While most church-attending Christians say they believe in God As described in the Bible , non-practicing Christians are more apt to say that they do not believe in the biblical depiction of God , but that they believe in some other higher power or spiritual force in the universe . ",
+      "triplets": []
+    },
+    {
+      "text": "Non-practicing Christians and Nones also diverge sharply on this question ; most unaffiliated people in Western Europe do not believe in God or a higher power or spiritual force of any kind . ",
+      "triplets": []
+    },
+    {
+      "text": "Majorities of non-practicing Christians and church-attending Christians believe in these ideas . ",
+      "triplets": []
+    },
+    {
+      "text": "Majorities agree with the statements , There are no spiritual forces in the universe , only the laws of nature and Science makes religion unnecessary in my life . ",
+      "triplets": []
+    },
+    {
+      "text": "These positions are held by smaller shares of church-attending Christians and non-practicing Christians , though in most countries roughly a quarter or more of non-practicing Christians say science makes religion unnecessary to them . ",
+      "triplets": [
+        {
+          "subject": "positions",
+          "relation": "are held",
+          "object": "in countries roughly quarter more of non-practicing Christians say",
+          "relationVerb": "hold",
+          "full": "positions are held in countries roughly quarter more of non-practicing Christians say",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "object"
+            }
+          ]
+        },
+        {
+          "subject": "positions",
+          "relation": "are held by",
+          "object": "smaller shares of church-attending Christians",
+          "relationVerb": "hold",
+          "full": "positions are held by smaller shares of church-attending Christians",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In every country surveyed , church-attending Christians are much more likely than non-practicing Christians to favor government support for religious values . ",
+      "triplets": [
+        {
+          "subject": "church-attending Christians",
+          "relation": "favor",
+          "object": "government support for religious values",
+          "relationVerb": "favor",
+          "full": "church-attending Christians favor government support for religious values",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Austria , for example , a majority of churchgoing Christians take this position , compared with 38 % of non-practicing Christians . ",
+      "triplets": [
+        {
+          "subject": "majority",
+          "relation": "take position In",
+          "object": "Austria",
+          "relationVerb": "take",
+          "full": "majority take position In Austria",
+          "entities": [
+            {
+              "text": "Austria",
+              "ner": "COUNTRY",
+              "positionText": "object"
+            }
+          ]
+        },
+        {
+          "subject": "majority",
+          "relation": "take position compared with",
+          "object": "38 % of non-practicing Christians",
+          "relationVerb": "take",
+          "full": "majority take position compared with 38 % of non-practicing Christians",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A clear pattern emerges : Both church-attending and non-practicing Christians are more likely than religiously unaffiliated adults in Western Europe to voice anti-immigrant and anti-minority views . ",
+      "triplets": []
+    },
+    {
+      "text": "In the UK , 45 % of church-attending Christians say Islam is fundamentally incompatible with British values and culture , as do roughly the same share of non-practicing Christians . ",
+      "triplets": []
+    },
+    {
+      "text": "35 % of churchgoing Christians and 36 % of non-practicing Christians in France say immigration to their country should be reduced , compared with 21 % of Nones who take this position . ",
+      "triplets": []
+    },
+    {
+      "text": "In Finland , for example , just one-in-five churchgoing Christians favor reducing immigration , compared with larger shares among religiously unaffiliated adults and non-practicing Christians . ",
+      "triplets": [
+        {
+          "subject": "one-in-five churchgoing Christians",
+          "relation": "favor compared with",
+          "object": "larger shares among religiously unaffiliated adults",
+          "relationVerb": "favor",
+          "full": "one-in-five churchgoing Christians favor compared with larger shares among religiously unaffiliated adults",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            },
+            {
+              "text": "unaffiliated",
+              "ner": "IDEOLOGY",
+              "positionText": "object"
+            }
+          ]
+        },
+        {
+          "subject": "one-in-five churchgoing Christians",
+          "relation": "favor for",
+          "object": "example",
+          "relationVerb": "favor",
+          "full": "one-in-five churchgoing Christians favor for example",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        },
+        {
+          "subject": "one-in-five churchgoing Christians",
+          "relation": "favor In",
+          "object": "Finland",
+          "relationVerb": "favor",
+          "full": "one-in-five churchgoing Christians favor In Finland",
+          "entities": [
+            {
+              "text": "Finland",
+              "ner": "COUNTRY",
+              "positionText": "object"
+            },
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        },
+        {
+          "subject": "one-in-five churchgoing Christians",
+          "relation": "reducing",
+          "object": "immigration",
+          "relationVerb": "reduce",
+          "full": "one-in-five churchgoing Christians reducing immigration",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "This is not to say that most Christians hold these views : On the contrary , by most measures and in most countries surveyed , only minorities of Christians voice negative opinions about immigrants and religious minorities . ",
+      "triplets": []
+    },
+    {
+      "text": "The survey - a kind of snapshot in time - can not prove that Christian identity is now growing in Western Europe after decades of secularization . ",
+      "triplets": []
+    },
+    {
+      "text": "The survey can help answer the question : What is the nature of Christian identity in Western Europe today , particularly among the large population that identifies as Christian but does not regularly go to church ? ",
+      "triplets": []
+    },
+    {
+      "text": "As explained in greater detail throughout this report , the findings suggest that the answer is partly a matter of religious beliefs , partly a matter of attitudes toward the role of religion in society , and partly a matter of views on national identity , immigrants and religious minorities . ",
+      "triplets": []
+    },
+    {
+      "text": "Within countries , non-practicing Christians are less likely than churchgoing Christians to say that ancestry is key to national identity . ",
+      "triplets": [
+        {
+          "subject": "non-practicing Christians",
+          "relation": "churchgoing",
+          "object": "Christians",
+          "relationVerb": "churchgo",
+          "full": "non-practicing Christians churchgoing Christians",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In other words , Christians as a whole in Western Europe tend to express higher levels of nationalist sentiment . ",
+      "triplets": [
+        {
+          "subject": "Christians",
+          "relation": "tend In",
+          "object": "other words",
+          "relationVerb": "tend",
+          "full": "Christians tend In other words",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        },
+        {
+          "subject": "Christians",
+          "relation": "express",
+          "object": "higher levels of nationalist sentiment",
+          "relationVerb": "express",
+          "full": "Christians express higher levels of nationalist sentiment",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            },
+            {
+              "text": "nationalist",
+              "ner": "IDEOLOGY",
+              "positionText": "object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "This overall pattern is not driven by nationalist feelings solely among highly religious Christians or solely among non-practicing Christians . ",
+      "triplets": []
+    },
+    {
+      "text": "Rather , at all levels of religious observance , these views are more common among Christians than among religiously unaffiliated people in Europe . ",
+      "triplets": []
+    },
+    {
+      "text": "Vast majorities of non-practicing Christians and religiously unaffiliated adults across Western Europe favor legal abortion and same-sex marriage . ",
+      "triplets": []
+    },
+    {
+      "text": "In some countries , there is not much difference on these questions between the attitudes of Christians who rarely attend church and adults who do not affiliate with any religion . ",
+      "triplets": []
+    },
+    {
+      "text": "In every country surveyed , on the other hand , church-attending Christians are considerably more conservative than both non-practicing Christians and religiously unaffiliated adults on questions about abortion and same-sex marriage . ",
+      "triplets": []
+    },
+    {
+      "text": "Summing up : On what issues do non-practicing Christians resemble nones ' ? ",
+      "triplets": [
+        {
+          "subject": "non-practicing Christians",
+          "relation": "do resemble",
+          "object": "nones",
+          "relationVerb": "do",
+          "full": "non-practicing Christians do resemble nones",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "And on what measures are they similar to church-attending Christians ? ",
+      "triplets": []
+    },
+    {
+      "text": "While the religious , political and cultural views of non-practicing Christians in Western Europe are frequently distinct from those of church-attending Christians and religiously unaffiliated adults , on some issues non-practicing Christians resemble churchgoing Christians , and on others they largely align with Nones . ",
+      "triplets": [
+        {
+          "subject": "Christians",
+          "relation": "resemble",
+          "object": "frequently distinct from those of church-attending Christians",
+          "relationVerb": "resemble",
+          "full": "Christians resemble frequently distinct from those of church-attending Christians",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        },
+        {
+          "subject": "non-practicing Christians",
+          "relation": "churchgoing",
+          "object": "Christians",
+          "relationVerb": "churchgo",
+          "full": "non-practicing Christians churchgoing Christians",
+          "entities": [
+            {
+              "text": "Christians",
+              "ner": "MISC",
+              "positionText": "subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Religious beliefs and attitudes toward religious institutions are two areas of broad similarity between non-practicing Christians and church-attending Christians . ",
+      "triplets": []
+    },
+    {
+      "text": "Most people in Western Europe describe themselves as Christians . ",
+      "triplets": []
+    },
+    {
+      "text": "Across the region , fewer people say they are Christian now than say they were raised as Christians . ",
+      "triplets": []
+    },
+    {
+      "text": "Several countries in Western Europe have been collecting census data on religion for decades , and these data indicate that the percentage of the population that identifies as Christian has fallen substantially since the 1960s , while the share of the population that does not identify with any religion has risen . ",
+      "triplets": []
+    },
+    {
+      "text": "While Christians are by far the largest religious group in Western Europe , a substantial minority of the population in every country is religiously unaffiliated - also sometimes called Nones , a category that includes people who identify as atheist , agnostic or Nothing in particular . ",
+      "triplets": []
+    },
+    {
+      "text": "The unaffiliated portion of the adult population ranges from as high as 48 % in the Netherlands to 15 % in Ireland , Italy and Portugal . ",
+      "triplets": []
+    },
+    {
+      "text": "Among Christians , the gap is even bigger - two-thirds of U.S. Christians say religion is very important to them , compared with a median of 14 % of Christians in the 15 countries surveyed across Western Europe . ",
+      "triplets": []
+    }
+  ],
+  "sentiment": [
+    {
+      "text": "Europe",
+      "ner": "LOCATION",
+      "sentimentValue": 1.3333333333333333,
+      "timesAppear": 3,
+      "appearIn": [
+        1,
+        13,
+        32
+      ]
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "sentimentValue": 1.2131147540983607,
+      "timesAppear": 61,
+      "appearIn": [
+        1,
+        2,
+        2,
+        3,
+        5,
+        6,
+        7,
+        7,
+        9,
+        9,
+        10,
+        10,
+        11,
+        12,
+        12,
+        13,
+        14,
+        14,
+        15,
+        16,
+        16,
+        18,
+        18,
+        18,
+        19,
+        19,
+        20,
+        20,
+        21,
+        22,
+        22,
+        23,
+        23,
+        24,
+        24,
+        25,
+        25,
+        29,
+        29,
+        30,
+        31,
+        31,
+        32,
+        33,
+        34,
+        35,
+        35,
+        36,
+        37,
+        38,
+        38,
+        38,
+        38,
+        39,
+        39,
+        40,
+        41,
+        43,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "text": "unaffiliated",
+      "ner": "IDEOLOGY",
+      "sentimentValue": 1,
+      "timesAppear": 13,
+      "appearIn": [
+        1,
+        5,
+        7,
+        12,
+        15,
+        21,
+        24,
+        32,
+        33,
+        35,
+        38,
+        43,
+        44
+      ]
+    },
+    {
+      "text": "Muslims",
+      "ner": "MISC",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        1
+      ]
+    },
+    {
+      "text": "United Kingdom",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        2
+      ]
+    },
+    {
+      "text": "Middle East",
+      "ner": "LOCATION",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        3
+      ]
+    },
+    {
+      "text": "North Africa",
+      "ner": "LOCATION",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        3
+      ]
+    },
+    {
+      "text": "Western Europe",
+      "ner": "LOCATION",
+      "sentimentValue": 1.3333333333333333,
+      "timesAppear": 15,
+      "appearIn": [
+        3,
+        4,
+        6,
+        8,
+        15,
+        21,
+        26,
+        27,
+        30,
+        33,
+        38,
+        40,
+        42,
+        43,
+        45
+      ]
+    },
+    {
+      "text": "Christian",
+      "ner": "RELIGION",
+      "sentimentValue": 1.4,
+      "timesAppear": 10,
+      "appearIn": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        26,
+        27,
+        27,
+        41,
+        42
+      ]
+    },
+    {
+      "text": "Europeans",
+      "ner": "MISC",
+      "sentimentValue": 1,
+      "timesAppear": 2,
+      "appearIn": [
+        5,
+        12
+      ]
+    },
+    {
+      "text": "Pew Research Center",
+      "ner": "ORGANIZATION",
+      "sentimentValue": "3",
+      "timesAppear": 1,
+      "appearIn": [
+        6
+      ]
+    },
+    {
+      "text": "marker",
+      "ner": "TITLE",
+      "sentimentValue": "3",
+      "timesAppear": 1,
+      "appearIn": [
+        6
+      ]
+    },
+    {
+      "text": "nationalist",
+      "ner": "IDEOLOGY",
+      "sentimentValue": 1,
+      "timesAppear": 3,
+      "appearIn": [
+        9,
+        30,
+        31
+      ]
+    },
+    {
+      "text": "conservative",
+      "ner": "IDEOLOGY",
+      "sentimentValue": 1,
+      "timesAppear": 2,
+      "appearIn": [
+        10,
+        35
+      ]
+    },
+    {
+      "text": "Nones",
+      "ner": "MISC",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        15
+      ]
+    },
+    {
+      "text": "Austria",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        20
+      ]
+    },
+    {
+      "text": "anti-immigrant",
+      "ner": "IDEOLOGY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        21
+      ]
+    },
+    {
+      "text": "UK",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        22
+      ]
+    },
+    {
+      "text": "Islam",
+      "ner": "RELIGION",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        22
+      ]
+    },
+    {
+      "text": "British",
+      "ner": "NATIONALITY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        22
+      ]
+    },
+    {
+      "text": "France",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        23
+      ]
+    },
+    {
+      "text": "Finland",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        24
+      ]
+    },
+    {
+      "text": "atheist",
+      "ner": "RELIGION",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        43
+      ]
+    },
+    {
+      "text": "agnostic",
+      "ner": "RELIGION",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        43
+      ]
+    },
+    {
+      "text": "Netherlands",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        44
+      ]
+    },
+    {
+      "text": "Ireland",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        44
+      ]
+    },
+    {
+      "text": "Italy",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        44
+      ]
+    },
+    {
+      "text": "Portugal",
+      "ner": "COUNTRY",
+      "sentimentValue": "1",
+      "timesAppear": 1,
+      "appearIn": [
+        44
+      ]
+    },
+    {
+      "text": "U.S.",
+      "ner": "COUNTRY",
+      "sentimentValue": "3",
+      "timesAppear": 1,
+      "appearIn": [
+        45
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 2,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christian",
+      "ner": "RELIGION",
+      "positionText": "object",
+      "sentenceIndex": 5,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christian",
+      "ner": "RELIGION",
+      "positionText": "subject",
+      "sentenceIndex": 6,
+      "tripletIndex": 0
+    },
+    {
+      "text": "marker",
+      "ner": "TITLE",
+      "positionText": "object",
+      "sentenceIndex": 6,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Western Europe",
+      "ner": "LOCATION",
+      "positionText": "object",
+      "sentenceIndex": 6,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "object",
+      "sentenceIndex": 7,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christian",
+      "ner": "RELIGION",
+      "positionText": "subject",
+      "sentenceIndex": 8,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 9,
+      "tripletIndex": 0
+    },
+    {
+      "text": "nationalist",
+      "ner": "IDEOLOGY",
+      "positionText": "object",
+      "sentenceIndex": 9,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 12,
+      "tripletIndex": 0
+    },
+    {
+      "text": "unaffiliated",
+      "ner": "IDEOLOGY",
+      "positionText": "subject",
+      "sentenceIndex": 12,
+      "tripletIndex": 1
+    },
+    {
+      "text": "Europeans",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 12,
+      "tripletIndex": 1
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 12,
+      "tripletIndex": 2
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 13,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "object",
+      "sentenceIndex": 18,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "object",
+      "sentenceIndex": 18,
+      "tripletIndex": 1
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 19,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Austria",
+      "ner": "COUNTRY",
+      "positionText": "object",
+      "sentenceIndex": 20,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "object",
+      "sentenceIndex": 20,
+      "tripletIndex": 1
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 24,
+      "tripletIndex": 0
+    },
+    {
+      "text": "unaffiliated",
+      "ner": "IDEOLOGY",
+      "positionText": "object",
+      "sentenceIndex": 24,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 24,
+      "tripletIndex": 1
+    },
+    {
+      "text": "Finland",
+      "ner": "COUNTRY",
+      "positionText": "object",
+      "sentenceIndex": 24,
+      "tripletIndex": 2
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 24,
+      "tripletIndex": 2
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 24,
+      "tripletIndex": 3
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 29,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 30,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 30,
+      "tripletIndex": 1
+    },
+    {
+      "text": "nationalist",
+      "ner": "IDEOLOGY",
+      "positionText": "object",
+      "sentenceIndex": 30,
+      "tripletIndex": 1
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 36,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 38,
+      "tripletIndex": 0
+    },
+    {
+      "text": "Christians",
+      "ner": "MISC",
+      "positionText": "subject",
+      "sentenceIndex": 38,
+      "tripletIndex": 1
+    }
+  ]
+}

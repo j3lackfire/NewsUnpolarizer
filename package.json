@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "asyncawait": "^1.0.8",
     "body-parser": "^1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -13,8 +14,8 @@
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "line-reader": "^0.4.0",
-    "morgan": "~1.9.0",
+    "morgan": "^1.9.1",
     "node-readability": "^3.0.0",
-    "request": "^2.85.0"
+    "request": "^2.88.0"
   }
 }
