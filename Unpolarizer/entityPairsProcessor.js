@@ -11,7 +11,7 @@ const utils = require('./../utils')
     Just use the data from the relevance processor data and then find the pairs
     I guess it might be a bit more messier but won't be as much of a problem.
 */
-function getCommonEntityPair(relevantData) {
+function getCommonEntityPair(relevantData, callback) {
     //Loop through the data to find entity paris
     //And then match the entities pair from the source article and target article
     let sourceEntityList = []
@@ -38,7 +38,8 @@ function getCommonEntityPair(relevantData) {
     let targetEntitiesPair = _getCommonEntityPairs(targetEntityList)
     let commonEntityPairList = []
     if (utils.isNullOrUndefined(sourceEntitiesPair) || utils.isNullOrUndefined(targetEntitiesPair)) {
-        return null
+        callback(null)
+        return
     }
     for (let i = 0; i < sourceEntitiesPair.length; i ++) {
         for (let j = 0; j < targetEntitiesPair.length; j ++) {
@@ -59,7 +60,7 @@ function getCommonEntityPair(relevantData) {
             }
         }
     }
-    return commonEntityPairList
+    callback(commonEntityPairList)
 }
 
 function _getCommonEntityPairs(entityList) {

@@ -14,7 +14,7 @@ function generateRelevantScoreList(sourceArticle, articleList, callback) {
 //Recursively call the function below to generate a list of all articles and its score
 function _recursiveGetRelevantScore(index, sourceArticle, articleList, metaList, callback) {
     let returnMetaList = metaList
-    _getRelevantScore(sourceArticle, articleList[index], (relevanceMeta) => {
+    getRelevantScore(sourceArticle, articleList[index], (relevanceMeta) => {
         if (relevanceMeta != null) { //if it's the same article
             returnMetaList.push(relevanceMeta)
         }
@@ -27,127 +27,111 @@ function _recursiveGetRelevantScore(index, sourceArticle, articleList, metaList,
 }
 
 //Get the relevant score between two articles
-function _getRelevantScore(sourceArticle, targetArticle, callback) {
+function getRelevantScore(sourceArticle, targetArticle, callback) {
     if (sourceArticle.meta.url === targetArticle.meta.url) {
         callback(null)
-    } else {
-        //some weird comparision function here, including ner in subject/object
-        let returnObject = {}
-        returnObject.meta = {}
-        returnObject.meta.sourceUrl = sourceArticle.meta.url
-        returnObject.meta.sourceTitle = sourceArticle.meta.title
-        returnObject.meta.targetUrl = targetArticle.meta.url
-        returnObject.meta.targetTitle = targetArticle.meta.title
-        returnObject.meta.entityPairCount = 0
-        returnObject.meta.commonEntityCount = 0
-        returnObject.meta.commonStatementCount = 0
-        returnObject.entitiesPair = []
-        returnObject.entities = []
-        for (let i = 0; i < sourceArticle.entities.length; i ++) {
-            for (let j = 0; j < targetArticle.entities.length; j ++) {
-                if (utils.isEntitySimilar(sourceArticle.entities[i], targetArticle.entities[j])) {
-                    let sourceEntity = sourceArticle.entities[i]
-                    let targetEntity = targetArticle.entities[j]
-                    let entityToAdd = {}
-                    let entityIndexInList = utils.getEntityIndexInList(sourceEntity, returnObject.entities)
-                    // Entity is not exist in the list, create new
-                    if (entityIndexInList == -1) {
-                        entityToAdd.text = sourceEntity.text
-                        entityToAdd.ner = sourceEntity.ner
-                        entityToAdd.positionText = sourceEntity.positionText
+        return
+    }
+    //some weird comparision function here, including ner in subject/object
+    let returnObject = {}
+    returnObject.meta = {}
+    returnObject.meta.sourceUrl = sourceArticle.meta.url
+    returnObject.meta.sourceTitle = sourceArticle.meta.title
+    returnObject.meta.targetUrl = targetArticle.meta.url
+    returnObject.meta.targetTitle = targetArticle.meta.title
+    returnObject.meta.relatedTriplesCount = 0
+    // returnObject.meta.oppositeTriplesCount = 0
+    returnObject.meta.relatedSentencesCount = 0
+    returnObject.relatedSentences = []
+    // returnObject.oppositeTriples = []
 
-                        entityToAdd.sourceSentenceIndex = [sourceEntity.sentenceIndex]
-                        entityToAdd.sourceTripletIndex = [sourceEntity.tripletIndex]
-                        entityToAdd.targetSentenceIndex = [targetEntity.sentenceIndex]
-                        entityToAdd.targetTripletIndex = [targetEntity.tripletIndex]
+    for (let i = 0; i < sourceArticle.data.length; i ++) {
+        for (let j = 0; j < targetArticle.data.length; j ++) {
 
-                        entityToAdd.sourceStatement = [sourceArticle.data[sourceEntity.sentenceIndex].triplets[sourceEntity.tripletIndex].full]
-                        entityToAdd.targetStatement = [targetArticle.data[targetEntity.sentenceIndex].triplets[targetEntity.tripletIndex].full]
-                        entityToAdd.sourceSentences = []
-                        entityToAdd.targetSentences = []
-                        returnObject.entities.push(entityToAdd)
-                    } else {
-                        entityToAdd = returnObject.entities[entityIndexInList]
-                        let isSourceEntityAdded = (entityToAdd.sourceSentenceIndex.includes(sourceEntity.sentenceIndex) && entityToAdd.sourceTripletIndex.includes(sourceEntity.tripletIndex))
-                        let isTargetEntityAdded = (entityToAdd.targetSentenceIndex.includes(targetEntity.sentenceIndex) && entityToAdd.targetTripletIndex.includes(targetEntity.tripletIndex))
-                        if (isSourceEntityAdded && !isTargetEntityAdded) {
-                            //add the target entity
-                            entityToAdd.targetSentenceIndex.push(targetEntity.sentenceIndex)
-                            entityToAdd.targetTripletIndex.push(targetEntity.tripletIndex)
-                            entityToAdd.targetStatement.push(targetArticle.data[targetEntity.sentenceIndex].triplets[targetEntity.tripletIndex].full)
-                        } else {
-                            if (!isSourceEntityAdded && isTargetEntityAdded) {
-                                //add the source entity
-                                entityToAdd.sourceSentenceIndex.push(sourceEntity.sentenceIndex)
-                                entityToAdd.sourceTripletIndex.push(sourceEntity.tripletIndex)
-                                entityToAdd.sourceStatement.push(sourceArticle.data[sourceEntity.sentenceIndex].triplets[sourceEntity.tripletIndex].full)
-                            }
-                            //else case of the entity has been already added to both the source and target
-                        }
+            let sentence = {}
+            sentence.sourceIndex = i
+            sentence.targetIndex = j
+            sentence.sourceSentence = sourceArticle.data[i].text
+            sentence.targetSentence = targetArticle.data[j].text
+            sentence.triples = []
+
+            for (let a = 0; a < sourceArticle.data[i].triplets.length; a ++) {
+                for (let b = 0; b < targetArticle.data[j].triplets.length; b ++) {
+                    let triple_1 = sourceArticle.data[i].triplets[a]
+                    let triple_2 = targetArticle.data[j].triplets[b]
+                    let triplesComparision = _getTriplesComparisionObject(triple_1, triple_2)
+                    if (triplesComparision  != null) {
+                        sentence.triples.push(triplesComparision)
+                        returnObject.meta.relatedTriplesCount ++
                     }
                 }
             }
-        }
-        for (let i = 0; i < returnObject.entities.length; i ++) {
-            returnObject.meta.commonStatementCount += returnObject.entities[i].sourceSentenceIndex.length + returnObject.entities[i].targetSentenceIndex.length
-            //To display the sentences for the user, we would want to display a sentence once even if it appear many times.
-            let uniqueSourceSentencesIndex = _getUniqueNumberInList(returnObject.entities[i].sourceSentenceIndex)
-            let uniqueTargetSentencesIndex = _getUniqueNumberInList(returnObject.entities[i].targetSentenceIndex)
-            for (let j = 0; j < uniqueSourceSentencesIndex.length; j ++) {
-                returnObject.entities[i].sourceSentences.push(sourceArticle.data[uniqueSourceSentencesIndex[j]].text)
-            }
-            for (let j = 0; j < uniqueTargetSentencesIndex.length; j ++) {
-                returnObject.entities[i].targetSentences.push(targetArticle.data[uniqueTargetSentencesIndex[j]].text)
+
+            if (sentence.triples.length > 0) {
+                returnObject.meta.relatedSentencesCount ++
+                returnObject.relatedSentences.push(sentence)
             }
         }
-        returnObject.meta.commonEntityCount = returnObject.entities.length
-        // The entity Pair is process in here!
-        returnObject.entitiesPair = entityPairProcessor.getCommonEntityPair(returnObject)
-        if (!utils.isNullOrUndefined(returnObject.entitiesPair)) {
-            returnObject.meta.entityPairCount = returnObject.entitiesPair.length
-            for (let i = 0; i < returnObject.entitiesPair.length; i ++) {
-                let cacheObject = returnObject.entitiesPair[i]
-                cacheObject.sourceStatement = sourceArticle.data[cacheObject.sourceSentenceIndex].triplets[cacheObject.sourceTripletIndex].full
-                cacheObject.targetStatement = targetArticle.data[cacheObject.targetSentenceIndex].triplets[cacheObject.targetTripletIndex].full
+    }
+
+    callback(returnObject)
+}
+
+function _getTriplesComparisionObject(triple_1, triple_2) {
+    let returnObject = {}
+    returnObject.sourceStatement = triple_1.full
+    returnObject.targetStatement = triple_2.full
+    let commonEntity = []
+    for (let i = 0; i < triple_1.entities.length; i ++) {
+        for (let j = 0; j < triple_2.entities.length; j++) {
+            if (utils.isEntitySimilar(triple_1.entities[i], triple_2.entities[j])) {
+                commonEntity.push(triple_1.entities[i])
             }
         }
-        callback(returnObject)
+    }
+    if (commonEntity.length > 0) {
+        // let verbComparision = _getVerbsComparision(triple_1.relationVerb, triple_1.verbSynonym, triple_1.verbAntonym, triple_2.relationVerb)
+        let verbComparision_1 = _getVerbsComparision(triple_1.relationVerb, triple_1.verbSynonym, triple_1.verbAntonym, triple_2.relationVerb)
+        let verbComparision_2 = _getVerbsComparision(triple_2.relationVerb, triple_2.verbSynonym, triple_2.verbAntonym, triple_1.relationVerb)
+        let verbComparision = verbComparision_1 == verbComparision_2 ? verbComparision_1 : 0
+        if (verbComparision == 1)
+        returnObject.entities = commonEntity
+        if (verbComparision != 0) {
+            returnObject.sourceVerb = triple_1.relationVerb
+            returnObject.targetVerb = triple_2.relationVerb
+            return returnObject
+        } else {
+            if (commonEntity.length == 1) {
+                return null
+            } else {
+                return returnObject
+            }
+        }
+
+    } else {
+        return null
     }
 }
 
-function _getCrossoverList(firstSentenceIndex, firstTripletIndex, secondSentenceIndex, secondTripletIndex) {
-    let returnList = []
-    for (let i = 0; i < firstSentenceIndex.length; i ++) {
-        for (let j = 0; j < secondSentenceIndex.length; j ++) {
-            if (firstSentenceIndex[i] == secondSentenceIndex[j]
-            && firstTripletIndex[i] == secondTripletIndex[j]) {
-                let myObject = {}
-                myObject.sentenceIndex = firstSentenceIndex[i]
-                myObject.tripletIndex = firstTripletIndex[i]
-                returnList.push(myObject)
-            }
-        }
-    }
-    return returnList
-}
 
-function _getUniqueNumberInList(numberList) {
-    let returnVal = []
-    for (let i = 0; i < numberList.length; i ++) {
-        if (!returnVal.includes(numberList[i])) {
-            returnVal.push(numberList[i])
+//1 is similar word, -1 is un-related word, 0 is not related word
+function _getVerbsComparision(verb_1, verb_1_synonym, verb_1_antonym, verb_2) {
+    if (verb_1 == verb_2 || verb_1_synonym.includes(verb_2)) {
+        return 1
+    } else {
+        if (verb_1_antonym.includes(verb_2)) {
+            return -1
+        } else {
+            return 0
         }
     }
-    return returnVal
 }
 
 function getSortedRelevanceList(relevantMetaList) {
-    return relevantMetaList.sort((a, b) => {
-        let aScore = a.meta.entityPairCount * 500 + a.meta.commonEntityCount * 100 + a.meta.commonStatementCount
-        let bScore = b.meta.entityPairCount * 500 + b.meta.commonEntityCount * 100 + b.meta.commonStatementCount
-        return bScore - aScore
-    })
+    return relevantMetaList.sort((a, b) => b.meta.relatedSentencesCount - a.meta.relatedSentencesCount)
 }
 
 module.exports.generateRelevantScoreList = generateRelevantScoreList
 module.exports.getSortedRelevanceList = getSortedRelevanceList
+
+module.exports.getRelevantScore = getRelevantScore

@@ -51,7 +51,13 @@ function getAnnotatedArticleByUrl(url, callback) {
 function _findMostRelevanceArticles(sourceAnnotatedArticle, callback) {
     getCachedDb((err, annotatedArticles) => {
         relevanceProcessor.generateRelevantScoreList(sourceAnnotatedArticle, annotatedArticles, (sortedRelevanceMeta) => {
-            callback(null, sortedRelevanceMeta)
+            let returnList = []
+            for (let i = 0; i < 10; i ++) {
+                if (sortedRelevanceMeta[i].meta.relatedTriplesCount > 0) {
+                    returnList.push(sortedRelevanceMeta[i])
+                }
+            }
+            callback(null, returnList)
         })
     })
 }
@@ -66,32 +72,7 @@ function findMostRelevanceByUrl(url, callback) {
     })
 }
 
-function findMostRelevancePairInDb(callback) {
-    utils.getAllUrlsInDb((dbUrls) => {
-        if (dbUrls == null) {
-            console.error("Error with the db")
-            callback(null)
-        } else {
-            _recursiveFindRelevancePairInDb(dbUrls, 0, [], (result) => {
-                callback(relevanceProcessor.getSortedRelevanceList(result))
-            })
-        }
-    })
-}
-
-function _recursiveFindRelevancePairInDb(urls, index, returnObject, callback) {
-    findMostRelevanceByUrl(urls[index], (err, sortedRelevanceMeta) => {
-        returnObject.push(sortedRelevanceMeta[0])
-        index ++
-        if (index >= urls.length) {
-            callback(returnObject)
-        } else {
-            _recursiveFindRelevancePairInDb(urls, index, returnObject, callback)
-        }
-    })
-}
 
 module.exports.findMostRelevanceByUrl = findMostRelevanceByUrl
-module.exports.findMostRelevancePairInDb = findMostRelevancePairInDb
 module.exports.getCachedDb = getCachedDb
 module.exports.getAnnotatedArticleByUrl = getAnnotatedArticleByUrl
