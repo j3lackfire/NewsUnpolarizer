@@ -39,11 +39,13 @@ function getRelevantScore(sourceArticle, targetArticle, callback) {
     returnObject.meta.sourceTitle = sourceArticle.meta.title
     returnObject.meta.targetUrl = targetArticle.meta.url
     returnObject.meta.targetTitle = targetArticle.meta.title
-    returnObject.meta.relatedTriplesCount = 0
-    // returnObject.meta.oppositeTriplesCount = 0
+
     returnObject.meta.relatedSentencesCount = 0
-    returnObject.relatedSentences = []
-    // returnObject.oppositeTriples = []
+    returnObject.meta.relatedTriplesCount = 0
+    returnObject.meta.oppositeSentencesCount = 0
+    returnObject.meta.oppositeTriplesCount = 0
+
+    returnObject.sentences = []
 
     for (let i = 0; i < sourceArticle.data.length; i ++) {
         for (let j = 0; j < targetArticle.data.length; j ++) {
@@ -53,23 +55,30 @@ function getRelevantScore(sourceArticle, targetArticle, callback) {
             sentence.targetIndex = j
             sentence.sourceSentence = sourceArticle.data[i].text
             sentence.targetSentence = targetArticle.data[j].text
-            sentence.triples = []
+            sentence.relatedTriples = []
+            sentence.oppositeTriples = []
 
             for (let a = 0; a < sourceArticle.data[i].triplets.length; a ++) {
                 for (let b = 0; b < targetArticle.data[j].triplets.length; b ++) {
                     let triple_1 = sourceArticle.data[i].triplets[a]
                     let triple_2 = targetArticle.data[j].triplets[b]
                     let triplesComparision = _getTriplesComparisionObject(triple_1, triple_2)
-                    if (triplesComparision  != null) {
-                        sentence.triples.push(triplesComparision)
-                        returnObject.meta.relatedTriplesCount ++
+                    if (triplesComparision != null) {
+                        if (!triplesComparision.isOpposite) {
+                            sentence.relatedTriples.push(triplesComparision)
+                            returnObject.meta.relatedTriplesCount ++
+                        } else {
+                            sentence.oppositeTriples.push(triplesComparision)
+                            returnObject.meta.oppositeTriplesCount ++
+                        }
                     }
                 }
             }
 
-            if (sentence.triples.length > 0) {
-                returnObject.meta.relatedSentencesCount ++
-                returnObject.relatedSentences.push(sentence)
+            if (sentence.relatedTriples.length > 0 || sentence.oppositeTriples.length > 0) {
+                returnObject.sentences.push(sentence)
+                returnObject.meta.relatedSentencesCount += sentence.relatedTriples.length > 0 ? 1 : 0
+                returnObject.meta.oppositeSentencesCount += sentence.oppositeTriples.length > 0 ? 1 : 0
             }
         }
     }
@@ -81,6 +90,7 @@ function _getTriplesComparisionObject(triple_1, triple_2) {
     let returnObject = {}
     returnObject.sourceStatement = triple_1.full
     returnObject.targetStatement = triple_2.full
+    returnObject.isOpposite = false
     let commonEntity = []
     for (let i = 0; i < triple_1.entities.length; i ++) {
         for (let j = 0; j < triple_2.entities.length; j++) {
@@ -99,6 +109,7 @@ function _getTriplesComparisionObject(triple_1, triple_2) {
         if (verbComparision != 0) {
             returnObject.sourceVerb = triple_1.relationVerb
             returnObject.targetVerb = triple_2.relationVerb
+            returnObject.isOpposite = (verbComparision == -1)
             return returnObject
         } else {
             if (commonEntity.length == 1) {
@@ -107,7 +118,6 @@ function _getTriplesComparisionObject(triple_1, triple_2) {
                 return returnObject
             }
         }
-
     } else {
         return null
     }
@@ -128,7 +138,11 @@ function _getVerbsComparision(verb_1, verb_1_synonym, verb_1_antonym, verb_2) {
 }
 
 function getSortedRelevanceList(relevantMetaList) {
-    return relevantMetaList.sort((a, b) => b.meta.relatedSentencesCount - a.meta.relatedSentencesCount)
+    return relevantMetaList.sort((a, b) =>
+        // b.meta.oppositeSentencesCount - a.meta.oppositeSentencesCount
+        b.meta.relatedSentencesCount + b.meta.oppositeSentencesCount
+        - a.meta.relatedSentencesCount - a.meta.oppositeSentencesCount
+    )
 }
 
 module.exports.generateRelevantScoreList = generateRelevantScoreList
