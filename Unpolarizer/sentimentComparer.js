@@ -5,7 +5,7 @@ const articlesComparer = require('./articlesComparer')
 const utils = require('./../utils')
 const dbReader = require('./../LocalDB/dbReader')
 
-MIN_SIMILARITY = 0.06
+MIN_SIMILARITY = 0.08
 
 function getTopUnpolarizeArticle(url, callback) {
     _generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
@@ -24,7 +24,7 @@ function getTopRelevantArticle(url, callback) {
     _generateSentimentEntityScoreList(url, (sentimentEntityScoreList) => {
         let returnList = sentimentEntityScoreList
         returnList.sort((a, b) => b.relevantScore - a.relevantScore)
-        callback(returnList.slice(0, 5))
+        callback(returnList.slice(0, 7))
     })
 }
 
